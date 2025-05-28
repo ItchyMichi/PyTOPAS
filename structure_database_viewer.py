@@ -228,7 +228,9 @@ class StructureDatabaseViewer(QDialog):
             item.setFlags(item.flags() | Qt.ItemIsEditable)
 
             if commented:
-                color = QColor(240, 240, 240)
+                # Highlight commented variables in orange
+                #orange color for commented variables
+                color = QColor(255, 200, 200)
                 var_item.setBackground(color)
                 item.setBackground(color)
 
