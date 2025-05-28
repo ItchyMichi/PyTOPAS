@@ -2,7 +2,9 @@ from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QListWidget, QLineEdit,
     QTableWidget, QTableWidgetItem, QLabel
 )
+
 from PyQt5.QtCore import Qt
+
 import os
 import re
 
@@ -33,6 +35,7 @@ def parse_structure_variables(file_path):
     return variables
 
 
+
 def update_variable_in_file(file_path, variable, new_value):
     """Update a variable's value within a structure file."""
     pattern = re.compile(r'(!?\b' + re.escape(variable) + r'\b)\s+([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)')
@@ -60,6 +63,7 @@ def update_variable_in_file(file_path, variable, new_value):
     return replaced
 
 
+
 class StructureDatabaseViewer(QDialog):
     """Popup dialog to browse structures and inspect variables."""
 
@@ -71,6 +75,7 @@ class StructureDatabaseViewer(QDialog):
 
         self.structures = {}
         self.filtered_structures = []
+
         self.updating_table = False
 
         self.init_ui()
@@ -87,6 +92,7 @@ class StructureDatabaseViewer(QDialog):
         filter_layout.addWidget(filter_label)
         filter_layout.addWidget(self.filter_edit)
         layout.addLayout(filter_layout)
+
 
         var_filter_layout = QHBoxLayout()
         var_filter_label = QLabel("Filter variables:")
@@ -105,7 +111,9 @@ class StructureDatabaseViewer(QDialog):
         self.variable_table = QTableWidget()
         self.variable_table.setColumnCount(2)
         self.variable_table.setHorizontalHeaderLabels(["Variable", "Value"])
+
         self.variable_table.itemChanged.connect(self.variable_edited)
+
         lists_layout.addWidget(self.variable_table)
 
         layout.addLayout(lists_layout)
@@ -144,6 +152,7 @@ class StructureDatabaseViewer(QDialog):
             return
         name = current.text()
         variables = self.structures.get(name, {})
+
         filter_text = self.var_filter_edit.text().strip().lower()
         filtered_items = [
             (var, val) for var, val in variables.items()
@@ -181,4 +190,13 @@ class StructureDatabaseViewer(QDialog):
 
         if update_variable_in_file(file_path, var_name, new_value):
             self.structures[structure_name][var_name] = new_value
+
+
+        self.variable_table.setRowCount(len(variables))
+        for row, (var, val) in enumerate(sorted(variables.items())):
+            self.variable_table.setItem(row, 0, QTableWidgetItem(var))
+            if val is None:
+                val = ''
+            self.variable_table.setItem(row, 1, QTableWidgetItem(str(val)))
+        self.variable_table.resizeColumnsToContents()
 
