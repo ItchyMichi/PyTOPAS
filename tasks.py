@@ -17,7 +17,7 @@ from file_handling import parse_config, get_structure_content_in_content, parse_
 from exclusion_tasks import CrystalliteSizeExclusionTask, RWPExclusionTask
 
 class BaseTask:
-    def __init__(self, node_id, parameters, data, output_directory):
+    def __init__(self, node_id, parameters, data, output_directory, db_conn=None):
         self.node_id = node_id
         self.parameters = parameters  # Parameters defined in the node
         self.data = data              # Data from previous nodes
@@ -30,12 +30,28 @@ class BaseTask:
         self.output_dir = os.path.join(self.script_dir, 'output_files')
         self.output_data = {}         # Output data to be saved
         self.root_dir = os.getcwd()
-
+        self.db_conn = db_conn
+        
         self.exclusion_classes = {
             'Crystallite Size': CrystalliteSizeExclusionTask,
             'RWP': RWPExclusionTask,
             # Add new task types here
         }
+
+    def _fetch_phase_result(self, phase_name):
+        """Return (weight_percent, cryst_size) for a phase from the database."""
+        if not self.db_conn:
+            return None, None
+        cursor = self.db_conn.cursor()
+        cursor.execute(
+            "SELECT weight_percent, cryst_size FROM phase_results "
+            "WHERE phase_name=? ORDER BY id DESC LIMIT 1",
+            (phase_name,),
+        )
+        row = cursor.fetchone()
+        if row:
+            return row[0], row[1]
+        return None, None
 
     def clear_input_output_files(self):
         # Clear the input and output directories
@@ -78,6 +94,8 @@ class BaseTask:
                 #return a dictionary with the structure name as the key and the crystallite size as the value
                 subcontent = get_structure_content_in_content(content, structure)
                 crystallite_size = parse_crystallite_size(subcontent)
+                if crystallite_size is None:
+                    _, crystallite_size = self._fetch_phase_result(os.path.splitext(os.path.basename(structure))[0])
                 logging.info(f"Crystallite size: {crystallite_size}")
                 structure_name = os.path.splitext(os.path.basename(structure))[0]
                 logging.info(f"Structure name: {structure_name}")
@@ -101,6 +119,8 @@ class BaseTask:
                 #return a dictionary with the structure name as the key and the crystallite size as the value
                 subcontent = get_structure_content_in_content(content, structure)
                 percentage_weight = parse_percentage_weight(subcontent)
+                if percentage_weight is None:
+                    percentage_weight, _ = self._fetch_phase_result(os.path.splitext(os.path.basename(structure))[0])
                 logging.info(f"Percentage weight: {percentage_weight}")
                 structure_name = os.path.splitext(os.path.basename(structure))[0]
                 logging.info(f"Structure name: {structure_name}")
