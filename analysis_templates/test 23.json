@@ -6,9 +6,8 @@
             "task_type": "Start",
             "parameters": {
                 "structurelist1": {
-                    "template_name": "test4",
+                    "template_name": "All Structures",
                     "structures": [
-                        "Akermani.str",
                         "Albint.str",
                         "Analcime.str",
                         "Anhydrite.str",
@@ -19,19 +18,12 @@
                         "Arcanite.str",
                         "Bassanit.str",
                         "BrownmilleriteAlFe.str",
-                        "C2F.str",
+                        "C2SH-alpha.str",
                         "C3A-cubic.str",
-                        "C3A-Na-cubic.str",
-                        "C3A-Na-ortho.str",
                         "C3S-mono_nishi.str",
-                        "C4AF.str",
-                        "C6S3H-gamma-Dellaite.str",
-                        "CA.str",
-                        "CA2-Grossite.str",
+                        "CaClOH.str",
                         "Calcite.str",
                         "Calcium chloride hydroxide.str",
-                        "CaO.str",
-                        "CF.str",
                         "Chlorite-p-mod.str",
                         "Corundum as standard.str",
                         "Crishigh.str",
@@ -63,11 +55,8 @@
                         "Thenardite.str",
                         "Tobermorite11A.str",
                         "Vaterite.str",
-                        "Y2o3.str",
-                        "Yeelimite_9009938.str",
                         "Zircon.str",
-                        "Zro2mkl.str",
-                        "Periclase.str"
+                        "Zro2mkl.str"
                     ]
                 }
             },
@@ -148,7 +137,9 @@
     "connections": [
         {
             "from": "node_1",
-            "to": "node_2"
+            "to": "node_2",
+            "condition": null,
+            "condition_param": null
         },
         {
             "from": "node_2",

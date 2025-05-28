@@ -1,0 +1,25 @@
+STR(187) ' P-6m2
+	phase_name "Tungsten Carbide"
+	' Formula "W C"
+	' Group "Miscellaneous"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 251047
+	a a_wc 2.9060 min 2.8780 max 2.9360
+	b =a_wc;
+	c c_wc 2.8370 min 2.8090 max 2.8650
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x           =0;  y           =0;  z           =0;  occ W  1.00  beq 1.110
+	site s2   x         =2/3;  y         =1/3;  z         =1/2;  occ C  1.00  beq 1.110
+
+	CS(cs_wc, 1000 min =50.0; max =2000.0;)
+	Strain(!st_wc, 0.0001 min 0 max 0.010)
+'	PO_Spherical_Harmonics(sh_wc, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_wc 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
