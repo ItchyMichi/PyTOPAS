@@ -711,7 +711,10 @@ class RWPTask(BaseTask):
         self.logger.info(f"Combined data: {combined_data}")
 
         # Screen data if needed
-        self.screen_data(combined_datatask_type="RWP")
+        # The screen_data method expects the parsed data and the task type
+        # as separate arguments. A typo here previously combined them into
+        # one invalid argument causing a crash when running the RWP task.
+        self.screen_data(combined_data, task_type="RWP")
 
         # Cleanup
         self.clear_input_output_files()
