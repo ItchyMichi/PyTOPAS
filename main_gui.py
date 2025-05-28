@@ -287,11 +287,25 @@ class MainGUI(QMainWindow):
         cursor.execute(
             """
             CREATE TABLE IF NOT EXISTS results (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
                 run_id TEXT,
                 node_id TEXT,
                 iteration INTEGER,
                 result_data TEXT,
-                PRIMARY KEY (run_id, node_id, iteration)
+                timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+                UNIQUE(run_id, node_id, iteration)
+            );
+            """
+        )
+        cursor.execute(
+            """
+            CREATE TABLE IF NOT EXISTS phase_results (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                result_id INTEGER NOT NULL,
+                phase_name TEXT NOT NULL,
+                weight_percent REAL NOT NULL,
+                cryst_size REAL NOT NULL,
+                FOREIGN KEY(result_id) REFERENCES results(id)
             );
             """
         )
@@ -643,6 +657,25 @@ class MainGUI(QMainWindow):
             "INSERT INTO results (run_id, node_id, iteration, result_data) VALUES (?, ?, ?, ?);",
             (run_id, node_id, iteration, output_json),
         )
+        result_id = cursor.lastrowid
+
+        phases = output_data.get('phases')
+        if phases is None:
+            phases = output_data.get('results')
+
+        if isinstance(phases, dict):
+            for name, vals in phases.items():
+                if not isinstance(vals, dict):
+                    continue
+                weight = vals.get('percentage_weight') or vals.get('weight_percent')
+                size = vals.get('crystallite_size') or vals.get('cryst_size')
+                if weight is None or size is None:
+                    continue
+                cursor.execute(
+                    "INSERT INTO phase_results (result_id, phase_name, weight_percent, cryst_size) VALUES (?, ?, ?, ?);",
+                    (result_id, name, weight, size),
+                )
+
         self.db_conn.commit()
 
     def load_node_output(self, run_id, node_id, iteration=None):
