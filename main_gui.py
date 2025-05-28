@@ -3,8 +3,11 @@
 import os
 import json
 import logging
+<<<<<<< HEAD
 import shutil
 import sqlite3
+=======
+>>>>>>> parent of 7fddfdf (Merge branch 'main' of https://github.com/ItchyMichi/PyTOPAS)
 from collections import defaultdict
 from datetime import datetime
 from PyQt5.QtWidgets import (
@@ -15,7 +18,6 @@ from PyQt5.QtCore import Qt
 from template_editor import TemplateEditor
 from structure_template_editor import StructureTemplateEditor
 from structure_database_viewer import StructureDatabaseViewer
-from file_handling import update_structure_files
 from tasks import CrystalliteSizeTask, StartTask, RWPAdditionTask, RWPRemovalTask, RWPTask, RWPMissingTask
 
 from condition_tasks import ListLengthGreaterTask, ListLengthLessTask, RWPGradientTask, ContainsTask, NumberOfRunsGreaterTask, NumberOfRunsLessTask, FinishedTask
@@ -102,10 +104,6 @@ class MainGUI(QMainWindow):
         open_structure_viewer_action.triggered.connect(self.open_structure_database_viewer)
         view_menu.addAction(open_structure_viewer_action)
 
-        import_structures_action = QAction('Import Structures', self)
-        import_structures_action.triggered.connect(self.import_structures)
-        view_menu.addAction(import_structures_action)
-
         # Central Widget
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -183,54 +181,6 @@ class MainGUI(QMainWindow):
             database_dir, self, config_path
         )
         self.structure_database_viewer.show()
-
-    def import_structures(self):
-        """Import structure files into the database and update them."""
-        # Ask user whether to select a directory or individual files
-        reply = QMessageBox.question(
-            self,
-            'Import Mode',
-            'Import an entire directory of structures?',
-            QMessageBox.Yes | QMessageBox.No,
-            QMessageBox.No,
-        )
-
-        file_paths = []
-        if reply == QMessageBox.Yes:
-            dir_path = QFileDialog.getExistingDirectory(self, 'Select Directory')
-            if not dir_path:
-                return
-            for fname in os.listdir(dir_path):
-                path = os.path.join(dir_path, fname)
-                if os.path.isfile(path):
-                    file_paths.append(path)
-        else:
-            files, _ = QFileDialog.getOpenFileNames(
-                self,
-                'Select Structure Files',
-                '',
-                'Structure Files (*.str);;All Files (*)',
-            )
-            if not files:
-                return
-            file_paths.extend(files)
-
-        dest_dir = os.path.join(os.getcwd(), 'structure_database')
-        os.makedirs(dest_dir, exist_ok=True)
-        for path in file_paths:
-            if os.path.isfile(path):
-                shutil.copy2(path, os.path.join(dest_dir, os.path.basename(path)))
-
-        config_path = os.path.join(os.getcwd(), 'config.txt')
-        try:
-            update_structure_files(dest_dir, config_path)
-            QMessageBox.information(
-                self,
-                'Import Structures',
-                'Structures imported and updated successfully.'
-            )
-        except Exception as exc:
-            QMessageBox.critical(self, 'Import Failed', str(exc))
 
     def select_output_directory(self):
         options = QFileDialog.Options()
