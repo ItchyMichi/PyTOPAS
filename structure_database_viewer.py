@@ -4,34 +4,55 @@ from PyQt5.QtWidgets import (
 )
 
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QColor
 
 import os
 import re
 
 
 def parse_structure_variables(file_path):
-    """Parse variable names and values from a .str file."""
+    """Parse variable names and values from a .str file.
+
+    Returns a mapping ``{name: {"value": value, "commented": bool}}``.
+    """
     variables = {}
+    var_re = re.compile(r"!?(\b\w+_\w+\b)\s+([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)")
+    func_re = re.compile(r"([A-Za-z0-9_]+)\(([^\)]*)\)")
+    token_re = re.compile(r"([A-Za-z0-9_]+)\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)?")
+
     try:
         with open(file_path, 'r', errors='ignore') as f:
-            content = f.read()
+            lines = f.readlines()
     except FileNotFoundError:
         return variables
 
-    # Variables defined as name value
-    for name, value in re.findall(r'!?(\b\w+_\w+\b)\s+([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)', content):
-        variables[name] = value
+    for line in lines:
+        stripped = line.lstrip()
+        commented = stripped.startswith("'")
 
-    # Functions and variables inside parentheses
-    for func_name, params in re.findall(r'([A-Za-z0-9_]+)\(([^\)]*)\)', content):
-        variables.setdefault(func_name, params.strip())
-        for token in params.split(','):
-            token = token.strip()
-            m = re.match(r'([A-Za-z0-9_]+)\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)?', token)
-            if m and '_' in m.group(1):
-                name = m.group(1)
-                if name not in variables:
-                    variables[name] = m.group(2)
+        for name, value in var_re.findall(line):
+            info = variables.get(name, {"value": value, "commented": commented})
+            info["value"] = value
+            info["commented"] = info.get("commented", False) or commented
+            variables[name] = info
+
+        for func_name, params in func_re.findall(line):
+            info = variables.get(func_name, {"value": params.strip(), "commented": commented})
+            info["value"] = params.strip()
+            info["commented"] = info.get("commented", False) or commented
+            variables[func_name] = info
+            for token in params.split(','):
+                token = token.strip()
+                m = token_re.match(token)
+                if m and '_' in m.group(1):
+                    name = m.group(1)
+                    val = m.group(2)
+                    sub_info = variables.get(name, {"value": val, "commented": commented})
+                    if val is not None:
+                        sub_info["value"] = val
+                    sub_info["commented"] = sub_info.get("commented", False) or commented
+                    variables[name] = sub_info
+
     return variables
 
 
@@ -191,18 +212,25 @@ class StructureDatabaseViewer(QDialog):
 
         filter_text = self.var_filter_edit.text().strip().lower()
         filtered_items = [
-            (var, val) for var, val in variables.items()
+            (var, info) for var, info in variables.items()
             if filter_text in var.lower()
         ]
 
         self.updating_table = True
         self.variable_table.setRowCount(len(filtered_items))
-        for row, (var, val) in enumerate(sorted(filtered_items)):
+        for row, (var, info) in enumerate(sorted(filtered_items)):
+            value = info.get("value")
+            commented = info.get("commented", False)
             var_item = QTableWidgetItem(var)
-            if val is None:
-                val = ''
-            item = QTableWidgetItem(str(val))
+            if value is None:
+                value = ''
+            item = QTableWidgetItem(str(value))
             item.setFlags(item.flags() | Qt.ItemIsEditable)
+
+            if commented:
+                color = QColor(240, 240, 240)
+                var_item.setBackground(color)
+                item.setBackground(color)
 
             if self.pending_changes.get(name, {}).get(var) is not None:
                 bold_font = item.font()
@@ -232,7 +260,9 @@ class StructureDatabaseViewer(QDialog):
         structure_name = current_item.text()
 
         # Store edited value in memory
-        self.structures.setdefault(structure_name, {})[var_name] = new_value
+        info = self.structures.setdefault(structure_name, {}).get(var_name, {"value": new_value, "commented": False})
+        info["value"] = new_value
+        self.structures[structure_name][var_name] = info
         self.pending_changes.setdefault(structure_name, {})[var_name] = new_value
 
         # Mark edited cell bold
@@ -251,7 +281,9 @@ class StructureDatabaseViewer(QDialog):
                 if not success:
                     QMessageBox.warning(self, "Save Error", msg)
                     return
-                self.structures.setdefault(structure_name, {})[var] = val
+                info = self.structures.setdefault(structure_name, {}).get(var, {"value": val, "commented": False})
+                info["value"] = val
+                self.structures[structure_name][var] = info
 
         self.pending_changes.clear()
         self.save_button.setEnabled(False)
