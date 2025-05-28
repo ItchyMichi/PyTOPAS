@@ -1,0 +1,152 @@
+{
+    "results": {
+        "Chlorite-p-mod": {
+            "crystallite_size": 50.00002,
+            "percentage_weight": 3.105
+        },
+        "Aphthita": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.043
+        },
+        "Anhydrite": {
+            "crystallite_size": 109.65393,
+            "percentage_weight": 0.928
+        },
+        "Merwinite": {
+            "crystallite_size": 50.7681,
+            "percentage_weight": 1.032
+        },
+        "Hematite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.531
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00002,
+            "percentage_weight": 1.365
+        },
+        "Mayenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.041
+        },
+        "Calcite": {
+            "crystallite_size": 50.40048,
+            "percentage_weight": 62.375
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.257
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 0.843
+        },
+        "Sylvite": {
+            "crystallite_size": 92.38982,
+            "percentage_weight": 5.053
+        },
+        "Quartz": {
+            "crystallite_size": 137.67632,
+            "percentage_weight": 2.227
+        },
+        "Syngenite": {
+            "crystallite_size": 60.68066,
+            "percentage_weight": 1.561
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.684
+        },
+        "MicroInt1": {
+            "crystallite_size": 81.21255,
+            "percentage_weight": 3.185
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.299
+        },
+        "Vaterite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 1.89
+        },
+        "C3A-cubic": {
+            "crystallite_size": 309.79345,
+            "percentage_weight": 0.282
+        },
+        "Larnite": {
+            "crystallite_size": 50.00005,
+            "percentage_weight": 5.906
+        },
+        "Aragonit": {
+            "crystallite_size": 50.00002,
+            "percentage_weight": 3.394
+        },
+        "structures_list": [
+            "Chlorite-p-mod.str",
+            "Aphthita.str",
+            "Anhydrite.str",
+            "Merwinite.str",
+            "Hematite.str",
+            "Hydrocalumite.str",
+            "Mayenite.str",
+            "Calcite.str",
+            "Albint.str",
+            "BrownmilleriteAlFe.str",
+            "Sylvite.str",
+            "Quartz.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "MicroInt1.str",
+            "Gypsum.str",
+            "Vaterite.str",
+            "Larnite.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Anhydrite",
+        "Calcite",
+        "Sylvite",
+        "Quartz",
+        "C3A-cubic",
+        "Larnite"
+    ],
+    "invalid_structures": [
+        "Chlorite-p-mod",
+        "Aphthita",
+        "Merwinite",
+        "Hematite",
+        "Hydrocalumite",
+        "Mayenite",
+        "Albint",
+        "BrownmilleriteAlFe",
+        "Syngenite",
+        "Arcanite",
+        "MicroInt1",
+        "Gypsum",
+        "Vaterite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Chlorite-p-mod.str",
+        "Aphthita.str",
+        "Anhydrite.str",
+        "Merwinite.str",
+        "Hematite.str",
+        "Hydrocalumite.str",
+        "Mayenite.str",
+        "Calcite.str",
+        "Albint.str",
+        "BrownmilleriteAlFe.str",
+        "Sylvite.str",
+        "Quartz.str",
+        "Syngenite.str",
+        "Arcanite.str",
+        "MicroInt1.str",
+        "Gypsum.str",
+        "Vaterite.str",
+        "Larnite.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "C3A-cubic",
+    "iteration": 10
+}

@@ -1,0 +1,153 @@
+{
+    "results": {
+        "Hydrocalumite": {
+            "crystallite_size": 50.00015,
+            "percentage_weight": 3.888
+        },
+        "Calcite": {
+            "crystallite_size": 61.07701,
+            "percentage_weight": 40.792
+        },
+        "Gehlenite": {
+            "crystallite_size": 151.91998,
+            "percentage_weight": 0.531
+        },
+        "Larnite": {
+            "crystallite_size": 50.00034,
+            "percentage_weight": 3.57
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 145.86079,
+            "percentage_weight": 1.171
+        },
+        "Sylvite": {
+            "crystallite_size": 215.45306,
+            "percentage_weight": 1.709
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.145
+        },
+        "Thenardite": {
+            "crystallite_size": 50.0002,
+            "percentage_weight": 0.463
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.994
+        },
+        "Merwinite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.147
+        },
+        "Portlandite": {
+            "crystallite_size": 55.17345,
+            "percentage_weight": 5.123
+        },
+        "Quartz": {
+            "crystallite_size": 232.39573,
+            "percentage_weight": 5.34
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.869
+        },
+        "Thaumasite": {
+            "crystallite_size": 824.76703,
+            "percentage_weight": 0.389
+        },
+        "Syngenite": {
+            "crystallite_size": 55.14284,
+            "percentage_weight": 2.16
+        },
+        "Corundum as standard": {
+            "crystallite_size": 288.3284,
+            "percentage_weight": 29.708
+        },
+        "initial_structure_list": [
+            "Calcite",
+            "Gehlenite",
+            "C3S-mono_nishi",
+            "Sylvite",
+            "Portlandite",
+            "Quartz",
+            "Thaumasite",
+            "Corundum as standard",
+            "Hydrocalumite",
+            "Larnite",
+            "MicroInt1",
+            "Thenardite",
+            "Albint",
+            "Merwinite",
+            "Arcanite",
+            "Syngenite"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Gehlenite.str",
+            "C3S-mono_nishi.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Quartz.str",
+            "Thaumasite.str",
+            "Corundum as standard.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "MicroInt1.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Gehlenite.str",
+            "C3S-mono_nishi.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Quartz.str",
+            "Thaumasite.str",
+            "Corundum as standard.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "MicroInt1.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Gehlenite",
+        "C3S-mono_nishi",
+        "Sylvite",
+        "Portlandite",
+        "Quartz",
+        "Thaumasite",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Hydrocalumite",
+        "Larnite",
+        "MicroInt1",
+        "Thenardite",
+        "Albint",
+        "Merwinite",
+        "Arcanite",
+        "Syngenite"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Gehlenite.str",
+        "C3S-mono_nishi.str",
+        "Sylvite.str",
+        "Portlandite.str",
+        "Quartz.str",
+        "Thaumasite.str",
+        "Corundum as standard.str",
+        "Hydrocalumite.str",
+        "Larnite.str",
+        "MicroInt1.str"
+    ],
+    "excluded_structure_list": [
+        "Merwinite",
+        "Albint",
+        "Arcanite",
+        "Thenardite",
+        "Syngenite"
+    ],
+    "iteration": 1
+}

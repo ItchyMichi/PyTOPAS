@@ -1,0 +1,93 @@
+{
+    "results": {
+        "Magnetite": {
+            "RWP": -0.25111179999999855,
+            "percentage_weight": 0.251,
+            "crystallite_size": 185.7481
+        },
+        "rwp_all": {
+            "RWP": {
+                "RWP": 11.7663833
+            },
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Calcite": {
+            "RWP": 29.2227345,
+            "percentage_weight": 46.159,
+            "crystallite_size": 58.0128
+        },
+        "Larnite": {
+            "RWP": 0.9676034000000016,
+            "percentage_weight": 5.02,
+            "crystallite_size": 50.23041
+        },
+        "Hydrocalumite": {
+            "RWP": 2.131120300000001,
+            "percentage_weight": 3.972,
+            "crystallite_size": 50.037
+        },
+        "Corundum as standard": {
+            "RWP": 18.695203300000003,
+            "percentage_weight": 30.935,
+            "crystallite_size": 345.09565
+        },
+        "Sylvite": {
+            "RWP": 3.925562900000001,
+            "percentage_weight": 2.309,
+            "crystallite_size": 170.80041
+        },
+        "Portlandite": {
+            "RWP": 4.3594141,
+            "percentage_weight": 4.548,
+            "crystallite_size": 50.05188
+        },
+        "Quartz": {
+            "RWP": 6.0856938,
+            "percentage_weight": 6.806,
+            "crystallite_size": 206.58096
+        },
+        "initial_structure_list": [
+            "Magnetite",
+            "Calcite",
+            "Larnite",
+            "Hydrocalumite",
+            "Corundum as standard",
+            "Sylvite",
+            "Portlandite",
+            "Quartz"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Corundum as standard.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Corundum as standard.str"
+        ]
+    },
+    "valid_structures": [],
+    "invalid_structures": [
+        "Magnetite",
+        "Calcite",
+        "Larnite",
+        "Hydrocalumite",
+        "Corundum as standard",
+        "Sylvite",
+        "Portlandite",
+        "Quartz"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Corundum as standard.str"
+    ],
+    "excluded_structure_list": [
+        "Quartz",
+        "Portlandite",
+        "Sylvite",
+        "Hydrocalumite",
+        "Larnite",
+        "Magnetite"
+    ],
+    "iteration": 1
+}

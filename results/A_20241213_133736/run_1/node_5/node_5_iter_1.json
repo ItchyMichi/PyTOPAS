@@ -1,0 +1,78 @@
+{
+    "results": {
+        "Vaterite": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 2.936
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 4.025
+        },
+        "Larnite": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 6.265
+        },
+        "Quartz": {
+            "crystallite_size": 144.33787,
+            "percentage_weight": 1.858
+        },
+        "Sylvite": {
+            "crystallite_size": 92.52346,
+            "percentage_weight": 4.554
+        },
+        "Corundum as standard": {
+            "crystallite_size": 216.42642,
+            "percentage_weight": 25.312
+        },
+        "Calcite": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 55.049
+        },
+        "structures_list": [
+            "Vaterite.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Calcite.str"
+        ],
+        "initial_structure_list": [
+            "MicroInt1",
+            "Larnite",
+            "Quartz",
+            "Sylvite",
+            "Corundum as standard",
+            "Calcite",
+            "Vaterite"
+        ],
+        "final_structure_list": [
+            "Vaterite.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Calcite.str"
+        ]
+    },
+    "valid_structures": [
+        "MicroInt1",
+        "Larnite",
+        "Quartz",
+        "Sylvite",
+        "Corundum as standard",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Vaterite"
+    ],
+    "structures_list": [
+        "Vaterite.str",
+        "MicroInt1.str",
+        "Larnite.str",
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Calcite.str"
+    ],
+    "excluded_structure_list": "Quartz",
+    "iteration": 1
+}

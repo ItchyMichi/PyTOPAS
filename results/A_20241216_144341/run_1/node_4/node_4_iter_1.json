@@ -1,0 +1,103 @@
+{
+    "results": {
+        "MicroInt1": {
+            "crystallite_size": 50.0145,
+            "percentage_weight": 3.485
+        },
+        "Sylvite": {
+            "crystallite_size": 92.27798,
+            "percentage_weight": 4.43
+        },
+        "Quartz": {
+            "crystallite_size": 131.77677,
+            "percentage_weight": 1.91
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 57.60193,
+            "percentage_weight": 0.546
+        },
+        "Calcite": {
+            "crystallite_size": 50.0145,
+            "percentage_weight": 53.119
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0145,
+            "percentage_weight": 1.842
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0145,
+            "percentage_weight": 3.235
+        },
+        "Larnite": {
+            "crystallite_size": 50.0145,
+            "percentage_weight": 5.017
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 89.01596,
+            "percentage_weight": 1.59
+        },
+        "Corundum as standard": {
+            "crystallite_size": 210.01249,
+            "percentage_weight": 24.827
+        },
+        "initial_structure_list": [
+            "Sylvite",
+            "Quartz",
+            "Calcite",
+            "Larnite",
+            "Corundum as standard",
+            "MicroInt1",
+            "Musc2m1_with p mod p1",
+            "Arcanite",
+            "Vaterite",
+            "C3S-mono_nishi"
+        ],
+        "final_structure_list": [
+            "Sylvite.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Larnite.str",
+            "Corundum as standard.str",
+            "MicroInt1.str",
+            "Vaterite.str"
+        ],
+        "structures_list": [
+            "Sylvite.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Larnite.str",
+            "Corundum as standard.str",
+            "MicroInt1.str",
+            "Vaterite.str"
+        ]
+    },
+    "valid_structures": [
+        "Sylvite",
+        "Quartz",
+        "Calcite",
+        "Larnite",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "MicroInt1",
+        "Musc2m1_with p mod p1",
+        "Arcanite",
+        "Vaterite",
+        "C3S-mono_nishi"
+    ],
+    "structures_list": [
+        "Sylvite.str",
+        "Quartz.str",
+        "Calcite.str",
+        "Larnite.str",
+        "Corundum as standard.str",
+        "MicroInt1.str",
+        "Vaterite.str"
+    ],
+    "excluded_structure_list": [
+        "Arcanite",
+        "Musc2m1_with p mod p1",
+        "C3S-mono_nishi"
+    ],
+    "iteration": 1
+}

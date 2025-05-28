@@ -1,0 +1,1844 @@
+   xdd "C:/PyTOPAS_Analysis_Tool/PyTOPAS V2/Test Folder/A.raw"
+   r_exp 4.351577355 r_exp_dash 5.271057264 r_wp 22.70939769 r_wp_dash 27.50784965 r_p 16.80493541 r_p_dash 22.00809598 weighted_Durbin_Watson 0.1828305454 gof 5.218658852
+   range 1
+   bkg @ 0 0 0 0 0 
+   start_X  3
+   LP_Factor( 0.0001_LIMIT_MIN_0.0001)
+   Zero_Error(@, 0.01483950911)
+   One_on_X(@, 1000)
+   Rp 250
+   Rs 250
+     Tube_Tails(, 0.1260045914,, -0.06162991848_LIMIT_MAX_-1e-005,, 0.361518048,, 0.02008790324_LIMIT_MIN_1e-005)
+   axial_conv 
+      filament_length  12
+      sample_length  15_LIMIT_MIN_0.0001
+      receiving_slit_length  12
+      primary_soller_angle  4.664143474
+      secondary_soller_angle  2.509794286
+      axial_n_beta  30
+   lpsd_th2_angular_range_degrees  3
+      lpsd_equitorial_divergence_degrees  0.3531968
+      lpsd_equitorial_sample_length_mm  20_LIMIT_MIN_0.0001
+         lpsd_beam_spill_correct_intensity 0
+   lam
+      ymin_on_ymax  0.0001
+      la  0.0159 lo  1.534753 lh  3.6854
+      la  0.5791 lo  1.540596 lh  0.437
+      la  0.0762 lo  1.541058 lh  0.6
+      la  0.2417 lo  1.54441 lh  0.52
+      la  0.0871 lo  1.544721 lh  0.62
+       la  0.001542098723_LIMIT_MIN_1e-005 lo  1.3922 lh  0.550287_LIMIT_MIN_1e-006
+      la  0.002204090135 lo  1.397701 lh  1.26547_LIMIT_MIN_1e-006
+  
+   
+/*Albint.str_START*/
+STR(C-1) ' C-1
+	space_group C-1
+	phase_name "Albite intermediate"
+	' Formula "Na Al Si3 O8"
+	' Group "Silicate"
+	' SubGroup "Feldspar"
+	' UserGroup ""
+	' SubstSeries "Plagioclase"
+	' ICDD_number 781995
+	a a_albint 8.1500 min 8.1250 max 8.1730
+	b b_albint 12.8410 min 12.8010 max 12.8790
+	c c_albint 7.1210 min 7.0990 max 7.1410
+	al al_albint 93.8000 min 93.3000 max 94.3000
+	be be_albint 116.5116 min 116.0000 max 117.0000
+	ga ga_albint 89.5000 min 89.0000 max 90.0000
+
+	site s1   x !x1_albint 0.2721  y !y1_albint 0.0017  z !z1_albint 0.1385  occ NA+1 1.00  beq 6.800
+	site s2   x !x2_albint 0.0088  y !y2_albint 0.1657  z !z2_albint 0.2124  occ SI+4 0.49  beq 0.760
+	          occ AL+3 0.51  beq 0.760
+	site s3   x !x3_albint 0.0043  y !y3_albint 0.8160  z !z3_albint 0.2317  occ SI+4 0.85  beq 0.780
+	          occ AL+3 0.15  beq 0.780
+	site s4   x !x4_albint 0.6909  y !y4_albint 0.1086  z !z4_albint 0.3180  occ SI+4 0.84  beq 0.780
+	          occ AL+3 0.16  beq 0.780
+	site s5   x !x5_albint 0.6840  y !y5_albint 0.8787  z !z5_albint 0.3563  occ SI+4 0.83  beq 0.750
+	          occ AL+3 0.17  beq 0.750
+	site s6   x !x6_albint 0.0052  y !y6_albint 0.1338  z !z6_albint 0.9780  occ O-2  1.00  beq 1.500
+	site s7   x !x7_albint 0.5920  y !y7_albint 0.9924  z !z7_albint 0.2791  occ O-2  1.00  beq 1.170
+	site s8   x !x8_albint 0.8178  y !y8_albint 0.1086  z !z8_albint 0.1949  occ O-2  1.00  beq 1.530
+	site s9   x !x9_albint 0.8188  y !y9_albint 0.8476  z !z9_albint 0.2496  occ O-2  1.00  beq 1.730
+	site s10  x !x10_albint 0.0153  y !y10_albint 0.2939  z !z10_albint 0.2757  occ O-2  1.00  beq 1.400
+	site s11  x !x11_albint 0.0218  y !y11_albint 0.6888  z !z11_albint 0.2211  occ O-2  1.00  beq 1.410
+	site s12  x !x12_albint 0.1991  y !y12_albint 0.1110  z !z12_albint 0.3876  occ O-2  1.00  beq 1.360
+	site s13  x !x13_albint 0.1868  y !y13_albint 0.8672  z !z13_albint 0.4305  occ O-2  1.00  beq 1.510
+
+	CS(cs_albint, 1000 min =50.0; max =2000.0;)
+'	Strain(!st_albint, 0.0001 min 0 max 0.003)
+'	PO_Spherical_Harmonics(sh_albint, 4)
+
+	scale sc_albint 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Albint.str_END*/
+
+/*Analcime.str_START*/
+STR(230) ' I4_1/a-32/d
+	phase_name "Analcime"
+	' Formula "Na Al Si2 O6*H2 O"
+	' Group "Silicate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 411478
+	a a_analcime 13.7300 min 13.6000 max 13.8500
+	b =a_analcime;
+	c =a_analcime;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =1/8;  y !y1_analcime 0.6623  z    =-y1_analcime+1/4;  occ SI+4 0.67  beq 0.550
+	          occ AL+3 0.33  beq 0.550
+	site s2   x               =1/8;  y                 =0;  z               =1/4;  occ NA+1 0.67  beq 2.860
+	site s3   x !x3_analcime 0.1041  y !y3_analcime 0.1338  z !z3_analcime 0.7220  occ O-2  1.00  beq 2.110
+	site s4   x               =1/8;  y               =1/8;  z               =1/8;  occ O-2  1.00  beq 6.500
+
+	CS(cs_analcime, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_analcime, 4)
+	PO(, 1,, 1 0 0)
+	scale sc_analcime 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Analcime.str_END*/
+
+/*Anhydrite.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 134.7154932, 0.89, 188.3334357,,,cs_anhydrit, 1000 min =50.0; max =2000.0;)
+		r_bragg  6.498615536
+		phase_MAC 77.2375415
+		phase_name "Anhydrite"
+		MVW( 544.5624, 305.5716198, 11.36978226)
+		space_group 63
+		scale sc_anhydrit 0.0002350441578
+		Phase_LAC_1_on_cm( 228.5664435)
+		Phase_Density_g_on_cm3( 2.959266169)
+		a a_anhydrit 6.992602279 min =6.9600; max =7.0600;
+		b b_anhydrit 6.243444797 min =6.1800; max =6.3000;
+		c c_anhydrit 6.999224324 min =6.9210; max =7.0600;
+		site s1 num_posns 4 x =0; :  0 y !y1_anhydrit 0.654 z =1/4; :  0.25 occ CA+2  1 beq  0.7
+		site s2 num_posns 4 x =0; :  0 y !y2_anhydrit 0.155 z =1/4; :  0.25 occ S  1 beq  0.7
+		site s3 num_posns 8 x !x3_anhydrit 0.329 y !y3_anhydrit 0.515 z =1/4; :  0.25 occ O-2  1 beq  0.9
+		site s4 num_posns 8 x =0; :  0 y !y4_anhydrit 0.702 z !z4_anhydrit 0.92 occ O-2  1 beq  1.1
+		Preferred_Orientation(@, 1,, 0 0 1)
+/*Anhydrite.str_END*/
+
+/*Ankeri05-with-p-mod.str_START*/
+
+	str 
+		CS_L(cs_ankeri05, 7.498000017e+010_LIMIT_MIN_32 min =32;)
+		Strain_G(!st_ankeri05, 0.000269129)
+		r_bragg  9.100809184
+		phase_name "Ankerite Fe0.55"
+		MVW( 619.4404113, 323.6720154, 0.3942692741)
+		space_group 148
+		scale sc_ankeri05 7.851212029e-006_LIMIT_MIN_1e-015
+		Phase_LAC_1_on_cm( 310.3874254)
+		Phase_Density_g_on_cm3( 3.177925973)
+		Trigonal(a_ankeri05 4.829999708_LIMIT_MIN_4.81 min =4.8100; max =4.8300;,c_ankeri05 16.02065659_LIMIT_MIN_16 min =16.0000; max =16.1400;)
+		site s1 num_posns 3 x =0; :  0 y =0; :  0 z =0; :  0 occ CA+2  1 beq  0
+		site s2 num_posns 3 x =0; :  0 y =0; :  0 z =1/2; :  0.5 occ MG+2 =(1-pAnk5); :  0.300000456 beq  0 occ FE+2 pAnk5 0.699999544_LIMIT_MIN_0.2 min =0.20; max =0.70; beq  0
+		site s3 num_posns 6 x =0; :  0 y =0; :  0 z !z3_ankeri05 0.7564 occ C  1 beq  0
+		site s4 num_posns 18 x !x4_ankeri05 0.2498 y !y4_ankeri05 -0.03 z !z4_ankeri05 0.2447 occ O  1 beq  0
+		Preferred_Orientation(, 1,, 1 0 4)
+/*Ankeri05-with-p-mod.str_END*/
+
+/*Anorthite.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_anorthit, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_anorthit, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Anorthite"
+		MVW( 0, 0, 0)
+		'corrected_weight_percent  0
+		space_group 2
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_anorthit 8.18 min =8.1650; max =8.1850;
+		b b_anorthit 12.88 min =12.8600; max =12.8900;
+		c c_anorthit 14.17 min =14.1600; max =14.1900;
+		al al_anorthit 93.2 min =93.0000; max =94.0000;
+		be be_anorthit 115.8 min =115.0000; max =116.2000;
+		ga ga_anorthit 91.2 min =90.5000; max =92.0000;
+		site s1 num_posns 0 x !x1_anorthit 0.2647 y !y1_anorthit 0.9844 z !z1_anorthit 0.0873 occ CA+2  1 beq  1
+		site s2 num_posns 0 x !x2_anorthit 0.2684 y !y2_anorthit 0.0312 z !z2_anorthit 0.5438 occ CA+2  1 beq  1
+		site s3 num_posns 0 x !x3_anorthit 0.7732 y !y3_anorthit 0.5334 z !z3_anorthit 0.5422 occ CA+2  1 beq  1
+		site s4 num_posns 0 x !x4_anorthit 0.7636 y !y4_anorthit 0.5067 z !z4_anorthit 0.074 occ CA+2  1 beq  1
+		site s5 num_posns 0 x !x5_anorthit 0.0099 y !y5_anorthit 0.1584 z !z5_anorthit 0.1043 occ SI+4  1 beq  0.2
+		site s6 num_posns 0 x !x6_anorthit 0.0069 y !y6_anorthit 0.1609 z !z6_anorthit 0.6125 occ AL+3  1 beq  0.2
+		site s7 num_posns 0 x !x7_anorthit 0.5061 y !y7_anorthit 0.6567 z !z7_anorthit 0.6033 occ SI+4  1 beq  0.2
+		site s8 num_posns 0 x !x8_anorthit 0.4987 y !y8_anorthit 0.6675 z !z8_anorthit 0.1125 occ AL+3  1 beq  0.2
+		site s9 num_posns 0 x !x9_anorthit 0.9928 y !y9_anorthit 0.8146 z !z9_anorthit 0.119 occ AL+3  1 beq  0.2
+		site s10 num_posns 0 x !x10_anorthit 0.0059 y !y10_anorthit 0.8154 z !z10_anorthit 0.6129 occ SI+4  1 beq  0.2
+		site s11 num_posns 0 x !x11_anorthit 0.5078 y !y11_anorthit 0.3154 z !z11_anorthit 0.6212 occ AL+3  1 beq  0.2
+		site s12 num_posns 0 x !x12_anorthit 0.5034 y !y12_anorthit 0.3207 z !z12_anorthit 0.1091 occ SI+4  1 beq  0.2
+		site s13 num_posns 0 x !x13_anorthit 0.6841 y !y13_anorthit 0.1134 z !z13_anorthit 0.1512 occ AL+3  1 beq  0.2
+		site s14 num_posns 0 x !x14_anorthit 0.6818 y !y14_anorthit 0.1029 z !z14_anorthit 0.6644 occ SI+4  1 beq  0.2
+		site s15 num_posns 0 x !x15_anorthit 0.1906 y !y15_anorthit 0.6123 z !z15_anorthit 0.6681 occ AL+3  1 beq  0.2
+		site s16 num_posns 0 x !x16_anorthit 0.1714 y !y16_anorthit 0.6062 z !z16_anorthit 0.1504 occ SI+4  1 beq  0.2
+		site s17 num_posns 0 x !x17_anorthit 0.6749 y !y17_anorthit 0.8828 z !z17_anorthit 0.1881 occ SI+4  1 beq  0.2
+		site s18 num_posns 0 x !x18_anorthit 0.6799 y !y18_anorthit 0.8717 z !z18_anorthit 0.6715 occ AL+3  1 beq  0.2
+		site s19 num_posns 0 x !x19_anorthit 0.1759 y !y19_anorthit 0.3802 z !z19_anorthit 0.6744 occ SI+4  1 beq  0.2
+		site s20 num_posns 0 x !x20_anorthit 0.1865 y !y20_anorthit 0.379 z !z20_anorthit 0.1815 occ AL+3  1 beq  0.2
+		site s21 num_posns 0 x !x21_anorthit 0.0276 y !y21_anorthit 0.1234 z !z21_anorthit 0.9957 occ O  1 beq  0.6
+		site s22 num_posns 0 x !x22_anorthit 0.9814 y !y22_anorthit 0.1237 z !z22_anorthit 0.4808 occ O  1 beq  0.6
+		site s23 num_posns 0 x !x23_anorthit 0.4873 y !y23_anorthit 0.6256 z !z23_anorthit 0.4865 occ O  1 beq  0.6
+		site s24 num_posns 0 x !x24_anorthit 0.5129 y !y24_anorthit 0.6256 z !z24_anorthit 0.997 occ O  1 beq  0.6
+		site s25 num_posns 0 x !x25_anorthit 0.5724 y !y25_anorthit 0.9909 z !z25_anorthit 0.1451 occ O  1 beq  0.6
+		site s26 num_posns 0 x !x26_anorthit 0.5732 y !y26_anorthit 0.9901 z !z26_anorthit 0.6398 occ O  1 beq  0.6
+		site s27 num_posns 0 x !x27_anorthit 0.0732 y !y27_anorthit 0.4876 z !z27_anorthit 0.633 occ O  1 beq  0.6
+		site s28 num_posns 0 x !x28_anorthit 0.0755 y !y28_anorthit 0.4925 z !z28_anorthit 0.1363 occ O  1 beq  0.6
+		site s29 num_posns 0 x !x29_anorthit 0.8114 y !y29_anorthit 0.1027 z !z29_anorthit 0.0792 occ O  1 beq  0.6
+		site s30 num_posns 0 x !x30_anorthit 0.8071 y !y30_anorthit 0.0996 z !z30_anorthit 0.6046 occ O  1 beq  0.6
+		site s31 num_posns 0 x !x31_anorthit 0.3363 y !y31_anorthit 0.5938 z !z31_anorthit 0.6045 occ O  1 beq  0.6
+		site s32 num_posns 0 x !x32_anorthit 0.2912 y !y32_anorthit 0.6036 z !z32_anorthit 0.0819 occ O  1 beq  0.6
+		site s33 num_posns 0 x !x33_anorthit 0.8148 y !y33_anorthit 0.8516 z !z33_anorthit 0.1454 occ O  1 beq  0.6
+		site s34 num_posns 0 x !x34_anorthit 0.809 y !y34_anorthit 0.851 z !z34_anorthit 0.6018 occ O  1 beq  0.6
+		site s35 num_posns 0 x !x35_anorthit 0.2983 y !y35_anorthit 0.3575 z !z35_anorthit 0.6113 occ O  1 beq  0.6
+		site s36 num_posns 0 x !x36_anorthit 0.3382 y !y36_anorthit 0.3606 z !z36_anorthit 0.1309 occ O  1 beq  0.6
+		site s37 num_posns 0 x !x37_anorthit 0.012 y !y37_anorthit 0.278 z !z37_anorthit 0.1351 occ O  1 beq  0.6
+		site s38 num_posns 0 x !x38_anorthit 0.0177 y !y38_anorthit 0.29 z !z38_anorthit 0.6486 occ O  1 beq  0.6
+		site s39 num_posns 0 x !x39_anorthit 0.5082 y !y39_anorthit 0.7778 z !z39_anorthit 0.6311 occ O  1 beq  0.6
+		site s40 num_posns 0 x !x40_anorthit 0.5102 y !y40_anorthit 0.7969 z !z40_anorthit 0.15 occ O  1 beq  0.6
+		site s41 num_posns 0 x !x41_anorthit 0.0004 y !y41_anorthit 0.6802 z !z41_anorthit 0.1063 occ O  1 beq  0.6
+		site s42 num_posns 0 x !x42_anorthit 0.0083 y !y42_anorthit 0.6898 z !z42_anorthit 0.6017 occ O  1 beq  0.6
+		site s43 num_posns 0 x !x43_anorthit 0.515 y !y43_anorthit 0.1794 z !z43_anorthit 0.609 occ O  1 beq  0.6
+		site s44 num_posns 0 x !x44_anorthit 0.5067 y !y44_anorthit 0.1947 z !z44_anorthit 0.0974 occ O  1 beq  0.6
+		site s45 num_posns 0 x !x45_anorthit 0.1795 y !y45_anorthit 0.1072 z !z45_anorthit 0.1919 occ O  1 beq  0.6
+		site s46 num_posns 0 x !x46_anorthit 0.2153 y !y46_anorthit 0.1057 z !z46_anorthit 0.6862 occ O  1 beq  0.6
+		site s47 num_posns 0 x !x47_anorthit 0.6992 y !y47_anorthit 0.6031 z !z47_anorthit 0.6779 occ O  1 beq  0.6
+		site s48 num_posns 0 x !x48_anorthit 0.6921 y !y48_anorthit 0.6014 z !z48_anorthit 0.2 occ O  1 beq  0.6
+		site s49 num_posns 0 x !x49_anorthit 0.2027 y !y49_anorthit 0.8723 z !z49_anorthit 0.2106 occ O  1 beq  0.6
+		site s50 num_posns 0 x !x50_anorthit 0.1754 y !y50_anorthit 0.8557 z !z50_anorthit 0.717 occ O  1 beq  0.6
+		site s51 num_posns 0 x !x51_anorthit 0.6861 y !y51_anorthit 0.3637 z !z51_anorthit 0.7335 occ O  1 beq  0.6
+		site s52 num_posns 0 x !x52_anorthit 0.6999 y !y52_anorthit 0.3691 z !z52_anorthit 0.1993 occ O  1 beq  0.6
+/*Anorthite.str_END*/
+
+/*Aphthita.str_START*/
+STR(164) ' P-32/m1
+	phase_name "Aphthitalite"
+	' Formula "K3 Na (S O4)2"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 200928
+	a a_aphthita 5.6800 min 5.6230 max 5.7370
+	b =a_aphthita;
+	c c_aphthita 7.3100 min 7.2360 max 7.3820
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                 =0;  y                 =0;  z                 =0;  occ K+1  1.00  beq 2.400
+	site s2   x                 =0;  y                 =0;  z               =1/2;  occ NA+1 1.00  beq 1.310
+	site s3   x               =1/3;  y               =2/3;  z !z3_aphthita 0.3169  occ K+1  1.00  beq 1.680
+	site s4   x               =1/3;  y               =2/3;  z !z4_aphthita 0.7662  occ S  1.00  beq 0.870
+	site s5   x               =1/3;  y               =2/3;  z !z5_aphthita 0.9684  occ O-2  1.00  beq 3.030
+	site s6   x !x6_aphthita 0.1927  y  =-x6_aphthita;  z !z6_aphthita 0.6982  occ O-2  1.00  beq 2.090
+
+	CS(cs_aphthita, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_aphthita, 4)
+
+	scale sc_aphthita 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Aphthita.str_END*/
+
+/*Aragonit.str_START*/
+STR(Pmcn) ' Pmcn
+	phase_name "Aragonite"
+	' Formula "Ca C O3"
+	' Group "Carbonate"
+	' SubGroup "Aragonite"
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 411475
+	a a_aragonit 4.9611 min 4.9000 max 5.0000
+	b b_aragonit 7.9672 min 7.9000 max 8.0800
+	c c_aragonit 5.7407 min 5.6500 max 5.8000
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =1/4;  y !y1_aragonit 0.41508 z !z1_aragonit 0.24046 occ Ca 1.00  beq 1.00
+	site s2   x               =1/4;  y !y2_aragonit 0.76211 z !z2_aragonit 0.08518 occ C  1.00  beq 1.00
+	site s3   x               =1/4;  y !y3_aragonit 0.92224 z !z3_aragonit 0.09557 occ O  1.00  beq 1.00
+	site s4   x !x4_aragonit 0.47347 y !y4_aragonit 0.68065 z !z4_aragonit 0.08726 occ O  1.00  beq 1.00
+
+	CS(cs_aragonit, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_aragonit, 6)
+	PO(, 1,, 0 1 0)
+	scale sc_aragonit 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+
+
+/*Aragonit.str_END*/
+
+/*Arcanite.str_START*/
+STR(62) ' P2_1/n2_1/m2_1/a
+	phase_name "Arcanite K2SO4"
+	' Formula "K2 (S O4)"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 50613
+	a a_arcanite 7.4770 min 7.4100 max 7.5500
+	b b_arcanite 5.7620 min 5.7200 max 5.8200
+	c c_arcanite 10.0700 min 9.9700 max 10.1700
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_arcanite 0.7330  y               =1/4;  z !z1_arcanite 0.9197  occ S  1.00  beq 1.170
+	site s2   x !x2_arcanite 0.1738  y               =1/4;  z !z2_arcanite 0.9106  occ K+1  1.00  beq 1.810
+	site s3   x !x3_arcanite 0.4890  y               =1/4;  z !z3_arcanite 0.2041  occ K+1  1.00  beq 1.630
+	site s4   x !x4_arcanite 0.5379  y               =1/4;  z !z4_arcanite 0.9166  occ O-2  1.00  beq 2.260
+	site s5   x !x5_arcanite 0.7963  y               =1/4;  z !z5_arcanite 0.0582  occ O-2  1.00  beq 1.960
+	site s6   x !x6_arcanite 0.3009  y !y6_arcanite 0.0412  z !z6_arcanite 0.6478  occ O-2  1.00  beq 2.230
+
+	CS(cs_arcanite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_arcanite, 4)
+
+	scale sc_arcanite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Arcanite.str_END*/
+
+/*Bassanit.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_bassanit, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_bassanit, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Bassanite"
+		MVW( 0, 0, 0)
+		space_group 5
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_bassanit 17.432 min =17.2600; max =17.6000;
+		b b_bassanit 6.93 min =6.8800; max =7.0000;
+		c c_bassanit 12.02 min =11.9000; max =12.1000;
+		be be_bassanit 133.384 min =132.5000; max =134.5000;
+		site s1 num_posns 0 x !x1_bassanit 0.2615 y !y1_bassanit 0.1239 z !z1_bassanit 0.2591 occ S  1 beq  0.89
+		site s2 num_posns 0 x !x2_bassanit 0.416 y !y2_bassanit 0.2821 z !z2_bassanit 0.1338 occ S  1 beq  0.94
+		site s3 num_posns 0 x !x3_bassanit 0.0769 y !y3_bassanit 0.2935 z !z3_bassanit 0.3435 occ S  1 beq  0.89
+		site s4 num_posns 0 x =0; :  0 y !y4_bassanit 0.6191 z =1/2; :  0.5 occ CA+2  1 beq  0.45
+		site s5 num_posns 0 x !x5_bassanit 0.1783 y !y5_bassanit 0.2817 z !z5_bassanit 0.9021 occ CA+2  1 beq  0.31
+		site s6 num_posns 0 x !x6_bassanit 0.3291 y !y6_bassanit 0.3246 z !z6_bassanit 0.5969 occ CA+2  1 beq  0.14
+		site s7 num_posns 0 x =0; :  0 y !y7_bassanit 0.1397 z =0; :  0 occ CA+2  1 beq  0.15
+		site s8 num_posns 0 x !x8_bassanit 0.3208 y !y8_bassanit 0.2767 z !z8_bassanit 0.3809 occ O-2  1 beq  1.48
+		site s9 num_posns 0 x !x9_bassanit 0.1863 y !y9_bassanit 0.0144 z !z9_bassanit 0.2478 occ O-2  1 beq  1.65
+		site s10 num_posns 0 x !x10_bassanit 0.1894 y !y10_bassanit 0.2283 z !z10_bassanit 0.1085 occ O-2  1 beq  1.4
+		site s11 num_posns 0 x !x11_bassanit 0.3102 y !y11_bassanit 0.9679 z !z11_bassanit 0.2375 occ O-2  1 beq  1.54
+		site s12 num_posns 0 x !x12_bassanit 0.3353 y !y12_bassanit 0.4321 z !z12_bassanit 0.0757 occ O-2  1 beq  1.4
+		site s13 num_posns 0 x !x13_bassanit 0.4907 y !y13_bassanit 0.3644 z !z13_bassanit 0.1248 occ O-2  1 beq  1.33
+		site s14 num_posns 0 x !x14_bassanit 0.4884 y !y14_bassanit 0.2615 z !z14_bassanit 0.3019 occ O-2  1 beq  1.31
+		site s15 num_posns 0 x !x15_bassanit 0.3628 y !y15_bassanit 0.0927 z !z15_bassanit 0.0624 occ O-2  1 beq  1.4
+		site s16 num_posns 0 x !x16_bassanit 0.1541 y !y16_bassanit 0.4472 z !z16_bassanit 0.3923 occ O-2  1 beq  1.71
+		site s17 num_posns 0 x !x17_bassanit 0.0126 y !y17_bassanit 0.3383 z !z17_bassanit 0.3804 occ O-2  1 beq  1.03
+		site s18 num_posns 0 x !x18_bassanit 0.9967 y !y18_bassanit 0.2122 z !z18_bassanit 0.1877 occ O-2  1 beq  1.13
+		site s19 num_posns 0 x !x19_bassanit 0.154 y !y19_bassanit 0.1441 z !z19_bassanit 0.4569 occ O-2  1 beq  1.2
+		site s20 num_posns 0 x !x20_bassanit 0.6579 y !y20_bassanit 0.5988 z !z20_bassanit 0.7178 occ O-2  1 beq  1.03
+		site s21 num_posns 0 x =0; :  0 y !y21_bassanit 0.4555 z =0; :  0 occ O-2  1 beq  1.67
+		site s22 num_posns 0 x !x22_bassanit 0.962 y !y22_bassanit 0.5552 z !z22_bassanit 0.0142 occ H  1 beq  4.59
+		site s23 num_posns 0 x !x23_bassanit 0.6914 y !y23_bassanit 0.6035 z !z23_bassanit 0.6571 occ H  1 beq  5.46
+		site s24 num_posns 0 x !x24_bassanit 0.7139 y !y24_bassanit 0.4869 z !z24_bassanit 0.7977 occ H  1 beq  5.48
+/*Bassanit.str_END*/
+
+/*BrownmilleriteAlFe.str_START*/
+
+	str 
+	CS(cs_9003343, 1000 min =50.0; max =2000.0;)
+		r_bragg  4.432536895
+		phase_name "Brownmillerite"
+		MVW( 1034.26035, 433.6465807, 4.017888491)
+		space_group 62
+		scale sc_9003343 1.57417795e-005
+		Phase_LAC_1_on_cm( 631.4467823)
+		Phase_Density_g_on_cm3( 3.960439132)
+		a a_9003343 5.37804047
+		b b_9003343 14.54537234
+		c c_9003343 5.543537853
+		site ca_1 num_posns 8 x !x_ca_1_9003343 0.48559 y !y_ca_1_9003343 0.10864 z !z_ca_1_9003343 0.02569 occ ca !occ_ca_1_9003343 1 beq !beq_ca_1_9003343 0.639
+		site fe_1 num_posns 4 x =0; :  0 y =0; :  0 z =0; :  0 occ fe !occ_fe_1_9003343 0.88 beq !beq_fe_1_9003343 0.378
+		site al_1 num_posns 4 x =0; :  0 y =0; :  0 z =0; :  0 occ al !occ_al_1_9003343 0.1199 beq !beq_al_1_9003343 0.378
+		site fe_2 num_posns 4 x !x_fe_2_9003343 0.949 y =1/4; :  0.25 z !z_fe_2_9003343 0.9308 occ fe !occ_fe_2_9003343 0.66 beq !beq_fe_2_9003343 0.386
+		site al_2 num_posns 4 x !x_al_2_9003343 0.949 y =1/4; :  0.25 z !z_al_2_9003343 0.9308 occ al !occ_al_2_9003343 0.34 beq !beq_al_2_9003343 0.386
+		site o_1 num_posns 8 x !x_o_1_9003343 0.2579 y !y_o_1_9003343 0.9852 z !z_o_1_9003343 0.2423 occ o !occ_o_1_9003343 1 beq !beq_o_1_9003343 0.631
+		site o_2 num_posns 8 x !x_o_2_9003343 0.0206 y !y_o_2_9003343 0.1427 z !z_o_2_9003343 0.0707 occ o !occ_o_2_9003343 1 beq !beq_o_2_9003343 0.797
+		site o_3 num_posns 4 x !x_o_3_9003343 0.6056 y =1/4; :  0.25 z !z_o_3_9003343 0.8683 occ o !occ_o_3_9003343 1 beq !beq_o_3_9003343 0.741
+/*BrownmilleriteAlFe.str_END*/
+
+/*C2SH-alpha.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_c2shalph, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_c2shalph, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C2SH alpha"
+		MVW( 0, 0, 0)
+		space_group 61
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_c2shalph 9.488 min =9.4000; max =9.6700;
+		b b_c2shalph 9.18 min =9.0000; max =9.3630;
+		c c_c2shalph 10.666 min =10.4530; max =10.8790;
+		site s1 num_posns 0 x !x1_c2shalph 0.4841 y !y1_c2shalph 0.1696 z !z1_c2shalph 0.0686 occ CA+2  1 beq  0.68
+		site s2 num_posns 0 x !x2_c2shalph 0.3457 y !y2_c2shalph 0.0058 z !z2_c2shalph 0.3888 occ CA+2  1 beq  0.62
+		site s3 num_posns 0 x !x3_c2shalph 0.1693 y !y3_c2shalph 0.2129 z !z3_c2shalph 0.1597 occ SI+4  1 beq  0.53
+		site s4 num_posns 0 x !x4_c2shalph 0.056 y !y4_c2shalph 0.1383 z !z4_c2shalph 0.065 occ O-2  1 beq  0.67
+		site s5 num_posns 0 x !x5_c2shalph 0.2493 y !y5_c2shalph 0.3458 z !z5_c2shalph 0.0728 occ O-2  1 beq  0
+		site s6 num_posns 0 x !x6_c2shalph 0.2958 y !y6_c2shalph 0.0994 z !z6_c2shalph 0.1904 occ O-2  1 beq  0.84
+		site s7 num_posns 0 x !x7_c2shalph 0.1018 y !y7_c2shalph 0.2923 z !z7_c2shalph 0.2797 occ O-2  1 beq  0.81
+		site s8 num_posns 0 x !x8_c2shalph 0.394 y !y8_c2shalph 0.4525 z !z8_c2shalph 0.3962 occ O-2  1 beq  0
+		site s9 num_posns 0 x !x9_c2shalph 0.238 y !y9_c2shalph 0.438 z !z9_c2shalph 0.11 occ H  1 beq  3.71
+		site s10 num_posns 0 x !x10_c2shalph 0.406 y !y10_c2shalph 0.413 z !z10_c2shalph 0.339 occ H  1 beq  4.9
+/*C2SH-alpha.str_END*/
+
+/*C3A-cubic.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_c3acub, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_c3acub, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C3A cubic"
+		MVW( 0, 0, 0)
+		space_group 205
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		Cubic(a_c3acub 15.262 min =14.9580; max =15.5680;)
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ CA+2  1 beq  0.47
+		site s2 num_posns 0 x =1/2; :  0.5 y =1/2; :  0.5 z =1/2; :  0.5 occ CA+2  1 beq  0.66
+		site s3 num_posns 0 x !x3_c3acub 0.7439 y =x3_c3acub; :  0 z =x3_c3acub; :  0 occ CA+2  1 beq  0.62
+		site s4 num_posns 0 x !x4_c3acub 0.625 y =x4_c3acub; :  0 z =x4_c3acub; :  0 occ CA+2  1 beq  0.92
+		site s5 num_posns 0 x !x5_c3acub 0.1386 y !y5_c3acub 0.3763 z !z5_c3acub 0.1272 occ CA+2  1 beq  1.03
+		site s6 num_posns 0 x !x6_c3acub 0.38 y !y6_c3acub 0.3838 z !z6_c3acub 0.1209 occ CA+2  1 beq  0.65
+		site s7 num_posns 0 x !x7_c3acub 0.2526 y !y7_c3acub 0.0133 z !z7_c3acub 0.0197 occ AL+3  1 beq  0.52
+		site s8 num_posns 0 x !x8_c3acub 0.2444 y !y8_c3acub 0.2335 z !z8_c3acub 0.0046 occ AL+3  1 beq  0.53
+		site s9 num_posns 0 x !x9_c3acub 0.2777 y !y9_c3acub 0.1241 z !z9_c3acub 0.0103 occ O-2  1 beq  1.17
+		site s10 num_posns 0 x !x10_c3acub 0.4835 y !y10_c3acub 0.1315 z !z10_c3acub 0.2536 occ O-2  1 beq  1.1
+		site s11 num_posns 0 x !x11_c3acub 0.2664 y !y11_c3acub 0.2841 z !z11_c3acub 0.1049 occ O-2  1 beq  1
+		site s12 num_posns 0 x !x12_c3acub 0.235 y !y12_c3acub 0.4047 z !z12_c3acub 0.2921 occ O-2  1 beq  1
+		site s13 num_posns 0 x !x13_c3acub 0.3491 y !y13_c3acub -0.0385 z !z13_c3acub -0.0174 occ O-2  1 beq  1
+		site s14 num_posns 0 x !x14_c3acub 0.1509 y !y14_c3acub -0.0104 z !z14_c3acub -0.0242 occ O-2  1 beq  0.95
+/*C3A-cubic.str_END*/
+
+/*C3S-mono_nishi.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_c3smonni, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_c3smonni, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C3S monoclinic (NISHI)"
+		MVW( 0, 0, 0)
+		space_group 8
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_c3smonni 33.18748
+		b b_c3smonni 7.05051
+		c c_c3smonni 18.56319
+		be be_c3smonni 94.22338
+		site Ca num_posns 0 x  0.0075 y  0 z  0.009 occ Ca+2  0.5 beq  4
+		site Ca num_posns 0 x  0.0024 y  0 z  0.0056 occ Ca+2  0.5 beq  4
+		site Ca num_posns 0 x  0.6672 y  0 z  0.1751 occ Ca+2  0.5 beq  0.1
+		site Ca num_posns 0 x  0.6673 y  0 z  0.1741 occ Ca+2  0.5 beq  0.1
+		site Ca num_posns 0 x  0.324 y  0 z  0.333 occ Ca+2  0.5 beq  1
+		site Ca num_posns 0 x  0.3193 y  0 z  0.3307 occ Ca+2  0.5 beq  1
+		site Ca num_posns 0 x  0.002 y  0 z  0.5044 occ Ca+2  0.5 beq  0.4
+		site Ca num_posns 0 x  -0.0133 y  0 z  0.4971 occ Ca+2  0.5 beq  0.4
+		site Ca num_posns 0 x  0.664 y  0 z  0.6714 occ Ca+2  0.5 beq  0.6
+		site Ca num_posns 0 x  0.6632 y  0 z  0.6697 occ Ca+2  0.5 beq  0.6
+		site Ca num_posns 0 x  0.3428 y  0 z  0.8352 occ Ca+2  0.5 beq  1.6
+		site Ca num_posns 0 x  0.3301 y  0 z  0.8217 occ Ca+2  0.5 beq  1.6
+		site Ca num_posns 0 x  0.5973 y  0 z  -0.0611 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.5911 y  0 z  -0.0691 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.2611 y  0 z  0.0952 occ Ca+2  0.5 beq  2.5
+		site Ca num_posns 0 x  0.2568 y  0 z  0.0864 occ Ca+2  0.5 beq  2.5
+		site Ca num_posns 0 x  -0.0801 y  0 z  0.2667 occ Ca+2  0.5 beq  1.3
+		site Ca num_posns 0 x  -0.081 y  0 z  0.2644 occ Ca+2  0.5 beq  1.3
+		site Ca num_posns 0 x  0.5874 y  0 z  0.439 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.5856 y  0 z  0.4369 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.2575 y  0 z  0.5989 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.2561 y  0 z  0.5976 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  -0.0742 y  0 z  0.7698 occ Ca+2  0.5 beq  0.6
+		site Ca num_posns 0 x  -0.0743 y  0 z  0.7689 occ Ca+2  0.5 beq  0.6
+		site Ca num_posns 0 x  0.7356 y  0 z  -0.1037 occ Ca+2  0.5 beq  0.3
+		site Ca num_posns 0 x  0.7413 y  0 z  -0.0957 occ Ca+2  0.5 beq  0.3
+		site Ca num_posns 0 x  0.4 y  0 z  0.0792 occ Ca+2  0.5 beq  3.9
+		site Ca num_posns 0 x  0.3982 y  0 z  0.0706 occ Ca+2  0.5 beq  3.9
+		site Ca num_posns 0 x  0.0651 y  0 z  0.2486 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.0628 y  0 z  0.2445 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.7286 y  0 z  0.401 occ Ca+2  0.5 beq  1.8
+		site Ca num_posns 0 x  0.7272 y  0 z  0.4042 occ Ca+2  0.5 beq  1.8
+		site Ca num_posns 0 x  0.4004 y  0 z  0.5711 occ Ca+2  0.5 beq  1.4
+		site Ca num_posns 0 x  0.3984 y  0 z  0.5675 occ Ca+2  0.5 beq  1.4
+		site Ca num_posns 0 x  0.0694 y  0 z  0.7491 occ Ca+2  0.5 beq  1.5
+		site Ca num_posns 0 x  0.0647 y  0 z  0.7349 occ Ca+2  0.5 beq  1.5
+		site Ca num_posns 0 x  -0.0846 y  0.2988 z  -0.0926 occ Ca+2  0.5 beq  1
+		site Ca num_posns 0 x  -0.0793 y  0.2677 z  -0.0789 occ Ca+2  0.5 beq  1
+		site Ca num_posns 0 x  0.5799 y  0.3018 z  0.0844 occ Ca+2  0.5 beq  1.6
+		site Ca num_posns 0 x  0.585 y  0.2058 z  0.1013 occ Ca+2  0.5 beq  1.6
+		site Ca num_posns 0 x  0.2411 y  0.2447 z  0.247 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.2459 y  0.2559 z  0.2501 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  -0.0941 y  0.2566 z  0.413 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  -0.0885 y  0.255 z  0.4273 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.5744 y  0.2726 z  0.5851 occ Ca+2  0.5 beq  0.8
+		site Ca num_posns 0 x  0.5784 y  0.2399 z  0.5943 occ Ca+2  0.5 beq  0.8
+		site Ca num_posns 0 x  0.2435 y  0.2491 z  0.7443 occ Ca+2  0.5 beq  0.5
+		site Ca num_posns 0 x  0.2468 y  0.2347 z  0.7554 occ Ca+2  0.5 beq  0.5
+		site Ca num_posns 0 x  0.0052 y  0.2343 z  -0.1598 occ Ca+2  0.5 beq  0.1
+		site Ca num_posns 0 x  0.0051 y  0.2338 z  -0.1501 occ Ca+2  0.5 beq  0.1
+		site Ca num_posns 0 x  0.6704 y  0.2318 z  0.0073 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.6771 y  0.2306 z  0.0144 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.3354 y  0.2257 z  0.1731 occ Ca+2  0.5 beq  0.3
+		site Ca num_posns 0 x  0.3365 y  0.2385 z  0.1853 occ Ca+2  0.5 beq  0.3
+		site Ca num_posns 0 x  -0.0047 y  0.2281 z  0.3417 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.0018 y  0.254 z  0.349 occ Ca+2  0.5 beq  0.2
+		site Ca num_posns 0 x  0.663 y  0.2288 z  0.5097 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.6688 y  0.2292 z  0.5147 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.335 y  0.2592 z  0.675 occ Ca+2  0.5 beq  0.7
+		site Ca num_posns 0 x  0.336 y  0.2165 z  0.6827 occ Ca+2  0.5 beq  0.7
+		site Ca num_posns 0 x  0.8294 y  0.2577 z  -0.0192 occ Ca+2  0.5 beq  1.2
+		site Ca num_posns 0 x  0.8306 y  0.2893 z  -0.0026 occ Ca+2  0.5 beq  1.2
+		site Ca num_posns 0 x  0.484 y  0.2722 z  0.1583 occ Ca+2  0.5 beq  1.8
+		site Ca num_posns 0 x  0.4905 y  0.2303 z  0.1584 occ Ca+2  0.5 beq  1.8
+		site Ca num_posns 0 x  0.1468 y  0.2503 z  0.3304 occ Ca+2  0.5 beq  1.4
+		site Ca num_posns 0 x  0.1562 y  0.29 z  0.332 occ Ca+2  0.5 beq  1.4
+		site Ca num_posns 0 x  0.8167 y  0.2762 z  0.4875 occ Ca+2  0.5 beq  0.6
+		site Ca num_posns 0 x  0.8224 y  0.252 z  0.4918 occ Ca+2  0.5 beq  0.6
+		site Ca num_posns 0 x  0.4941 y  0.2854 z  0.6505 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.4893 y  0.2759 z  0.6649 occ Ca+2  0.5 beq  0.9
+		site Ca num_posns 0 x  0.1569 y  0.2749 z  0.8198 occ Ca+2  0.5 beq  0.1
+		site Ca num_posns 0 x  0.1643 y  0.2675 z  0.8283 occ Ca+2  0.5 beq  0.1
+		site Si num_posns 0 x  0.0833 y  0 z  0.4288 occ Si+4  1 beq  2.1
+		site Si num_posns 0 x  0.2384 y  0 z  -0.0838 occ Si+4  1 beq  0.3
+		site Si num_posns 0 x  0.4292 y  0 z  0.746 occ Si+4  1 beq  1.5
+		site Si num_posns 0 x  0.5699 y  0 z  0.7506 occ Si+4  1 beq  0.2
+		site Si num_posns 0 x  -0.0943 y  0 z  0.0741 occ Si+4  1 beq  0.1
+		site Si num_posns 0 x  -0.1015 y  0 z  0.5918 occ Si+4  1 beq  1.5
+		site Si num_posns 0 x  0.0966 y  0 z  -0.0851 occ Si+4  1 beq  0.5
+		site Si num_posns 0 x  0.1637 y  0 z  0.1591 occ Si+4  1 beq  1
+		site Si num_posns 0 x  0.1628 y  0 z  0.6629 occ Si+4  1 beq  0.3
+		site Si num_posns 0 x  0.234 y  0 z  0.4118 occ Si+4  1 beq  3.8
+		site Si num_posns 0 x  0.4214 y  0 z  0.2509 occ Si+4  1 beq  1.5
+		site Si num_posns 0 x  0.5008 y  0 z  0.0039 occ Si+4  1 beq  0.7
+		site Si num_posns 0 x  0.4975 y  0 z  0.5004 occ Si+4  1 beq  2.5
+		site Si num_posns 0 x  0.5682 y  0 z  0.2442 occ Si+4  1 beq  0.3
+		site Si num_posns 0 x  0.76 y  0 z  0.0882 occ Si+4  1 beq  0.2
+		site Si num_posns 0 x  0.7563 y  0 z  0.5803 occ Si+4  1 beq  0.2
+		site Si num_posns 0 x  -0.1748 y  0 z  0.3338 occ Si+4  1 beq  0.4
+		site Si num_posns 0 x  -0.1693 y  0 z  -0.1575 occ Si+4  1 beq  0.2
+		site O num_posns 0 x  0.99 y  0 z  0.245 occ O-2  0.5 beq  4.2
+		site O num_posns 0 x  0.988 y  0 z  0.245 occ O-2  0.5 beq  4.2
+		site O num_posns 0 x  0.038 y  0 z  0.119 occ O-2  0.5 beq  3.8
+		site O num_posns 0 x  0.052 y  0 z  0.124 occ O-2  0.5 beq  3.8
+		site O num_posns 0 x  0.03 y  0 z  0.599 occ O-2  0.5 beq  2.8
+		site O num_posns 0 x  0.038 y  0 z  0.61 occ O-2  0.5 beq  2.8
+		site O num_posns 0 x  -0.004 y  0 z  0.753 occ O-2  0.5 beq  1
+		site O num_posns 0 x  -0.005 y  0 z  0.754 occ O-2  0.5 beq  1
+		site O num_posns 0 x  0.372 y  0 z  -0.077 occ O-2  0.5 beq  2.8
+		site O num_posns 0 x  0.373 y  0 z  -0.047 occ O-2  0.5 beq  2.8
+		site O num_posns 0 x  0.329 y  0 z  0.075 occ O-2  0.5 beq  4.1
+		site O num_posns 0 x  0.331 y  0 z  0.077 occ O-2  0.5 beq  4.1
+		site O num_posns 0 x  0.289 y  0 z  0.211 occ O-2  0.5 beq  2.7
+		site O num_posns 0 x  0.289 y  0 z  0.223 occ O-2  0.5 beq  2.7
+		site O num_posns 0 x  0.362 y  0 z  0.441 occ O-2  0.5 beq  0.8
+		site O num_posns 0 x  0.362 y  0 z  0.442 occ O-2  0.5 beq  0.8
+		site O num_posns 0 x  0.325 y  0 z  0.583 occ O-2  0.5 beq  0.1
+		site O num_posns 0 x  0.334 y  0 z  0.595 occ O-2  0.5 beq  0.1
+		site O num_posns 0 x  0.282 y  0 z  0.724 occ O-2  0.5 beq  1.4
+		site O num_posns 0 x  0.293 y  0 z  0.732 occ O-2  0.5 beq  1.4
+		site O num_posns 0 x  0.666 y  0 z  -0.093 occ O-2  0.5 beq  0.5
+		site O num_posns 0 x  0.675 y  0 z  -0.081 occ O-2  0.5 beq  0.5
+		site O num_posns 0 x  0.627 y  0 z  0.049 occ O-2  0.5 beq  1.5
+		site O num_posns 0 x  0.634 y  0 z  0.067 occ O-2  0.5 beq  1.5
+		site O num_posns 0 x  0.706 y  0 z  0.285 occ O-2  0.5 beq  2.6
+		site O num_posns 0 x  0.704 y  0 z  0.29 occ O-2  0.5 beq  2.6
+		site O num_posns 0 x  0.648 y  0 z  0.421 occ O-2  0.5 beq  2.1
+		site O num_posns 0 x  0.655 y  0 z  0.414 occ O-2  0.5 beq  2.1
+		site O num_posns 0 x  0.608 y  0 z  0.554 occ O-2  0.5 beq  1.5
+		site O num_posns 0 x  0.622 y  0 z  0.567 occ O-2  0.5 beq  1.5
+		site O num_posns 0 x  0.705 y  0 z  0.763 occ O-2  0.5 beq  1.4
+		site O num_posns 0 x  0.709 y  0 z  0.771 occ O-2  0.5 beq  1.4
+		site O num_posns 0 x  0.949 y  0 z  0.376 occ O-2  0.5 beq  1.5
+		site O num_posns 0 x  0.957 y  0 z  0.401 occ O-2  0.5 beq  1.5
+		site O num_posns 0 x  0.96 y  0 z  0.897 occ O-2  0.5 beq  0.8
+		site O num_posns 0 x  0.965 y  0 z  0.907 occ O-2  0.5 beq  0.8
+		site O num_posns 0 x  0.111 y  0 z  0.357 occ O-2  1 beq  8.1
+		site O num_posns 0 x  0.035 y  0 z  0.408 occ O-2  1 beq  4.2
+		site O num_posns 0 x  0.096 y  0.187 z  0.474 occ O-2  1 beq  3.2
+		site O num_posns 0 x  0.215 y  0 z  -0.011 occ O-2  1 beq  0.5
+		site O num_posns 0 x  0.286 y  0 z  -0.063 occ O-2  1 beq  2.9
+		site O num_posns 0 x  0.226 y  0.184 z  -0.133 occ O-2  1 beq  2.1
+		site O num_posns 0 x  0.45 y  0 z  0.668 occ O-2  1 beq  1.7
+		site O num_posns 0 x  0.379 y  0 z  0.73 occ O-2  1 beq  2.3
+		site O num_posns 0 x  0.443 y  0.183 z  0.791 occ O-2  1 beq  1.6
+		site O num_posns 0 x  0.549 y  0 z  0.83 occ O-2  1 beq  2.1
+		site O num_posns 0 x  0.616 y  0 z  0.767 occ O-2  1 beq  1.5
+		site O num_posns 0 x  0.555 y  0.188 z  0.704 occ O-2  1 beq  2
+		site O num_posns 0 x  -0.118 y  0 z  0.149 occ O-2  1 beq  1.5
+		site O num_posns 0 x  -0.044 y  0 z  0.093 occ O-2  1 beq  1.2
+		site O num_posns 0 x  -0.107 y  0.187 z  0.027 occ O-2  1 beq  2.7
+		site O num_posns 0 x  -0.123 y  0 z  0.669 occ O-2  1 beq  4.7
+		site O num_posns 0 x  -0.054 y  0 z  0.608 occ O-2  1 beq  3.8
+		site O num_posns 0 x  -0.117 y  0.186 z  0.542 occ O-2  1 beq  2.3
+		site O num_posns 0 x  0.119 y  0 z  -0.161 occ O-2  0.68 beq  0.7
+		site O num_posns 0 x  0.048 y  0 z  -0.103 occ O-2  0.68 beq  1.6
+		site O num_posns 0 x  0.11 y  0.189 z  -0.038 occ O-2  0.68 beq  3.9
+		site O num_posns 0 x  0.074 y  0 z  -0.009 occ O-2  0.32 beq  4
+		site O num_posns 0 x  0.055 y  0 z  -0.138 occ O-2  0.32 beq  2
+		site O num_posns 0 x =1/8; :  0.125 y  0.189 z  -0.073 occ O-2  0.32 beq  1.9
+		site O num_posns 0 x  0.141 y  0.05 z  0.08 occ O-2  0.5 beq  3.5
+		site O num_posns 0 x  0.134 y  -0.123 z  0.208 occ O-2  0.5 beq  3.5
+		site O num_posns 0 x  0.205 y  -0.123 z  0.151 occ O-2  0.5 beq  3.5
+		site O num_posns 0 x  0.176 y  0.197 z  0.202 occ O-2  0.5 beq  3.5
+		site O num_posns 0 x  0.185 y  0 z  0.587 occ O-2  0.59 beq  1.3
+		site O num_posns 0 x  0.114 y  0 z  0.645 occ O-2  0.59 beq  1.3
+		site O num_posns 0 x  0.176 y  0.189 z  0.71 occ O-2  0.59 beq  1.3
+		site O num_posns 0 x  0.14 y  0 z  0.739 occ O-2  0.32 beq  1.3
+		site O num_posns 0 x  0.212 y  0 z  0.681 occ O-2  0.32 beq  1.3
+		site O num_posns 0 x  0.141 y  0.189 z  0.627 occ O-2  0.32 beq  1.3
+		site O num_posns 0 x  0.14 y  0.05 z  0.584 occ O-2  0.045 beq  1.3
+		site O num_posns 0 x  0.133 y  -0.123 z  0.712 occ O-2  0.045 beq  1.3
+		site O num_posns 0 x  0.204 y  -0.123 z  0.655 occ O-2  0.045 beq  1.3
+		site O num_posns 0 x  0.175 y  0.197 z  0.706 occ O-2  0.045 beq  1.3
+		site O num_posns 0 x  0.255 y  0 z  0.335 occ O-2  0.59 beq  11
+		site O num_posns 0 x  0.268 y  0 z  0.48 occ O-2  0.59 beq  2.7
+		site O num_posns 0 x  0.206 y  0.189 z  0.415 occ O-2  0.59 beq  2
+		site O num_posns 0 x  0.212 y  0 z  0.487 occ O-2  0.41 beq  6
+		site O num_posns 0 x  0.283 y  0 z  0.43 occ O-2  0.41 beq  2
+		site O num_posns 0 x  0.221 y  0.189 z  0.365 occ O-2  0.41 beq  3
+		site O num_posns 0 x  0.444 y  0 z  0.175 occ O-2  0.57 beq  5
+		site O num_posns 0 x  0.372 y  0 z  0.233 occ O-2  0.57 beq  3
+		site O num_posns 0 x  0.435 y  0.189 z  0.298 occ O-2  0.57 beq  3
+		site O num_posns 0 x  0.399 y  0 z  0.327 occ O-2  0.43 beq  5
+		site O num_posns 0 x  0.382 y  0 z  0.193 occ O-2  0.43 beq  5
+		site O num_posns 0 x  0.45 y  0.189 z  0.257 occ O-2  0.43 beq  2.3
+		site O num_posns 0 x  0.478 y  0 z  0.08 occ O-2  0.43 beq  6
+		site O num_posns 0 x  0.55 y  0 z  0.022 occ O-2  0.43 beq  6
+		site O num_posns 0 x  0.487 y  0.189 z  -0.043 occ O-2  0.43 beq  6
+		site O num_posns 0 x  0.478 y  0.05 z  -0.075 occ O-2  0.285 beq  6
+		site O num_posns 0 x  0.466 y  -0.123 z  0.04 occ O-2  0.285 beq  6
+		site O num_posns 0 x  0.542 y  -0.123 z  -0.004 occ O-2  0.285 beq  6
+		site O num_posns 0 x  0.513 y  0.197 z  0.047 occ O-2  0.285 beq  6
+		site O num_posns 0 x  0.52 y  0 z  0.425 occ O-2  0.37 beq  3.4
+		site O num_posns 0 x  0.448 y  0 z  0.483 occ O-2  0.37 beq  3.4
+		site O num_posns 0 x  0.511 y  0.189 z  0.547 occ O-2  0.37 beq  3.4
+		site O num_posns 0 x  0.52 y  0.05 z  0.58 occ O-2  0.315 beq  3.4
+		site O num_posns 0 x  0.526 y  -0.128 z  0.451 occ O-2  0.315 beq  3.4
+		site O num_posns 0 x  0.456 y  -0.123 z  0.508 occ O-2  0.315 beq  3.4
+		site O num_posns 0 x  0.481 y  0.197 z  0.463 occ O-2  0.315 beq  3.4
+		site O num_posns 0 x  0.591 y  0 z  0.169 occ O-2  0.37 beq  16
+		site O num_posns 0 x  0.602 y  0 z  0.312 occ O-2  0.37 beq  12
+		site O num_posns 0 x  0.54 y  0.189 z  0.248 occ O-2  0.37 beq  2.4
+		site O num_posns 0 x  0.546 y  0 z  0.32 occ O-2  0.63 beq  12
+		site O num_posns 0 x  0.617 y  0 z  0.262 occ O-2  0.63 beq  6
+		site O num_posns 0 x  0.555 y  0.189 z  0.197 occ O-2  0.63 beq  16
+		site O num_posns 0 x  0.782 y  0 z  0.169 occ O-2  0.22 beq  11
+		site O num_posns 0 x  0.711 y  0 z  0.312 occ O-2  0.22 beq  4
+		site O num_posns 0 x  0.773 y  0.189 z  0.248 occ O-2  0.22 beq  2
+		site O num_posns 0 x  0.738 y  0 z  0.164 occ O-2  0.78 beq  6
+		site O num_posns 0 x  0.726 y  0 z  0.02 occ O-2  0.78 beq  2.4
+		site O num_posns 0 x  0.788 y  0.189 z  0.085 occ O-2  0.78 beq  3.3
+		site O num_posns 0 x  0.778 y  0 z  0.505 occ O-2  0.93 beq  0.4
+		site O num_posns 0 x  0.707 y  0 z  0.565 occ O-2  0.93 beq  0.5
+		site O num_posns 0 x  0.769 y  0.191 z  0.626 occ O-2  0.93 beq  1.4
+		site O num_posns 0 x  0.734 y  0 z  0.656 occ O-2  0.07 beq  0.8
+		site O num_posns 0 x  0.717 y  0 z  0.522 occ O-2  0.07 beq  0.8
+		site O num_posns 0 x  0.787 y  0.18 z  0.594 occ O-2  0.07 beq  0.8
+		site O num_posns 0 x  -0.197 y  0 z  0.409 occ O-2  0.07 beq  4.6
+		site O num_posns 0 x  -0.126 y  0 z  0.352 occ O-2  0.07 beq  4.6
+		site O num_posns 0 x  -0.188 y  0.189 z  0.287 occ O-2  0.07 beq  4.6
+		site O num_posns 0 x  -0.197 y  0.05 z  0.255 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.204 y  -0.123 z  0.383 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.134 y  -0.123 z  0.326 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.163 y  0.197 z  0.377 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.152 y  0.05 z  0.413 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.145 y  -0.123 z  0.285 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.216 y  -0.123 z  0.342 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.187 y  0.197 z  0.291 occ O-2  0.2325 beq  4.6
+		site O num_posns 0 x  -0.192 y  0 z  -0.082 occ O-2  0.78 beq  2
+		site O num_posns 0 x  -0.12 y  0 z  -0.14 occ O-2  0.78 beq  2
+		site O num_posns 0 x  -0.183 y  0.189 z  -0.204 occ O-2  0.78 beq  2
+		site O num_posns 0 x  -0.192 y  0.05 z  -0.237 occ O-2  0.11 beq  2
+		site O num_posns 0 x  -0.199 y  -0.123 z  -0.108 occ O-2  0.11 beq  2
+		site O num_posns 0 x  -0.128 y  -0.123 z  -0.165 occ O-2  0.11 beq  2
+		site O num_posns 0 x  -0.158 y  0.21 z  -1 occ O-2  0.11 beq  2
+/*C3S-mono_nishi.str_END*/
+
+/*CaClOH.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 21.32939361, 0.89, 29.81867849,,,csl_CaClOH, 1000 min =50.0; max =2000.0;)
+		r_bragg  3.342089997
+		phase_MAC 117.2143075
+		phase_name "CaClOH"
+		MVW( 183.0608, 128.0586502, 16.50892349)
+		space_group P63mc
+		scale sc_CaClOH 0.0008432096958
+		Phase_LAC_1_on_cm( 278.2380086)
+		Phase_Density_g_on_cm3( 2.373754659)
+		site Ca1 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.68 occ Ca+2  1 beq  1
+		site Cl1 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z =0; :  0 occ Cl-1  1 beq  1
+		site O1 num_posns 2 x =0; :  0 y =0; :  0 z  0.237 occ O-2  1 beq  1
+		Hexagonal(a_CaClOH 3.860404862 min =3.844; max =3.884;,c_CaClOH 9.922305171_LIMIT_MAX_9.924 min =9.884; max =9.924;)
+/*CaClOH.str_END*/
+
+/*Calcite.str_START*/
+STR(167) ' 
+	phase_name "Calcite"
+	' Formula "Ca C O3"
+	' Group "Carbonates"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 50586
+	a a_calcite 4.9900 min 4.9500 max 5.0200
+	b =a_calcite;
+	c c_calcite 17.0610 min 16.9000 max 17.1000
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                =0;  y                =0;  z                =0;  occ CA+2 1.00  beq 0.950
+	site s2   x                =0;  y                =0;  z              =1/4;  occ C  1.00  beq 0.900
+	site s3   x !x3_calcite 0.2570  y                =0;  z              =1/4;  occ O  1.00  beq 0.940
+
+	CS(cs_calcite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_calcite, 6)
+	PO(, 1,, 1 0 4)
+	scale sc_calcite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Calcite.str_END*/
+
+/*Calcium chloride hydroxide.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 56.61758444, 0.89, 79.15187737,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  3.329268542
+		phase_MAC 117.2143075
+		phase_name "Calcium Chloride Hydroxide"
+		MVW( 183.0608, 129.0536904, 1.939943025)
+		space_group P63mc
+		scale @ 0.0001734271567
+		Phase_LAC_1_on_cm( 276.0927153)
+		Phase_Density_g_on_cm3( 2.355452343)
+		Hexagonal(@ 3.904039358,@ 9.777130723)
+		site Ca1 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.68 occ Ca+2  1 beq  1
+		site O1 num_posns 2 x  0 y  0 z  0.237 occ O-2  1 beq  1_LIMIT_MIN_-10
+		site Cl1 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0 occ Cl-1  1 beq  1
+/*Calcium chloride hydroxide.str_END*/
+
+/*Chlorite-p-mod.str_START*/
+
+	str 
+	CS(cs_chlorite, 1000 min =50.0; max =2000.0;)
+		r_bragg  0
+		phase_name "Chlorite IIb"
+		MVW( 0, 0, 0)
+		space_group 12
+		scale sc_chlorite 0.001
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_chlorite 5.35 min =5.1900; max =5.5100;
+		b b_chlorite 9.267 min =8.9890; max =9.5450;
+		c c_chlorite 14.27 min =13.8420; max =14.6980;
+		be be_chlorite 96.3
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ MG+2 =(1-pchl); :  1 beq  1 occ FE+2 pchl 0.4 max =1.00; beq  1
+		site s2 num_posns 0 x =0; :  0 y !y2_chlorite 0.6678 z =0; :  0 occ MG+2 =(1-fe); :  1 beq  1 occ FE+2 fe 0.35 max =1.00; beq  1
+		site s3 num_posns 0 x !x3_chlorite 0.315 y =0; :  0 z !z3_chlorite 0.9257 occ O-2  1 beq  1
+		site s4 num_posns 0 x !x4_chlorite 0.189 y !y4_chlorite 0.1667 z !z4_chlorite 0.0774 occ O-2  1 beq  1
+		site s5 num_posns 0 x !x5_chlorite 0.2248 y !y5_chlorite 0.1669 z !z5_chlorite 0.1937 occ SI+4  0.66 beq  1 occ AL+3  0.34 beq  1
+		site s6 num_posns 0 x !x6_chlorite 0.803 y =0; :  0 z !z6_chlorite 0.7643 occ O-2  1 beq  1
+		site s7 num_posns 0 x !x7_chlorite 0.511 y !y7_chlorite 0.228 z !z7_chlorite 0.2363 occ O-2  1 beq  1
+		site s8 num_posns 0 x !x8_chlorite 0.828 y =0; :  0 z !z8_chlorite 0.5711 occ O-2  1 beq  1
+		site s9 num_posns 0 x !x9_chlorite 0.131 y !y9_chlorite 0.3463 z !z9_chlorite 0.4285 occ O-2  1 beq  1
+		site s10 num_posns 0 x =0; :  0 y !y10_chlorite 0.8336 z =1/2; :  0.5 occ MG+2 =(1-s); :  1 beq  1 occ FE+2 s 0.32 max =1.00; beq  1
+		site s11 num_posns 0 x =0; :  0 y =1/2; :  0.5 z =1/2; :  0.5 occ AL+3  0.96 beq  1
+		site s12 num_posns 0 x !x12_chlorite 0.2887 y =0; :  0 z !z12_chlorite 0.8552 occ H  1 beq  2
+		site s13 num_posns 0 x !x13_chlorite 0.8377 y =0; :  0 z !z13_chlorite 0.6339 occ H  1 beq  2
+		site s14 num_posns 0 x !x14_chlorite 0.1586 y !y14_chlorite 0.3359 z !z14_chlorite 0.3698 occ H  1 beq  2
+		Preferred_Orientation(, 1,, 0 0 1)
+/*Chlorite-p-mod.str_END*/
+
+/*Corundum as standard.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 0.89, 185.3549398, 0.89, 291.1548585,,,cs_corundumori, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0.0002314029663,@, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  4.765212997
+		phase_MAC 31.59020452
+		phase_name "Corundum"
+		MVW( 611.767656, 255.1140227, 24.00235828)
+		corrected_weight_percent  20
+		spiked_phase_measured_weight_percent  20
+		space_group 167
+		scale sc_corundumori 0.0003293314556
+		Phase_LAC_1_on_cm( 125.792287)
+		Phase_Density_g_on_cm3( 3.982002931)
+		Trigonal(a_corundumori 4.760913223 min =4.7400; max =4.7800;,c_corundumori 12.99640294 min =12.9000; max =13.1000;)
+		site s1 num_posns 12 x =0; :  0 y =0; :  0 z !z1_corundumori 0.3522 occ AL+3  1 beq  0.32
+		site s2 num_posns 18 x !x2_corundumori 0.6937 y =0; :  0 z =1/4; :  0.25 occ O-2  1 beq  0.33
+		Preferred_Orientation(@, 1.051618606,, 1 0 4)
+/*Corundum as standard.str_END*/
+
+/*Crishigh.str_START*/
+STR(227:2) ' F4_1/d-32/m
+	phase_name "Cristobalite high"
+	' Formula "Si O2"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 760931
+	a a_crishigh 7.1670 min 7.0940 max 7.2380
+	b =a_crishigh;
+	c =a_crishigh;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =1/8;  y               =1/8;  z               =1/8;  occ SI+4 1.00  beq 3.330
+	site s2   x                 =0;  y !y2_crishigh 0.4556  z  =-y2_crishigh;  occ O  0.17  beq 3.490
+
+	CS(cs_crishigh, 1000 min =50.0; max =2000.0;)
+'	Strain(!st_crishigh, 0.0001 min 0 max 0.010)
+'	PO_Spherical_Harmonics(sh_crishigh, 6)
+	PO(, 1,, 1 1 -1)
+	scale sc_crishigh 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Crishigh.str_END*/
+
+/*Dolomite.str_START*/
+STR(148) ' 
+	phase_name "Dolomite"
+	' Formula "Ca Mg (C O3)2"
+	' Group "Carbonate"
+	' SubGroup "Calcite"
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 360426
+	a a_dolomiteori 4.8120 min 4.8000 max 4.8800
+	b =a_dolomiteori;
+	c c_dolomiteori 16.0200 min 15.9000 max 16.4200
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                    =0;  y                    =0;  z                    =0;  occ CA+2 1.00  beq 0.700
+	site s2   x                    =0;  y                    =0;  z                  =1/2;  occ MG+2 1.00  beq 0.500
+	site s3   x                    =0;  y                    =0;  z !z3_dolomiteori 0.2429  occ C  1.00  beq 0.700
+	site s4   x !x4_dolomiteori 0.2485  y !y4_dolomiteori -0.0343  z !z4_dolomiteori 0.2439  occ O  1.00  beq 0.800
+
+	CS(cs_dolomiteori, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_dolomiteori, 4)
+	PO(, 1,, 1 0 4)
+	scale sc_dolomiteori 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Dolomite.str_END*/
+
+/*Ettringite-from-CIF-good.str_START*/
+
+	str 
+	CS(@, 1000 min =50.0; max =2000.0;)
+		r_bragg  4.053857269
+		phase_name "Ettringite"
+		MVW( 2546.238852, 2337.360118, 0.5824049679)
+		scale @ 3.687787089e-007
+		space_group P31c
+		Phase_LAC_1_on_cm( 88.29545717)
+		Phase_Density_g_on_cm3( 1.808934764)
+		Trigonal(@ 11.21809099,@ 21.44653232)
+		site Ca1 num_posns 6 x  0.01728 y  0.81739 z  0.87354 occ Ca+2  1 beq  0.126330936
+		site Ca2 num_posns 6 x  0.99562 y  0.18454 z  0.12035 occ Ca+2  1 beq  0.418471227
+		site Al1 num_posns 2 x  0 y  0 z  0 occ Al+3  1 beq  0.686924466
+		site Al2 num_posns 2 x  0 y  0 z  0.25 occ Al+3  1 beq  1.14487411
+		site S1 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.4861 occ S  1 beq  0.26845324
+		site S2 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.75133 occ S  1 beq  0.0789568352
+		site S3 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.00518 occ S  1 beq  0.244766189
+		site O1 num_posns 6 x  0.98382 y  0.12132 z  0.94179 occ O-2  1 beq  0.0142122303
+		site H1 num_posns 6 x  0.98854 y  0.20257 z  0.96238 occ H  1 beq  1.71336332
+		site O2 num_posns 6 x  0.98842 y  0.86144 z  0.04767 occ O-2  1 beq  0.120803958
+		site H2 num_posns 6 x  0.01959 y  0.80734 z  0.0303 occ H  1 beq  0.489532378
+		site O3 num_posns 6 x  -0.00939 y  0.12449 z  0.80253 occ O-2  1 beq  0.0639550365
+		site H3 num_posns 6 x  -0.0013 y  0.20769 z  0.78399 occ H  1 beq  2.40028779
+		site O4 num_posns 6 x  0.00098 y  0.86182 z  0.18962 occ O-2  1 beq  0.100275181
+		site H4 num_posns 6 x  0.00302 y  0.79409 z  0.21801 occ H  1 beq  0.465845328
+		site O5 num_posns 6 x  -0.01163 y  0.33879 z  0.04562 occ O-2  1 beq  1.13697843
+		site H5a num_posns 6 x  0.06576 y  0.4125 z  0.02238 occ H  1 beq  1.44491008
+		site H5b num_posns 6 x  -0.08851 y  0.35436 z  0.03612 occ H  1 beq  2.14762592
+		site O6 num_posns 6 x  0.00925 y  0.66069 z  0.95641 occ O-2  1 beq  0.505323745
+		site H6a num_posns 6 x  -0.08154 y  0.58617 z  0.96669 occ H  1 beq  1.01064749
+		site H6b num_posns 6 x  0.08387 y  0.643 z  0.96162 occ H  1 beq  1.72915469
+		site O7 num_posns 6 x  0.0039 y  0.34609 z  0.20013 occ O-2  1 beq  0.69482015
+		site H7a num_posns 6 x  0.07465 y  0.40037 z  0.22763 occ H  1 beq  2.36870506
+		site H7b num_posns 6 x  -0.07236 y  0.35908 z  0.21121 occ H  1 beq  2.00550361
+		site O8 num_posns 6 x  0.9967 y  0.65662 z  0.78884 occ O-2  1 beq  0.378992809
+		site H8a num_posns 6 x  0.914 y  0.5666 z  0.78262 occ H  1 beq  1.76863311
+		site H8b num_posns 6 x  0.06053 y  0.62622 z  0.78286 occ H  1 beq  2.47924463
+		site O9 num_posns 6 x  0.27089 y  0.40715 z  0.62005 occ O-2  1 beq  0.331618708
+		site H9a num_posns 6 x  0.28372 y  0.47302 z  0.65001 occ H  1 beq  4.83215831
+		site H9b num_posns 6 x  0.29146 y  0.46375 z  0.57734 occ H  1 beq  2.8266547
+		site O10 num_posns 6 x  0.75483 y  0.60037 z  0.37292 occ O-2  1 beq  2.00550361
+		site H10a num_posns 6 x  0.70681 y  0.53234 z  0.33675 occ H  1 beq  2.71611513
+		site H10b num_posns 6 x  0.70225 y  0.53575 z  0.40751 occ H  1 beq  0.860629504
+		site O11 num_posns 6 x  0.25358 y  0.4107 z  0.13011 occ O-2  1 beq  0.979064757
+		site H11a num_posns 6 x  0.31831 y  0.37355 z  0.1287 occ H  1 beq  4.23208637
+		site H11b num_posns 6 x  0.28293 y  0.49551 z  0.1047 occ H  1 beq  0.307931657
+		site O12 num_posns 6 x  0.75758 y  0.5899 z  0.86986 occ O-2  1 beq  0.844838137
+		site H12a num_posns 6 x  0.7058 y  0.64553 z  0.87646 occ H  1 beq  2.24237412
+		site H12b num_posns 6 x  0.68462 y  0.49216 z  0.85504 occ H  1 beq  5.4164389
+		site O13 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.42314 occ O-2  1 beq  1.64230217
+		site O14 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.81909 occ O-2  1 beq  3.67149284
+		site O15 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.06442 occ O-2  1 beq  1.51597124
+		site O16 num_posns 6 x  0.19724 y  0.62973 z  0.51087 occ O-2  1 beq  0.836942453
+		site O17 num_posns 6 x  0.1973 y  0.63822 z  0.71742 occ O-2  1 beq  1.87917268
+		site O18 num_posns 6 x  0.18695 y  0.56856 z  -0.01993 occ O-2  1 beq  0.544802163
+		site O19 num_posns 6 x  0.19655 y  0.62933 z  0.23225 occ O-2  1 beq  0.0126330936
+		site H19a num_posns 6 x  0.27865 y  0.63321 z  0.24555 occ H  1 beq  2.45555757
+		site H19b num_posns 6 x  0.21255 y  0.72514 z  0.20972 occ H  1 beq  2.18710434
+		Preferred_Orientation(, 1,, 0 1 0)
+/*Ettringite-from-CIF-good.str_END*/
+
+/*Gehlenite.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_gehlenite, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_gehlenite, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C2AS Gehlenite"
+		MVW( 0, 0, 0)
+		space_group 113
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		Tetragonal(a_gehlenite 7.68 min =7.6000; max =7.7540;,c_gehlenite 5.06 min =5.0080; max =5.1100;)
+		site s1 num_posns 0 x !x1_gehlenite 0.8387 y =x1_gehlenite+1/2; :  0 z !z1_gehlenite 0.4884 occ CA+2  1 beq  1.2
+		site s2 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ AL+3  1 beq  0.75
+		site s3 num_posns 0 x !x3_gehlenite 0.6431 y =x3_gehlenite+1/2; :  0 z !z3_gehlenite 0.0437 occ AL+3  0.5 beq  0.85 occ SI+4  0.5 beq  0.85
+		site s4 num_posns 0 x =0; :  0 y =1/2; :  0.5 z !z4_gehlenite 0.8233 occ O-2  1 beq  0.77
+		site s5 num_posns 0 x !x5_gehlenite 0.643 y =x5_gehlenite+1/2; :  0 z !z5_gehlenite 0.7165 occ O-2  1 beq  0.46
+		site s6 num_posns 0 x !x6_gehlenite 0.0877 y !y6_gehlenite 0.1673 z !z6_gehlenite 0.8072 occ O-2  1 beq  1.11
+/*Gehlenite.str_END*/
+
+/*Gibbsite.str_START*/
+STR(P12_1/n1) ' P12_1/n1
+	phase_name "Gibbsite"
+	' Formula "Al (OH)3"
+	' Group "Hydroxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 330018
+	a a_gibbsite 8.6850 min 8.6000 max 8.7500
+	b b_gibbsite 5.0770 min 5.0000 max 5.2000
+	c c_gibbsite 9.7360 min 9.6000 max 9.8000
+	al 90.000
+	be be_gibbsite 94.5000 min 94.0000 max 95.0000
+	ga 90.000
+
+	site s1   x !x1_gibbsite 0.1679  y !y1_gibbsite 0.5295  z !z1_gibbsite -0.0023  occ AL+3 1.00  beq 0.560
+	site s2   x !x2_gibbsite 0.3344  y !y2_gibbsite 0.0236  z !z2_gibbsite -0.0024  occ AL+3 1.00  beq 0.570
+	site s3   x !x3_gibbsite 0.1779  y !y3_gibbsite 0.2183  z !z3_gibbsite -0.1115  occ O-2  1.00  beq 0.780
+	site s4   x !x4_gibbsite 0.6692  y !y4_gibbsite 0.6558  z !z4_gibbsite -0.1023  occ O-2  1.00  beq 0.790
+	site s5   x !x5_gibbsite 0.4984  y !y5_gibbsite 0.1315  z !z5_gibbsite -0.1044  occ O-2  1.00  beq 0.780
+	site s6   x !x6_gibbsite -0.0205  y !y6_gibbsite 0.6293  z !z6_gibbsite -0.1068  occ O-2  1.00  beq 0.800
+	site s7   x !x7_gibbsite 0.2971  y !y7_gibbsite 0.7178  z !z7_gibbsite -0.1052  occ O-2  1.00  beq 0.810
+	site s8   x !x8_gibbsite 0.8194  y !y8_gibbsite 0.1491  z !z8_gibbsite -0.1015  occ O-2  1.00  beq 0.760
+	site s9   x !x9_gibbsite 0.1010  y !y9_gibbsite 0.1520  z !z9_gibbsite -0.1240  occ H  1.00  beq 1.000
+	site s10  x !x10_gibbsite 0.5950  y !y10_gibbsite 0.5730  z !z10_gibbsite -0.0980  occ H  1.00  beq 1.000
+	site s11  x !x11_gibbsite 0.5030  y !y11_gibbsite 0.1370  z !z11_gibbsite -0.1900  occ H  1.00  beq 1.000
+	site s12  x !x12_gibbsite -0.0290  y !y12_gibbsite 0.8010  z !z12_gibbsite -0.1070  occ H  1.00  beq 1.000
+	site s13  x !x13_gibbsite 0.2930  y !y13_gibbsite 0.7240  z !z13_gibbsite -0.1960  occ H  1.00  beq 1.000
+	site s14  x !x14_gibbsite 0.8150  y !y14_gibbsite 0.1600  z !z14_gibbsite -0.1900  occ H  1.00  beq 1.000
+
+	CS(cs_gibbsite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_gibbsite, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_gibbsite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Gibbsite.str_END*/
+
+/*Gypsum.str_START*/
+STR(I12/a1) ' I12/a1
+	phase_name "Gypsum"
+	' Formula "Ca S O4 (H2 O)2"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 360432
+	a a_gypsum 6.5220 min 6.4500 max 6.5800
+	b b_gypsum 15.2020 min 15.1000 max 15.3000
+	c c_gypsum 5.6790 min 5.6000 max 5.7500
+	al 90.000
+	be be_gypsum 118.4000 min 118.0000 max 119.0000
+	ga 90.000
+
+	site s1   x                =1/4;  y !y1_gypsum 0.4213  z                  =0;  occ CA+2 1.00  beq 0.880
+	site s2   x                =1/4;  y !y2_gypsum 0.9216  z                  =0;  occ S  1.00  beq 0.660
+	site s3   x !x3_gypsum 0.5505  y !y3_gypsum 0.1319  z !z3_gypsum 0.9632  occ O-2  1.00  beq 1.490
+	site s4   x !x4_gypsum 0.6671  y !y4_gypsum 0.0223  z !z4_gypsum 0.7582  occ O-2  1.00  beq 1.410
+	site s5   x !x5_gypsum 0.4588  y !y5_gypsum 0.1821  z !z5_gypsum 0.3796  occ O-2  1.00  beq 2.190
+
+	CS(cs_gypsum, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_gypsum, 6)
+	PO(, 1,, 0 1 0)
+	scale sc_gypsum 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Gypsum.str_END*/
+
+/*Hematite.str_START*/
+STR(167) ' 
+	phase_name "Hematite"
+	' Formula "Fe2 O3"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 330664
+	a a_hematite 5.0370 min 5.0100 max 5.0700
+	b =a_hematite;
+	c c_hematite 13.7710 min 13.7000 max 13.8300
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                 =0;  y                 =0;  z !z1_hematite 0.3553  occ FE+3 1.00  beq 0.500
+	site s2   x !x2_hematite 0.3059  y                 =0;  z               =1/4;  occ O-2  1.00  beq 0.700
+
+	CS(cs_hematite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_hematite, 4)
+	PO(, 1,, 1 0 4)
+	scale sc_hematite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Hematite.str_END*/
+
+/*Hydrocalumite.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 0.89, 28.32957987, 0.89, 44.5,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  6.179404937
+		phase_MAC 67.1127907
+		phase_name "Friedel`s Salt (Hydrocalumite)"
+		MVW( 2206.889304, 1833.062045, 8.728704133)
+		'corrected_weight_percent  5.072821803
+		space_group P12/c1
+		scale @ 5.401129611e-006
+		Phase_LAC_1_on_cm( 134.1708208)
+		Phase_Density_g_on_cm3( 1.999184052)
+		be @ 102.54792 
+		a @ 9.9957118 min =9.5400; max =10.7800;
+		b @ 11.56940002 min =10.5400; max =12.7800;
+		c @ 16.23871927 min =15.5400; max =17.7800;
+		site Ca1 num_posns 4 x  0.099 y  0.122 z  0.039 occ Ca  1 beq  1.10539569
+		site Ca2 num_posns 4 x  0.097 y  0.626 z  0.032 occ Ca  1 beq  1.10539569
+		site Ca3 num_posns 4 x  0.599 y  0.376 z  0.04 occ Ca  1 beq  1.02643886
+		site Ca4 num_posns 4 x  0.597 y  0.874 z  0.033 occ Ca  1 beq  1.10539569
+		site Al1 num_posns 4 x  0.25 y  0.374 z  0.002 occ Al  1 beq  0.868525187
+		site Al2 num_posns 4 x  0.25 y  0.875 z  -0.003 occ Al  1 beq  0.868525187
+		site O-H11 num_posns 4 x  0.101 y  -0.032 z  -0.064 occ O  1 beq  1.10539569
+		site O-H12 num_posns 4 x  0.1 y  0.461 z  -0.062 occ O  1 beq  1.50017987
+		site O-H13 num_posns 4 x  0.602 y  0.218 z  -0.06 occ O  1 beq  1.3422662
+		site O-H14 num_posns 4 x  0.599 y  0.714 z  -0.066 occ O  1 beq  1.18435253
+		site O-H21 num_posns 4 x  0.125 y  0.325 z  0.068 occ O  1 beq  1.10539569
+		site O-H22 num_posns 4 x  0.12 y  0.828 z  0.06 occ O  1 beq  1.3422662
+		site O-H23 num_posns 4 x  0.623 y  0.579 z  0.064 occ O  1 beq  1.10539569
+		site O-H24 num_posns 4 x  0.622 y  0.075 z  0.066 occ O  1 beq  1.42122303
+		site O-H31 num_posns 4 x  0.305 y  0.013 z  0.065 occ O  1 beq  1.3422662
+		site O-H32 num_posns 4 x  0.303 y  0.515 z  0.061 occ O  1 beq  1.3422662
+		site O-H33 num_posns 4 x  0.804 y  0.263 z  0.066 occ O  1 beq  1.3422662
+		site O-H34 num_posns 4 x  0.802 y  0.766 z  0.06 occ O  1 beq  1.26330936
+		site Wat11 num_posns 4 x  0.153 y  0.101 z  0.194 occ O  1 beq  2.60557556
+		site Wat12 num_posns 4 x  0.171 y  0.639 z  0.192 occ O  1 beq  2.76348923
+		site Wat13 num_posns 4 x  0.658 y  0.385 z  0.195 occ O  1 beq  3.00035974
+		site Wat14 num_posns 4 x  0.659 y  0.861 z  0.19 occ O  1 beq  3.00035974
+		site C1 num_posns 2 x  0.5 y  0.121 z  0.25 occ C  1 beq  2.52661873
+		site O51 num_posns 2 x  0.5 y  0.007 z  0.25 occ O  1 beq  3.31618708
+		site O61 num_posns 4 x  0.608 y  0.174 z  0.246 occ O  1 beq  4.0267986
+		site Cl2 num_posns 2 x  0.5 y  0.609 z  0.25 occ Cl  1 beq  3.31618708
+		site Wat3 num_posns 2 x  0 y  0.257 z  0.25 occ O  1 beq  4.0267986
+		site Wat2 num_posns 2 x  0 y  0.492 z  0.25 occ O  1 beq  2.21079139
+		site Cl4 num_posns 2 x  0 y  0.87 z  0.25 occ Cl  1 beq  3.78992809
+/*Hydrocalumite.str_END*/
+
+/*Katoite.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 40.90589856, 0.89, 57.18680333,,,cs_9001771, 1000 min =50.0; max =2000.0;)
+		r_bragg  4.393166587
+		phase_MAC 66.79271517
+		phase_name "Katoite"
+		MVW( 3026.281248, 1869.926957, 10.72955082)
+		'corrected_weight_percent  2.82599305
+		space_group 230
+		scale sc_9001771 2.830088131e-006
+		Phase_LAC_1_on_cm( 179.4994559)
+		Phase_Density_g_on_cm3( 2.687410677)
+		Cubic(a_9001771 12.31992926)
+		site ca_1 num_posns 24 x =1/8; :  0.125 y =0; :  0 z =1/4; :  0.25 occ ca !occ_ca_1_9001771 1 beq !beq_ca_1_9001771 0.473
+		site al_1 num_posns 16 x =0; :  0 y =0; :  0 z =1/2; :  0.5 occ al !occ_al_1_9001771 1 beq !beq_al_1_9001771 1.263
+		site h_1 num_posns 96 x !x_h_1_9001771 0.1517 y !y_h_1_9001771 0.0919 z !z_h_1_9001771 0.7939 occ h !occ_h_1_9001771 1 beq !beq_h_1_9001771 2.447
+		site o_1 num_posns 96 x !x_o_1_9001771 0.0278 y !y_o_1_9001771 0.0525 z !z_o_1_9001771 0.6392 occ o !occ_o_1_9001771 1 beq !beq_o_1_9001771 0.947
+/*Katoite.str_END*/
+
+/*LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 42.39783631, 0.89, 59.27254533,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  6.895916565
+		phase_MAC 80.76188453
+		phase_name "Langbeinite - Dipotassium dicalcium tris(sulfate(VI))_40989-icsd"
+		MVW( 1786.1616, 1110.544275, 5.163214366)
+		scale @ 2.269288374e-006
+		space_group "P 21 21 21"
+		Phase_LAC_1_on_cm( 215.6953135)
+		Phase_Density_g_on_cm3( 2.67075632)
+		a @ 10.36898287 min =10.1000; max =10.5000;
+		b @ 10.47497225 min =10.1000; max =10.7000;
+		c @ 10.22461207 min =10.1000; max =10.4000;
+		site K1 num_posns 4 x  0.8308 y  0.8132 z  0.8111 occ K+1  1 beq  1
+		site K2 num_posns 4 x  0.0343 y  0.057 z  0.0614 occ K+1  1 beq  1
+		site Ca1 num_posns 4 x  0.3065 y  0.3395 z  0.3245 occ Ca+2  1 beq  1
+		site Ca2 num_posns 4 x  0.5987 y  0.594 z  0.5752 occ Ca+2  1 beq  1
+		site S1 num_posns 4 x  0.2112 y  0.3719 z  0.0191 occ S  1 beq  1
+		site S2 num_posns 4 x  0.3872 y  0.0045 z  0.2507 occ S  1 beq  1
+		site S3 num_posns 4 x  0.001 y  0.2179 z  0.3697 occ S  1 beq  1
+		site O1 num_posns 4 x  0.3075 y  0.2695 z  0.0349 occ O-2  1 beq  1
+		site O2 num_posns 4 x  0.0866 y  0.3186 z  0.9758 occ O-2  1 beq  1
+		site O3 num_posns 4 x  0.2583 y  0.4629 z  0.9203 occ O-2  1 beq  1
+		site O4 num_posns 4 x  0.1933 y  0.4345 z  0.1476 occ O-2  1 beq  1
+		site O5 num_posns 4 x  0.3047 y  0.932 z  0.3418 occ O-2  1 beq  1
+		site O6 num_posns 4 x  0.3941 y  0.1387 z  0.2908 occ O-2  1 beq  1
+		site O7 num_posns 4 x  0.5187 y  0.9521 z  0.2603 occ O-2  1 beq  1
+		site O8 num_posns 4 x  0.3367 y  0.9903 z  0.1172 occ O-2  1 beq  1
+		site O9 num_posns 4 x  0.0622 y  0.1013 z  0.32 occ O-2  1 beq  1
+		site O10 num_posns 4 x  0.9066 y  0.1877 z  0.4734 occ O-2  1 beq  1
+		site O11 num_posns 4 x  0.9294 y  0.2776 z  0.2597 occ O-2  1 beq  1
+		site O12 num_posns 4 x  0.0996 y  0.3051 z  0.4214 occ O-2  1 beq  1
+/*LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str_END*/
+
+/*Larnite.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 0.89, 36.1066927, 0.89, 0,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  2.632517404
+		phase_MAC 93.53999949
+		phase_name "Larnite"
+		MVW( 688.9564, 347.6718957, 18.01545257)
+		space_group P_1_21/n_1
+		scale @ 0.0001605288302
+		Phase_LAC_1_on_cm( 307.8002089)
+		Phase_Density_g_on_cm3( 3.29057313)
+		a @ 5.517912729 min =5.47; max =5.58;
+		b @ 6.771591391 min =6.72; max =6.82;
+		c @ 9.331770167 min =9.28; max =9.38;
+		be @ 94.36238674 min =93; max =95.5;
+		site Ca1 num_posns 4 x  0.22727 y  0.34261 z  0.43031 occ Ca+2  1 beq  0.85273382
+		site Ca2 num_posns 4 x  0.22074 y  -0.00235 z  0.70202 occ Ca+2  1 beq  0.710611517
+		site Si1 num_posns 4 x  0.2328 y  0.28127 z  0.08161 occ Si+4  1 beq  0.552697846
+		site O1 num_posns 4 x  0.2827 y  0.5121 z  0.06 occ O-2  1 beq  0.836942453
+		site O2 num_posns 4 x  0.4867 y  0.1683 z  0.1381 occ O-2  1 beq  0.868525187
+		site O3 num_posns 4 x  0.1561 y  0.1712 z  -0.0725 occ O-2  1 beq  0.884316554
+		site O4 num_posns 4 x  0.0212 y  0.2481 z  0.1919 occ O-2  1 beq  0.900107921
+/*Larnite.str_END*/
+
+/*Lime.str_START*/
+STR(225) ' F4/m-32/m
+	phase_name "Lime"
+	' Formula "Ca O"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 371497
+	a a_cao 4.8050 min 4.7570 max 4.8530
+	b =a_cao;
+	c =a_cao;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x            =0;  y            =0;  z            =0;  occ CA+2 1.00  beq 0.500
+	site s2   x          =1/2;  y          =1/2;  z          =1/2;  occ O-2  1.00  beq 2.300
+
+	CS(cs_cao, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_cao, 6)
+	PO(, 1,, 1 0 0)
+	scale sc_cao 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Lime.str_END*/
+
+/*Magnetite.str_START*/
+STR(227:2) ' F4_1/d-32/m
+	phase_name "Magnetite"
+	' Formula "Fe3 O4"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 190629
+	a a_magnetite 8.3950 min 8.3200 max 8.4700
+	b =a_magnetite;
+	c =a_magnetite;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x                =1/8;  y                =1/8;  z                =1/8;  occ FE+3 1.00  beq 0.160
+	site s2   x                =1/2;  y                =1/2;  z                =1/2;  occ FE+3 0.50  beq 0.860
+	          occ FE+2 0.50  beq 0.860
+	site s3   x !x3_magnetite 0.7453  y  =x3_magnetite;  z  =x3_magnetite;  occ O-2  1.00  beq 0.650
+
+	CS(cs_magnetite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_magnetite, 6)
+	PO(, 1,, 3 1 1)
+	scale sc_magnetite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Magnetite.str_END*/
+
+/*Mayenite.str_START*/
+STR(220) ' I-43d
+	phase_name "C12A7 Mayenite"
+	' Formula "Ca12 Al14 O33"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 90413
+	a a_mayenite 11.9800 min 11.8800 max 12.0800
+	b =a_mayenite;
+	c =a_mayenite;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_mayenite 0.6086  y                 =0;  z               =1/4;  occ CA+2 1.00  beq 1.220
+	site s2   x !x2_mayenite 0.7681  y         =x2_mayenite;  z         =x2_mayenite;  occ AL+3 1.00  beq 0.800
+	site s3   x               =7/8;  y                 =0;  z               =1/4;  occ AL+3 1.00  beq 0.570
+	site s4   x !x4_mayenite 0.1509  y !y4_mayenite -0.0368  z !z4_mayenite 0.0583  occ O-2  1.00  beq 0.820
+	site s5   x !x5_mayenite 0.6854  y         =x5_mayenite;  z         =x5_mayenite;  occ O-2  1.00  beq 0.840
+	site s6   x !x6_mayenite 0.3990  y                 =0;  z               =1/4;  occ O-2  0.083  beq 0.850
+
+	CS(cs_mayenite, 1000 min =50.0; max =2000.0;)
+	PO(, 1,, 1 0 0)
+	scale sc_mayenite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Mayenite.str_END*/
+
+/*Merwinite.str_START*/
+STR(P12_1/a1) ' P12_1/a1
+	phase_name "Merwinite"
+	' Formula "Ca3 Mg Si2 O8"
+	' Group "Silicate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 350591
+	a a_merwinite 13.2550 min 13.1300 max 13.3800
+	b b_merwinite 5.2920 min 5.2500 max 5.3400
+	c c_merwinite 9.3280 min 9.2350 max 9.4210
+	al 90.000
+	be be_merwinite 91.9000 min 91.0000 max 92.8000
+	ga 90.000
+
+	site s1   x !x1_merwinite 0.2563  y !y1_merwinite 0.1789  z !z1_merwinite 0.2234  occ CA+2 1.00  beq 0.700
+	site s2   x !x2_merwinite 0.0811  y !y2_merwinite 0.2271  z !z2_merwinite -0.0753  occ CA+2 1.00  beq 0.660
+	site s3   x !x3_merwinite 0.0978  y !y3_merwinite 0.7333  z !z3_merwinite 0.4254  occ CA+2 1.00  beq 0.730
+	site s4   x !x4_merwinite 0.0043  y !y4_merwinite 0.2566  z !z4_merwinite 0.2535  occ MG+2 1.00  beq 0.420
+	site s5   x !x5_merwinite 0.1326  y !y5_merwinite 0.2293  z !z5_merwinite 0.6008  occ SI+4 1.00  beq 0.190
+	site s6   x !x6_merwinite 0.1412  y !y6_merwinite 0.7280  z !z6_merwinite 0.0931  occ SI+4 1.00  beq 0.180
+	site s7   x !x7_merwinite 0.0740  y !y7_merwinite 0.2123  z !z7_merwinite 0.4450  occ O-2  1.00  beq 1.040
+	site s8   x !x8_merwinite 0.0632  y !y8_merwinite 0.4193  z !z8_merwinite 0.6937  occ O-2  1.00  beq 0.960
+	site s9   x !x9_merwinite 0.1253  y !y9_merwinite -0.0475  z !z9_merwinite 0.6773  occ O-2  1.00  beq 0.760
+	site s10  x !x10_merwinite 0.2414  y !y10_merwinite 0.3618  z !z10_merwinite 0.5940  occ O-2  1.00  beq 0.910
+	site s11  x !x11_merwinite 0.0768  y !y11_merwinite 0.7064  z !z11_merwinite -0.0591  occ O-2  1.00  beq 0.870
+	site s12  x !x12_merwinite 0.2548  y !y12_merwinite 0.8130  z !z12_merwinite 0.0683  occ O-2  1.00  beq 0.820
+	site s13  x !x13_merwinite 0.1266  y !y13_merwinite 0.4726  z !z13_merwinite 0.1853  occ O-2  1.00  beq 0.740
+	site s14  x !x14_merwinite 0.0832  y !y14_merwinite -0.0424  z !z14_merwinite 0.1751  occ O-2  1.00  beq 0.840
+
+	CS(cs_merwinite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_merwinite, 4)
+	PO(, 1,, 0 1 -3)
+	scale sc_merwinite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Merwinite.str_END*/
+
+/*MicroInt1.str_START*/
+STR(C-1) ' C-1
+	phase_name "Microcline intermediate1"
+	' Formula "K Al Si3 O8"
+	' Group "Silicate"
+	' SubGroup "Feldspars"
+	' UserGroup ""
+	' SubstSeries "Alkalifeldspars"
+	' ICDD_number 190932
+	a a_microint1 8.6430 min 8.5570 max 8.7290
+	b b_microint1 12.9290 min 12.8000 max 13.0580
+	c c_microint1 7.1900 min 7.1180 max 7.2620
+	al al_microint1 90.1000 min 89.5000 max 90.5000
+	be be_microint1 116.2000 min 115.5000 max 117.0000
+	ga ga_microint1 89.6000 min 89.2000 max 90.1000
+
+	site s1   x !x1_microint1 0.2867  y !y1_microint1 0.9985  z !z1_microint1 0.1406  occ K+1  1.00  beq 2.330
+	site s2   x !x2_microint1 0.0095  y !y2_microint1 0.1844  z !z2_microint1 0.2225  occ SI+4 0.75  beq 0.920
+	          occ AL+3 0.25  beq 0.920
+	site s3   x !x3_microint1 0.0091  y !y3_microint1 0.8168  z !z3_microint1 0.2249  occ SI+4 0.75  beq 0.900
+	          occ AL+3 0.25  beq 0.900
+	site s4   x !x4_microint1 0.7105  y !y4_microint1 0.1184  z !z4_microint1 0.3413  occ SI+4 0.75  beq 0.970
+	          occ AL+3 0.25  beq 0.970
+	site s5   x !x5_microint1 0.7095  y !y5_microint1 0.8826  z !z5_microint1 0.3433  occ SI+4 0.75  beq 1.090
+	          occ AL+3 0.25  beq 1.090
+	site s6   x !x6_microint1 0.0005  y !y6_microint1 0.1440  z !z6_microint1 0.9977  occ O-2  1.00  beq 2.120
+	site s7   x !x7_microint1 0.6382  y !y7_microint1 0.0011  z !z7_microint1 0.2809  occ O-2  1.00  beq 2.010
+	site s8   x !x8_microint1 0.8251  y !y8_microint1 0.1472  z !z8_microint1 0.2228  occ O-2  1.00  beq 2.400
+	site s9   x !x9_microint1 0.8278  y !y9_microint1 0.8534  z !z9_microint1 0.2274  occ O-2  1.00  beq 2.500
+	site s10  x !x10_microint1 0.0367  y !y10_microint1 0.3116  z !z10_microint1 0.2580  occ O-2  1.00  beq 1.960
+	site s11  x !x11_microint1 0.0378  y !y11_microint1 0.6903  z !z11_microint1 0.2602  occ O-2  1.00  beq 1.780
+	site s12  x !x12_microint1 0.1815  y !y12_microint1 0.1240  z !z12_microint1 0.4075  occ O-2  1.00  beq 1.930
+	site s13  x !x13_microint1 0.1790  y !y13_microint1 0.8749  z !z13_microint1 0.4085  occ O-2  1.00  beq 1.970
+
+	CS(cs_microint1, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_microint1, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_microint1 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*MicroInt1.str_END*/
+
+/*Mullite21.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_mullite21, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_mullite21, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Mullite 2:1"
+		MVW( 0, 0, 0)
+		space_group 55
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_mullite21 7.5784 min =7.5000; max =7.6600;
+		b b_mullite21 7.6816 min =7.6400; max =7.7500;
+		c c_mullite21 2.8863 min =2.8600; max =2.9200;
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ AL+3  1 beq  0.63
+		site s2 num_posns 0 x !x2_mullite21 0.149 y !y2_mullite21 0.3403 z =1/2; :  0.5 occ AL+3  0.56 beq  0.68 occ SI+4  0.25 beq  0.68
+		site s3 num_posns 0 x !x3_mullite21 0.2625 y !y3_mullite21 0.2053 z =1/2; :  0.5 occ AL+3  0.13 beq  0.63 occ SI+4  0.06 beq  0.63
+		site s4 num_posns 0 x !x4_mullite21 0.359 y !y4_mullite21 0.4218 z =1/2; :  0.5 occ O-2  1 beq  1.06
+		site s5 num_posns 0 x !x5_mullite21 0.4498 y !y5_mullite21 0.0505 z =1/2; :  0.5 occ O-2  0.19 beq  0.93
+		site s6 num_posns 0 x =0; :  0 y =1/2; :  0.5 z =1/2; :  0.5 occ O-2  0.39 beq  1.56
+		site s7 num_posns 0 x !x7_mullite21 0.1273 y !y7_mullite21 0.2186 z =0; :  0 occ O-2  1 beq  1.1
+/*Mullite21.str_END*/
+
+/*Musc2m1_with p mod p1.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 49.30989368, 0.89, 68.93566188,,,cs_musc2m1, 1000 min =50.0; max =2000.0;)
+		r_bragg  27.0429759
+		phase_MAC 105.858302
+		phase_name "Muscovite 2M1"
+		MVW( 1800.437122, 934.2807126, 4.955506556)
+		'corrected_weight_percent  4.497806562
+		space_group 15
+		scale sc_musc2m1 5.349115374e-006
+		Phase_LAC_1_on_cm( 338.7465595)
+		Phase_Density_g_on_cm3( 3.199999934)
+		a a_musc2m1 5.225236866 min =5.1300; max =5.2500;
+		b b_musc2m1 8.974104399 min =8.9000; max =9.1000;
+		c c_musc2m1 20.02189879 min =19.8000; max =21.0000;
+		be be_musc2m1 95.66328584 min =94.5000; max =96.0000;
+		site s1 num_posns 8 x !x1_musc2m1 0.251 y !y1_musc2m1 0.0838 z !z1_musc2m1 0.0004 occ AL+3 =(1-p); :  4.768371582e-007 min =0; max =1; beq  0.74 occ FE+3 p 0.9999995232_LIMIT_MAX_1 min =0; max =1; beq  0.74
+		site s2 num_posns 4 x =0; :  0 y !y2_musc2m1 0.0986 z =1/4; :  0.25 occ K+1  0.9 min =0.6; max =1; beq  1
+		site s3 num_posns 8 x !x3_musc2m1 0.0345 y !y3_musc2m1 0.4295 z !z3_musc2m1 0.3646 occ SI+4  0.75 beq  0.71
+		site s4 num_posns 8 x !x4_musc2m1 0.0345 y !y4_musc2m1 0.4295 z !z4_musc2m1 0.3646 occ AL+3  0.25 beq  0.71
+		site s5 num_posns 8 x !x5_musc2m1 0.4514 y !y5_musc2m1 0.2582 z !z5_musc2m1 0.1355 occ SI+4  0.75 beq  0.49
+		site s6 num_posns 8 x !x6_musc2m1 0.4514 y !y6_musc2m1 0.2582 z !z6_musc2m1 0.1355 occ AL+3  0.25 beq  0.49
+		site s7 num_posns 8 x !x7_musc2m1 0.0429 y !y7_musc2m1 0.0617 z !z7_musc2m1 0.4501 occ O-2  1 beq  1
+		site s8 num_posns 8 x !x8_musc2m1 0.3836 y !y8_musc2m1 0.2511 z !z8_musc2m1 0.0536 occ O-2  1 beq  1
+		site s9 num_posns 8 x !x9_musc2m1 0.038 y !y9_musc2m1 0.4447 z !z9_musc2m1 0.4463 occ O-2  1 beq  0.88
+		site s10 num_posns 8 x !x10_musc2m1 0.4128 y !y10_musc2m1 0.0925 z !z10_musc2m1 0.1682 occ O-2  1 beq  0.8
+		site s11 num_posns 8 x !x11_musc2m1 0.2516 y !y11_musc2m1 0.3726 z !z11_musc2m1 0.1688 occ O-2  1 beq  0.88
+		site s12 num_posns 8 x !x12_musc2m1 0.2469 y !y12_musc2m1 0.3083 z !z12_musc2m1 0.3426 occ O-2  1 beq  0.4
+/*Musc2m1_with p mod p1.str_END*/
+
+/*Phillips.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_phillips, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_phillips, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Phillipsite"
+		MVW( 0, 0, 0)
+		'corrected_weight_percent  0
+		space_group 11
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_phillips 9.866 min =9.8160; max =9.9140;
+		b b_phillips 14.3 min =14.2290; max =14.3710;
+		c c_phillips 8.668 min =8.6250; max =8.7110;
+		be be_phillips 124.2 min =123.2000; max =125.2000;
+		site s1 num_posns 0 x !x1_phillips 0.7362 y !y1_phillips 0.0248 z !z1_phillips 0.2805 occ SI+4  0.67 beq  1.08 occ AL+3  0.33 beq  1.08
+		site s2 num_posns 0 x !x2_phillips 0.4206 y !y2_phillips 0.1409 z !z2_phillips 0.0019 occ SI+4  0.67 beq  1.06 occ AL+3  0.33 beq  1.06
+		site s3 num_posns 0 x !x3_phillips 0.0604 y !y3_phillips 0.0078 z !z3_phillips 0.2844 occ SI+4  0.67 beq  1.11 occ AL+3  0.33 beq  1.11
+		site s4 num_posns 0 x !x4_phillips 0.1204 y !y4_phillips 0.1396 z !z4_phillips 0.0421 occ SI+4  0.67 beq  1.14 occ AL+3  0.33 beq  1.14
+		site s5 num_posns 0 x !x5_phillips 0.1335 y !y5_phillips 0.0976 z !z5_phillips 0.2289 occ O-2  1 beq  2.04
+		site s6 num_posns 0 x !x6_phillips 0.6445 y !y6_phillips 0.5766 z !z6_phillips 0.1878 occ O-2  1 beq  1.94
+		site s7 num_posns 0 x !x7_phillips 0.61 y !y7_phillips 0.113 z !z7_phillips 0.1728 occ O-2  1 beq  1.89
+		site s8 num_posns 0 x !x8_phillips 0.0254 y !y8_phillips 0.9154 z !z8_phillips 0.1494 occ O-2  1 beq  1.85
+		site s9 num_posns 0 x !x9_phillips 0.8957 y !y9_phillips 0.044 z !z9_phillips 0.2713 occ O-2  1 beq  2.06
+		site s10 num_posns 0 x !x10_phillips 0.3022 y !y10_phillips 0.3738 z !z10_phillips 0.0783 occ O-2  1 beq  2.32
+		site s11 num_posns 0 x !x11_phillips 0.7872 y !y11_phillips 0.4795 z !z11_phillips 0.4982 occ O-2  1 beq  1.9
+		site s12 num_posns 0 x !x12_phillips 0.4186 y =1/4; :  0.25 z !z12_phillips 0.9384 occ O-2  1 beq  1.94
+		site s13 num_posns 0 x !x13_phillips 0.0665 y =1/4; :  0.25 z !z13_phillips 0.0196 occ O-2  1 beq  2.12
+		site s14 num_posns 0 x !x14_phillips 0.848 y =1/4; :  0.25 z !z14_phillips 0.2076 occ K+1  1 beq  4.11
+		site s15 num_posns 0 x !x15_phillips 0.608 y !y15_phillips 0.6262 z !z15_phillips 0.4401 occ CA+2  0.41 beq  2.67
+		site s16 num_posns 0 x !x16_phillips 0.2449 y =1/4; :  0.25 z !z16_phillips 0.5267 occ O-2  1 beq  6.9
+		site s17 num_posns 0 x !x17_phillips 0.8448 y =1/4; :  0.25 z !z17_phillips 0.5618 occ O-2  1 beq  7.53
+		site s18 num_posns 0 x !x18_phillips 0.3208 y !y18_phillips 0.8525 z !z18_phillips 0.174 occ O-2  1 beq  8.63
+		site s19 num_posns 0 x !x19_phillips 0.5085 y =1/4; :  0.25 z !z19_phillips 0.4384 occ O-2  1 beq  21.25
+		site s20 num_posns 0 x =1/2; :  0.5 y =0; :  0 z =1/2; :  0.5 occ O-2  1 beq  14.61
+/*Phillips.str_END*/
+
+/*Portlandite.str_START*/
+STR(164) ' P-32/m1
+	phase_name "Portlandite"
+	' Formula "Ca (OH)2"
+	' Group "Hydroxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 40733
+	a a_portlandite 3.5840 min 3.5500 max 3.6200
+	b =a_portlandite;
+	c c_portlandite 4.8950 min 4.8500 max 4.9400
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                    =0;  y                    =0;  z                    =0;  occ CA+2 1.00  beq 1.000
+	site s2   x                  =1/3;  y                  =2/3;  z !z2_portlandite 0.2330  occ O-2  1.00  beq 1.000
+	site s3   x                  =1/3;  y                  =2/3;  z !z3_portlandite 0.3950  occ H  1.00  beq 0.000
+
+	CS(cs_portlandite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_portlandite, 2)
+	PO(, 1,, 0 0 1)
+	scale sc_portlandite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Portlandite.str_END*/
+
+/*Quartz.str_START*/
+STR(154) ' 
+	phase_name "Quartz"
+	' Formula "Si O2"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 331161
+	a a_quartz 4.9120 min 4.9000 max 4.9350
+	b =a_quartz;
+	c c_quartz 5.4040 min 5.3800 max 5.4500
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x !x1_quartz 0.4700  y               =0;  z             =2/3;  occ SI+4 1.00  beq 0.560
+	site s2   x !x2_quartz 0.4150  y !y2_quartz 0.2680  z !z2_quartz 0.7860  occ O-2  1.00  beq 0.960
+
+	CS(cs_quartz, 1000 min =50.0; max =2000.0;)
+
+	scale sc_quartz 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Quartz.str_END*/
+
+/*Rutile.str_START*/
+STR(136) ' P4_2/m2_1/n2/m
+	phase_name "Rutile"
+	' Formula "Ti O2"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 211276
+	a a_rutile 4.5940 min 4.5600 max 4.6400
+	b =a_rutile;
+	c c_rutile 2.9600 min 2.9500 max 2.9700
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =0;  y               =0;  z               =0;  occ TI+4 1.00  beq 0.420
+	site s2   x !x2_rutile 0.6949  y  =x2_rutile;  z               =0;  occ O-2  1.00  beq 0.600
+
+	CS(cs_rutile, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_rutile, 4)
+	PO(, 1,, 1 1 0)
+	scale sc_rutile 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Rutile.str_END*/
+
+/*Sylvite.str_START*/
+STR(225) ' F4/m-32/m
+	phase_name "Sylvite"
+	' Formula "K Cl"
+	' Group "Halogenide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 411476
+	a a_sylvite 6.2800 min 6.2200 max 6.3420
+	b =a_sylvite;
+	c =a_sylvite;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x                =0;  y                =0;  z                =0;  occ K+1  1.00  beq 0.600
+	site s2   x              =1/2;  y              =1/2;  z              =1/2;  occ CL-1 1.00  beq 0.700
+
+	CS(cs_sylvite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_sylvite, 6)
+	PO(, 1,, 1 0 0)
+	scale sc_sylvite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Sylvite.str_END*/
+
+/*Syngenite.str_START*/
+STR(11) ' P12_1/m1
+	phase_name "Syngenite"
+	' Formula "K2 Ca (S O4)2*H2 O"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 280739
+	a a_syngenite 9.7700 min 9.6720 max 9.8680
+	b b_syngenite 7.1500 min 7.0790 max 7.2210
+	c c_syngenite 6.2500 min 6.1880 max 6.3120
+	al 90.000
+	be be_syngenite 104.0000 min 103.0000 max 105.0000
+	ga 90.000
+
+	site s1   x !x1_syngenite 0.3357  y !y1_syngenite 0.0068  z !z1_syngenite 0.1947  occ K+1  1.00  beq 1.350
+	site s2   x !x2_syngenite 0.9679  y                =1/4;  z !z2_syngenite 0.3327  occ CA+2 1.00  beq 0.470
+	site s3   x !x3_syngenite 0.9897  y                =1/4;  z !z3_syngenite 0.8396  occ S  1.00  beq 0.380
+	site s4   x !x4_syngenite 0.6373  y                =1/4;  z !z4_syngenite 0.2697  occ S  1.00  beq 0.660
+	site s5   x !x5_syngenite 0.1191  y                =1/4;  z !z5_syngenite 0.0167  occ O-2  1.00  beq 1.260
+	site s6   x !x6_syngenite 0.2244  y                =1/4;  z !z6_syngenite 0.5015  occ O-2  1.00  beq 1.050
+	site s7   x !x7_syngenite 0.5322  y                =1/4;  z !z7_syngenite 0.0586  occ O-2  1.00  beq 1.120
+	site s8   x !x8_syngenite 0.5650  y                =1/4;  z !z8_syngenite 0.4493  occ O-2  1.00  beq 1.490
+	site s9   x !x9_syngenite 0.7296  y !y9_syngenite 0.0842  z !z9_syngenite 0.2837  occ O-2  1.00  beq 1.470
+	site s10  x !x10_syngenite 0.8687  y                 =1/4;  z !z10_syngenite 0.9421  occ O-2  1.00  beq 1.200
+	site s11  x !x11_syngenite 0.9813  y !y11_syngenite 0.0840  z !z11_syngenite 0.6959  occ O-2  1.00  beq 0.890
+	site s12  x !x12_syngenite 0.2430  y !y12_syngenite 0.3540  z !z12_syngenite 0.5970  occ H  1.00  beq 0.000
+
+	CS(cs_syngenite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_syngenite, 4)
+	PO(, 1,, 0 1 0)
+	scale sc_syngenite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Syngenite.str_END*/
+
+/*Talc.str_START*/
+STR(C-1) ' C-1
+	phase_name "Talc"
+	' Formula "Mg3 ((OH)2 Si4 O10)"
+	' Group "Silicate"
+	' SubGroup "Mica"
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 190770
+	a a_talc 5.2930 min 5.2400 max 5.3460
+	b b_talc 9.1790 min 9.0870 max 9.2710
+	c c_talc 9.4690 min 9.3740 max 9.5640
+	al al_talc 90.6000 min 90.0000 max 91.0000
+	be be_talc 98.9000 min 98.0000 max 99.8000
+	ga ga_talc 90.0000 min 89.5000 max 90.5000
+
+	site s1   x !x1_talc 0.7427  y !y1_talc 0.0027  z !z1_talc 0.2910  occ SI+4 1.00  beq 1.430
+	site s2   x !x2_talc 0.7482  y !y2_talc 0.3366  z !z2_talc 0.2920  occ SI+4 1.00  beq 1.460
+	site s3   x             =0;  y             =0;  z             =0;  occ MG+2 1.00  beq 1.330
+	site s4   x !x4_talc 0.0001  y !y4_talc 0.3330  z !z4_talc 0.0001  occ MG+2 1.00  beq 1.380
+	site s5   x !x5_talc 0.7022  y !y5_talc 0.0015  z !z5_talc 0.1183  occ O-2  1.00  beq 1.500
+	site s6   x !x6_talc 0.7030  y !y6_talc 0.3363  z !z6_talc 0.1204  occ O-2  1.00  beq 1.800
+	site s7   x !x7_talc 0.7439  y !y7_talc 0.1693  z !z7_talc 0.3472  occ O-2  1.00  beq 2.070
+	site s8   x !x8_talc 0.5216  y !y8_talc 0.4283  z !z8_talc 0.3475  occ O-2  1.00  beq 2.130
+	site s9   x !x9_talc 0.0202  y !y9_talc 0.4122  z !z9_talc 0.3487  occ O-2  1.00  beq 2.010
+	site s10  x !x10_talc 0.1980  y !y10_talc 0.1677  z !z10_talc 0.1132  occ O-2  1.00  beq 1.500
+	site s11  x !x11_talc 0.2300  y !y11_talc 0.2000  z !z11_talc 0.2400  occ H  1.00  beq 3.000
+
+	CS(cs_talc, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_talc, 4)
+	PO(, 1,, 0 0 1) 
+	scale sc_talc 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Talc.str_END*/
+
+/*Thaumasite.str_START*/
+STR(173) ' P 63
+	phase_name "Thaumasite (Taylor)"
+	' Formula "(Ca3Si(OH)6(H2O)12)(SO4)(CO3)"
+	' Group "Hydr"
+	' SubGroup ""
+	' UserGroup "cement"
+	' SubstSeries ""
+	' ICDD_number 75 1688
+
+	a a_thaum 11.04 
+	b =a_thaum;
+	c c_thaum 10.39 
+	al 90.000
+	be 90.000
+	ga 120.000
+
+
+
+	site Ca1 num_posns 0 x  0.1946 y  -0.0117 z  0.2619 occ Ca+2  1 beq  1
+	site Si1 num_posns 0 x  0      y  0       z  0.0026 occ Si+4  1 beq  1
+	site C1 num_posns  0 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.456 occ C  1 beq  1
+	site S1 num_posns  0 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  -0.0027 occ S  1 beq  1
+	site O1 num_posns  0 x  0.392  y  0.228  z  0.261  occ O-2  1 beq  1
+	site O2 num_posns  0 x  0.26   y  0.401  z  0.259  occ O-2  1 beq  1
+	site O3 num_posns  0 x  0.0025 y  0.3411 z  0.082  occ O-2  1 beq  1
+	site O4 num_posns  0 x  0.0217 y  0.3467 z  0.4421 occ O-2  1 beq  1
+	site O5 num_posns  0 x  0.2014 y  0.6223 z  0.47   occ O-2  1 beq  1
+	site O6 num_posns  0 x  0.1914 y  0.6229 z  0.0431 occ O-2  1 beq  1
+	site O7 num_posns  0 x  0.1312 y  0.1249 z  0.115  occ O-2  1 beq  1
+	site O8 num_posns  0 x  0.13   y  0.1242 z  0.4052 occ O-2  1 beq  1
+	site O9 num_posns  0 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.855 occ O-2  1 beq  1
+	site H1 num_posns  0 x  0.3471 y  0.29  z  0.26  occ H  1 beq  1
+	site H2 num_posns  0 x  0.488  y  0.265 z  0.297 occ H  1 beq  1
+	site H3 num_posns  0 x  0.303  y  0.465 z  0.333 occ H  1 beq  1
+	site H4 num_posns  0 x  0.311  y  0.462 z  0.183 occ H  1 beq  1
+	site H5 num_posns  0 x  0.439  y  0.079 z  0.042 occ H  1 beq  1
+	site H6 num_posns  0 x  0.069  y  0.441 z  0.068 occ H  1 beq  1
+	site H7 num_posns  0 x  0.0851 y  0.444 z  0.452 occ H  1 beq  1
+	site H8 num_posns  0 x  0.41   y  0.053 z  0.478 occ H  1 beq  1
+	site H9 num_posns  0 x  0.215  y  0.178 z  0.111 occ H  1 beq  1
+	site H10 num_posns 0 x  0.213  y  0.18  z  0.413 occ H  1 beq  1
+
+
+	CS(cs_thaum, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_thaum, 4)
+	PO(, 1,, 1 0 0)
+	scale sc_thaum 0.00001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+
+		
+/*Thaumasite.str_END*/
+
+/*Thenardite.str_START*/
+STR(70:2) ' F2/d2/d2/d
+	phase_name "Thenardite"
+	' Formula "Na2 S O4"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 371465
+	a a_thenardite 9.8300 min 9.7310 max 9.9270
+	b b_thenardite 12.3010 min 12.1790 max 12.4250
+	c c_thenardite 5.8680 min 5.8090 max 5.9270
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_thenardite 0.8084  y                 =1/8;  z                 =1/8;  occ NA+1 1.00  beq 1.550
+	site s2   x                 =1/8;  y                 =1/8;  z                 =1/8;  occ S  1.00  beq 0.850
+	site s3   x !x3_thenardite 0.2138  y !y3_thenardite 0.0572  z !z3_thenardite 0.9793  occ O-2  1.00  beq 1.440
+
+	CS(cs_thenardite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_thenardite, 2)
+	PO(, 1,, 3 1 1)
+	scale sc_thenardite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Thenardite.str_END*/
+
+/*Tobermorite11A.str_START*/
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_tobermorite11a, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_tobermorite11a, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Tobermorite"
+		MVW( 0, 0, 0)
+		space_group 44
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_tobermorite11a 5.586 min =5.5300; max =5.6420;
+		b b_tobermorite11a 3.696 min =3.6590; max =3.7330;
+		c c_tobermorite11a 22.779 min =22.5510; max =23.0070;
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z !z1_tobermorite11a 1 occ CA+2  1 beq  1.34
+		site s2 num_posns 0 x =0; :  0 y =0; :  0 z !z2_tobermorite11a 0.4135 occ CA+2  1 beq  1.34
+		site s3 num_posns 0 x !x3_tobermorite11a 0.256 y =0; :  0 z !z3_tobermorite11a 0.698 occ CA+2  0.13 beq  4.74
+		site s4 num_posns 0 x !x4_tobermorite11a 0.678 y =0; :  0 z !z4_tobermorite11a 0.141 occ SI+4  0.25 beq  2.76
+		site s5 num_posns 0 x !x5_tobermorite11a 0.656 y =0; :  0 z !z5_tobermorite11a 0.282 occ SI+4  0.25 beq  2.76
+		site s6 num_posns 0 x =0; :  0 y !y6_tobermorite11a 0.086 z !z6_tobermorite11a 0.873 occ SI+4  0.5 beq  1.18
+		site s7 num_posns 0 x =0; :  0 y !y7_tobermorite11a 0.075 z !z7_tobermorite11a 0.557 occ SI+4  0.5 beq  1.18
+		site s8 num_posns 0 x !x8_tobermorite11a 0.265 y !y8_tobermorite11a 0.49 z !z8_tobermorite11a 0.019 occ O-2  0.5 beq  1.34
+		site s9 num_posns 0 x !x9_tobermorite11a 0.265 y !y9_tobermorite11a 0.48 z !z9_tobermorite11a 0.411 occ O-2  0.5 beq  1.34
+		site s10 num_posns 0 x !x10_tobermorite11a 0.68 y =0; :  0 z !z10_tobermorite11a 0.211 occ O-2  0.25 beq  6.32
+		site s11 num_posns 0 x !x11_tobermorite11a 0.93 y =0; :  0 z !z11_tobermorite11a 0.113 occ O-2  0.25 beq  6.32
+		site s12 num_posns 0 x =0; :  0 y =1/2; :  0.5 z !z12_tobermorite11a 0.577 occ O-2  0.5 beq  1.89
+		site s13 num_posns 0 x =0; :  0 y =1/2; :  0.5 z !z13_tobermorite11a 0.848 occ O-2  0.5 beq  1.89
+		site s14 num_posns 0 x =0; :  0 y !y14_tobermorite11a 0.17 z !z14_tobermorite11a 0.811 occ O-2  0.5 beq  4.18
+		site s15 num_posns 0 x =0; :  0 y !y15_tobermorite11a 0.16 z !z15_tobermorite11a 0.619 occ O-2  0.5 beq  4.18
+		site s16 num_posns 0 x !x16_tobermorite11a 0.924 y =0; :  0 z !z16_tobermorite11a 0.307 occ O-2  0.25 beq  6.32
+		site s17 num_posns 0 x !x17_tobermorite11a 0.65 y =0; :  0 z !z17_tobermorite11a 0.213 occ O-2  0.25 beq  6.32
+		site s18 num_posns 0 x =0; :  0 y =0; :  0 z !z18_tobermorite11a 0.112 occ O-2  0.5 beq  3.16
+		site s19 num_posns 0 x =0; :  0 y =0; :  0 z !z19_tobermorite11a 0.303 occ O-2  0.5 beq  3.16
+/*Tobermorite11A.str_END*/
+
+/*Vaterite.str_START*/
+STR(194) ' P6_3/m2/m2/c
+	phase_name "Vaterite"
+	' Formula "Ca C O3"
+	' Group "Carbonates"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 240030
+	a a_vaterite 4.1300 min 4.0890 max 4.1710
+	b =a_vaterite;
+	c c_vaterite 8.4900 min 8.4050 max 8.5750
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                 =0;  y                 =0;  z                 =0;  occ CA+2 1.00  beq 6.800
+	site s2   x !x2_vaterite 0.2900  y  =2*x2_vaterite;  z               =1/4;  occ C  0.33  beq 6.800
+	site s3   x !x3_vaterite 0.1200  y  =2*x3_vaterite;  z               =1/4;  occ O  0.33  beq 6.800
+	site s4   x !x4_vaterite 0.3800  y  =2*x4_vaterite;  z !z4_vaterite 0.3800  occ O  0.33  beq 6.800
+
+	CS(cs_vaterite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_vaterite, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_vaterite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Vaterite.str_END*/
+
+/*Zircon.str_START*/
+STR(141:2) ' I4_1/a2/m2/d
+	phase_name "Zircon"
+	' Formula "ZrSiO4"
+	' Group "Silicate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 60266
+	a a_zircon 6.6040 min 6.2810 max 6.9430
+	b =a_zircon;
+	c c_zircon 5.9796 min 5.6940 max 6.2940
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =0;  y             =3/4;  z             =1/8;  occ ZR+4 1.00  beq 0.280
+	site s2   x               =0;  y             =1/4;  z             =3/8;  occ SI+4 1.00  beq 0.310
+	site s3   x               =0;  y !y3_zircon 0.5660  z !z3_zircon 0.8059  occ O-2  1.00  beq 0.500
+
+	CS(cs_zircon, 1000 min =50.0; max =2000.0;)
+'	Strain(!st_zircon, 0.0001 min 0 max 0.100)
+'	PO_Spherical_Harmonics(sh_zircon, 4)
+	PO(, 1,, 1 0 0)
+	scale sc_zircon 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Zircon.str_END*/
+
+/*Zro2mkl.str_START*/
+STR(14) ' P12_1/c1
+	phase_name "Baddeleyite ZrO2 monoclinic"
+	' Formula "Zr O2"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 371484
+	a a_zro2mkl 5.1450 min 5.0420 max 5.2480
+	b b_zro2mkl 5.2070 min 5.1030 max 5.3110
+	c c_zro2mkl 5.3110 min 5.2050 max 5.4170
+	al 90.000
+	be be_zro2mkl 99.2000
+	ga 90.000
+
+	site s1   x !x1_zro2mkl 0.2758  y !y1_zro2mkl 0.0411  z !z1_zro2mkl 0.2082  occ ZR+4 1.00  beq 0.000
+	site s2   x !x2_zro2mkl 0.0703  y !y2_zro2mkl 0.3359  z !z2_zro2mkl 0.3406  occ O-2  1.00  beq 0.000
+	site s3   x !x3_zro2mkl 0.4423  y !y3_zro2mkl 0.7549  z !z3_zro2mkl 0.4789  occ O-2  1.00  beq 0.000
+
+	CS(cs_zro2mkl, 1000 min =50.0; max =2000.0;)
+	PO(, 1,, 1 1 -1)
+	scale sc_zro2mkl 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+/*Zro2mkl.str_END*/

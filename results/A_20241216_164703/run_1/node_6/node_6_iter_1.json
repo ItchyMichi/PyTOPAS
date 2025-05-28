@@ -1,0 +1,89 @@
+{
+    "results": {
+        "Musc2m1_with p mod p1": {
+            "RWP": -0.0031799024051173833,
+            "percentage_weight": 1.663
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 6.7
+        },
+        "Quartz": {
+            "RWP": -0.059265314365421956,
+            "percentage_weight": 3.243
+        },
+        "C3S-mono_nishi": {
+            "RWP": -0.002115897445531474,
+            "percentage_weight": 1.027
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 29.456
+        },
+        "rwp_all": {
+            "RWP": 21.2921,
+            "percentage_weight": null
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 63.844
+        },
+        "Calcium chloride hydroxide": {
+            "RWP": -0.010277995124952508,
+            "percentage_weight": 1.024
+        },
+        "C2SH-alpha": {
+            "RWP": -0.016529844402384048,
+            "percentage_weight": 4.208
+        },
+        "initial_structure_list": [
+            "Larnite",
+            "Corundum as standard",
+            "Calcite",
+            "Musc2m1_with p mod p1",
+            "Quartz",
+            "C3S-mono_nishi",
+            "Calcium chloride hydroxide",
+            "C2SH-alpha"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Quartz.str",
+            "C2SH-alpha.str"
+        ],
+        "structures_list": [
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Quartz.str",
+            "C2SH-alpha.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "Corundum as standard",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Musc2m1_with p mod p1",
+        "Quartz",
+        "C3S-mono_nishi",
+        "Calcium chloride hydroxide",
+        "C2SH-alpha"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Quartz.str",
+        "C2SH-alpha.str"
+    ],
+    "excluded_structure_list": [
+        "Musc2m1_with p mod p1",
+        "Calcium chloride hydroxide",
+        "C3S-mono_nishi"
+    ],
+    "iteration": 1
+}

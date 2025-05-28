@@ -1,0 +1,89 @@
+{
+    "results": {
+        "Analcime": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.887
+        },
+        "Lime": {
+            "crystallite_size": 440.72419,
+            "percentage_weight": 2.978
+        },
+        "Anorthite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 43.97
+        },
+        "Portlandite": {
+            "crystallite_size": 1008.70103,
+            "percentage_weight": 0.99
+        },
+        "Anhydrite": {
+            "crystallite_size": 189.90955,
+            "percentage_weight": 9.271
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 112.59471,
+            "percentage_weight": 10.139
+        },
+        "Rutile": {
+            "crystallite_size": 1946.67969,
+            "percentage_weight": 0.0
+        },
+        "Talc": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 10.392
+        },
+        "Katoite": {
+            "crystallite_size": 168.49841,
+            "percentage_weight": 5.201
+        },
+        "Mayenite": {
+            "crystallite_size": 506.07507,
+            "percentage_weight": 0.54
+        },
+        "Mullite21": {
+            "crystallite_size": 50.00004,
+            "percentage_weight": 15.633
+        },
+        "structures_list": [
+            "Analcime.str",
+            "Lime.str",
+            "Anorthite.str",
+            "Portlandite.str",
+            "Anhydrite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Talc.str",
+            "Katoite.str",
+            "Mayenite.str",
+            "Mullite21.str"
+        ]
+    },
+    "valid_structures": [
+        "Lime",
+        "Anorthite",
+        "Portlandite",
+        "Anhydrite",
+        "Katoite",
+        "Mayenite"
+    ],
+    "invalid_structures": [
+        "Analcime",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Rutile",
+        "Talc",
+        "Mullite21"
+    ],
+    "structures_list": [
+        "Analcime.str",
+        "Lime.str",
+        "Anorthite.str",
+        "Portlandite.str",
+        "Anhydrite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Talc.str",
+        "Katoite.str",
+        "Mayenite.str",
+        "Mullite21.str"
+    ],
+    "excluded_structure_list": "Rutile",
+    "iteration": 1
+}

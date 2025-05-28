@@ -1,0 +1,148 @@
+{
+    "results": {
+        "Magnetite": {
+            "crystallite_size": 173.50237,
+            "percentage_weight": 0.251
+        },
+        "Corundum as standard": {
+            "crystallite_size": 306.42181,
+            "percentage_weight": 30.146
+        },
+        "Bassanit": {
+            "crystallite_size": 50.00003,
+            "percentage_weight": 0.154
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00002,
+            "percentage_weight": 3.978
+        },
+        "Calcite": {
+            "crystallite_size": 61.12206,
+            "percentage_weight": 41.894
+        },
+        "Anorthite": {
+            "crystallite_size": 443.05126,
+            "percentage_weight": 0.638
+        },
+        "Thaumasite": {
+            "crystallite_size": 1999.99841,
+            "percentage_weight": 0.068
+        },
+        "Quartz": {
+            "crystallite_size": 245.69021,
+            "percentage_weight": 5.405
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 1653.45542,
+            "percentage_weight": 0.264
+        },
+        "Larnite": {
+            "crystallite_size": 56.38316,
+            "percentage_weight": 3.615
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.805
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 2.16
+        },
+        "Sylvite": {
+            "crystallite_size": 218.98002,
+            "percentage_weight": 1.755
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.00002,
+            "percentage_weight": 1.669
+        },
+        "Portlandite": {
+            "crystallite_size": 53.63884,
+            "percentage_weight": 5.197
+        },
+        "initial_structure_list": [
+            "Magnetite",
+            "Corundum as standard",
+            "Bassanit",
+            "Calcite",
+            "Anorthite",
+            "Quartz",
+            "Ettringite-from-CIF-good",
+            "Sylvite",
+            "Portlandite",
+            "Hydrocalumite",
+            "Thaumasite",
+            "Larnite",
+            "Syngenite",
+            "MicroInt1",
+            "C3S-mono_nishi"
+        ],
+        "final_structure_list": [
+            "Magnetite.str",
+            "Corundum as standard.str",
+            "Bassanit.str",
+            "Calcite.str",
+            "Anorthite.str",
+            "Quartz.str",
+            "Ettringite-from-CIF-good.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Syngenite.str"
+        ],
+        "structures_list": [
+            "Magnetite.str",
+            "Corundum as standard.str",
+            "Bassanit.str",
+            "Calcite.str",
+            "Anorthite.str",
+            "Quartz.str",
+            "Ettringite-from-CIF-good.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Syngenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Magnetite",
+        "Corundum as standard",
+        "Bassanit",
+        "Calcite",
+        "Anorthite",
+        "Quartz",
+        "Ettringite-from-CIF-good",
+        "Sylvite",
+        "Portlandite"
+    ],
+    "invalid_structures": [
+        "Hydrocalumite",
+        "Thaumasite",
+        "Larnite",
+        "Syngenite",
+        "MicroInt1",
+        "C3S-mono_nishi"
+    ],
+    "structures_list": [
+        "Magnetite.str",
+        "Corundum as standard.str",
+        "Bassanit.str",
+        "Calcite.str",
+        "Anorthite.str",
+        "Quartz.str",
+        "Ettringite-from-CIF-good.str",
+        "Sylvite.str",
+        "Portlandite.str",
+        "Hydrocalumite.str",
+        "Larnite.str",
+        "Syngenite.str"
+    ],
+    "excluded_structure_list": [
+        "MicroInt1",
+        "C3S-mono_nishi",
+        "Thaumasite"
+    ],
+    "iteration": 1
+}

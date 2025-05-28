@@ -1,0 +1,148 @@
+{
+    "results": {
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.681,
+            "crystallite_size": 50.57064
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.248,
+            "crystallite_size": 214.544
+        },
+        "Bassanit": {
+            "RWP": -0.008336919079132334,
+            "percentage_weight": 0.829,
+            "crystallite_size": 50.02592
+        },
+        "C3S-mono_nishi": {
+            "RWP": -0.037541341960643446,
+            "percentage_weight": 3.208,
+            "crystallite_size": 50.00463
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 6.898,
+            "crystallite_size": 231.95752
+        },
+        "Magnetite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.242,
+            "crystallite_size": 397.6704
+        },
+        "Syngenite": {
+            "RWP": -0.027798023552941132,
+            "percentage_weight": 2.422,
+            "crystallite_size": 50.00007
+        },
+        "Ettringite-from-CIF-good": {
+            "RWP": 0.0,
+            "percentage_weight": 2.384,
+            "crystallite_size": 50.05903
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.736,
+            "crystallite_size": 50.00696
+        },
+        "Phillips": {
+            "RWP": 0.0,
+            "percentage_weight": 1.324,
+            "crystallite_size": 50.10459
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 46.903,
+            "crystallite_size": 60.84763
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 31.583,
+            "crystallite_size": 410.93966
+        },
+        "rwp_all": {
+            "RWP": 11.647972,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Larnite": {
+            "RWP": -0.09709586355461708,
+            "percentage_weight": 4.239,
+            "crystallite_size": 62.81687
+        },
+        "initial_structure_list": [
+            "Portlandite",
+            "Sylvite",
+            "Quartz",
+            "Magnetite",
+            "Ettringite-from-CIF-good",
+            "Hydrocalumite",
+            "Phillips",
+            "Calcite",
+            "Corundum as standard",
+            "Bassanit",
+            "C3S-mono_nishi",
+            "Syngenite",
+            "Larnite"
+        ],
+        "final_structure_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "Quartz.str",
+            "Magnetite.str",
+            "Ettringite-from-CIF-good.str",
+            "Hydrocalumite.str",
+            "Phillips.str",
+            "Calcite.str",
+            "Corundum as standard.str",
+            "Larnite.str"
+        ],
+        "structures_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "Quartz.str",
+            "Magnetite.str",
+            "Ettringite-from-CIF-good.str",
+            "Hydrocalumite.str",
+            "Phillips.str",
+            "Calcite.str",
+            "Corundum as standard.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Portlandite",
+        "Sylvite",
+        "Quartz",
+        "Magnetite",
+        "Ettringite-from-CIF-good",
+        "Hydrocalumite",
+        "Phillips",
+        "Calcite",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Bassanit",
+        "C3S-mono_nishi",
+        "Syngenite",
+        "Larnite"
+    ],
+    "structures_list": [
+        "Portlandite.str",
+        "Sylvite.str",
+        "Quartz.str",
+        "Magnetite.str",
+        "Ettringite-from-CIF-good.str",
+        "Hydrocalumite.str",
+        "Phillips.str",
+        "Calcite.str",
+        "Corundum as standard.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [
+        "C3S-mono_nishi",
+        "Syngenite",
+        "Bassanit"
+    ],
+    "iteration": 1
+}

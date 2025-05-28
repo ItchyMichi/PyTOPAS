@@ -1,0 +1,89 @@
+{
+    "results": {
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 51.691
+        },
+        "Corundum as standard": {
+            "crystallite_size": 236.32101,
+            "percentage_weight": 23.866
+        },
+        "Sylvite": {
+            "crystallite_size": 86.32726,
+            "percentage_weight": 4.461
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.29
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.007
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.565
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.781
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.745
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.363
+        },
+        "Aragonit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.111
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 130.70066,
+            "percentage_weight": 1.121
+        },
+        "structures_list": [
+            "BrownmilleriteAlFe.str",
+            "Vaterite.str",
+            "Arcanite.str",
+            "Aragonit.str",
+            "Calcite.str",
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Musc2m1_with p mod p1.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Corundum as standard",
+        "Sylvite",
+        "MicroInt1",
+        "Larnite",
+        "Musc2m1_with p mod p1"
+    ],
+    "invalid_structures": [
+        "BrownmilleriteAlFe",
+        "Hydrocalumite",
+        "Vaterite",
+        "Arcanite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "BrownmilleriteAlFe.str",
+        "Vaterite.str",
+        "Arcanite.str",
+        "Aragonit.str",
+        "Calcite.str",
+        "Corundum as standard.str",
+        "Sylvite.str",
+        "MicroInt1.str",
+        "Larnite.str",
+        "Musc2m1_with p mod p1.str"
+    ],
+    "excluded_structure_list": "Hydrocalumite",
+    "iteration": 13
+}

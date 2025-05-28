@@ -1,0 +1,35 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 818.32152,
+            "percentage_weight": 99.896
+        },
+        "Rutile": {
+            "crystallite_size": 57.42188,
+            "percentage_weight": 0.104
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Rutile"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Rutile.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Rutile.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Rutile"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Rutile.str"
+    ],
+    "excluded_structure_list": [],
+    "iteration": 1
+}

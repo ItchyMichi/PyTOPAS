@@ -1,0 +1,53 @@
+{
+    "results": {
+        "Anorthite": {
+            "crystallite_size": 50.46387,
+            "percentage_weight": 40.79
+        },
+        "Mullite21": {
+            "crystallite_size": 50.46387,
+            "percentage_weight": 15.685
+        },
+        "Bassanit": {
+            "crystallite_size": 50.46387,
+            "percentage_weight": 10.722
+        },
+        "Gypsum": {
+            "crystallite_size": 50.46387,
+            "percentage_weight": 10.362
+        },
+        "Talc": {
+            "crystallite_size": 50.46387,
+            "percentage_weight": 9.635
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.46387,
+            "percentage_weight": 12.806
+        },
+        "structures_list": [
+            "Anorthite.str",
+            "Mullite21.str",
+            "Bassanit.str",
+            "Gypsum.str",
+            "Gehlenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Anorthite",
+        "Mullite21",
+        "Bassanit",
+        "Gypsum",
+        "Talc",
+        "Gehlenite"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "Anorthite.str",
+        "Mullite21.str",
+        "Bassanit.str",
+        "Gypsum.str",
+        "Gehlenite.str"
+    ],
+    "excluded_structure_list": "Talc",
+    "iteration": 9
+}

@@ -1,0 +1,214 @@
+{
+    "results": {
+        "C2SH-alpha": {
+            "RWP": -0.03398476332208411,
+            "percentage_weight": 1.127,
+            "crystallite_size": 50.0
+        },
+        "Zircon": {
+            "RWP": -0.042724648614093946,
+            "percentage_weight": 0.294,
+            "crystallite_size": 50.0
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": -0.011467880408467112,
+            "percentage_weight": 0.562,
+            "crystallite_size": 1999.99999
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 1.491,
+            "crystallite_size": 181.50725
+        },
+        "Talc": {
+            "RWP": -0.022220673309547502,
+            "percentage_weight": 0.0,
+            "crystallite_size": 50.0
+        },
+        "Gibbsite": {
+            "RWP": -0.01753947921745639,
+            "percentage_weight": 0.763,
+            "crystallite_size": 91.7263
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 18.177,
+            "crystallite_size": 50.00081
+        },
+        "C3A-cubic": {
+            "RWP": -0.010130914951736628,
+            "percentage_weight": 0.84,
+            "crystallite_size": 50.01254
+        },
+        "BrownmilleriteAlFe": {
+            "RWP": -0.031169442417830918,
+            "percentage_weight": 1.806,
+            "crystallite_size": 50.0
+        },
+        "Aragonit": {
+            "RWP": -0.030389985799104947,
+            "percentage_weight": 0.901,
+            "crystallite_size": 50.0
+        },
+        "Thenardite": {
+            "RWP": -0.011559793542557463,
+            "percentage_weight": 0.731,
+            "crystallite_size": 50.0
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.944,
+            "crystallite_size": 50.0129
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 9.444,
+            "crystallite_size": 59.3583
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 14.87,
+            "crystallite_size": 201.25318
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 8.232,
+            "crystallite_size": 61.91762
+        },
+        "rwp_all": {
+            "RWP": 15.0413759,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Magnetite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.266,
+            "crystallite_size": 133.78371
+        },
+        "Calcium chloride hydroxide": {
+            "RWP": -0.03162991226088571,
+            "percentage_weight": 0.935,
+            "crystallite_size": 50.0
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 36.725,
+            "crystallite_size": 269.87808
+        },
+        "Ettringite-from-CIF-good": {
+            "RWP": -0.007160156139705335,
+            "percentage_weight": 0.0,
+            "crystallite_size": 50.08693
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 5.852,
+            "crystallite_size": 50.00337
+        },
+        "initial_structure_list": [
+            "Quartz",
+            "Portlandite",
+            "Larnite",
+            "Syngenite",
+            "Sylvite",
+            "Hydrocalumite",
+            "Magnetite",
+            "Corundum as standard",
+            "C3S-mono_nishi",
+            "C2SH-alpha",
+            "Zircon",
+            "Musc2m1_with p mod p1",
+            "Talc",
+            "Gibbsite",
+            "C3A-cubic",
+            "BrownmilleriteAlFe",
+            "Aragonit",
+            "Thenardite",
+            "Calcium chloride hydroxide",
+            "Ettringite-from-CIF-good"
+        ],
+        "final_structure_list": [
+            "Quartz.str",
+            "Portlandite.str",
+            "Larnite.str",
+            "Syngenite.str",
+            "Sylvite.str",
+            "Hydrocalumite.str",
+            "Magnetite.str",
+            "Corundum as standard.str",
+            "C3S-mono_nishi.str",
+            "C2SH-alpha.str",
+            "Zircon.str",
+            "Gibbsite.str",
+            "BrownmilleriteAlFe.str",
+            "Aragonit.str",
+            "Calcium chloride hydroxide.str"
+        ],
+        "structures_list": [
+            "Quartz.str",
+            "Portlandite.str",
+            "Larnite.str",
+            "Syngenite.str",
+            "Sylvite.str",
+            "Hydrocalumite.str",
+            "Magnetite.str",
+            "Corundum as standard.str",
+            "C3S-mono_nishi.str",
+            "C2SH-alpha.str",
+            "Zircon.str",
+            "Gibbsite.str",
+            "BrownmilleriteAlFe.str",
+            "Aragonit.str",
+            "Calcium chloride hydroxide.str"
+        ]
+    },
+    "valid_structures": [
+        "Quartz",
+        "Portlandite",
+        "Larnite",
+        "Syngenite",
+        "Sylvite",
+        "Hydrocalumite",
+        "Magnetite",
+        "Corundum as standard",
+        "C3S-mono_nishi"
+    ],
+    "invalid_structures": [
+        "C2SH-alpha",
+        "Zircon",
+        "Musc2m1_with p mod p1",
+        "Talc",
+        "Gibbsite",
+        "C3A-cubic",
+        "BrownmilleriteAlFe",
+        "Aragonit",
+        "Thenardite",
+        "Calcium chloride hydroxide",
+        "Ettringite-from-CIF-good"
+    ],
+    "structures_list": [
+        "Quartz.str",
+        "Portlandite.str",
+        "Larnite.str",
+        "Syngenite.str",
+        "Sylvite.str",
+        "Hydrocalumite.str",
+        "Magnetite.str",
+        "Corundum as standard.str",
+        "C3S-mono_nishi.str",
+        "C2SH-alpha.str",
+        "Zircon.str",
+        "Gibbsite.str",
+        "BrownmilleriteAlFe.str",
+        "Aragonit.str",
+        "Calcium chloride hydroxide.str"
+    ],
+    "excluded_structure_list": [
+        "C3A-cubic",
+        "Thenardite",
+        "Musc2m1_with p mod p1",
+        "Talc",
+        "Ettringite-from-CIF-good"
+    ],
+    "iteration": 1
+}

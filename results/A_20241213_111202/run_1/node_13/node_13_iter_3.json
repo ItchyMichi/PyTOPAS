@@ -1,0 +1,40 @@
+{
+    "results": {
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 16.059
+        },
+        "Merwinite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 23.59
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 40.067
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 20.284
+        },
+        "structures_list": [
+            "Merwinite.str",
+            "Arcanite.str",
+            "Albint.str"
+        ]
+    },
+    "valid_structures": [
+        "Arcanite"
+    ],
+    "invalid_structures": [
+        "Syngenite",
+        "Merwinite",
+        "Albint"
+    ],
+    "structures_list": [
+        "Merwinite.str",
+        "Arcanite.str",
+        "Albint.str"
+    ],
+    "excluded_structure_list": "Syngenite",
+    "iteration": 3
+}

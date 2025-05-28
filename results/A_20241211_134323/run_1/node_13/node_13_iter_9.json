@@ -1,0 +1,60 @@
+{
+    "results": {
+        "CaClOH": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.455
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 17.846
+        },
+        "Thenardite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 13.214
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.799
+        },
+        "Analcime": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 15.752
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 21.191
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 18.743
+        },
+        "structures_list": [
+            "Gypsum.str",
+            "Thenardite.str",
+            "C3A-cubic.str",
+            "Analcime.str",
+            "Bassanit.str",
+            "Mullite21.str"
+        ]
+    },
+    "valid_structures": [
+        "CaClOH",
+        "Gypsum",
+        "Thenardite",
+        "C3A-cubic",
+        "Analcime",
+        "Bassanit",
+        "Mullite21"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "Gypsum.str",
+        "Thenardite.str",
+        "C3A-cubic.str",
+        "Analcime.str",
+        "Bassanit.str",
+        "Mullite21.str"
+    ],
+    "excluded_structure_list": "CaClOH",
+    "iteration": 9
+}

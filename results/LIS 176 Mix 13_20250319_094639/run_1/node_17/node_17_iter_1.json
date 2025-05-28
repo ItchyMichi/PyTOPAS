@@ -1,0 +1,152 @@
+{
+    "results": {
+        "rwp_all": {
+            "RWP": {
+                "RWP": 10.6801858
+            },
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.532,
+            "crystallite_size": 50.0
+        },
+        "Anhydrite": {
+            "RWP": -0.010847301926151867,
+            "percentage_weight": 0.659,
+            "crystallite_size": 158.36072
+        },
+        "Lime": {
+            "RWP": -0.0008050140850546851,
+            "percentage_weight": 0.05,
+            "crystallite_size": 1813.41048
+        },
+        "Aragonit": {
+            "RWP": -0.013011065781271404,
+            "percentage_weight": 0.088,
+            "crystallite_size": 1994.66377
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.258,
+            "crystallite_size": 181.56012
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 0.468,
+            "crystallite_size": 1999.99963
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 30.667,
+            "crystallite_size": 359.25375
+        },
+        "Thaumasite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.428,
+            "crystallite_size": 114.76393
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 6.603,
+            "crystallite_size": 217.48056
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 45.7,
+            "crystallite_size": 58.93887
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.465,
+            "crystallite_size": 61.27874
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.568,
+            "crystallite_size": 50.00002
+        },
+        "Magnetite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.309,
+            "crystallite_size": 179.70602
+        },
+        "initial_structure_list": [
+            "Portlandite",
+            "Sylvite",
+            "MicroInt1",
+            "Corundum as standard",
+            "Thaumasite",
+            "Quartz",
+            "Calcite",
+            "Larnite",
+            "Hydrocalumite",
+            "Magnetite",
+            "Anhydrite",
+            "Lime",
+            "Aragonit"
+        ],
+        "final_structure_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "Corundum as standard.str",
+            "Thaumasite.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Magnetite.str",
+            "Anhydrite.str"
+        ],
+        "structures_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "Corundum as standard.str",
+            "Thaumasite.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Magnetite.str",
+            "Anhydrite.str"
+        ]
+    },
+    "valid_structures": [
+        "Portlandite",
+        "Sylvite",
+        "MicroInt1",
+        "Corundum as standard",
+        "Thaumasite",
+        "Quartz",
+        "Calcite",
+        "Larnite",
+        "Hydrocalumite",
+        "Magnetite"
+    ],
+    "invalid_structures": [
+        "Anhydrite",
+        "Lime",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Portlandite.str",
+        "Sylvite.str",
+        "MicroInt1.str",
+        "Corundum as standard.str",
+        "Thaumasite.str",
+        "Quartz.str",
+        "Calcite.str",
+        "Larnite.str",
+        "Hydrocalumite.str",
+        "Magnetite.str",
+        "Anhydrite.str"
+    ],
+    "excluded_structure_list": [
+        "Aragonit",
+        "Lime"
+    ],
+    "iteration": 1
+}

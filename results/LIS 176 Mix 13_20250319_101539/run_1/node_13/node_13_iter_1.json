@@ -1,0 +1,140 @@
+{
+    "results": {
+        "Magnetite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.126,
+            "crystallite_size": 1999.9995
+        },
+        "Vaterite": {
+            "RWP": -0.006979088930693585,
+            "percentage_weight": 0.619,
+            "crystallite_size": 50.0
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 3.85,
+            "crystallite_size": 52.24116
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 46.482,
+            "crystallite_size": 59.90052
+        },
+        "Ettringite-from-CIF-good": {
+            "RWP": 0.03379080295582524,
+            "percentage_weight": 1.546,
+            "crystallite_size": 91.8414
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.814,
+            "crystallite_size": 50.0
+        },
+        "rwp_all": {
+            "RWP": {
+                "RWP": 11.4323948
+            },
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.513,
+            "crystallite_size": 53.74044
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.339,
+            "crystallite_size": 182.94636
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 31.971,
+            "crystallite_size": 342.02644
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 6.905,
+            "crystallite_size": 219.27085
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "RWP": -0.018312637348738066,
+            "percentage_weight": 1.007,
+            "crystallite_size": 50.00002
+        },
+        "Gehlenite": {
+            "RWP": 0.006449077493370002,
+            "percentage_weight": 1.003,
+            "crystallite_size": 50.0
+        },
+        "initial_structure_list": [
+            "Magnetite",
+            "C3S-mono_nishi",
+            "Calcite",
+            "Hydrocalumite",
+            "Portlandite",
+            "Sylvite",
+            "Corundum as standard",
+            "Quartz",
+            "Vaterite",
+            "Ettringite-from-CIF-good",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Gehlenite"
+        ],
+        "final_structure_list": [
+            "Magnetite.str",
+            "C3S-mono_nishi.str",
+            "Calcite.str",
+            "Hydrocalumite.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str"
+        ],
+        "structures_list": [
+            "Magnetite.str",
+            "C3S-mono_nishi.str",
+            "Calcite.str",
+            "Hydrocalumite.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str"
+        ]
+    },
+    "valid_structures": [
+        "Magnetite",
+        "C3S-mono_nishi",
+        "Calcite",
+        "Hydrocalumite",
+        "Portlandite",
+        "Sylvite",
+        "Corundum as standard",
+        "Quartz"
+    ],
+    "invalid_structures": [
+        "Vaterite",
+        "Ettringite-from-CIF-good",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Gehlenite"
+    ],
+    "structures_list": [
+        "Magnetite.str",
+        "C3S-mono_nishi.str",
+        "Calcite.str",
+        "Hydrocalumite.str",
+        "Portlandite.str",
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Quartz.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str"
+    ],
+    "excluded_structure_list": [
+        "Ettringite-from-CIF-good",
+        "Gehlenite",
+        "Vaterite"
+    ],
+    "iteration": 1
+}

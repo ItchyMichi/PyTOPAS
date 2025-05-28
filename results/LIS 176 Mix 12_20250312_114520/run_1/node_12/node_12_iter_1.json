@@ -1,0 +1,148 @@
+{
+    "results": {
+        "Bassanit": {
+            "crystallite_size": 1349.78628,
+            "percentage_weight": 0.0
+        },
+        "Portlandite": {
+            "crystallite_size": 55.34733,
+            "percentage_weight": 5.127
+        },
+        "Zro2mkl": {
+            "crystallite_size": 50.00045,
+            "percentage_weight": 0.516
+        },
+        "Sylvite": {
+            "crystallite_size": 256.68373,
+            "percentage_weight": 1.635
+        },
+        "MicroInt1": {
+            "crystallite_size": 138.58582,
+            "percentage_weight": 1.195
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00045,
+            "percentage_weight": 2.195
+        },
+        "Corundum as standard": {
+            "crystallite_size": 292.38704,
+            "percentage_weight": 30.292
+        },
+        "C6S3H-gamma-Dellaite": {
+            "crystallite_size": 40.78609,
+            "percentage_weight": 2.529
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 50.11668,
+            "percentage_weight": 0.37
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00045,
+            "percentage_weight": 3.947
+        },
+        "Calcite": {
+            "crystallite_size": 60.73895,
+            "percentage_weight": 42.107
+        },
+        "Larnite": {
+            "crystallite_size": 50.0237,
+            "percentage_weight": 3.269
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 162.65717,
+            "percentage_weight": 1.021
+        },
+        "Quartz": {
+            "crystallite_size": 232.04048,
+            "percentage_weight": 5.429
+        },
+        "Thaumasite": {
+            "crystallite_size": 566.85461,
+            "percentage_weight": 0.367
+        },
+        "initial_structure_list": [
+            "Portlandite",
+            "Sylvite",
+            "MicroInt1",
+            "Corundum as standard",
+            "Calcite",
+            "C3S-mono_nishi",
+            "Quartz",
+            "Thaumasite",
+            "Bassanit",
+            "Zro2mkl",
+            "Syngenite",
+            "C6S3H-gamma-Dellaite",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Hydrocalumite",
+            "Larnite"
+        ],
+        "final_structure_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "Thaumasite.str",
+            "Syngenite.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ],
+        "structures_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "Thaumasite.str",
+            "Syngenite.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Portlandite",
+        "Sylvite",
+        "MicroInt1",
+        "Corundum as standard",
+        "Calcite",
+        "C3S-mono_nishi",
+        "Quartz",
+        "Thaumasite"
+    ],
+    "invalid_structures": [
+        "Bassanit",
+        "Zro2mkl",
+        "Syngenite",
+        "C6S3H-gamma-Dellaite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Hydrocalumite",
+        "Larnite"
+    ],
+    "structures_list": [
+        "Portlandite.str",
+        "Sylvite.str",
+        "MicroInt1.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "C3S-mono_nishi.str",
+        "Quartz.str",
+        "Thaumasite.str",
+        "Syngenite.str",
+        "C6S3H-gamma-Dellaite.str",
+        "Hydrocalumite.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [
+        "Zro2mkl",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Bassanit"
+    ],
+    "iteration": 1
+}

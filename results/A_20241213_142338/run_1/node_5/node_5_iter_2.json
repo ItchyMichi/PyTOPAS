@@ -1,0 +1,61 @@
+{
+    "results": {
+        "Larnite": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 7.651
+        },
+        "Vaterite": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 2.607
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 8.482
+        },
+        "Sylvite": {
+            "crystallite_size": 96.75178,
+            "percentage_weight": 6.148
+        },
+        "Calcite": {
+            "crystallite_size": 50.37417,
+            "percentage_weight": 75.112
+        },
+        "structures_list": [
+            "Larnite.str",
+            "Vaterite.str",
+            "MicroInt1.str",
+            "Calcite.str"
+        ],
+        "initial_structure_list": [
+            "Larnite",
+            "MicroInt1",
+            "Sylvite",
+            "Calcite",
+            "Vaterite"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Vaterite.str",
+            "MicroInt1.str",
+            "Calcite.str"
+        ],
+        "finished": false
+    },
+    "valid_structures": [
+        "Larnite",
+        "MicroInt1",
+        "Sylvite",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Vaterite"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Vaterite.str",
+        "MicroInt1.str",
+        "Calcite.str"
+    ],
+    "excluded_structure_list": "Sylvite",
+    "iteration": 2
+}

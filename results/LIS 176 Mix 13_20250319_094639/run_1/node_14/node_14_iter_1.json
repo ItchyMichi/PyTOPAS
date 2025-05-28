@@ -1,0 +1,155 @@
+{
+    "results": {
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.629
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.198
+        },
+        "Portlandite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.336
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.136
+        },
+        "Anhydrite": {
+            "crystallite_size": 184.6689,
+            "percentage_weight": 0.556
+        },
+        "Lime": {
+            "crystallite_size": 199.37769,
+            "percentage_weight": 0.11
+        },
+        "Aragonit": {
+            "crystallite_size": 85.0204,
+            "percentage_weight": 0.562
+        },
+        "Sylvite": {
+            "crystallite_size": 200.61572,
+            "percentage_weight": 2.011
+        },
+        "Corundum as standard": {
+            "crystallite_size": 345.89164,
+            "percentage_weight": 28.607
+        },
+        "Thaumasite": {
+            "crystallite_size": 290.43572,
+            "percentage_weight": 0.611
+        },
+        "MicroInt1": {
+            "crystallite_size": 151.98142,
+            "percentage_weight": 1.109
+        },
+        "Quartz": {
+            "crystallite_size": 204.66183,
+            "percentage_weight": 6.375
+        },
+        "Calcite": {
+            "crystallite_size": 57.86069,
+            "percentage_weight": 43.064
+        },
+        "Larnite": {
+            "crystallite_size": 50.66493,
+            "percentage_weight": 3.859
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.541
+        },
+        "Magnetite": {
+            "crystallite_size": 183.10962,
+            "percentage_weight": 0.298
+        },
+        "initial_structure_list": [
+            "Portlandite",
+            "Anhydrite",
+            "Lime",
+            "Aragonit",
+            "Sylvite",
+            "Corundum as standard",
+            "Thaumasite",
+            "MicroInt1",
+            "Quartz",
+            "Calcite",
+            "Magnetite",
+            "C3S-mono_nishi",
+            "Syngenite",
+            "Albint",
+            "Larnite",
+            "Hydrocalumite"
+        ],
+        "final_structure_list": [
+            "Portlandite.str",
+            "Anhydrite.str",
+            "Lime.str",
+            "Aragonit.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Thaumasite.str",
+            "MicroInt1.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Magnetite.str",
+            "Hydrocalumite.str"
+        ],
+        "structures_list": [
+            "Portlandite.str",
+            "Anhydrite.str",
+            "Lime.str",
+            "Aragonit.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Thaumasite.str",
+            "MicroInt1.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Magnetite.str",
+            "Hydrocalumite.str"
+        ]
+    },
+    "valid_structures": [
+        "Portlandite",
+        "Anhydrite",
+        "Lime",
+        "Aragonit",
+        "Sylvite",
+        "Corundum as standard",
+        "Thaumasite",
+        "MicroInt1",
+        "Quartz",
+        "Calcite",
+        "Magnetite"
+    ],
+    "invalid_structures": [
+        "C3S-mono_nishi",
+        "Syngenite",
+        "Albint",
+        "Larnite",
+        "Hydrocalumite"
+    ],
+    "structures_list": [
+        "Portlandite.str",
+        "Anhydrite.str",
+        "Lime.str",
+        "Aragonit.str",
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Thaumasite.str",
+        "MicroInt1.str",
+        "Quartz.str",
+        "Calcite.str",
+        "Magnetite.str",
+        "Hydrocalumite.str"
+    ],
+    "excluded_structure_list": [
+        "Larnite",
+        "Syngenite",
+        "C3S-mono_nishi",
+        "Albint"
+    ],
+    "iteration": 1
+}

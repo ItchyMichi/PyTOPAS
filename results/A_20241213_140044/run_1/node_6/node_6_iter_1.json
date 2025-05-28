@@ -1,0 +1,70 @@
+{
+    "results": {
+        "Sylvite": {
+            "crystallite_size": 91.44737,
+            "percentage_weight": 4.647
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 55.318
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.86
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.766
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.648
+        },
+        "Corundum as standard": {
+            "crystallite_size": 217.54623,
+            "percentage_weight": 25.76
+        },
+        "structures_list": [
+            "Sylvite.str",
+            "Calcite.str",
+            "Larnite.str",
+            "MicroInt1.str",
+            "Vaterite.str"
+        ],
+        "initial_structure_list": [
+            "Sylvite",
+            "Calcite",
+            "Larnite",
+            "MicroInt1",
+            "Corundum as standard",
+            "Vaterite"
+        ],
+        "final_structure_list": [
+            "Sylvite.str",
+            "Calcite.str",
+            "Larnite.str",
+            "MicroInt1.str",
+            "Vaterite.str"
+        ],
+        "finished": false
+    },
+    "valid_structures": [
+        "Sylvite",
+        "Calcite",
+        "Larnite",
+        "MicroInt1",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Vaterite"
+    ],
+    "structures_list": [
+        "Sylvite.str",
+        "Calcite.str",
+        "Larnite.str",
+        "MicroInt1.str",
+        "Vaterite.str"
+    ],
+    "excluded_structure_list": "Corundum as standard",
+    "iteration": 1
+}

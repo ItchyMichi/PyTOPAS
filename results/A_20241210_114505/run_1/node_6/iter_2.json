@@ -1,0 +1,131 @@
+{
+    "results": {
+        "Anhydrite": {
+            "crystallite_size": 137.47663,
+            "percentage_weight": 2.287
+        },
+        "Aragonit": {
+            "crystallite_size": 52.9872,
+            "percentage_weight": 6.617
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 14.487
+        },
+        "Thaumasite": {
+            "crystallite_size": 1992.38281,
+            "percentage_weight": 0.007
+        },
+        "Magnetite": {
+            "crystallite_size": 60.96275,
+            "percentage_weight": 6.107
+        },
+        "Larnite": {
+            "crystallite_size": 312.5354,
+            "percentage_weight": 4.373
+        },
+        "Lime": {
+            "crystallite_size": 382.68299,
+            "percentage_weight": 1.319
+        },
+        "Sylvite": {
+            "crystallite_size": 81.61582,
+            "percentage_weight": 11.14
+        },
+        "Chlorite-p-mod": {
+            "crystallite_size": 97.03486,
+            "percentage_weight": 4.597
+        },
+        "Portlandite": {
+            "crystallite_size": 149.31534,
+            "percentage_weight": 0.631
+        },
+        "MicroInt1": {
+            "crystallite_size": 92.90433,
+            "percentage_weight": 11.561
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.44
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.043
+        },
+        "Merwinite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 12.256
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 1230.63947,
+            "percentage_weight": 0.498
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 9.739
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 2000.0,
+            "percentage_weight": 0.898
+        },
+        "structures_list": [
+            "Anhydrite.str",
+            "Aragonit.str",
+            "Arcanite.str",
+            "Magnetite.str",
+            "Larnite.str",
+            "Lime.str",
+            "Sylvite.str",
+            "Chlorite-p-mod.str",
+            "Portlandite.str",
+            "MicroInt1.str",
+            "Gehlenite.str",
+            "Vaterite.str",
+            "Merwinite.str",
+            "Ettringite-from-CIF-good.str",
+            "Anorthite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str"
+        ]
+    },
+    "valid_structures": [
+        "Anhydrite",
+        "Aragonit",
+        "Arcanite",
+        "Magnetite",
+        "Larnite",
+        "Lime",
+        "Sylvite",
+        "Chlorite-p-mod",
+        "Portlandite",
+        "MicroInt1",
+        "Gehlenite",
+        "Vaterite",
+        "Merwinite",
+        "Ettringite-from-CIF-good",
+        "Anorthite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd"
+    ],
+    "invalid_structures": [
+        "Thaumasite"
+    ],
+    "structures_list": [
+        "Anhydrite.str",
+        "Aragonit.str",
+        "Arcanite.str",
+        "Magnetite.str",
+        "Larnite.str",
+        "Lime.str",
+        "Sylvite.str",
+        "Chlorite-p-mod.str",
+        "Portlandite.str",
+        "MicroInt1.str",
+        "Gehlenite.str",
+        "Vaterite.str",
+        "Merwinite.str",
+        "Ettringite-from-CIF-good.str",
+        "Anorthite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str"
+    ],
+    "excluded_structure_list": "Thaumasite",
+    "iteration": 2
+}

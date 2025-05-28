@@ -1,0 +1,67 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 719.87204,
+            "percentage_weight": 60.783
+        },
+        "CaO": {
+            "crystallite_size": 5862.73565,
+            "percentage_weight": 0.152
+        },
+        "Rutile": {
+            "crystallite_size": 50.13356,
+            "percentage_weight": 0.001
+        },
+        "Lime": {
+            "crystallite_size": 5862.73565,
+            "percentage_weight": 0.152
+        },
+        "Hematite": {
+            "crystallite_size": 50.11597,
+            "percentage_weight": 1.324
+        },
+        "Calcite": {
+            "crystallite_size": 50.11597,
+            "percentage_weight": 37.589
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Calcite",
+            "CaO",
+            "Rutile",
+            "Lime",
+            "Hematite"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Hematite.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Hematite.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "CaO",
+        "Rutile",
+        "Lime",
+        "Hematite"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Hematite.str"
+    ],
+    "excluded_structure_list": [
+        "CaO",
+        "Lime",
+        "Rutile"
+    ],
+    "iteration": 1
+}

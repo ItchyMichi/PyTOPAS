@@ -1,0 +1,80 @@
+{
+    "results": {
+        "Sylvite": {
+            "crystallite_size": 92.54085,
+            "percentage_weight": 4.606
+        },
+        "Corundum as standard": {
+            "crystallite_size": 201.11217,
+            "percentage_weight": 25.754
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 54.505
+        },
+        "Merwinite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.27
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.148
+        },
+        "Chlorite-p-mod": {
+            "crystallite_size": 1999.45554,
+            "percentage_weight": 0.21
+        },
+        "Larnite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 5.507
+        },
+        "structures_list": [
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "MicroInt1.str",
+            "Chlorite-p-mod.str",
+            "Larnite.str"
+        ],
+        "initial_structure_list": [
+            "Sylvite",
+            "Corundum as standard",
+            "Calcite",
+            "MicroInt1",
+            "Chlorite-p-mod",
+            "Larnite",
+            "Merwinite"
+        ],
+        "final_structure_list": [
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "MicroInt1.str",
+            "Chlorite-p-mod.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Sylvite",
+        "Corundum as standard",
+        "Calcite",
+        "MicroInt1",
+        "Chlorite-p-mod",
+        "Larnite"
+    ],
+    "invalid_structures": [
+        "Merwinite"
+    ],
+    "structures_list": [
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "MicroInt1.str",
+        "Chlorite-p-mod.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [
+        "Merwinite"
+    ],
+    "iteration": 1
+}

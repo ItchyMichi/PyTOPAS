@@ -1,0 +1,79 @@
+{
+    "results": {
+        "Quartz": {
+            "crystallite_size": 144.33787,
+            "percentage_weight": 1.858
+        },
+        "Larnite": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 6.265
+        },
+        "Sylvite": {
+            "crystallite_size": 92.52346,
+            "percentage_weight": 4.554
+        },
+        "Corundum as standard": {
+            "crystallite_size": 216.42642,
+            "percentage_weight": 25.312
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 4.025
+        },
+        "Vaterite": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 2.936
+        },
+        "Calcite": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 55.049
+        },
+        "structures_list": [
+            "Larnite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "MicroInt1.str",
+            "Vaterite.str",
+            "Calcite.str"
+        ],
+        "initial_structure_list": [
+            "Quartz",
+            "Larnite",
+            "Sylvite",
+            "Corundum as standard",
+            "MicroInt1",
+            "Calcite",
+            "Vaterite"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "MicroInt1.str",
+            "Vaterite.str",
+            "Calcite.str"
+        ],
+        "finished": false
+    },
+    "valid_structures": [
+        "Quartz",
+        "Larnite",
+        "Sylvite",
+        "Corundum as standard",
+        "MicroInt1",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Vaterite"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "MicroInt1.str",
+        "Vaterite.str",
+        "Calcite.str"
+    ],
+    "excluded_structure_list": "Quartz",
+    "iteration": 1
+}

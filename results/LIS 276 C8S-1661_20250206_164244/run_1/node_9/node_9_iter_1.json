@@ -1,0 +1,228 @@
+{
+    "results": {
+        "Gibbsite": {
+            "RWP": -0.01496006912321611,
+            "percentage_weight": 1.164,
+            "crystallite_size": 50.0
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.868,
+            "crystallite_size": 50.0
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 6.883,
+            "crystallite_size": 67.34509
+        },
+        "Arcanite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.445,
+            "crystallite_size": 50.0
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 12.751,
+            "crystallite_size": 203.16553
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 32.322,
+            "crystallite_size": 219.40672
+        },
+        "Anorthite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.469,
+            "crystallite_size": 50.0
+        },
+        "C2SH-alpha": {
+            "RWP": 0.0,
+            "percentage_weight": 0.02,
+            "crystallite_size": 1999.99996
+        },
+        "Katoite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.042,
+            "crystallite_size": 50.0
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 3.921,
+            "crystallite_size": 50.0
+        },
+        "rwp_all": {
+            "RWP": 12.2165612,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 1.797,
+            "crystallite_size": 50.0
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 15.05,
+            "crystallite_size": 50.0
+        },
+        "Dolomite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.786,
+            "crystallite_size": 50.0
+        },
+        "Magnetite": {
+            "RWP": 0.016816639039143107,
+            "percentage_weight": 0.45,
+            "crystallite_size": 72.89966
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 6.589,
+            "crystallite_size": 83.7164
+        },
+        "Mayenite": {
+            "RWP": 0.009118719922591768,
+            "percentage_weight": 2.005,
+            "crystallite_size": 50.0
+        },
+        "Merwinite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.89,
+            "crystallite_size": 50.0
+        },
+        "Aphthita": {
+            "RWP": -0.022764343864621967,
+            "percentage_weight": 1.888,
+            "crystallite_size": 50.0
+        },
+        "Gehlenite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.475,
+            "crystallite_size": 50.0
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 1.088,
+            "crystallite_size": 310.9752
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.605,
+            "crystallite_size": 50.0
+        },
+        "initial_structure_list": [
+            "Larnite",
+            "Hydrocalumite",
+            "Arcanite",
+            "Sylvite",
+            "Corundum as standard",
+            "Anorthite",
+            "C2SH-alpha",
+            "Katoite",
+            "C3S-mono_nishi",
+            "MicroInt1",
+            "Portlandite",
+            "Dolomite",
+            "Syngenite",
+            "Merwinite",
+            "Gehlenite",
+            "Quartz",
+            "Calcite",
+            "Gibbsite",
+            "Magnetite",
+            "Mayenite",
+            "Aphthita"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Arcanite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Anorthite.str",
+            "C2SH-alpha.str",
+            "Katoite.str",
+            "C3S-mono_nishi.str",
+            "MicroInt1.str",
+            "Portlandite.str",
+            "Dolomite.str",
+            "Syngenite.str",
+            "Merwinite.str",
+            "Gehlenite.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Aphthita.str"
+        ],
+        "structures_list": [
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Arcanite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Anorthite.str",
+            "C2SH-alpha.str",
+            "Katoite.str",
+            "C3S-mono_nishi.str",
+            "MicroInt1.str",
+            "Portlandite.str",
+            "Dolomite.str",
+            "Syngenite.str",
+            "Merwinite.str",
+            "Gehlenite.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Aphthita.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "Hydrocalumite",
+        "Arcanite",
+        "Sylvite",
+        "Corundum as standard",
+        "Anorthite",
+        "C2SH-alpha",
+        "Katoite",
+        "C3S-mono_nishi",
+        "MicroInt1",
+        "Portlandite",
+        "Dolomite",
+        "Syngenite",
+        "Merwinite",
+        "Gehlenite",
+        "Quartz",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Gibbsite",
+        "Magnetite",
+        "Mayenite",
+        "Aphthita"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Hydrocalumite.str",
+        "Arcanite.str",
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Anorthite.str",
+        "C2SH-alpha.str",
+        "Katoite.str",
+        "C3S-mono_nishi.str",
+        "MicroInt1.str",
+        "Portlandite.str",
+        "Dolomite.str",
+        "Syngenite.str",
+        "Merwinite.str",
+        "Gehlenite.str",
+        "Quartz.str",
+        "Calcite.str",
+        "Aphthita.str"
+    ],
+    "excluded_structure_list": [
+        "Gibbsite",
+        "Mayenite",
+        "Magnetite"
+    ],
+    "iteration": 1
+}

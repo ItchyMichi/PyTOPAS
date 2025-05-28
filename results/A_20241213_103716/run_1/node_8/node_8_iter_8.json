@@ -1,0 +1,74 @@
+{
+    "results": {
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 33.754
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 9.348
+        },
+        "Talc": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.261
+        },
+        "Thenardite": {
+            "crystallite_size": 52.75325,
+            "percentage_weight": 6.646
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.088
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.548
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 13.821
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.005
+        },
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.529
+        },
+        "structures_list": [
+            "Anorthite.str",
+            "Gehlenite.str",
+            "Talc.str",
+            "C3A-cubic.str",
+            "Bassanit.str",
+            "Mullite21.str",
+            "Gypsum.str",
+            "Dolomite.str"
+        ]
+    },
+    "valid_structures": [
+        "Anorthite",
+        "Gehlenite",
+        "Talc",
+        "Thenardite",
+        "C3A-cubic",
+        "Bassanit",
+        "Mullite21",
+        "Gypsum",
+        "Dolomite"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "Anorthite.str",
+        "Gehlenite.str",
+        "Talc.str",
+        "C3A-cubic.str",
+        "Bassanit.str",
+        "Mullite21.str",
+        "Gypsum.str",
+        "Dolomite.str"
+    ],
+    "excluded_structure_list": "Thenardite",
+    "iteration": 8
+}

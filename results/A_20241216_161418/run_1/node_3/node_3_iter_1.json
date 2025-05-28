@@ -1,0 +1,158 @@
+{
+    "results": {
+        "Zro2mkl": {
+            "crystallite_size": 63.22629,
+            "percentage_weight": 0.652
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.629
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.087
+        },
+        "Quartz": {
+            "crystallite_size": 144.66588,
+            "percentage_weight": 1.801
+        },
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 112.41798,
+            "percentage_weight": 0.144
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.211
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.534
+        },
+        "Aragonit": {
+            "crystallite_size": 59.81389,
+            "percentage_weight": 1.691
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 828.0957,
+            "percentage_weight": 0.0
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 1999.99999,
+            "percentage_weight": 0.443
+        },
+        "Syngenite": {
+            "crystallite_size": 100.07867,
+            "percentage_weight": 0.56
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.788
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.485
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.34
+        },
+        "Corundum as standard": {
+            "crystallite_size": 200.10005,
+            "percentage_weight": 24.05
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 51.535
+        },
+        "Sylvite": {
+            "crystallite_size": 93.70616,
+            "percentage_weight": 4.05
+        },
+        "initial_structure_list": [
+            "Quartz",
+            "Calcium chloride hydroxide",
+            "Musc2m1_with p mod p1",
+            "Syngenite",
+            "Larnite",
+            "Corundum as standard",
+            "Calcite",
+            "Sylvite",
+            "Zro2mkl",
+            "Vaterite",
+            "MicroInt1",
+            "BrownmilleriteAlFe",
+            "Arcanite",
+            "Aragonit",
+            "C2SH-alpha",
+            "Albint",
+            "C3S-mono_nishi"
+        ],
+        "final_structure_list": [
+            "Quartz.str",
+            "Calcium chloride hydroxide.str",
+            "Musc2m1_with p mod p1.str",
+            "Syngenite.str",
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Sylvite.str",
+            "Vaterite.str",
+            "MicroInt1.str"
+        ],
+        "structures_list": [
+            "Quartz.str",
+            "Calcium chloride hydroxide.str",
+            "Musc2m1_with p mod p1.str",
+            "Syngenite.str",
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Sylvite.str",
+            "Vaterite.str",
+            "MicroInt1.str"
+        ]
+    },
+    "valid_structures": [
+        "Quartz",
+        "Calcium chloride hydroxide",
+        "Musc2m1_with p mod p1",
+        "Syngenite",
+        "Larnite",
+        "Corundum as standard",
+        "Calcite",
+        "Sylvite"
+    ],
+    "invalid_structures": [
+        "Zro2mkl",
+        "Vaterite",
+        "MicroInt1",
+        "BrownmilleriteAlFe",
+        "Arcanite",
+        "Aragonit",
+        "C2SH-alpha",
+        "Albint",
+        "C3S-mono_nishi"
+    ],
+    "structures_list": [
+        "Quartz.str",
+        "Calcium chloride hydroxide.str",
+        "Musc2m1_with p mod p1.str",
+        "Syngenite.str",
+        "Larnite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Sylvite.str",
+        "Vaterite.str",
+        "MicroInt1.str"
+    ],
+    "excluded_structure_list": [
+        "Aragonit",
+        "Arcanite",
+        "C3S-mono_nishi",
+        "BrownmilleriteAlFe",
+        "Albint",
+        "Zro2mkl",
+        "C2SH-alpha"
+    ],
+    "iteration": 1
+}

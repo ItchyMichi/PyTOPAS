@@ -1,0 +1,82 @@
+{
+    "results": {
+        "Larnite": {
+            "crystallite_size": 50.00003,
+            "percentage_weight": 4.64
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.553
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.609
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.00003,
+            "percentage_weight": 1.14
+        },
+        "Hematite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.931
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.479
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.206
+        },
+        "Mayenite": {
+            "crystallite_size": 66.32632,
+            "percentage_weight": 0.648
+        },
+        "Calcite": {
+            "crystallite_size": 50.39832,
+            "percentage_weight": 74.102
+        },
+        "Aragonit": {
+            "crystallite_size": 50.00003,
+            "percentage_weight": 3.693
+        },
+        "structures_list": [
+            "Larnite.str",
+            "Arcanite.str",
+            "MicroInt1.str",
+            "BrownmilleriteAlFe.str",
+            "Hematite.str",
+            "Hydrocalumite.str",
+            "Vaterite.str",
+            "Calcite.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "MicroInt1",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Arcanite",
+        "BrownmilleriteAlFe",
+        "Hematite",
+        "Hydrocalumite",
+        "Vaterite",
+        "Mayenite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Arcanite.str",
+        "MicroInt1.str",
+        "BrownmilleriteAlFe.str",
+        "Hematite.str",
+        "Hydrocalumite.str",
+        "Vaterite.str",
+        "Calcite.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "Mayenite",
+    "iteration": 14
+}

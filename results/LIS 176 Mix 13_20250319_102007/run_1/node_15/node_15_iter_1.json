@@ -1,0 +1,150 @@
+{
+    "results": {
+        "Magnetite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.237,
+            "crystallite_size": 407.28711
+        },
+        "rwp_all": {
+            "RWP": {
+                "RWP": 11.6113341
+            },
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 47.068,
+            "crystallite_size": 61.23878
+        },
+        "Dolomite": {
+            "RWP": 0.10412369999999882,
+            "percentage_weight": 1.263,
+            "crystallite_size": 50.00003
+        },
+        "Larnite": {
+            "RWP": -1.086684400000001,
+            "percentage_weight": 4.438,
+            "crystallite_size": 59.69418
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.774,
+            "crystallite_size": 50.0144
+        },
+        "Bassanit": {
+            "RWP": 0.0,
+            "percentage_weight": 0.721,
+            "crystallite_size": 50.02184
+        },
+        "Syngenite": {
+            "RWP": -0.30067340000000087,
+            "percentage_weight": 2.313,
+            "crystallite_size": 50.00045
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 31.791,
+            "crystallite_size": 427.71679
+        },
+        "Ettringite-from-CIF-good": {
+            "RWP": 0.0,
+            "percentage_weight": 2.332,
+            "crystallite_size": 50.03832
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.289,
+            "crystallite_size": 206.13683
+        },
+        "C3S-mono_nishi": {
+            "RWP": -0.3717762000000011,
+            "percentage_weight": 3.06,
+            "crystallite_size": 50.00029
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.833,
+            "crystallite_size": 50.00324
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 6.955,
+            "crystallite_size": 231.43194
+        },
+        "initial_structure_list": [
+            "Magnetite",
+            "Calcite",
+            "Hydrocalumite",
+            "Bassanit",
+            "Corundum as standard",
+            "Ettringite-from-CIF-good",
+            "Sylvite",
+            "Portlandite",
+            "Quartz",
+            "Dolomite",
+            "Larnite",
+            "Syngenite",
+            "C3S-mono_nishi"
+        ],
+        "final_structure_list": [
+            "Magnetite.str",
+            "Calcite.str",
+            "Hydrocalumite.str",
+            "Bassanit.str",
+            "Corundum as standard.str",
+            "Ettringite-from-CIF-good.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Quartz.str",
+            "Larnite.str"
+        ],
+        "structures_list": [
+            "Magnetite.str",
+            "Calcite.str",
+            "Hydrocalumite.str",
+            "Bassanit.str",
+            "Corundum as standard.str",
+            "Ettringite-from-CIF-good.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Quartz.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Magnetite",
+        "Calcite",
+        "Hydrocalumite",
+        "Bassanit",
+        "Corundum as standard",
+        "Ettringite-from-CIF-good",
+        "Sylvite",
+        "Portlandite",
+        "Quartz"
+    ],
+    "invalid_structures": [
+        "Dolomite",
+        "Larnite",
+        "Syngenite",
+        "C3S-mono_nishi"
+    ],
+    "structures_list": [
+        "Magnetite.str",
+        "Calcite.str",
+        "Hydrocalumite.str",
+        "Bassanit.str",
+        "Corundum as standard.str",
+        "Ettringite-from-CIF-good.str",
+        "Sylvite.str",
+        "Portlandite.str",
+        "Quartz.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [
+        "C3S-mono_nishi",
+        "Syngenite",
+        "Dolomite"
+    ],
+    "iteration": 1
+}

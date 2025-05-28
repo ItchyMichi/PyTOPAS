@@ -1,0 +1,54 @@
+{
+    "results": {
+        "Anhydrite": {
+            "crystallite_size": 187.01491,
+            "percentage_weight": 14.474
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 132.38773,
+            "percentage_weight": 13.367
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 61.729
+        },
+        "Mayenite": {
+            "crystallite_size": 692.58727,
+            "percentage_weight": 1.326
+        },
+        "Portlandite": {
+            "crystallite_size": 50.00009,
+            "percentage_weight": 2.143
+        },
+        "Katoite": {
+            "crystallite_size": 139.55839,
+            "percentage_weight": 6.961
+        },
+        "structures_list": [
+            "Anhydrite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Anorthite.str",
+            "Portlandite.str",
+            "Katoite.str"
+        ]
+    },
+    "valid_structures": [
+        "Anhydrite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Anorthite",
+        "Mayenite",
+        "Katoite"
+    ],
+    "invalid_structures": [
+        "Portlandite"
+    ],
+    "structures_list": [
+        "Anhydrite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Anorthite.str",
+        "Portlandite.str",
+        "Katoite.str"
+    ],
+    "excluded_structure_list": "Mayenite",
+    "iteration": 3
+}

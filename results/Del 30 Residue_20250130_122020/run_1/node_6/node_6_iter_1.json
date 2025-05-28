@@ -1,0 +1,186 @@
+{
+    "results": {
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.36
+        },
+        "Anhydrite": {
+            "crystallite_size": 117.61148,
+            "percentage_weight": 5.433
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 1999.9907,
+            "percentage_weight": 0.4
+        },
+        "Anorthite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 3.802
+        },
+        "Quartz": {
+            "crystallite_size": 154.68819,
+            "percentage_weight": 21.791
+        },
+        "Vaterite": {
+            "crystallite_size": 1999.96462,
+            "percentage_weight": 0.426
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 78.82225,
+            "percentage_weight": 1.077
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 4.767
+        },
+        "Corundum as standard": {
+            "crystallite_size": 207.40154,
+            "percentage_weight": 39.525
+        },
+        "Rutile": {
+            "crystallite_size": 1999.94892,
+            "percentage_weight": 0.197
+        },
+        "MicroInt1": {
+            "crystallite_size": 1990.8894,
+            "percentage_weight": 1.888
+        },
+        "Crishigh": {
+            "crystallite_size": 386.93164,
+            "percentage_weight": 0.224
+        },
+        "Dolomite": {
+            "crystallite_size": 456.95596,
+            "percentage_weight": 1.06
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 1310.50659,
+            "percentage_weight": 0.717
+        },
+        "Aphthita": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.606
+        },
+        "Aragonit": {
+            "crystallite_size": 128.32893,
+            "percentage_weight": 0.913
+        },
+        "Portlandite": {
+            "crystallite_size": 234.70257,
+            "percentage_weight": 0.483
+        },
+        "Merwinite": {
+            "crystallite_size": 51.70349,
+            "percentage_weight": 4.69
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.64
+        },
+        "initial_structure_list": [
+            "Bassanit",
+            "Anhydrite",
+            "C2SH-alpha",
+            "Quartz",
+            "Vaterite",
+            "Musc2m1_with p mod p1",
+            "Corundum as standard",
+            "Rutile",
+            "MicroInt1",
+            "Crishigh",
+            "Dolomite",
+            "Hydrocalumite",
+            "Aragonit",
+            "Portlandite",
+            "Merwinite",
+            "Anorthite",
+            "BrownmilleriteAlFe",
+            "Aphthita",
+            "Arcanite"
+        ],
+        "final_structure_list": [
+            "Bassanit.str",
+            "Anhydrite.str",
+            "C2SH-alpha.str",
+            "Quartz.str",
+            "Vaterite.str",
+            "Musc2m1_with p mod p1.str",
+            "Corundum as standard.str",
+            "Rutile.str",
+            "MicroInt1.str",
+            "Crishigh.str",
+            "Dolomite.str",
+            "Hydrocalumite.str",
+            "Aragonit.str",
+            "Portlandite.str",
+            "Merwinite.str",
+            "Anorthite.str",
+            "Arcanite.str"
+        ],
+        "structures_list": [
+            "Bassanit.str",
+            "Anhydrite.str",
+            "C2SH-alpha.str",
+            "Quartz.str",
+            "Vaterite.str",
+            "Musc2m1_with p mod p1.str",
+            "Corundum as standard.str",
+            "Rutile.str",
+            "MicroInt1.str",
+            "Crishigh.str",
+            "Dolomite.str",
+            "Hydrocalumite.str",
+            "Aragonit.str",
+            "Portlandite.str",
+            "Merwinite.str",
+            "Anorthite.str",
+            "Arcanite.str"
+        ]
+    },
+    "valid_structures": [
+        "Bassanit",
+        "Anhydrite",
+        "C2SH-alpha",
+        "Quartz",
+        "Vaterite",
+        "Musc2m1_with p mod p1",
+        "Corundum as standard",
+        "Rutile",
+        "MicroInt1",
+        "Crishigh",
+        "Dolomite",
+        "Hydrocalumite",
+        "Aragonit",
+        "Portlandite",
+        "Merwinite"
+    ],
+    "invalid_structures": [
+        "Anorthite",
+        "BrownmilleriteAlFe",
+        "Aphthita",
+        "Arcanite"
+    ],
+    "structures_list": [
+        "Bassanit.str",
+        "Anhydrite.str",
+        "C2SH-alpha.str",
+        "Quartz.str",
+        "Vaterite.str",
+        "Musc2m1_with p mod p1.str",
+        "Corundum as standard.str",
+        "Rutile.str",
+        "MicroInt1.str",
+        "Crishigh.str",
+        "Dolomite.str",
+        "Hydrocalumite.str",
+        "Aragonit.str",
+        "Portlandite.str",
+        "Merwinite.str",
+        "Anorthite.str",
+        "Arcanite.str"
+    ],
+    "excluded_structure_list": [
+        "Aphthita",
+        "BrownmilleriteAlFe"
+    ],
+    "iteration": 1
+}

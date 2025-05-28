@@ -1,0 +1,25 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "a",
+            "type": "Process",
+            "task_type": "RWP",
+            "parameters": {}
+        },
+        {
+            "id": "node_2",
+            "label": "b",
+            "type": "Process"
+        }
+    ],
+    "connections": [
+        {
+            "from": "node_1",
+            "to": "node_2",
+            "condition": "5",
+            "priority": "1",
+            "info_passed": "Structure List"
+        }
+    ]
+}

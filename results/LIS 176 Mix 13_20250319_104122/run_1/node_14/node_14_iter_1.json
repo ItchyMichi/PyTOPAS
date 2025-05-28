@@ -1,0 +1,139 @@
+{
+    "results": {
+        "Magnetite": {
+            "crystallite_size": 247.06093,
+            "percentage_weight": 0.262
+        },
+        "Corundum as standard": {
+            "crystallite_size": 296.53606,
+            "percentage_weight": 29.962
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.966
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.686
+        },
+        "Calcite": {
+            "crystallite_size": 57.01794,
+            "percentage_weight": 43.889
+        },
+        "Thaumasite": {
+            "crystallite_size": 1997.77289,
+            "percentage_weight": 0.199
+        },
+        "Quartz": {
+            "crystallite_size": 204.0471,
+            "percentage_weight": 6.541
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.777
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 224.41739,
+            "percentage_weight": 0.874
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.97
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.125
+        },
+        "Sylvite": {
+            "crystallite_size": 167.18121,
+            "percentage_weight": 2.201
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 187.63055,
+            "percentage_weight": 1.25
+        },
+        "Portlandite": {
+            "crystallite_size": 54.21847,
+            "percentage_weight": 4.297
+        },
+        "initial_structure_list": [
+            "Magnetite",
+            "Corundum as standard",
+            "Calcite",
+            "Quartz",
+            "Ettringite-from-CIF-good",
+            "Sylvite",
+            "C3S-mono_nishi",
+            "Portlandite",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Hydrocalumite",
+            "Thaumasite",
+            "BrownmilleriteAlFe",
+            "Larnite",
+            "Syngenite"
+        ],
+        "final_structure_list": [
+            "Magnetite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Quartz.str",
+            "Ettringite-from-CIF-good.str",
+            "Sylvite.str",
+            "C3S-mono_nishi.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Syngenite.str"
+        ],
+        "structures_list": [
+            "Magnetite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Quartz.str",
+            "Ettringite-from-CIF-good.str",
+            "Sylvite.str",
+            "C3S-mono_nishi.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Syngenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Magnetite",
+        "Corundum as standard",
+        "Calcite",
+        "Quartz",
+        "Ettringite-from-CIF-good",
+        "Sylvite",
+        "C3S-mono_nishi",
+        "Portlandite"
+    ],
+    "invalid_structures": [
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Hydrocalumite",
+        "Thaumasite",
+        "BrownmilleriteAlFe",
+        "Larnite",
+        "Syngenite"
+    ],
+    "structures_list": [
+        "Magnetite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Quartz.str",
+        "Ettringite-from-CIF-good.str",
+        "Sylvite.str",
+        "C3S-mono_nishi.str",
+        "Portlandite.str",
+        "Hydrocalumite.str",
+        "Larnite.str",
+        "Syngenite.str"
+    ],
+    "excluded_structure_list": [
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "BrownmilleriteAlFe",
+        "Thaumasite"
+    ],
+    "iteration": 1
+}

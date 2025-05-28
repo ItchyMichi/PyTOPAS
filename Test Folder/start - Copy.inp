@@ -1,0 +1,33 @@
+   xdd "D nfc - Copy.raw"
+   r_exp 4.351577355 r_exp_dash 5.271057264 r_wp 22.70939769 r_wp_dash 27.50784965 r_p 16.80493541 r_p_dash 22.00809598 weighted_Durbin_Watson 0.1828305454 gof 5.218658852
+   range 1
+   bkg @ 0 0 0 0
+   start_X  3
+   LP_Factor( 0.0001_LIMIT_MIN_0.0001)
+   Zero_Error(@, 0.01483950911)
+   One_on_X(@, 1000)
+   Rp 250
+   Rs 250
+     Tube_Tails(, 0.1260045914,, -0.06162991848_LIMIT_MAX_-1e-005,, 0.361518048,, 0.02008790324_LIMIT_MIN_1e-005)
+   axial_conv 
+      filament_length  12
+      sample_length  15_LIMIT_MIN_0.0001
+      receiving_slit_length  12
+      primary_soller_angle  4.664143474
+      secondary_soller_angle  2.509794286
+      axial_n_beta  30
+   lpsd_th2_angular_range_degrees  3
+      lpsd_equitorial_divergence_degrees  0.3531968
+      lpsd_equitorial_sample_length_mm  20_LIMIT_MIN_0.0001
+         lpsd_beam_spill_correct_intensity 0
+   lam
+      ymin_on_ymax  0.0001
+      la  0.0159 lo  1.534753 lh  3.6854
+      la  0.5791 lo  1.540596 lh  0.437
+      la  0.0762 lo  1.541058 lh  0.6
+      la  0.2417 lo  1.54441 lh  0.52
+      la  0.0871 lo  1.544721 lh  0.62
+       la  0.001542098723_LIMIT_MIN_1e-005 lo  1.3922 lh  0.550287_LIMIT_MIN_1e-006
+      la  0.002204090135 lo  1.397701 lh  1.26547_LIMIT_MIN_1e-006
+  
+   

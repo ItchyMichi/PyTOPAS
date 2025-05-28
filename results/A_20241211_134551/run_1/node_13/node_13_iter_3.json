@@ -1,0 +1,145 @@
+{
+    "results": {
+        "Gypsum": {
+            "crystallite_size": 50.00003,
+            "percentage_weight": 10.797
+        },
+        "Rutile": {
+            "crystallite_size": 1999.9848,
+            "percentage_weight": 0.447
+        },
+        "Gibbsite": {
+            "crystallite_size": 973.63012,
+            "percentage_weight": 0.699
+        },
+        "Talc": {
+            "crystallite_size": 77.72114,
+            "percentage_weight": 6.974
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.04184,
+            "percentage_weight": 8.854
+        },
+        "Mayenite": {
+            "crystallite_size": 1986.6056,
+            "percentage_weight": 0.419
+        },
+        "Katoite": {
+            "crystallite_size": 155.7432,
+            "percentage_weight": 3.676
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 1999.9503,
+            "percentage_weight": 2.864
+        },
+        "Bassanit": {
+            "crystallite_size": 50.00067,
+            "percentage_weight": 10.268
+        },
+        "Mullite21": {
+            "crystallite_size": 50.00648,
+            "percentage_weight": 10.994
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 1999.99904,
+            "percentage_weight": 0.411
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.00648,
+            "percentage_weight": 4.943
+        },
+        "Lime": {
+            "crystallite_size": 1834.28551,
+            "percentage_weight": 1.783
+        },
+        "Dolomite": {
+            "crystallite_size": 50.00003,
+            "percentage_weight": 10.643
+        },
+        "CaClOH": {
+            "crystallite_size": 50.01485,
+            "percentage_weight": 3.667
+        },
+        "Thenardite": {
+            "crystallite_size": 50.00003,
+            "percentage_weight": 8.818
+        },
+        "Zircon": {
+            "crystallite_size": 261.87519,
+            "percentage_weight": 0.98
+        },
+        "Magnetite": {
+            "crystallite_size": 132.95213,
+            "percentage_weight": 7.824
+        },
+        "Anhydrite": {
+            "crystallite_size": 191.26874,
+            "percentage_weight": 4.937
+        },
+        "structures_list": [
+            "Gypsum.str",
+            "Rutile.str",
+            "Gibbsite.str",
+            "Talc.str",
+            "Gehlenite.str",
+            "Mayenite.str",
+            "Katoite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Bassanit.str",
+            "Mullite21.str",
+            "Ettringite-from-CIF-good.str",
+            "C3A-cubic.str",
+            "Lime.str",
+            "Dolomite.str",
+            "Thenardite.str",
+            "Zircon.str",
+            "Magnetite.str",
+            "Anhydrite.str"
+        ]
+    },
+    "valid_structures": [
+        "Gypsum",
+        "Rutile",
+        "Gibbsite",
+        "Talc",
+        "Gehlenite",
+        "Mayenite",
+        "Katoite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Bassanit",
+        "Mullite21",
+        "Ettringite-from-CIF-good",
+        "C3A-cubic",
+        "Lime",
+        "Dolomite",
+        "Thenardite",
+        "Zircon",
+        "Magnetite",
+        "Anhydrite"
+    ],
+    "invalid_structures": [
+        "CaClOH"
+    ],
+    "structures_list": [
+        "Gypsum.str",
+        "Rutile.str",
+        "Gibbsite.str",
+        "Talc.str",
+        "Gehlenite.str",
+        "Mayenite.str",
+        "Katoite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Bassanit.str",
+        "Mullite21.str",
+        "Ettringite-from-CIF-good.str",
+        "C3A-cubic.str",
+        "Lime.str",
+        "Dolomite.str",
+        "Thenardite.str",
+        "Zircon.str",
+        "Magnetite.str",
+        "Anhydrite.str"
+    ],
+    "excluded_structure_list": "CaClOH",
+    "iteration": 3
+}

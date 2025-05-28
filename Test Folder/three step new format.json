@@ -1,0 +1,42 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "a",
+            "task_type": "Crystallite Size",
+            "parameters": {}
+        },
+        {
+            "id": "node_2",
+            "label": "b",
+            "task_type": "RWP",
+            "parameters": {}
+        },
+        {
+            "id": "node_3",
+            "label": "c",
+            "task_type": "RWP",
+            "parameters": {}
+        },
+        {
+            "id": "node_5",
+            "label": "d",
+            "task_type": "Cleanup",
+            "parameters": {}
+        }
+    ],
+    "connections": [
+        {
+            "from": "node_1",
+            "to": "node_2"
+        },
+        {
+            "from": "node_2",
+            "to": "node_3"
+        },
+        {
+            "from": "node_3",
+            "to": "node_5"
+        }
+    ]
+}

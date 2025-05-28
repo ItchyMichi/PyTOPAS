@@ -1,0 +1,153 @@
+{
+    "results": {
+        "Chlorite-p-mod": {
+            "RWP": 0.0,
+            "percentage_weight": 0.476,
+            "crystallite_size": 1999.99895
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 5.044,
+            "crystallite_size": 101.0657
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.383,
+            "crystallite_size": 50.0
+        },
+        "C2SH-alpha": {
+            "RWP": 0.0,
+            "percentage_weight": 0.668,
+            "crystallite_size": 308.79884
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 35.964,
+            "crystallite_size": 297.98105
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 14.457,
+            "crystallite_size": 128.85592
+        },
+        "Arcanite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.946,
+            "crystallite_size": 50.0
+        },
+        "Tobermorite11A": {
+            "RWP": 0.0,
+            "percentage_weight": 8.567,
+            "crystallite_size": 50.0
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 1.194,
+            "crystallite_size": 1001.43794
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 7.936,
+            "crystallite_size": 50.0
+        },
+        "rwp_all": {
+            "RWP": 13.2026086,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Gypsum": {
+            "RWP": -0.03392925698032133,
+            "percentage_weight": 2.037,
+            "crystallite_size": 65.18951
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 18.207,
+            "crystallite_size": 50.0
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 2.158,
+            "crystallite_size": 84.11289
+        },
+        "initial_structure_list": [
+            "Chlorite-p-mod",
+            "Sylvite",
+            "Syngenite",
+            "C2SH-alpha",
+            "Corundum as standard",
+            "Quartz",
+            "Arcanite",
+            "Tobermorite11A",
+            "MicroInt1",
+            "Larnite",
+            "Calcite",
+            "Musc2m1_with p mod p1",
+            "Gypsum"
+        ],
+        "final_structure_list": [
+            "Chlorite-p-mod.str",
+            "Sylvite.str",
+            "Syngenite.str",
+            "C2SH-alpha.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Arcanite.str",
+            "Tobermorite11A.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Calcite.str",
+            "Musc2m1_with p mod p1.str",
+            "Gypsum.str"
+        ],
+        "structures_list": [
+            "Chlorite-p-mod.str",
+            "Sylvite.str",
+            "Syngenite.str",
+            "C2SH-alpha.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Arcanite.str",
+            "Tobermorite11A.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Calcite.str",
+            "Musc2m1_with p mod p1.str",
+            "Gypsum.str"
+        ]
+    },
+    "valid_structures": [
+        "Chlorite-p-mod",
+        "Sylvite",
+        "Syngenite",
+        "C2SH-alpha",
+        "Corundum as standard",
+        "Quartz",
+        "Arcanite",
+        "Tobermorite11A",
+        "MicroInt1",
+        "Larnite",
+        "Calcite",
+        "Musc2m1_with p mod p1"
+    ],
+    "invalid_structures": [
+        "Gypsum"
+    ],
+    "structures_list": [
+        "Chlorite-p-mod.str",
+        "Sylvite.str",
+        "Syngenite.str",
+        "C2SH-alpha.str",
+        "Corundum as standard.str",
+        "Quartz.str",
+        "Arcanite.str",
+        "Tobermorite11A.str",
+        "MicroInt1.str",
+        "Larnite.str",
+        "Calcite.str",
+        "Musc2m1_with p mod p1.str",
+        "Gypsum.str"
+    ],
+    "excluded_structure_list": [],
+    "iteration": 1
+}

@@ -1,0 +1,53 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 809.79086,
+            "percentage_weight": 99.844
+        },
+        "Rutile": {
+            "crystallite_size": 66.25264,
+            "percentage_weight": 0.026
+        },
+        "CaO": {
+            "crystallite_size": 1596.25855,
+            "percentage_weight": 0.065
+        },
+        "Lime": {
+            "crystallite_size": 1596.25855,
+            "percentage_weight": 0.065
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Rutile",
+            "CaO",
+            "Lime"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "CaO.str",
+            "Lime.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "CaO.str",
+            "Lime.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Rutile",
+        "CaO",
+        "Lime"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "CaO.str",
+        "Lime.str"
+    ],
+    "excluded_structure_list": [
+        "Rutile"
+    ],
+    "iteration": 1
+}

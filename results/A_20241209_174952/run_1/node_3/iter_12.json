@@ -1,0 +1,117 @@
+{
+    "results": {
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 50.847
+        },
+        "Corundum as standard": {
+            "crystallite_size": 200.89298,
+            "percentage_weight": 24.018
+        },
+        "Sylvite": {
+            "crystallite_size": 83.80636,
+            "percentage_weight": 4.262
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.261
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.051
+        },
+        "Zro2mkl": {
+            "crystallite_size": 92.25568,
+            "percentage_weight": 0.514
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.118
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.248
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.369
+        },
+        "Aphthita": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.862
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.101
+        },
+        "Larnite": {
+            "crystallite_size": 50.19025,
+            "percentage_weight": 3.482
+        },
+        "Mayenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.744
+        },
+        "Aragonit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.267
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 185.26891,
+            "percentage_weight": 0.857
+        },
+        "structures_list": [
+            "BrownmilleriteAlFe.str",
+            "Hydrocalumite.str",
+            "C3A-cubic.str",
+            "Vaterite.str",
+            "Aphthita.str",
+            "Arcanite.str",
+            "Larnite.str",
+            "Aragonit.str",
+            "Calcite.str",
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "Zro2mkl.str",
+            "MicroInt1.str",
+            "Musc2m1_with p mod p1.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Corundum as standard",
+        "Sylvite",
+        "Zro2mkl",
+        "MicroInt1",
+        "Musc2m1_with p mod p1"
+    ],
+    "invalid_structures": [
+        "BrownmilleriteAlFe",
+        "Hydrocalumite",
+        "C3A-cubic",
+        "Vaterite",
+        "Aphthita",
+        "Arcanite",
+        "Larnite",
+        "Mayenite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "BrownmilleriteAlFe.str",
+        "Hydrocalumite.str",
+        "C3A-cubic.str",
+        "Vaterite.str",
+        "Aphthita.str",
+        "Arcanite.str",
+        "Larnite.str",
+        "Aragonit.str",
+        "Calcite.str",
+        "Corundum as standard.str",
+        "Sylvite.str",
+        "Zro2mkl.str",
+        "MicroInt1.str",
+        "Musc2m1_with p mod p1.str"
+    ],
+    "excluded_structure_list": "Mayenite",
+    "iteration": 12
+}

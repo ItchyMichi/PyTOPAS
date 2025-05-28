@@ -1,0 +1,152 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 239.22569,
+            "percentage_weight": 33.76
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.44
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.808
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.262
+        },
+        "Sylvite": {
+            "crystallite_size": 105.19755,
+            "percentage_weight": 4.536
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 400.44202,
+            "percentage_weight": 0.893
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.777
+        },
+        "Quartz": {
+            "crystallite_size": 122.58407,
+            "percentage_weight": 13.407
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.476
+        },
+        "Talc": {
+            "crystallite_size": 1999.98117,
+            "percentage_weight": 0.057
+        },
+        "MicroInt1": {
+            "crystallite_size": 283.06132,
+            "percentage_weight": 2.044
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 16.288
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.542
+        },
+        "Chlorite-p-mod": {
+            "crystallite_size": 669.94278,
+            "percentage_weight": 0.268
+        },
+        "Gypsum": {
+            "crystallite_size": 56.74252,
+            "percentage_weight": 2.442
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Syngenite",
+            "Tobermorite11A",
+            "Sylvite",
+            "Musc2m1_with p mod p1",
+            "Larnite",
+            "Quartz",
+            "MicroInt1",
+            "Calcite",
+            "Chlorite-p-mod",
+            "Anorthite",
+            "C3S-mono_nishi",
+            "Talc",
+            "Arcanite",
+            "Gypsum"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Syngenite.str",
+            "Tobermorite11A.str",
+            "Sylvite.str",
+            "Musc2m1_with p mod p1.str",
+            "Larnite.str",
+            "Quartz.str",
+            "MicroInt1.str",
+            "Calcite.str",
+            "Chlorite-p-mod.str",
+            "Anorthite.str",
+            "C3S-mono_nishi.str",
+            "Arcanite.str",
+            "Gypsum.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Syngenite.str",
+            "Tobermorite11A.str",
+            "Sylvite.str",
+            "Musc2m1_with p mod p1.str",
+            "Larnite.str",
+            "Quartz.str",
+            "MicroInt1.str",
+            "Calcite.str",
+            "Chlorite-p-mod.str",
+            "Anorthite.str",
+            "C3S-mono_nishi.str",
+            "Arcanite.str",
+            "Gypsum.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Syngenite",
+        "Tobermorite11A",
+        "Sylvite",
+        "Musc2m1_with p mod p1",
+        "Larnite",
+        "Quartz",
+        "MicroInt1",
+        "Calcite",
+        "Chlorite-p-mod"
+    ],
+    "invalid_structures": [
+        "Anorthite",
+        "C3S-mono_nishi",
+        "Talc",
+        "Arcanite",
+        "Gypsum"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Syngenite.str",
+        "Tobermorite11A.str",
+        "Sylvite.str",
+        "Musc2m1_with p mod p1.str",
+        "Larnite.str",
+        "Quartz.str",
+        "MicroInt1.str",
+        "Calcite.str",
+        "Chlorite-p-mod.str",
+        "Anorthite.str",
+        "C3S-mono_nishi.str",
+        "Arcanite.str",
+        "Gypsum.str"
+    ],
+    "excluded_structure_list": [
+        "Talc"
+    ],
+    "iteration": 1
+}

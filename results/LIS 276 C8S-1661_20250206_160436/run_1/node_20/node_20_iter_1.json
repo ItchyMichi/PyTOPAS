@@ -1,0 +1,161 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 210.29674,
+            "percentage_weight": 33.102
+        },
+        "Syngenite": {
+            "crystallite_size": 98.12249,
+            "percentage_weight": 6.588
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.644
+        },
+        "Merwinite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.329
+        },
+        "Aphthita": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.52
+        },
+        "Katoite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.978
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.228
+        },
+        "Magnetite": {
+            "crystallite_size": 142.80028,
+            "percentage_weight": 0.214
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.052
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 62.51834,
+            "percentage_weight": 6.999
+        },
+        "Quartz": {
+            "crystallite_size": 276.78028,
+            "percentage_weight": 0.968
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.875
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.009
+        },
+        "Portlandite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 15.182
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.154
+        },
+        "Sylvite": {
+            "crystallite_size": 196.50757,
+            "percentage_weight": 13.156
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Syngenite",
+            "Magnetite",
+            "C3S-mono_nishi",
+            "Hydrocalumite",
+            "Quartz",
+            "Portlandite",
+            "Sylvite",
+            "C2SH-alpha",
+            "Merwinite",
+            "Aphthita",
+            "Katoite",
+            "Larnite",
+            "MicroInt1",
+            "Calcite",
+            "Arcanite"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Syngenite.str",
+            "Magnetite.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Quartz.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "Merwinite.str",
+            "Aphthita.str",
+            "Katoite.str",
+            "Larnite.str",
+            "MicroInt1.str",
+            "Calcite.str",
+            "Arcanite.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Syngenite.str",
+            "Magnetite.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Quartz.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "Merwinite.str",
+            "Aphthita.str",
+            "Katoite.str",
+            "Larnite.str",
+            "MicroInt1.str",
+            "Calcite.str",
+            "Arcanite.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Syngenite",
+        "Magnetite",
+        "C3S-mono_nishi",
+        "Hydrocalumite",
+        "Quartz",
+        "Portlandite",
+        "Sylvite"
+    ],
+    "invalid_structures": [
+        "C2SH-alpha",
+        "Merwinite",
+        "Aphthita",
+        "Katoite",
+        "Larnite",
+        "MicroInt1",
+        "Calcite",
+        "Arcanite"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Syngenite.str",
+        "Magnetite.str",
+        "C3S-mono_nishi.str",
+        "Hydrocalumite.str",
+        "Quartz.str",
+        "Portlandite.str",
+        "Sylvite.str",
+        "Merwinite.str",
+        "Aphthita.str",
+        "Katoite.str",
+        "Larnite.str",
+        "MicroInt1.str",
+        "Calcite.str",
+        "Arcanite.str"
+    ],
+    "excluded_structure_list": [
+        "C2SH-alpha"
+    ],
+    "iteration": 1
+}

@@ -1,0 +1,75 @@
+{
+    "results": {
+        "Calcite": {
+            "crystallite_size": 50.27872,
+            "percentage_weight": 73.321
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.70801,
+            "percentage_weight": 1.183
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 1.276
+        },
+        "Hematite": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 0.685
+        },
+        "Vaterite": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 2.907
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 7.28
+        },
+        "Arcanite": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 2.742
+        },
+        "Larnite": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 6.766
+        },
+        "Aragonit": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 3.839
+        },
+        "structures_list": [
+            "Calcite.str",
+            "Hydrocalumite.str",
+            "Hematite.str",
+            "Vaterite.str",
+            "MicroInt1.str",
+            "Arcanite.str",
+            "Larnite.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "MicroInt1",
+        "Larnite"
+    ],
+    "invalid_structures": [
+        "BrownmilleriteAlFe",
+        "Hydrocalumite",
+        "Hematite",
+        "Vaterite",
+        "Arcanite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Hydrocalumite.str",
+        "Hematite.str",
+        "Vaterite.str",
+        "MicroInt1.str",
+        "Arcanite.str",
+        "Larnite.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "BrownmilleriteAlFe",
+    "iteration": 14
+}

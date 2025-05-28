@@ -1,0 +1,180 @@
+{
+    "results": {
+        "Dolomite": {
+            "crystallite_size": 652.0605,
+            "percentage_weight": 2.727
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.00298,
+            "percentage_weight": 12.177
+        },
+        "Gypsum": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 19.802
+        },
+        "Ankeri05-with-p-mod": {
+            "crystallite_size": 1.682264375894307e+21,
+            "percentage_weight": 0.0
+        },
+        "Gehlenite": {
+            "crystallite_size": 70.42861,
+            "percentage_weight": 12.859
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 1350.00453,
+            "percentage_weight": 0.0
+        },
+        "Syngenite": {
+            "crystallite_size": 1924.79767,
+            "percentage_weight": 1.513
+        },
+        "Crishigh": {
+            "crystallite_size": 1997.8436,
+            "percentage_weight": 0.0
+        },
+        "Anhydrite": {
+            "crystallite_size": 312.76024,
+            "percentage_weight": 0.766
+        },
+        "Aphthita": {
+            "crystallite_size": 50.14873,
+            "percentage_weight": 0.0
+        },
+        "Phillips": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 0.0
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 125.59479,
+            "percentage_weight": 5.534
+        },
+        "Talc": {
+            "crystallite_size": 51.15461,
+            "percentage_weight": 22.88
+        },
+        "Analcime": {
+            "crystallite_size": 319.97265,
+            "percentage_weight": 3.372
+        },
+        "Rutile": {
+            "crystallite_size": 874.60186,
+            "percentage_weight": 1.057
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 526.83137,
+            "percentage_weight": 3.336
+        },
+        "CaClOH": {
+            "crystallite_size": 50.0026,
+            "percentage_weight": 9.405
+        },
+        "Zircon": {
+            "crystallite_size": 683.46812,
+            "percentage_weight": 1.24
+        },
+        "Portlandite": {
+            "crystallite_size": 95.55988,
+            "percentage_weight": 3.332
+        },
+        "initial_structure_list": [
+            "Dolomite",
+            "C3A-cubic",
+            "Gypsum",
+            "Gehlenite",
+            "Syngenite",
+            "Anhydrite",
+            "Ettringite-from-CIF-good",
+            "Talc",
+            "Analcime",
+            "Rutile",
+            "Hydrocalumite",
+            "CaClOH",
+            "Zircon",
+            "Ankeri05-with-p-mod",
+            "C2SH-alpha",
+            "Crishigh",
+            "Aphthita",
+            "Phillips",
+            "Portlandite"
+        ],
+        "final_structure_list": [
+            "Dolomite.str",
+            "C3A-cubic.str",
+            "Gypsum.str",
+            "Gehlenite.str",
+            "Syngenite.str",
+            "Anhydrite.str",
+            "Ettringite-from-CIF-good.str",
+            "Talc.str",
+            "Analcime.str",
+            "Rutile.str",
+            "Hydrocalumite.str",
+            "CaClOH.str",
+            "Zircon.str",
+            "Portlandite.str"
+        ],
+        "structures_list": [
+            "Dolomite.str",
+            "C3A-cubic.str",
+            "Gypsum.str",
+            "Gehlenite.str",
+            "Syngenite.str",
+            "Anhydrite.str",
+            "Ettringite-from-CIF-good.str",
+            "Talc.str",
+            "Analcime.str",
+            "Rutile.str",
+            "Hydrocalumite.str",
+            "CaClOH.str",
+            "Zircon.str",
+            "Portlandite.str"
+        ]
+    },
+    "valid_structures": [
+        "Dolomite",
+        "C3A-cubic",
+        "Gypsum",
+        "Gehlenite",
+        "Syngenite",
+        "Anhydrite",
+        "Ettringite-from-CIF-good",
+        "Talc",
+        "Analcime",
+        "Rutile",
+        "Hydrocalumite",
+        "CaClOH",
+        "Zircon"
+    ],
+    "invalid_structures": [
+        "Ankeri05-with-p-mod",
+        "C2SH-alpha",
+        "Crishigh",
+        "Aphthita",
+        "Phillips",
+        "Portlandite"
+    ],
+    "structures_list": [
+        "Dolomite.str",
+        "C3A-cubic.str",
+        "Gypsum.str",
+        "Gehlenite.str",
+        "Syngenite.str",
+        "Anhydrite.str",
+        "Ettringite-from-CIF-good.str",
+        "Talc.str",
+        "Analcime.str",
+        "Rutile.str",
+        "Hydrocalumite.str",
+        "CaClOH.str",
+        "Zircon.str",
+        "Portlandite.str"
+    ],
+    "excluded_structure_list": [
+        "C2SH-alpha",
+        "Crishigh",
+        "Aphthita",
+        "Phillips",
+        "Ankeri05-with-p-mod"
+    ],
+    "iteration": 1
+}

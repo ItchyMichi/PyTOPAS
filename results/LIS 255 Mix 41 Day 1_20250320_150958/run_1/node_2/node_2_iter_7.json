@@ -1,0 +1,233 @@
+{
+    "results": {
+        "C3A-Na-cubic": {
+            "crystallite_size": 45.0,
+            "percentage_weight": 0.939
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.992
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.774
+        },
+        "Phillips": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 1.082
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.666
+        },
+        "Aphthita": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.766
+        },
+        "Mayenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.119
+        },
+        "Sylvite": {
+            "crystallite_size": 161.01389,
+            "percentage_weight": 4.69
+        },
+        "Corundum as standard": {
+            "crystallite_size": 273.1743,
+            "percentage_weight": 27.863
+        },
+        "Katoite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.435
+        },
+        "C6S3H-gamma-Dellaite": {
+            "crystallite_size": 40.1337,
+            "percentage_weight": 4.44
+        },
+        "Portlandite": {
+            "crystallite_size": 61.84051,
+            "percentage_weight": 1.701
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.16
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.445
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.385
+        },
+        "CA2-Grossite": {
+            "crystallite_size": 4.252331317236548e+16,
+            "percentage_weight": 0.693
+        },
+        "Y2o3": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.935
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.125
+        },
+        "CA": {
+            "crystallite_size": 415971853578.89825,
+            "percentage_weight": 1.126
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.735
+        },
+        "Larnite": {
+            "crystallite_size": 66.27989,
+            "percentage_weight": 6.188
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 13.989
+        },
+        "Lime": {
+            "crystallite_size": 1998.92683,
+            "percentage_weight": 0.075
+        },
+        "Thaumasite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.427
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.902
+        },
+        "Quartz": {
+            "crystallite_size": 165.00553,
+            "percentage_weight": 9.348
+        },
+        "initial_structure_list": [
+            "Sylvite",
+            "Corundum as standard",
+            "C6S3H-gamma-Dellaite",
+            "Tobermorite11A",
+            "Larnite",
+            "Calcite",
+            "Quartz",
+            "C3A-Na-cubic",
+            "Vaterite",
+            "Syngenite",
+            "Phillips",
+            "Arcanite",
+            "Aphthita",
+            "Mayenite",
+            "Katoite",
+            "Portlandite",
+            "Bassanit",
+            "C3S-mono_nishi",
+            "Gehlenite",
+            "CA2-Grossite",
+            "Y2o3",
+            "CA",
+            "Hydrocalumite",
+            "Lime",
+            "Thaumasite",
+            "Anorthite"
+        ],
+        "final_structure_list": [
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Tobermorite11A.str",
+            "Larnite.str",
+            "Calcite.str",
+            "Quartz.str",
+            "Vaterite.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "Katoite.str",
+            "Portlandite.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Thaumasite.str",
+            "Anorthite.str"
+        ],
+        "structures_list": [
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Tobermorite11A.str",
+            "Larnite.str",
+            "Calcite.str",
+            "Quartz.str",
+            "Vaterite.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "Katoite.str",
+            "Portlandite.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Thaumasite.str",
+            "Anorthite.str"
+        ]
+    },
+    "valid_structures": [
+        "Sylvite",
+        "Corundum as standard",
+        "C6S3H-gamma-Dellaite",
+        "Tobermorite11A",
+        "Larnite",
+        "Calcite",
+        "Quartz"
+    ],
+    "invalid_structures": [
+        "C3A-Na-cubic",
+        "Vaterite",
+        "Syngenite",
+        "Phillips",
+        "Arcanite",
+        "Aphthita",
+        "Mayenite",
+        "Katoite",
+        "Portlandite",
+        "Bassanit",
+        "C3S-mono_nishi",
+        "Gehlenite",
+        "CA2-Grossite",
+        "Y2o3",
+        "CA",
+        "Hydrocalumite",
+        "Lime",
+        "Thaumasite",
+        "Anorthite"
+    ],
+    "structures_list": [
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "C6S3H-gamma-Dellaite.str",
+        "Tobermorite11A.str",
+        "Larnite.str",
+        "Calcite.str",
+        "Quartz.str",
+        "Vaterite.str",
+        "Syngenite.str",
+        "Arcanite.str",
+        "Katoite.str",
+        "Portlandite.str",
+        "C3S-mono_nishi.str",
+        "Hydrocalumite.str",
+        "Thaumasite.str",
+        "Anorthite.str"
+    ],
+    "excluded_structure_list": [
+        "Bassanit",
+        "CA",
+        "Mayenite",
+        "Phillips",
+        "C3A-Na-cubic",
+        "Y2o3",
+        "Aphthita",
+        "Gehlenite",
+        "Lime",
+        "CA2-Grossite"
+    ],
+    "iteration": 7
+}

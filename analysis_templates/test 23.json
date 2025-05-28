@@ -84,7 +84,7 @@
                 "max_weight": "4",
                 "min_crystallite": "20",
                 "crystallite_step": "30",
-                "polynomial": "5",
+                "polynomial": "10",
                 "exclusion_variable": "Crystallite Size",
                 "exclusion_criteria": "Failing Z-Score",
                 "confidence": "0.3"

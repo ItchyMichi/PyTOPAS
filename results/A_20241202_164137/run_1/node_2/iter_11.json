@@ -1,0 +1,145 @@
+{
+    "results": {
+        "Chlorite-p-mod": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.106
+        },
+        "Aphthita": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.6
+        },
+        "Anhydrite": {
+            "crystallite_size": 108.13622,
+            "percentage_weight": 0.754
+        },
+        "Merwinite": {
+            "crystallite_size": 58.24641,
+            "percentage_weight": 1.022
+        },
+        "Hematite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.653
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.431
+        },
+        "Mayenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.94
+        },
+        "Calcite": {
+            "crystallite_size": 50.18707,
+            "percentage_weight": 62.851
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.466
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.834
+        },
+        "Sylvite": {
+            "crystallite_size": 92.85146,
+            "percentage_weight": 5.092
+        },
+        "Quartz": {
+            "crystallite_size": 151.01937,
+            "percentage_weight": 2.302
+        },
+        "Syngenite": {
+            "crystallite_size": 74.2726,
+            "percentage_weight": 1.291
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.041
+        },
+        "MicroInt1": {
+            "crystallite_size": 62.93548,
+            "percentage_weight": 3.154
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.264
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.932
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.912
+        },
+        "Aragonit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.353
+        },
+        "structures_list": [
+            "Chlorite-p-mod.str",
+            "Aphthita.str",
+            "Anhydrite.str",
+            "Merwinite.str",
+            "Hematite.str",
+            "Hydrocalumite.str",
+            "Mayenite.str",
+            "Calcite.str",
+            "Albint.str",
+            "BrownmilleriteAlFe.str",
+            "Sylvite.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "MicroInt1.str",
+            "Gypsum.str",
+            "Vaterite.str",
+            "Larnite.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Anhydrite",
+        "Calcite",
+        "Sylvite",
+        "Quartz",
+        "Larnite"
+    ],
+    "invalid_structures": [
+        "Chlorite-p-mod",
+        "Aphthita",
+        "Merwinite",
+        "Hematite",
+        "Hydrocalumite",
+        "Mayenite",
+        "Albint",
+        "BrownmilleriteAlFe",
+        "Syngenite",
+        "Arcanite",
+        "MicroInt1",
+        "Gypsum",
+        "Vaterite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Chlorite-p-mod.str",
+        "Aphthita.str",
+        "Anhydrite.str",
+        "Merwinite.str",
+        "Hematite.str",
+        "Hydrocalumite.str",
+        "Mayenite.str",
+        "Calcite.str",
+        "Albint.str",
+        "BrownmilleriteAlFe.str",
+        "Sylvite.str",
+        "Syngenite.str",
+        "Arcanite.str",
+        "MicroInt1.str",
+        "Gypsum.str",
+        "Vaterite.str",
+        "Larnite.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "Quartz",
+    "iteration": 11
+}

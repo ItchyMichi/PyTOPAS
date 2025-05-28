@@ -1,0 +1,114 @@
+{
+    "results": {
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 218.2979,
+            "percentage_weight": 0.942
+        },
+        "Portlandite": {
+            "crystallite_size": 50.0001,
+            "percentage_weight": 4.475
+        },
+        "Calcite": {
+            "crystallite_size": 57.07986,
+            "percentage_weight": 44.694
+        },
+        "Magnetite": {
+            "crystallite_size": 133.51667,
+            "percentage_weight": 0.368
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 2.098
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00065,
+            "percentage_weight": 3.67
+        },
+        "Sylvite": {
+            "crystallite_size": 172.30791,
+            "percentage_weight": 2.182
+        },
+        "Larnite": {
+            "crystallite_size": 55.08282,
+            "percentage_weight": 4.649
+        },
+        "Corundum as standard": {
+            "crystallite_size": 348.15876,
+            "percentage_weight": 29.391
+        },
+        "Anhydrite": {
+            "crystallite_size": 50.31558,
+            "percentage_weight": 0.824
+        },
+        "Quartz": {
+            "crystallite_size": 192.21137,
+            "percentage_weight": 6.705
+        },
+        "initial_structure_list": [
+            "Ettringite-from-CIF-good",
+            "Portlandite",
+            "Calcite",
+            "Magnetite",
+            "Sylvite",
+            "Larnite",
+            "Corundum as standard",
+            "Quartz",
+            "Syngenite",
+            "Hydrocalumite",
+            "Anhydrite"
+        ],
+        "final_structure_list": [
+            "Ettringite-from-CIF-good.str",
+            "Portlandite.str",
+            "Calcite.str",
+            "Magnetite.str",
+            "Sylvite.str",
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Hydrocalumite.str"
+        ],
+        "structures_list": [
+            "Ettringite-from-CIF-good.str",
+            "Portlandite.str",
+            "Calcite.str",
+            "Magnetite.str",
+            "Sylvite.str",
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Hydrocalumite.str"
+        ]
+    },
+    "valid_structures": [
+        "Ettringite-from-CIF-good",
+        "Portlandite",
+        "Calcite",
+        "Magnetite",
+        "Sylvite",
+        "Larnite",
+        "Corundum as standard",
+        "Quartz"
+    ],
+    "invalid_structures": [
+        "Syngenite",
+        "Hydrocalumite",
+        "Anhydrite"
+    ],
+    "structures_list": [
+        "Ettringite-from-CIF-good.str",
+        "Portlandite.str",
+        "Calcite.str",
+        "Magnetite.str",
+        "Sylvite.str",
+        "Larnite.str",
+        "Corundum as standard.str",
+        "Quartz.str",
+        "Hydrocalumite.str"
+    ],
+    "excluded_structure_list": [
+        "Syngenite",
+        "Anhydrite"
+    ],
+    "iteration": 1
+}

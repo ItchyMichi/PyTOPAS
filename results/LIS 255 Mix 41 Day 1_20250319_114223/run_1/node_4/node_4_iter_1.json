@@ -1,0 +1,153 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 323.60904,
+            "percentage_weight": 31.36
+        },
+        "Calcite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 18.936
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 5.891
+        },
+        "Talc": {
+            "crystallite_size": 1989.52642,
+            "percentage_weight": 0.0
+        },
+        "Anorthite": {
+            "crystallite_size": 50.00366,
+            "percentage_weight": 5.952
+        },
+        "CaO": {
+            "crystallite_size": 2.9094535151219276e+16,
+            "percentage_weight": 0.053
+        },
+        "Sylvite": {
+            "crystallite_size": 183.03974,
+            "percentage_weight": 5.006
+        },
+        "C4AF": {
+            "crystallite_size": 1870771185003444.2,
+            "percentage_weight": 0.816
+        },
+        "Rutile": {
+            "crystallite_size": 50.00064,
+            "percentage_weight": 0.365
+        },
+        "Anhydrite": {
+            "crystallite_size": 563.98385,
+            "percentage_weight": 0.367
+        },
+        "Merwinite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 1.709
+        },
+        "Lime": {
+            "crystallite_size": 2.9094535151219276e+16,
+            "percentage_weight": 0.053
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0018,
+            "percentage_weight": 6.981
+        },
+        "Hematite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 0.527
+        },
+        "Quartz": {
+            "crystallite_size": 173.84323,
+            "percentage_weight": 10.427
+        },
+        "Larnite": {
+            "crystallite_size": 50.00354,
+            "percentage_weight": 11.558
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Calcite",
+            "Syngenite",
+            "Anorthite",
+            "Sylvite",
+            "Anhydrite",
+            "Tobermorite11A",
+            "Quartz",
+            "Larnite",
+            "Talc",
+            "CaO",
+            "C4AF",
+            "Rutile",
+            "Merwinite",
+            "Lime",
+            "Hematite"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Syngenite.str",
+            "Anorthite.str",
+            "Sylvite.str",
+            "Anhydrite.str",
+            "Tobermorite11A.str",
+            "Quartz.str",
+            "Larnite.str",
+            "C4AF.str",
+            "Merwinite.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Syngenite.str",
+            "Anorthite.str",
+            "Sylvite.str",
+            "Anhydrite.str",
+            "Tobermorite11A.str",
+            "Quartz.str",
+            "Larnite.str",
+            "C4AF.str",
+            "Merwinite.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Calcite",
+        "Syngenite",
+        "Anorthite",
+        "Sylvite",
+        "Anhydrite",
+        "Tobermorite11A",
+        "Quartz",
+        "Larnite"
+    ],
+    "invalid_structures": [
+        "Talc",
+        "CaO",
+        "C4AF",
+        "Rutile",
+        "Merwinite",
+        "Lime",
+        "Hematite"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Syngenite.str",
+        "Anorthite.str",
+        "Sylvite.str",
+        "Anhydrite.str",
+        "Tobermorite11A.str",
+        "Quartz.str",
+        "Larnite.str",
+        "C4AF.str",
+        "Merwinite.str"
+    ],
+    "excluded_structure_list": [
+        "Hematite",
+        "Rutile",
+        "Talc",
+        "CaO",
+        "Lime"
+    ],
+    "iteration": 1
+}

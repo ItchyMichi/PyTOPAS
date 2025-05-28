@@ -1,0 +1,96 @@
+{
+    "results": {
+        "Calcite": {
+            "crystallite_size": 50.886,
+            "percentage_weight": 65.449
+        },
+        "Sylvite": {
+            "crystallite_size": 89.56476,
+            "percentage_weight": 5.529
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 0.791
+        },
+        "Hematite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.66
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00002,
+            "percentage_weight": 1.407
+        },
+        "Vaterite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 1.774
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.687
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.158
+        },
+        "Larnite": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 6.519
+        },
+        "Mayenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.991
+        },
+        "Chlorite-p-mod": {
+            "crystallite_size": 50.00002,
+            "percentage_weight": 3.231
+        },
+        "Aragonit": {
+            "crystallite_size": 50.00007,
+            "percentage_weight": 3.805
+        },
+        "structures_list": [
+            "Calcite.str",
+            "BrownmilleriteAlFe.str",
+            "Hematite.str",
+            "Hydrocalumite.str",
+            "Vaterite.str",
+            "MicroInt1.str",
+            "Arcanite.str",
+            "Larnite.str",
+            "Mayenite.str",
+            "Chlorite-p-mod.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Sylvite",
+        "MicroInt1",
+        "Larnite"
+    ],
+    "invalid_structures": [
+        "BrownmilleriteAlFe",
+        "Hematite",
+        "Hydrocalumite",
+        "Vaterite",
+        "Arcanite",
+        "Mayenite",
+        "Chlorite-p-mod",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "BrownmilleriteAlFe.str",
+        "Hematite.str",
+        "Hydrocalumite.str",
+        "Vaterite.str",
+        "MicroInt1.str",
+        "Arcanite.str",
+        "Larnite.str",
+        "Mayenite.str",
+        "Chlorite-p-mod.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "Sylvite",
+    "iteration": 13
+}

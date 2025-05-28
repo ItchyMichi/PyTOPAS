@@ -1,0 +1,145 @@
+{
+    "results": {
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.952
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.259
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.095
+        },
+        "Lime": {
+            "crystallite_size": 572.65338,
+            "percentage_weight": 1.22
+        },
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.215
+        },
+        "Katoite": {
+            "crystallite_size": 189.68413,
+            "percentage_weight": 1.362
+        },
+        "Chlorite-p-mod": {
+            "crystallite_size": 50.0005,
+            "percentage_weight": 3.251
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 297.42811,
+            "percentage_weight": 3.76
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.73
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 20.551
+        },
+        "CaClOH": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.441
+        },
+        "Talc": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.468
+        },
+        "Analcime": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.032
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.784
+        },
+        "Thenardite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.401
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 10.028
+        },
+        "Portlandite": {
+            "crystallite_size": 110.18933,
+            "percentage_weight": 0.902
+        },
+        "Anhydrite": {
+            "crystallite_size": 181.16818,
+            "percentage_weight": 2.984
+        },
+        "Magnetite": {
+            "crystallite_size": 87.93351,
+            "percentage_weight": 5.564
+        },
+        "structures_list": [
+            "Tobermorite11A.str",
+            "Chlorite-p-mod.str",
+            "CaClOH.str",
+            "C3A-cubic.str",
+            "Gehlenite.str",
+            "Lime.str",
+            "Dolomite.str",
+            "Katoite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Gypsum.str",
+            "Anorthite.str",
+            "Talc.str",
+            "Bassanit.str",
+            "Thenardite.str",
+            "Mullite21.str",
+            "Portlandite.str",
+            "Anhydrite.str",
+            "Magnetite.str"
+        ]
+    },
+    "valid_structures": [
+        "C3A-cubic",
+        "Gehlenite",
+        "Lime",
+        "Dolomite",
+        "Katoite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Gypsum",
+        "Anorthite",
+        "Talc",
+        "Bassanit",
+        "Thenardite",
+        "Mullite21",
+        "Portlandite",
+        "Anhydrite",
+        "Magnetite"
+    ],
+    "invalid_structures": [
+        "Tobermorite11A",
+        "Chlorite-p-mod",
+        "CaClOH",
+        "Analcime"
+    ],
+    "structures_list": [
+        "Tobermorite11A.str",
+        "Chlorite-p-mod.str",
+        "CaClOH.str",
+        "C3A-cubic.str",
+        "Gehlenite.str",
+        "Lime.str",
+        "Dolomite.str",
+        "Katoite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Gypsum.str",
+        "Anorthite.str",
+        "Talc.str",
+        "Bassanit.str",
+        "Thenardite.str",
+        "Mullite21.str",
+        "Portlandite.str",
+        "Anhydrite.str",
+        "Magnetite.str"
+    ],
+    "excluded_structure_list": "Analcime",
+    "iteration": 3
+}

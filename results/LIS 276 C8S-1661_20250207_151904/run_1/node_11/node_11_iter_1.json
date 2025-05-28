@@ -1,0 +1,206 @@
+{
+    "results": {
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 5.095,
+            "crystallite_size": 50.00037
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 13.21,
+            "crystallite_size": 205.1222
+        },
+        "Gehlenite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.098,
+            "crystallite_size": 50.00037
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 32.683,
+            "crystallite_size": 255.22619
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 1.379,
+            "crystallite_size": 150.80137
+        },
+        "Anorthite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.721,
+            "crystallite_size": 50.00369
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 5.952,
+            "crystallite_size": 116.80269
+        },
+        "Magnetite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.049,
+            "crystallite_size": 613.96611
+        },
+        "Dolomite": {
+            "RWP": -0.004619626168114198,
+            "percentage_weight": 1.377,
+            "crystallite_size": 50.0
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.826,
+            "crystallite_size": 50.00082
+        },
+        "Katoite": {
+            "RWP": 0.004662201703877139,
+            "percentage_weight": 1.869,
+            "crystallite_size": 50.0
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 7.116,
+            "crystallite_size": 65.40565
+        },
+        "Merwinite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.882,
+            "crystallite_size": 50.0
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 2.139,
+            "crystallite_size": 50.17542
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.648,
+            "crystallite_size": 50.00001
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 16.318,
+            "crystallite_size": 50.00005
+        },
+        "MicroInt1": {
+            "RWP": -0.0159750097931974,
+            "percentage_weight": 1.115,
+            "crystallite_size": 228.24364
+        },
+        "BrownmilleriteAlFe": {
+            "RWP": -0.029578584222930245,
+            "percentage_weight": 0.944,
+            "crystallite_size": 90.39252
+        },
+        "rwp_all": {
+            "RWP": 12.7397105,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Arcanite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.884,
+            "crystallite_size": 50.0
+        },
+        "initial_structure_list": [
+            "C3S-mono_nishi",
+            "Sylvite",
+            "Gehlenite",
+            "Corundum as standard",
+            "Quartz",
+            "Anorthite",
+            "Syngenite",
+            "Magnetite",
+            "Larnite",
+            "Hydrocalumite",
+            "Merwinite",
+            "Musc2m1_with p mod p1",
+            "Calcite",
+            "Portlandite",
+            "Arcanite",
+            "Dolomite",
+            "Katoite",
+            "MicroInt1",
+            "BrownmilleriteAlFe"
+        ],
+        "final_structure_list": [
+            "C3S-mono_nishi.str",
+            "Sylvite.str",
+            "Gehlenite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Anorthite.str",
+            "Syngenite.str",
+            "Magnetite.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Merwinite.str",
+            "Musc2m1_with p mod p1.str",
+            "Calcite.str",
+            "Portlandite.str",
+            "Arcanite.str"
+        ],
+        "structures_list": [
+            "C3S-mono_nishi.str",
+            "Sylvite.str",
+            "Gehlenite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Anorthite.str",
+            "Syngenite.str",
+            "Magnetite.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Merwinite.str",
+            "Musc2m1_with p mod p1.str",
+            "Calcite.str",
+            "Portlandite.str",
+            "Arcanite.str"
+        ]
+    },
+    "valid_structures": [
+        "C3S-mono_nishi",
+        "Sylvite",
+        "Gehlenite",
+        "Corundum as standard",
+        "Quartz",
+        "Anorthite",
+        "Syngenite",
+        "Magnetite",
+        "Larnite",
+        "Hydrocalumite",
+        "Merwinite",
+        "Musc2m1_with p mod p1",
+        "Calcite",
+        "Portlandite",
+        "Arcanite"
+    ],
+    "invalid_structures": [
+        "Dolomite",
+        "Katoite",
+        "MicroInt1",
+        "BrownmilleriteAlFe"
+    ],
+    "structures_list": [
+        "C3S-mono_nishi.str",
+        "Sylvite.str",
+        "Gehlenite.str",
+        "Corundum as standard.str",
+        "Quartz.str",
+        "Anorthite.str",
+        "Syngenite.str",
+        "Magnetite.str",
+        "Larnite.str",
+        "Hydrocalumite.str",
+        "Merwinite.str",
+        "Musc2m1_with p mod p1.str",
+        "Calcite.str",
+        "Portlandite.str",
+        "Arcanite.str"
+    ],
+    "excluded_structure_list": [
+        "Katoite",
+        "Dolomite",
+        "BrownmilleriteAlFe",
+        "MicroInt1"
+    ],
+    "iteration": 1
+}

@@ -1,0 +1,130 @@
+{
+    "results": {
+        "Larnite": {
+            "crystallite_size": 50.01231,
+            "percentage_weight": 3.365
+        },
+        "Quartz": {
+            "crystallite_size": 246.32269,
+            "percentage_weight": 5.311
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 297.4107,
+            "percentage_weight": 0.966
+        },
+        "C6S3H-gamma-Dellaite": {
+            "crystallite_size": 40.94357,
+            "percentage_weight": 2.665
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00069,
+            "percentage_weight": 3.935
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00023,
+            "percentage_weight": 2.371
+        },
+        "Gehlenite": {
+            "crystallite_size": 242.808,
+            "percentage_weight": 0.454
+        },
+        "Sylvite": {
+            "crystallite_size": 197.20879,
+            "percentage_weight": 1.81
+        },
+        "Portlandite": {
+            "crystallite_size": 54.42145,
+            "percentage_weight": 5.184
+        },
+        "Thaumasite": {
+            "crystallite_size": 1208.08894,
+            "percentage_weight": 0.322
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00023,
+            "percentage_weight": 2.045
+        },
+        "Corundum as standard": {
+            "crystallite_size": 310.70165,
+            "percentage_weight": 29.895
+        },
+        "Calcite": {
+            "crystallite_size": 61.18847,
+            "percentage_weight": 41.679
+        },
+        "initial_structure_list": [
+            "Quartz",
+            "C3S-mono_nishi",
+            "Gehlenite",
+            "Sylvite",
+            "Portlandite",
+            "Thaumasite",
+            "Corundum as standard",
+            "Calcite",
+            "Larnite",
+            "C6S3H-gamma-Dellaite",
+            "Hydrocalumite",
+            "Syngenite",
+            "MicroInt1"
+        ],
+        "final_structure_list": [
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "Gehlenite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Thaumasite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Larnite.str",
+            "Hydrocalumite.str"
+        ],
+        "structures_list": [
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "Gehlenite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Thaumasite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Larnite.str",
+            "Hydrocalumite.str"
+        ]
+    },
+    "valid_structures": [
+        "Quartz",
+        "C3S-mono_nishi",
+        "Gehlenite",
+        "Sylvite",
+        "Portlandite",
+        "Thaumasite",
+        "Corundum as standard",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Larnite",
+        "C6S3H-gamma-Dellaite",
+        "Hydrocalumite",
+        "Syngenite",
+        "MicroInt1"
+    ],
+    "structures_list": [
+        "Quartz.str",
+        "C3S-mono_nishi.str",
+        "Gehlenite.str",
+        "Sylvite.str",
+        "Portlandite.str",
+        "Thaumasite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Larnite.str",
+        "Hydrocalumite.str"
+    ],
+    "excluded_structure_list": [
+        "Syngenite",
+        "MicroInt1",
+        "C6S3H-gamma-Dellaite"
+    ],
+    "iteration": 1
+}

@@ -1,0 +1,32 @@
+{
+    "results": {
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 10.407
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.291
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 81.302
+        },
+        "structures_list": [
+            "MicroInt1.str",
+            "Calcite.str"
+        ]
+    },
+    "valid_structures": [
+        "MicroInt1",
+        "Larnite",
+        "Calcite"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "MicroInt1.str",
+        "Calcite.str"
+    ],
+    "excluded_structure_list": "Larnite",
+    "iteration": 16
+}

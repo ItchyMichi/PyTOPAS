@@ -1,0 +1,127 @@
+{
+    "results": {
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 0.437
+        },
+        "Gypsum": {
+            "RWP": -0.012956437158124301,
+            "percentage_weight": 0.673
+        },
+        "Albint": {
+            "RWP": -0.006139248385016837,
+            "percentage_weight": 0.664
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 55.654
+        },
+        "Chlorite-p-mod": {
+            "RWP": 0.0,
+            "percentage_weight": 0.212
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.701
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 6.274
+        },
+        "BrownmilleriteAlFe": {
+            "RWP": -0.042829868866132506,
+            "percentage_weight": 1.575
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 6.804
+        },
+        "Hydrocalumite": {
+            "RWP": -0.03795417517708543,
+            "percentage_weight": 1.167
+        },
+        "Zro2mkl": {
+            "RWP": -0.026274632755538378,
+            "percentage_weight": 0.922
+        },
+        "rwp_all": {
+            "RWP": 12.6161535,
+            "percentage_weight": null
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 25.917
+        },
+        "initial_structure_list": [
+            "Musc2m1_with p mod p1",
+            "Calcite",
+            "Chlorite-p-mod",
+            "Sylvite",
+            "Larnite",
+            "MicroInt1",
+            "Corundum as standard",
+            "Gypsum",
+            "Albint",
+            "BrownmilleriteAlFe",
+            "Hydrocalumite",
+            "Zro2mkl"
+        ],
+        "final_structure_list": [
+            "Musc2m1_with p mod p1.str",
+            "Calcite.str",
+            "Chlorite-p-mod.str",
+            "Sylvite.str",
+            "Larnite.str",
+            "MicroInt1.str",
+            "Corundum as standard.str",
+            "BrownmilleriteAlFe.str",
+            "Hydrocalumite.str",
+            "Zro2mkl.str"
+        ],
+        "structures_list": [
+            "Musc2m1_with p mod p1.str",
+            "Calcite.str",
+            "Chlorite-p-mod.str",
+            "Sylvite.str",
+            "Larnite.str",
+            "MicroInt1.str",
+            "Corundum as standard.str",
+            "BrownmilleriteAlFe.str",
+            "Hydrocalumite.str",
+            "Zro2mkl.str"
+        ]
+    },
+    "valid_structures": [
+        "Musc2m1_with p mod p1",
+        "Calcite",
+        "Chlorite-p-mod",
+        "Sylvite",
+        "Larnite",
+        "MicroInt1",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Gypsum",
+        "Albint",
+        "BrownmilleriteAlFe",
+        "Hydrocalumite",
+        "Zro2mkl"
+    ],
+    "structures_list": [
+        "Musc2m1_with p mod p1.str",
+        "Calcite.str",
+        "Chlorite-p-mod.str",
+        "Sylvite.str",
+        "Larnite.str",
+        "MicroInt1.str",
+        "Corundum as standard.str",
+        "BrownmilleriteAlFe.str",
+        "Hydrocalumite.str",
+        "Zro2mkl.str"
+    ],
+    "excluded_structure_list": [
+        "Gypsum",
+        "Albint"
+    ],
+    "iteration": 1
+}

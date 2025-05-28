@@ -1,0 +1,144 @@
+{
+    "results": {
+        "Sylvite": {
+            "crystallite_size": 188.66524,
+            "percentage_weight": 1.865
+        },
+        "Arcanite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 1.022
+        },
+        "Portlandite": {
+            "crystallite_size": 55.27123,
+            "percentage_weight": 5.122
+        },
+        "Thaumasite": {
+            "crystallite_size": 50.00013,
+            "percentage_weight": 1.063
+        },
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 50.00009,
+            "percentage_weight": 0.324
+        },
+        "Aragonit": {
+            "crystallite_size": 1990.27965,
+            "percentage_weight": 0.154
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 50.00158,
+            "percentage_weight": 0.606
+        },
+        "Calcite": {
+            "crystallite_size": 61.20422,
+            "percentage_weight": 41.675
+        },
+        "Corundum as standard": {
+            "crystallite_size": 323.299,
+            "percentage_weight": 29.697
+        },
+        "Quartz": {
+            "crystallite_size": 250.44339,
+            "percentage_weight": 5.268
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 3.967
+        },
+        "Larnite": {
+            "crystallite_size": 50.00031,
+            "percentage_weight": 3.922
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 186.29746,
+            "percentage_weight": 1.08
+        },
+        "C6S3H-gamma-Dellaite": {
+            "crystallite_size": 42.2377,
+            "percentage_weight": 3.161
+        },
+        "MicroInt1": {
+            "crystallite_size": 193.80577,
+            "percentage_weight": 1.075
+        },
+        "initial_structure_list": [
+            "Sylvite",
+            "Portlandite",
+            "Calcite",
+            "Corundum as standard",
+            "Quartz",
+            "C3S-mono_nishi",
+            "MicroInt1",
+            "Arcanite",
+            "Thaumasite",
+            "Calcium chloride hydroxide",
+            "Aragonit",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Hydrocalumite",
+            "Larnite",
+            "C6S3H-gamma-Dellaite"
+        ],
+        "final_structure_list": [
+            "Sylvite.str",
+            "Portlandite.str",
+            "Calcite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "MicroInt1.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "C6S3H-gamma-Dellaite.str"
+        ],
+        "structures_list": [
+            "Sylvite.str",
+            "Portlandite.str",
+            "Calcite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "MicroInt1.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "C6S3H-gamma-Dellaite.str"
+        ]
+    },
+    "valid_structures": [
+        "Sylvite",
+        "Portlandite",
+        "Calcite",
+        "Corundum as standard",
+        "Quartz",
+        "C3S-mono_nishi",
+        "MicroInt1"
+    ],
+    "invalid_structures": [
+        "Arcanite",
+        "Thaumasite",
+        "Calcium chloride hydroxide",
+        "Aragonit",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Hydrocalumite",
+        "Larnite",
+        "C6S3H-gamma-Dellaite"
+    ],
+    "structures_list": [
+        "Sylvite.str",
+        "Portlandite.str",
+        "Calcite.str",
+        "Corundum as standard.str",
+        "Quartz.str",
+        "C3S-mono_nishi.str",
+        "MicroInt1.str",
+        "Hydrocalumite.str",
+        "Larnite.str",
+        "C6S3H-gamma-Dellaite.str"
+    ],
+    "excluded_structure_list": [
+        "Thaumasite",
+        "Arcanite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Calcium chloride hydroxide",
+        "Aragonit"
+    ],
+    "iteration": 1
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "a",
+            "type": ""
+        },
+        {
+            "id": "node_2",
+            "label": "b",
+            "type": ""
+        },
+        {
+            "id": "node_3",
+            "label": "c",
+            "type": ""
+        },
+        {
+            "id": "node_4",
+            "label": "d",
+            "type": ""
+        },
+        {
+            "id": "node_5",
+            "label": "e",
+            "type": ""
+        }
+    ],
+    "connections": [
+        {
+            "from": "node_1",
+            "to": "node_2"
+        },
+        {
+            "from": "node_2",
+            "to": "node_3"
+        },
+        {
+            "from": "node_2",
+            "to": "node_4"
+        },
+        {
+            "from": "node_3",
+            "to": "node_5"
+        },
+        {
+            "from": "node_4",
+            "to": "node_5"
+        }
+    ]
+}

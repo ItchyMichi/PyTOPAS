@@ -1,0 +1,82 @@
+{
+    "results": {
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.833
+        },
+        "CaClOH": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.821
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 13.761
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.852
+        },
+        "Talc": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.069
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 9.038
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.695
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.413
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 31.614
+        },
+        "Thenardite": {
+            "crystallite_size": 61.29693,
+            "percentage_weight": 5.905
+        },
+        "structures_list": [
+            "Dolomite.str",
+            "CaClOH.str",
+            "Mullite21.str",
+            "C3A-cubic.str",
+            "Talc.str",
+            "Gehlenite.str",
+            "Gypsum.str",
+            "Bassanit.str",
+            "Anorthite.str"
+        ]
+    },
+    "valid_structures": [
+        "Dolomite",
+        "Mullite21",
+        "C3A-cubic",
+        "Talc",
+        "Gehlenite",
+        "Gypsum",
+        "Bassanit",
+        "Anorthite",
+        "Thenardite"
+    ],
+    "invalid_structures": [
+        "CaClOH"
+    ],
+    "structures_list": [
+        "Dolomite.str",
+        "CaClOH.str",
+        "Mullite21.str",
+        "C3A-cubic.str",
+        "Talc.str",
+        "Gehlenite.str",
+        "Gypsum.str",
+        "Bassanit.str",
+        "Anorthite.str"
+    ],
+    "excluded_structure_list": "Thenardite",
+    "iteration": 7
+}

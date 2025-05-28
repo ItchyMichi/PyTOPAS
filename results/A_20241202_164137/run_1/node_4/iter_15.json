@@ -1,0 +1,47 @@
+{
+    "results": {
+        "Larnite": {
+            "crystallite_size": 50.00091,
+            "percentage_weight": 7.518
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00091,
+            "percentage_weight": 7.922
+        },
+        "Vaterite": {
+            "crystallite_size": 50.00091,
+            "percentage_weight": 2.526
+        },
+        "Calcite": {
+            "crystallite_size": 50.00091,
+            "percentage_weight": 78.379
+        },
+        "Aragonit": {
+            "crystallite_size": 50.00091,
+            "percentage_weight": 3.656
+        },
+        "structures_list": [
+            "Larnite.str",
+            "MicroInt1.str",
+            "Calcite.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "MicroInt1",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Vaterite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "MicroInt1.str",
+        "Calcite.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "Vaterite",
+    "iteration": 15
+}

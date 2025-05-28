@@ -1,0 +1,110 @@
+{
+    "results": {
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.407
+        },
+        "CaClOH": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.305
+        },
+        "Chlorite-p-mod": {
+            "crystallite_size": 50.03466,
+            "percentage_weight": 4.515
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 10.151
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.135
+        },
+        "Talc": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.947
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.647
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.226
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.074
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.388
+        },
+        "Anhydrite": {
+            "crystallite_size": 187.49522,
+            "percentage_weight": 3.361
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 25.244
+        },
+        "Thenardite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.765
+        },
+        "Magnetite": {
+            "crystallite_size": 92.15798,
+            "percentage_weight": 5.835
+        },
+        "structures_list": [
+            "Dolomite.str",
+            "CaClOH.str",
+            "Chlorite-p-mod.str",
+            "Mullite21.str",
+            "C3A-cubic.str",
+            "Talc.str",
+            "Gehlenite.str",
+            "Tobermorite11A.str",
+            "Gypsum.str",
+            "Bassanit.str",
+            "Anorthite.str",
+            "Thenardite.str",
+            "Magnetite.str"
+        ]
+    },
+    "valid_structures": [
+        "Dolomite",
+        "Chlorite-p-mod",
+        "Mullite21",
+        "C3A-cubic",
+        "Talc",
+        "Gehlenite",
+        "Gypsum",
+        "Bassanit",
+        "Anhydrite",
+        "Anorthite",
+        "Thenardite",
+        "Magnetite"
+    ],
+    "invalid_structures": [
+        "CaClOH",
+        "Tobermorite11A"
+    ],
+    "structures_list": [
+        "Dolomite.str",
+        "CaClOH.str",
+        "Chlorite-p-mod.str",
+        "Mullite21.str",
+        "C3A-cubic.str",
+        "Talc.str",
+        "Gehlenite.str",
+        "Tobermorite11A.str",
+        "Gypsum.str",
+        "Bassanit.str",
+        "Anorthite.str",
+        "Thenardite.str",
+        "Magnetite.str"
+    ],
+    "excluded_structure_list": "Anhydrite",
+    "iteration": 5
+}

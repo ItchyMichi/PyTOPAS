@@ -1,0 +1,132 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 270.11003,
+            "percentage_weight": 35.468
+        },
+        "Sylvite": {
+            "crystallite_size": 189.29302,
+            "percentage_weight": 14.67
+        },
+        "Syngenite": {
+            "crystallite_size": 60.07387,
+            "percentage_weight": 9.238
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.474
+        },
+        "Aragonit": {
+            "crystallite_size": 60.82841,
+            "percentage_weight": 0.667
+        },
+        "Magnetite": {
+            "crystallite_size": 128.71945,
+            "percentage_weight": 0.375
+        },
+        "Portlandite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 16.37
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 62.30816,
+            "percentage_weight": 8.001
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.761
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.779
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.923
+        },
+        "Gibbsite": {
+            "crystallite_size": 81.60751,
+            "percentage_weight": 0.908
+        },
+        "Quartz": {
+            "crystallite_size": 214.28943,
+            "percentage_weight": 1.366
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Sylvite",
+            "Syngenite",
+            "Magnetite",
+            "Portlandite",
+            "Hydrocalumite",
+            "Larnite",
+            "C3S-mono_nishi",
+            "Quartz",
+            "C2SH-alpha",
+            "Aragonit",
+            "BrownmilleriteAlFe",
+            "Gibbsite"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "Syngenite.str",
+            "Magnetite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "C2SH-alpha.str",
+            "BrownmilleriteAlFe.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "Syngenite.str",
+            "Magnetite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "C2SH-alpha.str",
+            "BrownmilleriteAlFe.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Sylvite",
+        "Syngenite",
+        "Magnetite",
+        "Portlandite",
+        "Hydrocalumite",
+        "Larnite",
+        "C3S-mono_nishi",
+        "Quartz"
+    ],
+    "invalid_structures": [
+        "C2SH-alpha",
+        "Aragonit",
+        "BrownmilleriteAlFe",
+        "Gibbsite"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Sylvite.str",
+        "Syngenite.str",
+        "Magnetite.str",
+        "Portlandite.str",
+        "Hydrocalumite.str",
+        "Larnite.str",
+        "C3S-mono_nishi.str",
+        "Quartz.str",
+        "C2SH-alpha.str",
+        "BrownmilleriteAlFe.str"
+    ],
+    "excluded_structure_list": [
+        "Aragonit",
+        "Gibbsite"
+    ],
+    "iteration": 1
+}

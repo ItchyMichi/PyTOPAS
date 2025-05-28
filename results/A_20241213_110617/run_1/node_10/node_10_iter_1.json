@@ -1,0 +1,117 @@
+{
+    "results": {
+        "Portlandite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.527
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 1.31
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.161
+        },
+        "Anhydrite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.799
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.733
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.863
+        },
+        "Sylvite": {
+            "crystallite_size": 96.65052,
+            "percentage_weight": 4.272
+        },
+        "Corundum as standard": {
+            "crystallite_size": 217.31245,
+            "percentage_weight": 24.344
+        },
+        "Larnite": {
+            "crystallite_size": 61.8947,
+            "percentage_weight": 4.58
+        },
+        "Merwinite": {
+            "crystallite_size": 163.71938,
+            "percentage_weight": 0.831
+        },
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.273
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 52.233
+        },
+        "Anorthite": {
+            "crystallite_size": 184.96072,
+            "percentage_weight": 0.703
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.13
+        },
+        "Katoite": {
+            "crystallite_size": 203.04458,
+            "percentage_weight": 0.237
+        },
+        "structures_list": [
+            "Portlandite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Vaterite.str",
+            "Anhydrite.str",
+            "MicroInt1.str",
+            "Arcanite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Larnite.str",
+            "Merwinite.str",
+            "Calcium chloride hydroxide.str",
+            "Calcite.str",
+            "Anorthite.str",
+            "BrownmilleriteAlFe.str"
+        ]
+    },
+    "valid_structures": [
+        "MicroInt1",
+        "Sylvite",
+        "Corundum as standard",
+        "Larnite",
+        "Merwinite",
+        "Calcite",
+        "Anorthite",
+        "Katoite"
+    ],
+    "invalid_structures": [
+        "Portlandite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Vaterite",
+        "Anhydrite",
+        "Arcanite",
+        "Calcium chloride hydroxide",
+        "BrownmilleriteAlFe"
+    ],
+    "structures_list": [
+        "Portlandite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Vaterite.str",
+        "Anhydrite.str",
+        "MicroInt1.str",
+        "Arcanite.str",
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Larnite.str",
+        "Merwinite.str",
+        "Calcium chloride hydroxide.str",
+        "Calcite.str",
+        "Anorthite.str",
+        "BrownmilleriteAlFe.str"
+    ],
+    "excluded_structure_list": "Katoite",
+    "iteration": 1
+}

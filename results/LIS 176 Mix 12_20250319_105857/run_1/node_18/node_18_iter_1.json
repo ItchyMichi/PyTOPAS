@@ -1,0 +1,103 @@
+{
+    "results": {
+        "Calcite": {
+            "crystallite_size": 60.95013,
+            "percentage_weight": 42.331
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 3.999
+        },
+        "Larnite": {
+            "crystallite_size": 50.00027,
+            "percentage_weight": 3.96
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.00168,
+            "percentage_weight": 1.546
+        },
+        "Sylvite": {
+            "crystallite_size": 197.93733,
+            "percentage_weight": 1.832
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 2.362
+        },
+        "Portlandite": {
+            "crystallite_size": 53.86123,
+            "percentage_weight": 5.247
+        },
+        "Quartz": {
+            "crystallite_size": 240.62397,
+            "percentage_weight": 5.414
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 2.798
+        },
+        "Corundum as standard": {
+            "crystallite_size": 300.17757,
+            "percentage_weight": 30.512
+        },
+        "initial_structure_list": [
+            "Calcite",
+            "Sylvite",
+            "Portlandite",
+            "Quartz",
+            "Corundum as standard",
+            "Hydrocalumite",
+            "Larnite",
+            "C3S-mono_nishi",
+            "MicroInt1",
+            "Syngenite"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Quartz.str",
+            "Corundum as standard.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Quartz.str",
+            "Corundum as standard.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Sylvite",
+        "Portlandite",
+        "Quartz",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Hydrocalumite",
+        "Larnite",
+        "C3S-mono_nishi",
+        "MicroInt1",
+        "Syngenite"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Sylvite.str",
+        "Portlandite.str",
+        "Quartz.str",
+        "Corundum as standard.str",
+        "Hydrocalumite.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [
+        "Syngenite",
+        "MicroInt1",
+        "C3S-mono_nishi"
+    ],
+    "iteration": 1
+}

@@ -1,0 +1,148 @@
+{
+    "results": {
+        "MicroInt1": {
+            "crystallite_size": 68.24218,
+            "percentage_weight": 1.607
+        },
+        "Phillips": {
+            "crystallite_size": 50.00046,
+            "percentage_weight": 1.348
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.00011,
+            "percentage_weight": 0.676
+        },
+        "Corundum as standard": {
+            "crystallite_size": 291.67735,
+            "percentage_weight": 29.282
+        },
+        "Larnite": {
+            "crystallite_size": 50.00103,
+            "percentage_weight": 3.222
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 3.54
+        },
+        "Calcite": {
+            "crystallite_size": 56.89091,
+            "percentage_weight": 42.804
+        },
+        "Gehlenite": {
+            "crystallite_size": 119.71361,
+            "percentage_weight": 0.629
+        },
+        "Sylvite": {
+            "crystallite_size": 179.07638,
+            "percentage_weight": 2.107
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 1.927
+        },
+        "Thaumasite": {
+            "crystallite_size": 1999.99937,
+            "percentage_weight": 0.169
+        },
+        "Portlandite": {
+            "crystallite_size": 55.54354,
+            "percentage_weight": 4.078
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 175.69983,
+            "percentage_weight": 0.969
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 171.23894,
+            "percentage_weight": 1.308
+        },
+        "Quartz": {
+            "crystallite_size": 202.9788,
+            "percentage_weight": 6.333
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Calcite",
+            "Gehlenite",
+            "Sylvite",
+            "Portlandite",
+            "Ettringite-from-CIF-good",
+            "C3S-mono_nishi",
+            "Quartz",
+            "MicroInt1",
+            "Phillips",
+            "BrownmilleriteAlFe",
+            "Larnite",
+            "Hydrocalumite",
+            "Syngenite",
+            "Thaumasite"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Gehlenite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Ettringite-from-CIF-good.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Syngenite.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Gehlenite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Ettringite-from-CIF-good.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Syngenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Calcite",
+        "Gehlenite",
+        "Sylvite",
+        "Portlandite",
+        "Ettringite-from-CIF-good",
+        "C3S-mono_nishi",
+        "Quartz"
+    ],
+    "invalid_structures": [
+        "MicroInt1",
+        "Phillips",
+        "BrownmilleriteAlFe",
+        "Larnite",
+        "Hydrocalumite",
+        "Syngenite",
+        "Thaumasite"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Gehlenite.str",
+        "Sylvite.str",
+        "Portlandite.str",
+        "Ettringite-from-CIF-good.str",
+        "C3S-mono_nishi.str",
+        "Quartz.str",
+        "MicroInt1.str",
+        "Larnite.str",
+        "Hydrocalumite.str",
+        "Syngenite.str"
+    ],
+    "excluded_structure_list": [
+        "Phillips",
+        "BrownmilleriteAlFe",
+        "Thaumasite"
+    ],
+    "iteration": 1
+}

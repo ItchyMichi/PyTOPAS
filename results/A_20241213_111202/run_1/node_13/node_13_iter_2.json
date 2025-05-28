@@ -1,0 +1,54 @@
+{
+    "results": {
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 32.856
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 14.75
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 16.267
+        },
+        "Merwinite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 17.889
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.793
+        },
+        "Aragonit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 11.446
+        },
+        "structures_list": [
+            "Arcanite.str",
+            "Syngenite.str",
+            "Albint.str",
+            "Merwinite.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Arcanite"
+    ],
+    "invalid_structures": [
+        "Syngenite",
+        "Albint",
+        "Merwinite",
+        "Hydrocalumite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Arcanite.str",
+        "Syngenite.str",
+        "Albint.str",
+        "Merwinite.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "Hydrocalumite",
+    "iteration": 2
+}

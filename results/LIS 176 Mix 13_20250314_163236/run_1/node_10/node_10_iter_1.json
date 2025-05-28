@@ -1,0 +1,171 @@
+{
+    "results": {
+        "Quartz": {
+            "crystallite_size": 200.21935,
+            "percentage_weight": 6.166
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 179.26819,
+            "percentage_weight": 1.029
+        },
+        "MicroInt1": {
+            "crystallite_size": 56.61545,
+            "percentage_weight": 1.25
+        },
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.518
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.625
+        },
+        "Corundum as standard": {
+            "crystallite_size": 310.44139,
+            "percentage_weight": 28.968
+        },
+        "Magnetite": {
+            "crystallite_size": 215.84658,
+            "percentage_weight": 0.288
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 1999.95558,
+            "percentage_weight": 0.602
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.593
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.601
+        },
+        "Arcanite": {
+            "crystallite_size": 66.48315,
+            "percentage_weight": 0.625
+        },
+        "Calcite": {
+            "crystallite_size": 58.40615,
+            "percentage_weight": 42.393
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.61
+        },
+        "Larnite": {
+            "crystallite_size": 81.13017,
+            "percentage_weight": 2.833
+        },
+        "Gehlenite": {
+            "crystallite_size": 70.27075,
+            "percentage_weight": 0.819
+        },
+        "Anorthite": {
+            "crystallite_size": 380.12497,
+            "percentage_weight": 0.745
+        },
+        "Portlandite": {
+            "crystallite_size": 50.31933,
+            "percentage_weight": 4.266
+        },
+        "Sylvite": {
+            "crystallite_size": 194.79966,
+            "percentage_weight": 2.071
+        },
+        "initial_structure_list": [
+            "Quartz",
+            "Ettringite-from-CIF-good",
+            "Corundum as standard",
+            "Magnetite",
+            "Calcite",
+            "Anorthite",
+            "Portlandite",
+            "Sylvite",
+            "MicroInt1",
+            "Dolomite",
+            "C3S-mono_nishi",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Syngenite",
+            "C3A-cubic",
+            "Arcanite",
+            "Hydrocalumite",
+            "Larnite",
+            "Gehlenite"
+        ],
+        "final_structure_list": [
+            "Quartz.str",
+            "Ettringite-from-CIF-good.str",
+            "Corundum as standard.str",
+            "Magnetite.str",
+            "Calcite.str",
+            "Anorthite.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "C3S-mono_nishi.str",
+            "Syngenite.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ],
+        "structures_list": [
+            "Quartz.str",
+            "Ettringite-from-CIF-good.str",
+            "Corundum as standard.str",
+            "Magnetite.str",
+            "Calcite.str",
+            "Anorthite.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "C3S-mono_nishi.str",
+            "Syngenite.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Quartz",
+        "Ettringite-from-CIF-good",
+        "Corundum as standard",
+        "Magnetite",
+        "Calcite",
+        "Anorthite",
+        "Portlandite",
+        "Sylvite"
+    ],
+    "invalid_structures": [
+        "MicroInt1",
+        "Dolomite",
+        "C3S-mono_nishi",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Syngenite",
+        "C3A-cubic",
+        "Arcanite",
+        "Hydrocalumite",
+        "Larnite",
+        "Gehlenite"
+    ],
+    "structures_list": [
+        "Quartz.str",
+        "Ettringite-from-CIF-good.str",
+        "Corundum as standard.str",
+        "Magnetite.str",
+        "Calcite.str",
+        "Anorthite.str",
+        "Portlandite.str",
+        "Sylvite.str",
+        "MicroInt1.str",
+        "C3S-mono_nishi.str",
+        "Syngenite.str",
+        "Hydrocalumite.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [
+        "Gehlenite",
+        "Arcanite",
+        "C3A-cubic",
+        "Dolomite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd"
+    ],
+    "iteration": 1
+}

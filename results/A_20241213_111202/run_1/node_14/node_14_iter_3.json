@@ -1,0 +1,33 @@
+{
+    "results": {
+        "Merwinite": {
+            "crystallite_size": 50.00362,
+            "percentage_weight": 29.102
+        },
+        "Arcanite": {
+            "crystallite_size": 50.00362,
+            "percentage_weight": 46.038
+        },
+        "Albint": {
+            "crystallite_size": 50.00362,
+            "percentage_weight": 24.86
+        },
+        "structures_list": [
+            "Merwinite.str",
+            "Arcanite.str"
+        ]
+    },
+    "valid_structures": [
+        "Arcanite"
+    ],
+    "invalid_structures": [
+        "Merwinite",
+        "Albint"
+    ],
+    "structures_list": [
+        "Merwinite.str",
+        "Arcanite.str"
+    ],
+    "excluded_structure_list": "Albint",
+    "iteration": 3
+}

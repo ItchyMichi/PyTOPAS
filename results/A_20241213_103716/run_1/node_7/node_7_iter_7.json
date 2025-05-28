@@ -1,0 +1,107 @@
+{
+    "results": {
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 25.389
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.801
+        },
+        "Talc": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.374
+        },
+        "Thenardite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.768
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.151
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.327
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 13.979
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.824
+        },
+        "Magnetite": {
+            "crystallite_size": 92.3642,
+            "percentage_weight": 6.772
+        },
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 9.615
+        },
+        "initial_structure_list": [
+            "Anorthite",
+            "Gehlenite",
+            "Talc",
+            "Thenardite",
+            "C3A-cubic",
+            "Bassanit",
+            "Mullite21",
+            "Gypsum",
+            "Magnetite",
+            "Dolomite"
+        ],
+        "final_structure_list": [
+            "Anorthite.str",
+            "Gehlenite.str",
+            "Talc.str",
+            "Thenardite.str",
+            "C3A-cubic.str",
+            "Bassanit.str",
+            "Mullite21.str",
+            "Gypsum.str",
+            "Magnetite.str",
+            "Dolomite.str"
+        ],
+        "structures_list": [
+            "Anorthite.str",
+            "Gehlenite.str",
+            "Talc.str",
+            "Thenardite.str",
+            "C3A-cubic.str",
+            "Bassanit.str",
+            "Mullite21.str",
+            "Gypsum.str",
+            "Magnetite.str",
+            "Dolomite.str"
+        ]
+    },
+    "valid_structures": [
+        "Anorthite",
+        "Gehlenite",
+        "Talc",
+        "Thenardite",
+        "C3A-cubic",
+        "Bassanit",
+        "Mullite21",
+        "Gypsum",
+        "Magnetite",
+        "Dolomite"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "Anorthite.str",
+        "Gehlenite.str",
+        "Talc.str",
+        "Thenardite.str",
+        "C3A-cubic.str",
+        "Bassanit.str",
+        "Mullite21.str",
+        "Gypsum.str",
+        "Magnetite.str",
+        "Dolomite.str"
+    ],
+    "excluded_structure_list": [],
+    "iteration": 7
+}

@@ -1,0 +1,85 @@
+{
+    "results": {
+        "Arcanite": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 33.36
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 10.313
+        },
+        "Albint": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 17.294
+        },
+        "Merwinite": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 16.986
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00267,
+            "percentage_weight": 5.336
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 243.40942,
+            "percentage_weight": 1.662
+        },
+        "Zro2mkl": {
+            "crystallite_size": 187.01859,
+            "percentage_weight": 3.722
+        },
+        "Aragonit": {
+            "crystallite_size": 50.00181,
+            "percentage_weight": 11.327
+        },
+        "initial_structure_list": [
+            "Arcanite",
+            "BrownmilleriteAlFe",
+            "Zro2mkl",
+            "Syngenite",
+            "Albint",
+            "Merwinite",
+            "Hydrocalumite",
+            "Aragonit"
+        ],
+        "final_structure_list": [
+            "Arcanite.str",
+            "BrownmilleriteAlFe.str",
+            "Zro2mkl.str",
+            "Albint.str",
+            "Merwinite.str"
+        ],
+        "structures_list": [
+            "Arcanite.str",
+            "BrownmilleriteAlFe.str",
+            "Zro2mkl.str",
+            "Albint.str",
+            "Merwinite.str"
+        ]
+    },
+    "valid_structures": [
+        "Arcanite",
+        "BrownmilleriteAlFe",
+        "Zro2mkl"
+    ],
+    "invalid_structures": [
+        "Syngenite",
+        "Albint",
+        "Merwinite",
+        "Hydrocalumite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Arcanite.str",
+        "BrownmilleriteAlFe.str",
+        "Zro2mkl.str",
+        "Albint.str",
+        "Merwinite.str"
+    ],
+    "excluded_structure_list": [
+        "Aragonit",
+        "Syngenite",
+        "Hydrocalumite"
+    ],
+    "iteration": 1
+}

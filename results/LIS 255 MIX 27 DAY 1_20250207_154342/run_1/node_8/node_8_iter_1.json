@@ -1,0 +1,223 @@
+{
+    "results": {
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.929
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.313
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 89.13051,
+            "percentage_weight": 0.876
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.144
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 15.173
+        },
+        "Chlorite-p-mod": {
+            "crystallite_size": 657.48293,
+            "percentage_weight": 0.302
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.734
+        },
+        "Corundum as standard": {
+            "crystallite_size": 248.54278,
+            "percentage_weight": 30.915
+        },
+        "Quartz": {
+            "crystallite_size": 128.37778,
+            "percentage_weight": 12.192
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.683
+        },
+        "Gypsum": {
+            "crystallite_size": 70.78765,
+            "percentage_weight": 2.061
+        },
+        "Sylvite": {
+            "crystallite_size": 109.99925,
+            "percentage_weight": 4.025
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.531
+        },
+        "Phillips": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.008
+        },
+        "MicroInt1": {
+            "crystallite_size": 1577.07332,
+            "percentage_weight": 0.906
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.628
+        },
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 2000.0,
+            "percentage_weight": 0.029
+        },
+        "Magnetite": {
+            "crystallite_size": 52.52884,
+            "percentage_weight": 0.593
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.93
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 2000.0,
+            "percentage_weight": 0.482
+        },
+        "Katoite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.565
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 1165.3951,
+            "percentage_weight": 0.416
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.321
+        },
+        "Talc": {
+            "crystallite_size": 2000.0,
+            "percentage_weight": 0.243
+        },
+        "initial_structure_list": [
+            "Calcite",
+            "Chlorite-p-mod",
+            "Corundum as standard",
+            "Quartz",
+            "Tobermorite11A",
+            "Sylvite",
+            "MicroInt1",
+            "Larnite",
+            "Musc2m1_with p mod p1",
+            "C2SH-alpha",
+            "Talc",
+            "Syngenite",
+            "Arcanite",
+            "Hydrocalumite",
+            "Mullite21",
+            "Bassanit",
+            "Gypsum",
+            "Vaterite",
+            "Phillips",
+            "Calcium chloride hydroxide",
+            "Magnetite",
+            "Anorthite",
+            "Katoite",
+            "C3S-mono_nishi"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Chlorite-p-mod.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Tobermorite11A.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Musc2m1_with p mod p1.str",
+            "C2SH-alpha.str",
+            "Talc.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "Bassanit.str",
+            "Gypsum.str",
+            "Phillips.str",
+            "Anorthite.str",
+            "C3S-mono_nishi.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Chlorite-p-mod.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Tobermorite11A.str",
+            "Sylvite.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Musc2m1_with p mod p1.str",
+            "C2SH-alpha.str",
+            "Talc.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "Bassanit.str",
+            "Gypsum.str",
+            "Phillips.str",
+            "Anorthite.str",
+            "C3S-mono_nishi.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Chlorite-p-mod",
+        "Corundum as standard",
+        "Quartz",
+        "Tobermorite11A",
+        "Sylvite",
+        "MicroInt1",
+        "Larnite",
+        "Musc2m1_with p mod p1",
+        "C2SH-alpha",
+        "Talc"
+    ],
+    "invalid_structures": [
+        "Syngenite",
+        "Arcanite",
+        "Hydrocalumite",
+        "Mullite21",
+        "Bassanit",
+        "Gypsum",
+        "Vaterite",
+        "Phillips",
+        "Calcium chloride hydroxide",
+        "Magnetite",
+        "Anorthite",
+        "Katoite",
+        "C3S-mono_nishi"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Chlorite-p-mod.str",
+        "Corundum as standard.str",
+        "Quartz.str",
+        "Tobermorite11A.str",
+        "Sylvite.str",
+        "MicroInt1.str",
+        "Larnite.str",
+        "Musc2m1_with p mod p1.str",
+        "C2SH-alpha.str",
+        "Talc.str",
+        "Syngenite.str",
+        "Arcanite.str",
+        "Bassanit.str",
+        "Gypsum.str",
+        "Phillips.str",
+        "Anorthite.str",
+        "C3S-mono_nishi.str"
+    ],
+    "excluded_structure_list": [
+        "Katoite",
+        "Vaterite",
+        "Mullite21",
+        "Hydrocalumite",
+        "Magnetite",
+        "Calcium chloride hydroxide"
+    ],
+    "iteration": 1
+}

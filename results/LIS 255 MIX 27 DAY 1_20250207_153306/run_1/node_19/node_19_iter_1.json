@@ -1,0 +1,193 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 34.421,
+            "crystallite_size": 266.11204
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 5.999,
+            "crystallite_size": 50.0
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 13.633,
+            "crystallite_size": 126.08857
+        },
+        "Anorthite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.941,
+            "crystallite_size": 176.48654
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.814,
+            "crystallite_size": 50.6204
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "RWP": 0.0,
+            "percentage_weight": 0.34,
+            "crystallite_size": 2000.0
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 2.365,
+            "crystallite_size": 74.59969
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 16.719,
+            "crystallite_size": 50.0
+        },
+        "C2SH-alpha": {
+            "RWP": 0.0,
+            "percentage_weight": 0.188,
+            "crystallite_size": 1999.99951
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.657,
+            "crystallite_size": 105.13615
+        },
+        "Tobermorite11A": {
+            "RWP": 0.0,
+            "percentage_weight": 8.213,
+            "crystallite_size": 50.0
+        },
+        "Gypsum": {
+            "RWP": 0.0,
+            "percentage_weight": 2.049,
+            "crystallite_size": 64.25397
+        },
+        "Talc": {
+            "RWP": -0.0027948852426243607,
+            "percentage_weight": 0.237,
+            "crystallite_size": 1398.11975
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 0.939,
+            "crystallite_size": 1999.99826
+        },
+        "rwp_all": {
+            "RWP": 12.4891711,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Chlorite-p-mod": {
+            "RWP": 0.0,
+            "percentage_weight": 0.601,
+            "crystallite_size": 1178.20027
+        },
+        "Arcanite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.183,
+            "crystallite_size": 50.0
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 2.935,
+            "crystallite_size": 50.0
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Larnite",
+            "Quartz",
+            "Anorthite",
+            "Syngenite",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Musc2m1_with p mod p1",
+            "Calcite",
+            "C2SH-alpha",
+            "Sylvite",
+            "Tobermorite11A",
+            "Gypsum",
+            "MicroInt1",
+            "Chlorite-p-mod",
+            "Arcanite",
+            "C3S-mono_nishi",
+            "Talc"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Larnite.str",
+            "Quartz.str",
+            "Anorthite.str",
+            "Syngenite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Musc2m1_with p mod p1.str",
+            "Calcite.str",
+            "C2SH-alpha.str",
+            "Sylvite.str",
+            "Tobermorite11A.str",
+            "Gypsum.str",
+            "MicroInt1.str",
+            "Chlorite-p-mod.str",
+            "Arcanite.str",
+            "C3S-mono_nishi.str",
+            "Talc.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Larnite.str",
+            "Quartz.str",
+            "Anorthite.str",
+            "Syngenite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Musc2m1_with p mod p1.str",
+            "Calcite.str",
+            "C2SH-alpha.str",
+            "Sylvite.str",
+            "Tobermorite11A.str",
+            "Gypsum.str",
+            "MicroInt1.str",
+            "Chlorite-p-mod.str",
+            "Arcanite.str",
+            "C3S-mono_nishi.str",
+            "Talc.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Larnite",
+        "Quartz",
+        "Anorthite",
+        "Syngenite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Musc2m1_with p mod p1",
+        "Calcite",
+        "C2SH-alpha",
+        "Sylvite",
+        "Tobermorite11A",
+        "Gypsum",
+        "MicroInt1",
+        "Chlorite-p-mod",
+        "Arcanite",
+        "C3S-mono_nishi"
+    ],
+    "invalid_structures": [
+        "Talc"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Larnite.str",
+        "Quartz.str",
+        "Anorthite.str",
+        "Syngenite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Musc2m1_with p mod p1.str",
+        "Calcite.str",
+        "C2SH-alpha.str",
+        "Sylvite.str",
+        "Tobermorite11A.str",
+        "Gypsum.str",
+        "MicroInt1.str",
+        "Chlorite-p-mod.str",
+        "Arcanite.str",
+        "C3S-mono_nishi.str",
+        "Talc.str"
+    ],
+    "excluded_structure_list": [],
+    "iteration": 1
+}

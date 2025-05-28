@@ -1,0 +1,177 @@
+{
+    "results": {
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.871
+        },
+        "Chlorite-p-mod": {
+            "RWP": 0.0,
+            "percentage_weight": 0.246
+        },
+        "Hydrocalumite": {
+            "RWP": -0.04159551463961476,
+            "percentage_weight": 1.157
+        },
+        "Hematite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.643
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 53.902
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 5.701
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 0.923
+        },
+        "Merwinite": {
+            "RWP": -0.01855070470141844,
+            "percentage_weight": 1.954
+        },
+        "rwp_all": {
+            "RWP": 11.9453144,
+            "percentage_weight": null
+        },
+        "Mullite21": {
+            "RWP": 0.0,
+            "percentage_weight": 0.692
+        },
+        "Albint": {
+            "RWP": -0.0034294283623042686,
+            "percentage_weight": 0.661
+        },
+        "Vaterite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.601
+        },
+        "Quartz": {
+            "RWP": -0.0757367089475686,
+            "percentage_weight": 1.819
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.531
+        },
+        "Aragonit": {
+            "RWP": -0.013759043462263403,
+            "percentage_weight": 1.759
+        },
+        "Arcanite": {
+            "RWP": -0.03856939085671954,
+            "percentage_weight": 1.903
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 1.097
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 24.793
+        },
+        "Zro2mkl": {
+            "RWP": -0.025415028004620817,
+            "percentage_weight": 0.861
+        },
+        "initial_structure_list": [
+            "Larnite",
+            "Chlorite-p-mod",
+            "Hematite",
+            "Calcite",
+            "MicroInt1",
+            "Musc2m1_with p mod p1",
+            "Mullite21",
+            "Vaterite",
+            "Sylvite",
+            "C3S-mono_nishi",
+            "Corundum as standard",
+            "Hydrocalumite",
+            "Merwinite",
+            "Albint",
+            "Quartz",
+            "Aragonit",
+            "Arcanite",
+            "Zro2mkl"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Chlorite-p-mod.str",
+            "Hematite.str",
+            "Calcite.str",
+            "MicroInt1.str",
+            "Musc2m1_with p mod p1.str",
+            "Mullite21.str",
+            "Vaterite.str",
+            "Sylvite.str",
+            "C3S-mono_nishi.str",
+            "Corundum as standard.str",
+            "Merwinite.str",
+            "Quartz.str",
+            "Arcanite.str"
+        ],
+        "structures_list": [
+            "Larnite.str",
+            "Chlorite-p-mod.str",
+            "Hematite.str",
+            "Calcite.str",
+            "MicroInt1.str",
+            "Musc2m1_with p mod p1.str",
+            "Mullite21.str",
+            "Vaterite.str",
+            "Sylvite.str",
+            "C3S-mono_nishi.str",
+            "Corundum as standard.str",
+            "Merwinite.str",
+            "Quartz.str",
+            "Arcanite.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "Chlorite-p-mod",
+        "Hematite",
+        "Calcite",
+        "MicroInt1",
+        "Musc2m1_with p mod p1",
+        "Mullite21",
+        "Vaterite",
+        "Sylvite",
+        "C3S-mono_nishi",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Hydrocalumite",
+        "Merwinite",
+        "Albint",
+        "Quartz",
+        "Aragonit",
+        "Arcanite",
+        "Zro2mkl"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Chlorite-p-mod.str",
+        "Hematite.str",
+        "Calcite.str",
+        "MicroInt1.str",
+        "Musc2m1_with p mod p1.str",
+        "Mullite21.str",
+        "Vaterite.str",
+        "Sylvite.str",
+        "C3S-mono_nishi.str",
+        "Corundum as standard.str",
+        "Merwinite.str",
+        "Quartz.str",
+        "Arcanite.str"
+    ],
+    "excluded_structure_list": [
+        "Hydrocalumite",
+        "Aragonit",
+        "Zro2mkl",
+        "Albint"
+    ],
+    "iteration": 1
+}

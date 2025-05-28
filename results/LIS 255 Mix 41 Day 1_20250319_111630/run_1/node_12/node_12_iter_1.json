@@ -1,0 +1,150 @@
+{
+    "results": {
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 16.26
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.474
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.639
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.24
+        },
+        "Larnite": {
+            "crystallite_size": 81.60964,
+            "percentage_weight": 5.544
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.249
+        },
+        "Sylvite": {
+            "crystallite_size": 171.26312,
+            "percentage_weight": 4.82
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.811
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.075
+        },
+        "Merwinite": {
+            "crystallite_size": 92.47719,
+            "percentage_weight": 1.239
+        },
+        "Portlandite": {
+            "crystallite_size": 50.81825,
+            "percentage_weight": 1.987
+        },
+        "Quartz": {
+            "crystallite_size": 180.9674,
+            "percentage_weight": 9.588
+        },
+        "C6S3H-gamma-Dellaite": {
+            "crystallite_size": 40.0,
+            "percentage_weight": 8.979
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.362
+        },
+        "Corundum as standard": {
+            "crystallite_size": 282.86712,
+            "percentage_weight": 29.735
+        },
+        "initial_structure_list": [
+            "Calcite",
+            "Tobermorite11A",
+            "Larnite",
+            "Sylvite",
+            "Quartz",
+            "C6S3H-gamma-Dellaite",
+            "Syngenite",
+            "Corundum as standard",
+            "C3A-cubic",
+            "Anorthite",
+            "C3S-mono_nishi",
+            "Vaterite",
+            "Arcanite",
+            "Merwinite",
+            "Portlandite"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Quartz.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Syngenite.str",
+            "Corundum as standard.str",
+            "Anorthite.str",
+            "C3S-mono_nishi.str",
+            "Vaterite.str",
+            "Arcanite.str",
+            "Portlandite.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Quartz.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Syngenite.str",
+            "Corundum as standard.str",
+            "Anorthite.str",
+            "C3S-mono_nishi.str",
+            "Vaterite.str",
+            "Arcanite.str",
+            "Portlandite.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Tobermorite11A",
+        "Larnite",
+        "Sylvite",
+        "Quartz",
+        "C6S3H-gamma-Dellaite",
+        "Syngenite",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "C3A-cubic",
+        "Anorthite",
+        "C3S-mono_nishi",
+        "Vaterite",
+        "Arcanite",
+        "Merwinite",
+        "Portlandite"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Tobermorite11A.str",
+        "Larnite.str",
+        "Sylvite.str",
+        "Quartz.str",
+        "C6S3H-gamma-Dellaite.str",
+        "Syngenite.str",
+        "Corundum as standard.str",
+        "Anorthite.str",
+        "C3S-mono_nishi.str",
+        "Vaterite.str",
+        "Arcanite.str",
+        "Portlandite.str"
+    ],
+    "excluded_structure_list": [
+        "C3A-cubic",
+        "Merwinite"
+    ],
+    "iteration": 1
+}

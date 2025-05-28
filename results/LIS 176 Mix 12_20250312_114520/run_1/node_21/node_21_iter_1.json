@@ -1,0 +1,98 @@
+{
+    "results": {
+        "Portlandite": {
+            "crystallite_size": 52.9917,
+            "percentage_weight": 5.469
+        },
+        "Sylvite": {
+            "crystallite_size": 199.61141,
+            "percentage_weight": 1.852
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00725,
+            "percentage_weight": 2.63
+        },
+        "Corundum as standard": {
+            "crystallite_size": 308.74546,
+            "percentage_weight": 31.201
+        },
+        "Calcite": {
+            "crystallite_size": 60.31587,
+            "percentage_weight": 43.55
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00725,
+            "percentage_weight": 4.095
+        },
+        "Larnite": {
+            "crystallite_size": 50.00725,
+            "percentage_weight": 4.972
+        },
+        "Quartz": {
+            "crystallite_size": 205.8981,
+            "percentage_weight": 5.856
+        },
+        "Thaumasite": {
+            "crystallite_size": 1053.27466,
+            "percentage_weight": 0.376
+        },
+        "structures_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Quartz.str",
+            "Thaumasite.str"
+        ],
+        "initial_structure_list": [
+            "Portlandite",
+            "Sylvite",
+            "Corundum as standard",
+            "Calcite",
+            "Hydrocalumite",
+            "Larnite",
+            "Quartz",
+            "Thaumasite",
+            "Syngenite"
+        ],
+        "final_structure_list": [
+            "Portlandite.str",
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Quartz.str",
+            "Thaumasite.str"
+        ]
+    },
+    "valid_structures": [
+        "Portlandite",
+        "Sylvite",
+        "Corundum as standard",
+        "Calcite",
+        "Hydrocalumite",
+        "Larnite",
+        "Quartz",
+        "Thaumasite"
+    ],
+    "invalid_structures": [
+        "Syngenite"
+    ],
+    "structures_list": [
+        "Portlandite.str",
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Hydrocalumite.str",
+        "Larnite.str",
+        "Quartz.str",
+        "Thaumasite.str"
+    ],
+    "excluded_structure_list": [
+        "Syngenite"
+    ],
+    "iteration": 1
+}

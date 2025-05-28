@@ -1,0 +1,68 @@
+{
+    "results": {
+        "Larnite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 7.322
+        },
+        "Arcanite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 2.456
+        },
+        "MicroInt1": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 7.408
+        },
+        "Hematite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 0.796
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 1.413
+        },
+        "Vaterite": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 2.769
+        },
+        "Calcite": {
+            "crystallite_size": 50.12593,
+            "percentage_weight": 74.265
+        },
+        "Aragonit": {
+            "crystallite_size": 50.00006,
+            "percentage_weight": 3.572
+        },
+        "structures_list": [
+            "Larnite.str",
+            "Arcanite.str",
+            "MicroInt1.str",
+            "Hydrocalumite.str",
+            "Vaterite.str",
+            "Calcite.str",
+            "Aragonit.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "MicroInt1",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Arcanite",
+        "Hematite",
+        "Hydrocalumite",
+        "Vaterite",
+        "Aragonit"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Arcanite.str",
+        "MicroInt1.str",
+        "Hydrocalumite.str",
+        "Vaterite.str",
+        "Calcite.str",
+        "Aragonit.str"
+    ],
+    "excluded_structure_list": "Hematite",
+    "iteration": 14
+}

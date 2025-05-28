@@ -1,0 +1,211 @@
+{
+    "results": {
+        "Sylvite": {
+            "crystallite_size": 191.54827,
+            "percentage_weight": 2.006
+        },
+        "Quartz": {
+            "crystallite_size": 200.08604,
+            "percentage_weight": 6.092
+        },
+        "Magnetite": {
+            "crystallite_size": 280.12762,
+            "percentage_weight": 0.275
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.459
+        },
+        "Katoite": {
+            "crystallite_size": 1999.67819,
+            "percentage_weight": 0.05
+        },
+        "Anhydrite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.333
+        },
+        "Lime": {
+            "crystallite_size": 115.89801,
+            "percentage_weight": 0.165
+        },
+        "Calcite": {
+            "crystallite_size": 58.32679,
+            "percentage_weight": 42.054
+        },
+        "Larnite": {
+            "crystallite_size": 50.00043,
+            "percentage_weight": 2.063
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 205.8313,
+            "percentage_weight": 0.764
+        },
+        "C3A-Na-ortho": {
+            "crystallite_size": 45.0,
+            "percentage_weight": 1.179
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.00562,
+            "percentage_weight": 0.324
+        },
+        "Portlandite": {
+            "crystallite_size": 50.00918,
+            "percentage_weight": 4.287
+        },
+        "Aragonit": {
+            "crystallite_size": 248.39033,
+            "percentage_weight": 0.282
+        },
+        "Corundum as standard": {
+            "crystallite_size": 333.96246,
+            "percentage_weight": 28.502
+        },
+        "Thaumasite": {
+            "crystallite_size": 276.45531,
+            "percentage_weight": 0.366
+        },
+        "MicroInt1": {
+            "crystallite_size": 409.1773,
+            "percentage_weight": 1.102
+        },
+        "Arcanite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 1.178
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 1522.18225,
+            "percentage_weight": 0.585
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 201.86157,
+            "percentage_weight": 1.557
+        },
+        "Syngenite": {
+            "crystallite_size": 50.00014,
+            "percentage_weight": 1.875
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00027,
+            "percentage_weight": 3.503
+        },
+        "initial_structure_list": [
+            "Sylvite",
+            "Quartz",
+            "Magnetite",
+            "Lime",
+            "Calcite",
+            "Ettringite-from-CIF-good",
+            "Portlandite",
+            "Aragonit",
+            "Corundum as standard",
+            "Thaumasite",
+            "MicroInt1",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "C3S-mono_nishi",
+            "Albint",
+            "Katoite",
+            "Anhydrite",
+            "Larnite",
+            "C3A-Na-ortho",
+            "C3A-cubic",
+            "Arcanite",
+            "Syngenite",
+            "Hydrocalumite"
+        ],
+        "final_structure_list": [
+            "Sylvite.str",
+            "Quartz.str",
+            "Magnetite.str",
+            "Lime.str",
+            "Calcite.str",
+            "Ettringite-from-CIF-good.str",
+            "Portlandite.str",
+            "Aragonit.str",
+            "Corundum as standard.str",
+            "Thaumasite.str",
+            "MicroInt1.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "C3S-mono_nishi.str",
+            "Albint.str",
+            "Larnite.str",
+            "C3A-Na-ortho.str",
+            "Arcanite.str",
+            "Syngenite.str",
+            "Hydrocalumite.str"
+        ],
+        "structures_list": [
+            "Sylvite.str",
+            "Quartz.str",
+            "Magnetite.str",
+            "Lime.str",
+            "Calcite.str",
+            "Ettringite-from-CIF-good.str",
+            "Portlandite.str",
+            "Aragonit.str",
+            "Corundum as standard.str",
+            "Thaumasite.str",
+            "MicroInt1.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "C3S-mono_nishi.str",
+            "Albint.str",
+            "Larnite.str",
+            "C3A-Na-ortho.str",
+            "Arcanite.str",
+            "Syngenite.str",
+            "Hydrocalumite.str"
+        ]
+    },
+    "valid_structures": [
+        "Sylvite",
+        "Quartz",
+        "Magnetite",
+        "Lime",
+        "Calcite",
+        "Ettringite-from-CIF-good",
+        "Portlandite",
+        "Aragonit",
+        "Corundum as standard",
+        "Thaumasite",
+        "MicroInt1",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "C3S-mono_nishi"
+    ],
+    "invalid_structures": [
+        "Albint",
+        "Katoite",
+        "Anhydrite",
+        "Larnite",
+        "C3A-Na-ortho",
+        "C3A-cubic",
+        "Arcanite",
+        "Syngenite",
+        "Hydrocalumite"
+    ],
+    "structures_list": [
+        "Sylvite.str",
+        "Quartz.str",
+        "Magnetite.str",
+        "Lime.str",
+        "Calcite.str",
+        "Ettringite-from-CIF-good.str",
+        "Portlandite.str",
+        "Aragonit.str",
+        "Corundum as standard.str",
+        "Thaumasite.str",
+        "MicroInt1.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "C3S-mono_nishi.str",
+        "Albint.str",
+        "Larnite.str",
+        "C3A-Na-ortho.str",
+        "Arcanite.str",
+        "Syngenite.str",
+        "Hydrocalumite.str"
+    ],
+    "excluded_structure_list": [
+        "Anhydrite",
+        "C3A-cubic",
+        "Katoite"
+    ],
+    "iteration": 1
+}

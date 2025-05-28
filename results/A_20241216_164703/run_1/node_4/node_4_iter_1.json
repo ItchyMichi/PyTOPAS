@@ -1,0 +1,81 @@
+{
+    "results": {
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 50.00023,
+            "percentage_weight": 1.274
+        },
+        "Larnite": {
+            "crystallite_size": 50.00023,
+            "percentage_weight": 5.931
+        },
+        "Quartz": {
+            "crystallite_size": 81.18752,
+            "percentage_weight": 2.89
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.00023,
+            "percentage_weight": 0.996
+        },
+        "Corundum as standard": {
+            "crystallite_size": 260.13808,
+            "percentage_weight": 27.169
+        },
+        "Calcite": {
+            "crystallite_size": 50.00023,
+            "percentage_weight": 58.992
+        },
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 60.73191,
+            "percentage_weight": 0.875
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 50.00162,
+            "percentage_weight": 1.872
+        },
+        "initial_structure_list": [
+            "Larnite",
+            "Corundum as standard",
+            "Calcite",
+            "Musc2m1_with p mod p1",
+            "Quartz",
+            "C3S-mono_nishi",
+            "Calcium chloride hydroxide",
+            "C2SH-alpha"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Calcite.str"
+        ],
+        "structures_list": [
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Calcite.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "Corundum as standard",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Musc2m1_with p mod p1",
+        "Quartz",
+        "C3S-mono_nishi",
+        "Calcium chloride hydroxide",
+        "C2SH-alpha"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Corundum as standard.str",
+        "Calcite.str"
+    ],
+    "excluded_structure_list": [
+        "Quartz",
+        "C2SH-alpha",
+        "Musc2m1_with p mod p1",
+        "Calcium chloride hydroxide",
+        "C3S-mono_nishi"
+    ],
+    "iteration": 1
+}

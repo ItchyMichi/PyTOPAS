@@ -1,0 +1,149 @@
+{
+    "results": {
+        "Magnetite": {
+            "crystallite_size": 1999.99899,
+            "percentage_weight": 0.151
+        },
+        "Yeelimite_9009938": {
+            "crystallite_size": 2001.63024,
+            "percentage_weight": 0.122
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.616
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.649
+        },
+        "Calcite": {
+            "crystallite_size": 57.33896,
+            "percentage_weight": 43.391
+        },
+        "Portlandite": {
+            "crystallite_size": 56.56272,
+            "percentage_weight": 3.967
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 131.63547,
+            "percentage_weight": 0.939
+        },
+        "Thaumasite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.736
+        },
+        "Quartz": {
+            "crystallite_size": 186.38575,
+            "percentage_weight": 6.616
+        },
+        "Sylvite": {
+            "crystallite_size": 166.4958,
+            "percentage_weight": 2.199
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.133
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 229.61461,
+            "percentage_weight": 1.044
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.268
+        },
+        "Corundum as standard": {
+            "crystallite_size": 307.49632,
+            "percentage_weight": 29.344
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.253
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.573
+        },
+        "initial_structure_list": [
+            "Calcite",
+            "Ettringite-from-CIF-good",
+            "Quartz",
+            "Sylvite",
+            "Larnite",
+            "C3S-mono_nishi",
+            "Corundum as standard",
+            "Magnetite",
+            "Yeelimite_9009938",
+            "Hydrocalumite",
+            "BrownmilleriteAlFe",
+            "Portlandite",
+            "Thaumasite",
+            "Arcanite",
+            "Albint",
+            "C3A-cubic"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Ettringite-from-CIF-good.str",
+            "Quartz.str",
+            "Sylvite.str",
+            "Larnite.str",
+            "C3S-mono_nishi.str",
+            "Corundum as standard.str",
+            "Hydrocalumite.str",
+            "Portlandite.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Ettringite-from-CIF-good.str",
+            "Quartz.str",
+            "Sylvite.str",
+            "Larnite.str",
+            "C3S-mono_nishi.str",
+            "Corundum as standard.str",
+            "Hydrocalumite.str",
+            "Portlandite.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Ettringite-from-CIF-good",
+        "Quartz",
+        "Sylvite",
+        "Larnite",
+        "C3S-mono_nishi",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Magnetite",
+        "Yeelimite_9009938",
+        "Hydrocalumite",
+        "BrownmilleriteAlFe",
+        "Portlandite",
+        "Thaumasite",
+        "Arcanite",
+        "Albint",
+        "C3A-cubic"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Ettringite-from-CIF-good.str",
+        "Quartz.str",
+        "Sylvite.str",
+        "Larnite.str",
+        "C3S-mono_nishi.str",
+        "Corundum as standard.str",
+        "Hydrocalumite.str",
+        "Portlandite.str"
+    ],
+    "excluded_structure_list": [
+        "Arcanite",
+        "Albint",
+        "Thaumasite",
+        "BrownmilleriteAlFe",
+        "C3A-cubic",
+        "Magnetite",
+        "Yeelimite_9009938"
+    ],
+    "iteration": 1
+}

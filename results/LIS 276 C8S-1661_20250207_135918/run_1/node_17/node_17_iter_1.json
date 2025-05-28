@@ -1,0 +1,150 @@
+{
+    "results": {
+        "MicroInt1": {
+            "RWP": -0.012591375724403626,
+            "percentage_weight": 0.005,
+            "crystallite_size": 1847.65625
+        },
+        "Mayenite": {
+            "RWP": -0.0323697496849371,
+            "percentage_weight": 1.04,
+            "crystallite_size": 50.0
+        },
+        "Anorthite": {
+            "RWP": -0.0118498668405723,
+            "percentage_weight": 0.0,
+            "crystallite_size": 50.0
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 6.621,
+            "crystallite_size": 170.14367
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 1.392,
+            "crystallite_size": 303.72077
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.483,
+            "crystallite_size": 50.0
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 9.283,
+            "crystallite_size": 62.90323
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 0.118,
+            "crystallite_size": 1999.99969
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 16.633,
+            "crystallite_size": 200.47104
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.526,
+            "crystallite_size": 50.0
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 18.812,
+            "crystallite_size": 50.0
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 39.972,
+            "crystallite_size": 327.62801
+        },
+        "rwp_all": {
+            "RWP": 11.7755838,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 2.158,
+            "crystallite_size": 50.0
+        },
+        "initial_structure_list": [
+            "Syngenite",
+            "Quartz",
+            "Larnite",
+            "Hydrocalumite",
+            "Musc2m1_with p mod p1",
+            "Sylvite",
+            "Calcite",
+            "Portlandite",
+            "Corundum as standard",
+            "C3S-mono_nishi",
+            "MicroInt1",
+            "Mayenite",
+            "Anorthite"
+        ],
+        "final_structure_list": [
+            "Syngenite.str",
+            "Quartz.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Musc2m1_with p mod p1.str",
+            "Sylvite.str",
+            "Calcite.str",
+            "Portlandite.str",
+            "Corundum as standard.str",
+            "C3S-mono_nishi.str",
+            "Mayenite.str"
+        ],
+        "structures_list": [
+            "Syngenite.str",
+            "Quartz.str",
+            "Larnite.str",
+            "Hydrocalumite.str",
+            "Musc2m1_with p mod p1.str",
+            "Sylvite.str",
+            "Calcite.str",
+            "Portlandite.str",
+            "Corundum as standard.str",
+            "C3S-mono_nishi.str",
+            "Mayenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Syngenite",
+        "Quartz",
+        "Larnite",
+        "Hydrocalumite",
+        "Musc2m1_with p mod p1",
+        "Sylvite",
+        "Calcite",
+        "Portlandite",
+        "Corundum as standard",
+        "C3S-mono_nishi"
+    ],
+    "invalid_structures": [
+        "MicroInt1",
+        "Mayenite",
+        "Anorthite"
+    ],
+    "structures_list": [
+        "Syngenite.str",
+        "Quartz.str",
+        "Larnite.str",
+        "Hydrocalumite.str",
+        "Musc2m1_with p mod p1.str",
+        "Sylvite.str",
+        "Calcite.str",
+        "Portlandite.str",
+        "Corundum as standard.str",
+        "C3S-mono_nishi.str",
+        "Mayenite.str"
+    ],
+    "excluded_structure_list": [
+        "MicroInt1",
+        "Anorthite"
+    ],
+    "iteration": 1
+}

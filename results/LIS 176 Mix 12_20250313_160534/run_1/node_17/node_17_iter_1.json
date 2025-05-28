@@ -1,0 +1,150 @@
+{
+    "results": {
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.508,
+            "crystallite_size": 50.0145
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 5.812,
+            "crystallite_size": 235.92991
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 0.876,
+            "crystallite_size": 443.79374
+        },
+        "C6S3H-gamma-Dellaite": {
+            "RWP": -0.0027194866122100462,
+            "percentage_weight": 0.792,
+            "crystallite_size": 1235.77819
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.056,
+            "crystallite_size": 50.0145
+        },
+        "Syngenite": {
+            "RWP": -0.03037575329558575,
+            "percentage_weight": 2.047,
+            "crystallite_size": 58.61739
+        },
+        "Gehlenite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.169,
+            "crystallite_size": 52.21672
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 5.522,
+            "crystallite_size": 53.24456
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.929,
+            "crystallite_size": 195.07985
+        },
+        "Thaumasite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.526,
+            "crystallite_size": 167.69312
+        },
+        "MicroInt1": {
+            "RWP": 0.00024570616880121204,
+            "percentage_weight": 0.817,
+            "crystallite_size": 1102.01105
+        },
+        "rwp_all": {
+            "RWP": 10.245978,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 31.623,
+            "crystallite_size": 340.21558
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 43.978,
+            "crystallite_size": 61.9548
+        },
+        "initial_structure_list": [
+            "Larnite",
+            "Quartz",
+            "C3S-mono_nishi",
+            "Hydrocalumite",
+            "Gehlenite",
+            "Portlandite",
+            "Sylvite",
+            "Thaumasite",
+            "Corundum as standard",
+            "Calcite",
+            "C6S3H-gamma-Dellaite",
+            "Syngenite",
+            "MicroInt1"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Gehlenite.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "Thaumasite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Syngenite.str"
+        ],
+        "structures_list": [
+            "Larnite.str",
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Gehlenite.str",
+            "Portlandite.str",
+            "Sylvite.str",
+            "Thaumasite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Syngenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "Quartz",
+        "C3S-mono_nishi",
+        "Hydrocalumite",
+        "Gehlenite",
+        "Portlandite",
+        "Sylvite",
+        "Thaumasite",
+        "Corundum as standard",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "C6S3H-gamma-Dellaite",
+        "Syngenite",
+        "MicroInt1"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Quartz.str",
+        "C3S-mono_nishi.str",
+        "Hydrocalumite.str",
+        "Gehlenite.str",
+        "Portlandite.str",
+        "Sylvite.str",
+        "Thaumasite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Syngenite.str"
+    ],
+    "excluded_structure_list": [
+        "C6S3H-gamma-Dellaite",
+        "MicroInt1"
+    ],
+    "iteration": 1
+}

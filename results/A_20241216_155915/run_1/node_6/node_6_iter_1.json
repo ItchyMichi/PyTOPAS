@@ -1,0 +1,111 @@
+{
+    "results": {
+        "rwp_all": {
+            "RWP": 11.7012917,
+            "percentage_weight": null
+        },
+        "Calcium chloride hydroxide": {
+            "RWP": -0.01180692726427804,
+            "percentage_weight": 0.246
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 5.209
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 1.964
+        },
+        "Syngenite": {
+            "RWP": -0.015142507728441688,
+            "percentage_weight": 1.074
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.624
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 0.0
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 25.524
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 55.679
+        },
+        "Vaterite": {
+            "RWP": -0.02852890164254267,
+            "percentage_weight": 3.037
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 7.001
+        },
+        "initial_structure_list": [
+            "Calcium chloride hydroxide",
+            "MicroInt1",
+            "Quartz",
+            "Syngenite",
+            "Sylvite",
+            "Musc2m1_with p mod p1",
+            "Corundum as standard",
+            "Calcite",
+            "Vaterite",
+            "Larnite"
+        ],
+        "final_structure_list": [
+            "Calcium chloride hydroxide.str",
+            "MicroInt1.str",
+            "Quartz.str",
+            "Syngenite.str",
+            "Sylvite.str",
+            "Musc2m1_with p mod p1.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Vaterite.str",
+            "Larnite.str"
+        ],
+        "structures_list": [
+            "Calcium chloride hydroxide.str",
+            "MicroInt1.str",
+            "Quartz.str",
+            "Syngenite.str",
+            "Sylvite.str",
+            "Musc2m1_with p mod p1.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Vaterite.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcium chloride hydroxide",
+        "MicroInt1",
+        "Quartz",
+        "Syngenite",
+        "Sylvite",
+        "Musc2m1_with p mod p1",
+        "Corundum as standard",
+        "Calcite",
+        "Vaterite",
+        "Larnite"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "Calcium chloride hydroxide.str",
+        "MicroInt1.str",
+        "Quartz.str",
+        "Syngenite.str",
+        "Sylvite.str",
+        "Musc2m1_with p mod p1.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Vaterite.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [],
+    "iteration": 1
+}

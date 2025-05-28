@@ -1,0 +1,25 @@
+{
+    "results": {
+        "Calcite": {
+            "crystallite_size": 50.23193,
+            "percentage_weight": 100.0
+        },
+        "structures_list": [
+            "Calcite.str"
+        ],
+        "initial_structure_list": [
+            "Calcite"
+        ],
+        "final_structure_list": [],
+        "finished": true
+    },
+    "valid_structures": [
+        "Calcite"
+    ],
+    "invalid_structures": [],
+    "structures_list": [
+        "Calcite.str"
+    ],
+    "excluded_structure_list": "Calcite",
+    "iteration": 4
+}

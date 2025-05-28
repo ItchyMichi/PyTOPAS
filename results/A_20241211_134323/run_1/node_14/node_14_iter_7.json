@@ -1,0 +1,82 @@
+{
+    "results": {
+        "CaClOH": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.981
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 14.768
+        },
+        "Gehlenite": {
+            "crystallite_size": 94.51918,
+            "percentage_weight": 7.164
+        },
+        "Thenardite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 11.084
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.858
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.481
+        },
+        "Analcime": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 13.033
+        },
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 9.737
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 15.667
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 17.227
+        },
+        "structures_list": [
+            "CaClOH.str",
+            "Gypsum.str",
+            "Thenardite.str",
+            "C3A-cubic.str",
+            "Tobermorite11A.str",
+            "Analcime.str",
+            "Dolomite.str",
+            "Bassanit.str",
+            "Mullite21.str"
+        ]
+    },
+    "valid_structures": [
+        "Gypsum",
+        "Gehlenite",
+        "Thenardite",
+        "C3A-cubic",
+        "Analcime",
+        "Dolomite",
+        "Bassanit",
+        "Mullite21"
+    ],
+    "invalid_structures": [
+        "CaClOH",
+        "Tobermorite11A"
+    ],
+    "structures_list": [
+        "CaClOH.str",
+        "Gypsum.str",
+        "Thenardite.str",
+        "C3A-cubic.str",
+        "Tobermorite11A.str",
+        "Analcime.str",
+        "Dolomite.str",
+        "Bassanit.str",
+        "Mullite21.str"
+    ],
+    "excluded_structure_list": "Gehlenite",
+    "iteration": 7
+}

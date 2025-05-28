@@ -1,0 +1,60 @@
+{
+    "results": {
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 44.158
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 18.677
+        },
+        "Merwinite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 28.522
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 318.84539,
+            "percentage_weight": 1.523
+        },
+        "Zro2mkl": {
+            "crystallite_size": 94.63233,
+            "percentage_weight": 7.119
+        },
+        "initial_structure_list": [
+            "Arcanite",
+            "BrownmilleriteAlFe",
+            "Albint",
+            "Merwinite",
+            "Zro2mkl"
+        ],
+        "final_structure_list": [
+            "Arcanite.str",
+            "BrownmilleriteAlFe.str",
+            "Merwinite.str"
+        ],
+        "structures_list": [
+            "Arcanite.str",
+            "BrownmilleriteAlFe.str",
+            "Merwinite.str"
+        ]
+    },
+    "valid_structures": [
+        "Arcanite",
+        "BrownmilleriteAlFe"
+    ],
+    "invalid_structures": [
+        "Albint",
+        "Merwinite",
+        "Zro2mkl"
+    ],
+    "structures_list": [
+        "Arcanite.str",
+        "BrownmilleriteAlFe.str",
+        "Merwinite.str"
+    ],
+    "excluded_structure_list": [
+        "Albint",
+        "Zro2mkl"
+    ],
+    "iteration": 1
+}

@@ -1,0 +1,142 @@
+{
+    "results": {
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 19.465,
+            "crystallite_size": 50.0
+        },
+        "Tobermorite11A": {
+            "RWP": 0.0,
+            "percentage_weight": 6.554,
+            "crystallite_size": 50.0
+        },
+        "Anorthite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.657,
+            "crystallite_size": 1999.99999
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 10.224,
+            "crystallite_size": 50.0
+        },
+        "C3S-mono_nishi": {
+            "RWP": -0.011877991480678963,
+            "percentage_weight": 2.805,
+            "crystallite_size": 50.00001
+        },
+        "rwp_all": {
+            "RWP": {
+                "RWP": 12.2891484
+            },
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 5.744,
+            "crystallite_size": 171.77492
+        },
+        "Vaterite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.293,
+            "crystallite_size": 95.72096
+        },
+        "Portlandite": {
+            "RWP": -0.07825339630531275,
+            "percentage_weight": 2.401,
+            "crystallite_size": 50.0
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 11.053,
+            "crystallite_size": 201.21693
+        },
+        "C6S3H-gamma-Dellaite": {
+            "RWP": 0.0,
+            "percentage_weight": 7.093,
+            "crystallite_size": 48.72929
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.678,
+            "crystallite_size": 98.38185
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 34.239,
+            "crystallite_size": 422.82934
+        },
+        "initial_structure_list": [
+            "Calcite",
+            "Tobermorite11A",
+            "Anorthite",
+            "Larnite",
+            "Sylvite",
+            "Vaterite",
+            "Quartz",
+            "C6S3H-gamma-Dellaite",
+            "Syngenite",
+            "Corundum as standard",
+            "C3S-mono_nishi",
+            "Portlandite"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "Anorthite.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Vaterite.str",
+            "Quartz.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Syngenite.str",
+            "Corundum as standard.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "Anorthite.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Vaterite.str",
+            "Quartz.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Syngenite.str",
+            "Corundum as standard.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Tobermorite11A",
+        "Anorthite",
+        "Larnite",
+        "Sylvite",
+        "Vaterite",
+        "Quartz",
+        "C6S3H-gamma-Dellaite",
+        "Syngenite",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "C3S-mono_nishi",
+        "Portlandite"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Tobermorite11A.str",
+        "Anorthite.str",
+        "Larnite.str",
+        "Sylvite.str",
+        "Vaterite.str",
+        "Quartz.str",
+        "C6S3H-gamma-Dellaite.str",
+        "Syngenite.str",
+        "Corundum as standard.str"
+    ],
+    "excluded_structure_list": [
+        "C3S-mono_nishi",
+        "Portlandite"
+    ],
+    "iteration": 1
+}

@@ -1,0 +1,76 @@
+{
+    "results": {
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.255
+        },
+        "Quartz": {
+            "crystallite_size": 61.98697,
+            "percentage_weight": 3.137
+        },
+        "Corundum as standard": {
+            "crystallite_size": 189.14759,
+            "percentage_weight": 27.385
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 57.525
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 120.20378,
+            "percentage_weight": 0.732
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.198
+        },
+        "Zro2mkl": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.569
+        },
+        "Syngenite": {
+            "crystallite_size": 55.72213,
+            "percentage_weight": 1.856
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.307
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 71.66526,
+            "percentage_weight": 3.037
+        },
+        "structures_list": [
+            "Quartz.str",
+            "BrownmilleriteAlFe.str",
+            "Zro2mkl.str",
+            "Syngenite.str",
+            "C2SH-alpha.str",
+            "C3S-mono_nishi.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Calcite",
+        "Musc2m1_with p mod p1"
+    ],
+    "invalid_structures": [
+        "Calcium chloride hydroxide",
+        "Quartz",
+        "BrownmilleriteAlFe",
+        "Zro2mkl",
+        "Syngenite",
+        "C2SH-alpha",
+        "C3S-mono_nishi"
+    ],
+    "structures_list": [
+        "Quartz.str",
+        "BrownmilleriteAlFe.str",
+        "Zro2mkl.str",
+        "Syngenite.str",
+        "C2SH-alpha.str",
+        "C3S-mono_nishi.str"
+    ],
+    "excluded_structure_list": "Calcium chloride hydroxide",
+    "iteration": 1
+}

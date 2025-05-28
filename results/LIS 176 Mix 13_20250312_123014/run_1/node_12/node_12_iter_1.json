@@ -1,0 +1,148 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "crystallite_size": 309.31173,
+            "percentage_weight": 29.849
+        },
+        "Magnetite": {
+            "crystallite_size": 171.18986,
+            "percentage_weight": 0.332
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 172.95758,
+            "percentage_weight": 0.919
+        },
+        "C3A-cubic": {
+            "crystallite_size": 136.90232,
+            "percentage_weight": 0.489
+        },
+        "Quartz": {
+            "crystallite_size": 210.14996,
+            "percentage_weight": 6.381
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.829
+        },
+        "Larnite": {
+            "crystallite_size": 66.41933,
+            "percentage_weight": 2.47
+        },
+        "C3A-Na-ortho": {
+            "crystallite_size": 199.04743,
+            "percentage_weight": 0.433
+        },
+        "Syngenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.539
+        },
+        "Phillips": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.013
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 92.34278,
+            "percentage_weight": 0.981
+        },
+        "Calcite": {
+            "crystallite_size": 58.42478,
+            "percentage_weight": 43.879
+        },
+        "C3A-Na-cubic": {
+            "crystallite_size": 45.0,
+            "percentage_weight": 0.524
+        },
+        "Sylvite": {
+            "crystallite_size": 196.29045,
+            "percentage_weight": 2.086
+        },
+        "Portlandite": {
+            "crystallite_size": 53.10621,
+            "percentage_weight": 4.275
+        },
+        "initial_structure_list": [
+            "Corundum as standard",
+            "Magnetite",
+            "C3S-mono_nishi",
+            "C3A-cubic",
+            "Quartz",
+            "C3A-Na-ortho",
+            "Calcite",
+            "Sylvite",
+            "Portlandite",
+            "Hydrocalumite",
+            "Larnite",
+            "Syngenite",
+            "Phillips",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "C3A-Na-cubic"
+        ],
+        "final_structure_list": [
+            "Corundum as standard.str",
+            "Magnetite.str",
+            "C3S-mono_nishi.str",
+            "C3A-cubic.str",
+            "Quartz.str",
+            "C3A-Na-ortho.str",
+            "Calcite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Syngenite.str"
+        ],
+        "structures_list": [
+            "Corundum as standard.str",
+            "Magnetite.str",
+            "C3S-mono_nishi.str",
+            "C3A-cubic.str",
+            "Quartz.str",
+            "C3A-Na-ortho.str",
+            "Calcite.str",
+            "Sylvite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Larnite.str",
+            "Syngenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Magnetite",
+        "C3S-mono_nishi",
+        "C3A-cubic",
+        "Quartz",
+        "C3A-Na-ortho",
+        "Calcite",
+        "Sylvite",
+        "Portlandite"
+    ],
+    "invalid_structures": [
+        "Hydrocalumite",
+        "Larnite",
+        "Syngenite",
+        "Phillips",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "C3A-Na-cubic"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Magnetite.str",
+        "C3S-mono_nishi.str",
+        "C3A-cubic.str",
+        "Quartz.str",
+        "C3A-Na-ortho.str",
+        "Calcite.str",
+        "Sylvite.str",
+        "Portlandite.str",
+        "Hydrocalumite.str",
+        "Larnite.str",
+        "Syngenite.str"
+    ],
+    "excluded_structure_list": [
+        "Phillips",
+        "C3A-Na-cubic",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd"
+    ],
+    "iteration": 1
+}

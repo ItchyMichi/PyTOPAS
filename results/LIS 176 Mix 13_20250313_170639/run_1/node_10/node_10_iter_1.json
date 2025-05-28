@@ -1,0 +1,210 @@
+{
+    "results": {
+        "Thaumasite": {
+            "crystallite_size": 1999.99014,
+            "percentage_weight": 0.157
+        },
+        "Anorthite": {
+            "crystallite_size": 64.54468,
+            "percentage_weight": 1.124
+        },
+        "Gehlenite": {
+            "crystallite_size": 213.84622,
+            "percentage_weight": 0.474
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "crystallite_size": 456.57282,
+            "percentage_weight": 0.665
+        },
+        "Magnetite": {
+            "crystallite_size": 230.42856,
+            "percentage_weight": 0.284
+        },
+        "Anhydrite": {
+            "crystallite_size": 194.97106,
+            "percentage_weight": 0.383
+        },
+        "MicroInt1": {
+            "crystallite_size": 1999.99776,
+            "percentage_weight": 0.724
+        },
+        "Quartz": {
+            "crystallite_size": 193.77447,
+            "percentage_weight": 6.141
+        },
+        "Corundum as standard": {
+            "crystallite_size": 316.51869,
+            "percentage_weight": 28.315
+        },
+        "C3A-Na-ortho": {
+            "crystallite_size": 45.0174,
+            "percentage_weight": 0.639
+        },
+        "Sylvite": {
+            "crystallite_size": 178.55215,
+            "percentage_weight": 2.076
+        },
+        "Syngenite": {
+            "crystallite_size": 51.07378,
+            "percentage_weight": 1.553
+        },
+        "Albint": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.504
+        },
+        "Larnite": {
+            "crystallite_size": 59.17574,
+            "percentage_weight": 2.978
+        },
+        "Arcanite": {
+            "crystallite_size": 50.00018,
+            "percentage_weight": 0.544
+        },
+        "Calcite": {
+            "crystallite_size": 58.09251,
+            "percentage_weight": 41.999
+        },
+        "Ettringite-from-CIF-good": {
+            "crystallite_size": 149.52795,
+            "percentage_weight": 0.997
+        },
+        "Mullite21": {
+            "crystallite_size": 58.16647,
+            "percentage_weight": 0.366
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 0.598
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 50.00001,
+            "percentage_weight": 3.507
+        },
+        "Aphthita": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.613
+        },
+        "Portlandite": {
+            "crystallite_size": 51.4587,
+            "percentage_weight": 4.205
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 269.79521,
+            "percentage_weight": 1.154
+        },
+        "initial_structure_list": [
+            "Gehlenite",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Magnetite",
+            "Anhydrite",
+            "Quartz",
+            "Corundum as standard",
+            "Sylvite",
+            "Calcite",
+            "Ettringite-from-CIF-good",
+            "Portlandite",
+            "C3S-mono_nishi",
+            "Thaumasite",
+            "Anorthite",
+            "MicroInt1",
+            "C3A-Na-ortho",
+            "Syngenite",
+            "Albint",
+            "Larnite",
+            "Arcanite",
+            "Mullite21",
+            "BrownmilleriteAlFe",
+            "Hydrocalumite",
+            "Aphthita"
+        ],
+        "final_structure_list": [
+            "Gehlenite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Magnetite.str",
+            "Anhydrite.str",
+            "Quartz.str",
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "Calcite.str",
+            "Ettringite-from-CIF-good.str",
+            "Portlandite.str",
+            "C3S-mono_nishi.str",
+            "Anorthite.str",
+            "Syngenite.str",
+            "Larnite.str",
+            "Hydrocalumite.str"
+        ],
+        "structures_list": [
+            "Gehlenite.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Magnetite.str",
+            "Anhydrite.str",
+            "Quartz.str",
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "Calcite.str",
+            "Ettringite-from-CIF-good.str",
+            "Portlandite.str",
+            "C3S-mono_nishi.str",
+            "Anorthite.str",
+            "Syngenite.str",
+            "Larnite.str",
+            "Hydrocalumite.str"
+        ]
+    },
+    "valid_structures": [
+        "Gehlenite",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Magnetite",
+        "Anhydrite",
+        "Quartz",
+        "Corundum as standard",
+        "Sylvite",
+        "Calcite",
+        "Ettringite-from-CIF-good",
+        "Portlandite",
+        "C3S-mono_nishi"
+    ],
+    "invalid_structures": [
+        "Thaumasite",
+        "Anorthite",
+        "MicroInt1",
+        "C3A-Na-ortho",
+        "Syngenite",
+        "Albint",
+        "Larnite",
+        "Arcanite",
+        "Mullite21",
+        "BrownmilleriteAlFe",
+        "Hydrocalumite",
+        "Aphthita"
+    ],
+    "structures_list": [
+        "Gehlenite.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Magnetite.str",
+        "Anhydrite.str",
+        "Quartz.str",
+        "Corundum as standard.str",
+        "Sylvite.str",
+        "Calcite.str",
+        "Ettringite-from-CIF-good.str",
+        "Portlandite.str",
+        "C3S-mono_nishi.str",
+        "Anorthite.str",
+        "Syngenite.str",
+        "Larnite.str",
+        "Hydrocalumite.str"
+    ],
+    "excluded_structure_list": [
+        "C3A-Na-ortho",
+        "Aphthita",
+        "BrownmilleriteAlFe",
+        "Arcanite",
+        "Albint",
+        "Mullite21",
+        "MicroInt1",
+        "Thaumasite"
+    ],
+    "iteration": 1
+}

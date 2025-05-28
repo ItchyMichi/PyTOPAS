@@ -1,0 +1,82 @@
+{
+    "results": {
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 62.302,
+            "crystallite_size": 1745.2572
+        },
+        "rwp_all": {
+            "RWP": {
+                "RWP": 28.8351056
+            },
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "CaO": {
+            "RWP": -0.007548195002968831,
+            "percentage_weight": 0.246,
+            "crystallite_size": 6860456081017.017
+        },
+        "Rutile": {
+            "RWP": -0.007259945668449309,
+            "percentage_weight": 0.002,
+            "crystallite_size": 50.28974
+        },
+        "Lime": {
+            "RWP": 0.003819427663202352,
+            "percentage_weight": 0.208,
+            "crystallite_size": 1966.91474
+        },
+        "Hematite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.274,
+            "crystallite_size": 56.39027
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 37.424,
+            "crystallite_size": 50.05798
+        },
+        "initial_structure_list": [
+            "CaO",
+            "Rutile",
+            "Lime",
+            "Corundum as standard",
+            "Hematite",
+            "Calcite"
+        ],
+        "final_structure_list": [
+            "CaO.str",
+            "Rutile.str",
+            "Lime.str",
+            "Corundum as standard.str"
+        ],
+        "structures_list": [
+            "CaO.str",
+            "Rutile.str",
+            "Lime.str",
+            "Corundum as standard.str"
+        ]
+    },
+    "valid_structures": [
+        "CaO",
+        "Rutile",
+        "Lime"
+    ],
+    "invalid_structures": [
+        "Corundum as standard",
+        "Hematite",
+        "Calcite"
+    ],
+    "structures_list": [
+        "CaO.str",
+        "Rutile.str",
+        "Lime.str",
+        "Corundum as standard.str"
+    ],
+    "excluded_structure_list": [
+        "Calcite",
+        "Hematite"
+    ],
+    "iteration": 1
+}

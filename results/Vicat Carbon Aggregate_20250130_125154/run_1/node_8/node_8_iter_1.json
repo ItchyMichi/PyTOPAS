@@ -1,0 +1,224 @@
+{
+    "results": {
+        "Bassanit": {
+            "RWP": -0.0029797454316491355,
+            "percentage_weight": 0.846,
+            "crystallite_size": 50.0
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 50.252,
+            "crystallite_size": 50.0
+        },
+        "C2SH-alpha": {
+            "RWP": -0.0034178828990146432,
+            "percentage_weight": 1.887,
+            "crystallite_size": 50.04826
+        },
+        "Anhydrite": {
+            "RWP": -0.01055544586038326,
+            "percentage_weight": 1.335,
+            "crystallite_size": 50.0
+        },
+        "Anorthite": {
+            "RWP": 0.0,
+            "percentage_weight": 7.965,
+            "crystallite_size": 50.0
+        },
+        "Analcime": {
+            "RWP": -0.020108952367800456,
+            "percentage_weight": 0.843,
+            "crystallite_size": 50.0
+        },
+        "Thenardite": {
+            "RWP": -0.004327890090820343,
+            "percentage_weight": 2.335,
+            "crystallite_size": 50.0
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 6.013,
+            "crystallite_size": 93.3967
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 5.194,
+            "crystallite_size": 50.0
+        },
+        "Sylvite": {
+            "RWP": -0.025704024166397613,
+            "percentage_weight": 1.169,
+            "crystallite_size": 50.0
+        },
+        "Gypsum": {
+            "RWP": -0.0035746617962120336,
+            "percentage_weight": 0.903,
+            "crystallite_size": 50.0
+        },
+        "CaClOH": {
+            "RWP": 0.002872372253714976,
+            "percentage_weight": 0.756,
+            "crystallite_size": 50.02899
+        },
+        "Phillips": {
+            "RWP": -0.01431915772540939,
+            "percentage_weight": 4.686,
+            "crystallite_size": 50.0
+        },
+        "Crishigh": {
+            "RWP": -0.0010001738747038816,
+            "percentage_weight": 0.0,
+            "crystallite_size": 1350.00838
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 10.317,
+            "crystallite_size": 50.0
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 9.723,
+            "crystallite_size": 50.0
+        },
+        "Tobermorite11A": {
+            "RWP": -0.011350647155427284,
+            "percentage_weight": 1.982,
+            "crystallite_size": 50.0
+        },
+        "rwp_all": {
+            "RWP": 18.0687583,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Thaumasite": {
+            "RWP": -0.0006700571117827132,
+            "percentage_weight": 0.0,
+            "crystallite_size": 50.0
+        },
+        "Gehlenite": {
+            "RWP": -0.003103954298840689,
+            "percentage_weight": 1.764,
+            "crystallite_size": 50.0
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 6.521,
+            "crystallite_size": 50.0
+        },
+        "Arcanite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.015,
+            "crystallite_size": 50.0
+        },
+        "initial_structure_list": [
+            "Calcite",
+            "Anorthite",
+            "Quartz",
+            "C3S-mono_nishi",
+            "Portlandite",
+            "Hydrocalumite",
+            "Syngenite",
+            "Arcanite",
+            "Bassanit",
+            "C2SH-alpha",
+            "Anhydrite",
+            "Analcime",
+            "Thenardite",
+            "Sylvite",
+            "Gypsum",
+            "CaClOH",
+            "Phillips",
+            "Crishigh",
+            "Tobermorite11A",
+            "Thaumasite",
+            "Gehlenite"
+        ],
+        "final_structure_list": [
+            "Calcite.str",
+            "Anorthite.str",
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "C2SH-alpha.str",
+            "Anhydrite.str",
+            "Analcime.str",
+            "Thenardite.str",
+            "Sylvite.str",
+            "Phillips.str",
+            "Tobermorite11A.str",
+            "Gehlenite.str"
+        ],
+        "structures_list": [
+            "Calcite.str",
+            "Anorthite.str",
+            "Quartz.str",
+            "C3S-mono_nishi.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Syngenite.str",
+            "Arcanite.str",
+            "C2SH-alpha.str",
+            "Anhydrite.str",
+            "Analcime.str",
+            "Thenardite.str",
+            "Sylvite.str",
+            "Phillips.str",
+            "Tobermorite11A.str",
+            "Gehlenite.str"
+        ]
+    },
+    "valid_structures": [
+        "Calcite",
+        "Anorthite",
+        "Quartz",
+        "C3S-mono_nishi",
+        "Portlandite",
+        "Hydrocalumite",
+        "Syngenite",
+        "Arcanite"
+    ],
+    "invalid_structures": [
+        "Bassanit",
+        "C2SH-alpha",
+        "Anhydrite",
+        "Analcime",
+        "Thenardite",
+        "Sylvite",
+        "Gypsum",
+        "CaClOH",
+        "Phillips",
+        "Crishigh",
+        "Tobermorite11A",
+        "Thaumasite",
+        "Gehlenite"
+    ],
+    "structures_list": [
+        "Calcite.str",
+        "Anorthite.str",
+        "Quartz.str",
+        "C3S-mono_nishi.str",
+        "Portlandite.str",
+        "Hydrocalumite.str",
+        "Syngenite.str",
+        "Arcanite.str",
+        "C2SH-alpha.str",
+        "Anhydrite.str",
+        "Analcime.str",
+        "Thenardite.str",
+        "Sylvite.str",
+        "Phillips.str",
+        "Tobermorite11A.str",
+        "Gehlenite.str"
+    ],
+    "excluded_structure_list": [
+        "Gypsum",
+        "Bassanit",
+        "CaClOH",
+        "Crishigh",
+        "Thaumasite"
+    ],
+    "iteration": 1
+}

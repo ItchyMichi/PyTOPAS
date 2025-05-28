@@ -1,0 +1,94 @@
+{
+    "results": {
+        "Magnetite": {
+            "RWP": 0.01408898751589114,
+            "percentage_weight": 0.185,
+            "crystallite_size": 1999.99225
+        },
+        "C3S-mono_nishi": {
+            "RWP": -0.06690402727266459,
+            "percentage_weight": 3.677,
+            "crystallite_size": 50.0
+        },
+        "Calcite": {
+            "RWP": -2.5104616683943997,
+            "percentage_weight": 46.022,
+            "crystallite_size": 60.61646
+        },
+        "Hydrocalumite": {
+            "RWP": -0.2386699764891919,
+            "percentage_weight": 3.813,
+            "crystallite_size": 50.00001
+        },
+        "rwp_all": {
+            "RWP": {
+                "RWP": 11.6417521
+            },
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Portlandite": {
+            "RWP": -0.3864612784530948,
+            "percentage_weight": 4.482,
+            "crystallite_size": 50.00001
+        },
+        "Sylvite": {
+            "RWP": -0.35342857025790814,
+            "percentage_weight": 2.297,
+            "crystallite_size": 189.68268
+        },
+        "Corundum as standard": {
+            "RWP": -1.6387915355112228,
+            "percentage_weight": 31.702,
+            "crystallite_size": 330.08821
+        },
+        "Quartz": {
+            "RWP": -0.5030857683355068,
+            "percentage_weight": 6.814,
+            "crystallite_size": 226.24288
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "RWP": 0.01798331541521133,
+            "percentage_weight": 1.007,
+            "crystallite_size": 50.00002
+        },
+        "initial_structure_list": [
+            "Magnetite",
+            "C3S-mono_nishi",
+            "Calcite",
+            "Hydrocalumite",
+            "Portlandite",
+            "Sylvite",
+            "Corundum as standard",
+            "Quartz",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd"
+        ],
+        "final_structure_list": [],
+        "structures_list": []
+    },
+    "valid_structures": [],
+    "invalid_structures": [
+        "Magnetite",
+        "C3S-mono_nishi",
+        "Calcite",
+        "Hydrocalumite",
+        "Portlandite",
+        "Sylvite",
+        "Corundum as standard",
+        "Quartz",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd"
+    ],
+    "structures_list": [],
+    "excluded_structure_list": [
+        "C3S-mono_nishi",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Corundum as standard",
+        "Magnetite",
+        "Hydrocalumite",
+        "Calcite",
+        "Quartz",
+        "Portlandite",
+        "Sylvite"
+    ],
+    "iteration": 1
+}

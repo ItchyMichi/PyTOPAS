@@ -1,0 +1,348 @@
+{
+    "results": {
+        "C3A-Na-ortho": {
+            "RWP": 0.0,
+            "percentage_weight": 0.179,
+            "crystallite_size": 455.46454
+        },
+        "Vaterite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.53,
+            "crystallite_size": 50.00003
+        },
+        "Magnetite": {
+            "RWP": -0.03276963177002616,
+            "percentage_weight": 0.152,
+            "crystallite_size": 1999.91003
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 29.023,
+            "crystallite_size": 282.399
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 42.309,
+            "crystallite_size": 56.76
+        },
+        "Aphthita": {
+            "RWP": 0.0,
+            "percentage_weight": 0.615,
+            "crystallite_size": 50.00002
+        },
+        "Calcium chloride hydroxide": {
+            "RWP": -0.02675335870807205,
+            "percentage_weight": 0.515,
+            "crystallite_size": 50.00008
+        },
+        "Anorthite": {
+            "RWP": -0.015872896471902823,
+            "percentage_weight": 1.43,
+            "crystallite_size": 50.0
+        },
+        "C6S3H-gamma-Dellaite": {
+            "RWP": -0.00616276445046893,
+            "percentage_weight": 0.291,
+            "crystallite_size": 14644255487466.545
+        },
+        "Merwinite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.091,
+            "crystallite_size": 1488.59661
+        },
+        "Aragonit": {
+            "RWP": 0.0,
+            "percentage_weight": 0.315,
+            "crystallite_size": 505.22173
+        },
+        "Anhydrite": {
+            "RWP": -0.0455708323860576,
+            "percentage_weight": 0.007,
+            "crystallite_size": 50.0
+        },
+        "Dolomite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.176,
+            "crystallite_size": 1980.53635
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.183,
+            "crystallite_size": 50.00001
+        },
+        "Thaumasite": {
+            "RWP": 0.0,
+            "percentage_weight": 1.211,
+            "crystallite_size": 56.81578
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.15,
+            "crystallite_size": 53.46618
+        },
+        "Ettringite-from-CIF-good": {
+            "RWP": 0.0,
+            "percentage_weight": 0.295,
+            "crystallite_size": 1990.35098
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 1.359,
+            "crystallite_size": 199.54377
+        },
+        "C3A-cubic": {
+            "RWP": 0.0,
+            "percentage_weight": 0.239,
+            "crystallite_size": 225.74793
+        },
+        "Zro2mkl": {
+            "RWP": 0.0,
+            "percentage_weight": 0.457,
+            "crystallite_size": 50.00001
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.139,
+            "crystallite_size": 50.00001
+        },
+        "C2F": {
+            "RWP": -0.0503491635264564,
+            "percentage_weight": 0.084,
+            "crystallite_size": 7155000017651612.0
+        },
+        "Gehlenite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.599,
+            "crystallite_size": 102.51044
+        },
+        "rwp_all": {
+            "RWP": 10.3692102,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 6.495,
+            "crystallite_size": 188.33639
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.781,
+            "crystallite_size": 50.00001
+        },
+        "Bassanit": {
+            "RWP": 0.0,
+            "percentage_weight": 0.223,
+            "crystallite_size": 50.00001
+        },
+        "MicroInt1": {
+            "RWP": -0.0179359947780787,
+            "percentage_weight": 1.405,
+            "crystallite_size": 84.04754
+        },
+        "BrownmilleriteAlFe": {
+            "RWP": 0.0,
+            "percentage_weight": 0.914,
+            "crystallite_size": 50.00001
+        },
+        "C3A-Na-cubic": {
+            "RWP": -0.01792909936380687,
+            "percentage_weight": 0.534,
+            "crystallite_size": 45.0
+        },
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd": {
+            "RWP": 0.0,
+            "percentage_weight": 0.775,
+            "crystallite_size": 50.00003
+        },
+        "Albint": {
+            "RWP": -0.010797399015018555,
+            "percentage_weight": 1.27,
+            "crystallite_size": 50.0
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.049,
+            "crystallite_size": 190.2807
+        },
+        "Phillips": {
+            "RWP": 0.0,
+            "percentage_weight": 0.572,
+            "crystallite_size": 154.15648
+        },
+        "CA": {
+            "RWP": 0.0,
+            "percentage_weight": 0.323,
+            "crystallite_size": 7658733998643.652
+        },
+        "initial_structure_list": [
+            "C3A-Na-ortho",
+            "Vaterite",
+            "Corundum as standard",
+            "Calcite",
+            "Aphthita",
+            "Merwinite",
+            "Aragonit",
+            "Dolomite",
+            "Syngenite",
+            "Thaumasite",
+            "Portlandite",
+            "Ettringite-from-CIF-good",
+            "C3S-mono_nishi",
+            "C3A-cubic",
+            "Zro2mkl",
+            "Larnite",
+            "Gehlenite",
+            "Quartz",
+            "Hydrocalumite",
+            "Bassanit",
+            "BrownmilleriteAlFe",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+            "Sylvite",
+            "Phillips",
+            "CA",
+            "Magnetite",
+            "Calcium chloride hydroxide",
+            "Anorthite",
+            "C6S3H-gamma-Dellaite",
+            "Anhydrite",
+            "C2F",
+            "MicroInt1",
+            "C3A-Na-cubic",
+            "Albint"
+        ],
+        "final_structure_list": [
+            "C3A-Na-ortho.str",
+            "Vaterite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Aphthita.str",
+            "Merwinite.str",
+            "Aragonit.str",
+            "Dolomite.str",
+            "Syngenite.str",
+            "Thaumasite.str",
+            "Portlandite.str",
+            "Ettringite-from-CIF-good.str",
+            "C3S-mono_nishi.str",
+            "C3A-cubic.str",
+            "Zro2mkl.str",
+            "Larnite.str",
+            "Gehlenite.str",
+            "Quartz.str",
+            "Hydrocalumite.str",
+            "Bassanit.str",
+            "BrownmilleriteAlFe.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Sylvite.str",
+            "Phillips.str",
+            "CA.str",
+            "MicroInt1.str"
+        ],
+        "structures_list": [
+            "C3A-Na-ortho.str",
+            "Vaterite.str",
+            "Corundum as standard.str",
+            "Calcite.str",
+            "Aphthita.str",
+            "Merwinite.str",
+            "Aragonit.str",
+            "Dolomite.str",
+            "Syngenite.str",
+            "Thaumasite.str",
+            "Portlandite.str",
+            "Ettringite-from-CIF-good.str",
+            "C3S-mono_nishi.str",
+            "C3A-cubic.str",
+            "Zro2mkl.str",
+            "Larnite.str",
+            "Gehlenite.str",
+            "Quartz.str",
+            "Hydrocalumite.str",
+            "Bassanit.str",
+            "BrownmilleriteAlFe.str",
+            "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+            "Sylvite.str",
+            "Phillips.str",
+            "CA.str",
+            "MicroInt1.str"
+        ]
+    },
+    "valid_structures": [
+        "C3A-Na-ortho",
+        "Vaterite",
+        "Corundum as standard",
+        "Calcite",
+        "Aphthita",
+        "Merwinite",
+        "Aragonit",
+        "Dolomite",
+        "Syngenite",
+        "Thaumasite",
+        "Portlandite",
+        "Ettringite-from-CIF-good",
+        "C3S-mono_nishi",
+        "C3A-cubic",
+        "Zro2mkl",
+        "Larnite",
+        "Gehlenite",
+        "Quartz",
+        "Hydrocalumite",
+        "Bassanit",
+        "BrownmilleriteAlFe",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd",
+        "Sylvite",
+        "Phillips",
+        "CA"
+    ],
+    "invalid_structures": [
+        "Magnetite",
+        "Calcium chloride hydroxide",
+        "Anorthite",
+        "C6S3H-gamma-Dellaite",
+        "Anhydrite",
+        "C2F",
+        "MicroInt1",
+        "C3A-Na-cubic",
+        "Albint"
+    ],
+    "structures_list": [
+        "C3A-Na-ortho.str",
+        "Vaterite.str",
+        "Corundum as standard.str",
+        "Calcite.str",
+        "Aphthita.str",
+        "Merwinite.str",
+        "Aragonit.str",
+        "Dolomite.str",
+        "Syngenite.str",
+        "Thaumasite.str",
+        "Portlandite.str",
+        "Ettringite-from-CIF-good.str",
+        "C3S-mono_nishi.str",
+        "C3A-cubic.str",
+        "Zro2mkl.str",
+        "Larnite.str",
+        "Gehlenite.str",
+        "Quartz.str",
+        "Hydrocalumite.str",
+        "Bassanit.str",
+        "BrownmilleriteAlFe.str",
+        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+        "Sylvite.str",
+        "Phillips.str",
+        "CA.str",
+        "MicroInt1.str"
+    ],
+    "excluded_structure_list": [
+        "Anorthite",
+        "C2F",
+        "Anhydrite",
+        "Albint",
+        "Calcium chloride hydroxide",
+        "Magnetite",
+        "C3A-Na-cubic",
+        "C6S3H-gamma-Dellaite"
+    ],
+    "iteration": 1
+}

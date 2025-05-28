@@ -1,0 +1,91 @@
+{
+    "results": {
+        "Syngenite": {
+            "crystallite_size": 55.72213,
+            "percentage_weight": 1.856
+        },
+        "Corundum as standard": {
+            "crystallite_size": 189.14759,
+            "percentage_weight": 27.385
+        },
+        "Musc2m1_with p mod p1": {
+            "crystallite_size": 120.20378,
+            "percentage_weight": 0.732
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 71.66526,
+            "percentage_weight": 3.037
+        },
+        "Quartz": {
+            "crystallite_size": 61.98697,
+            "percentage_weight": 3.137
+        },
+        "Zro2mkl": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.569
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 57.525
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.198
+        },
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.255
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.307
+        },
+        "structures_list": [
+            "Corundum as standard.str",
+            "Musc2m1_with p mod p1.str",
+            "Calcite.str",
+            "Syngenite.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "Zro2mkl.str",
+            "BrownmilleriteAlFe.str",
+            "Calcium chloride hydroxide.str",
+            "C2SH-alpha.str"
+        ]
+    },
+    "valid_structures": [
+        "Corundum as standard",
+        "Musc2m1_with p mod p1",
+        "Calcite"
+    ],
+    "invalid_structures": [
+        "Syngenite",
+        "C3S-mono_nishi",
+        "Quartz",
+        "Zro2mkl",
+        "BrownmilleriteAlFe",
+        "Calcium chloride hydroxide",
+        "C2SH-alpha"
+    ],
+    "structures_list": [
+        "Corundum as standard.str",
+        "Musc2m1_with p mod p1.str",
+        "Calcite.str",
+        "Syngenite.str",
+        "C3S-mono_nishi.str",
+        "Quartz.str",
+        "Zro2mkl.str",
+        "BrownmilleriteAlFe.str",
+        "Calcium chloride hydroxide.str",
+        "C2SH-alpha.str"
+    ],
+    "excluded_structure_list": [
+        "Zro2mkl",
+        "Syngenite",
+        "C2SH-alpha",
+        "C3S-mono_nishi",
+        "BrownmilleriteAlFe",
+        "Calcium chloride hydroxide"
+    ],
+    "iteration": 1
+}

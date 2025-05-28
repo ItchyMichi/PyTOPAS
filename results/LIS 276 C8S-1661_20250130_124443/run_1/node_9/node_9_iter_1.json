@@ -1,0 +1,150 @@
+{
+    "results": {
+        "Zircon": {
+            "crystallite_size": 1180.19655,
+            "percentage_weight": 0.042
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 4.186
+        },
+        "Corundum as standard": {
+            "crystallite_size": 265.75249,
+            "percentage_weight": 35.611
+        },
+        "Sylvite": {
+            "crystallite_size": 196.90841,
+            "percentage_weight": 14.507
+        },
+        "C2SH-alpha": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.444
+        },
+        "Calcium chloride hydroxide": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.363
+        },
+        "Aragonit": {
+            "crystallite_size": 98.2344,
+            "percentage_weight": 0.486
+        },
+        "Magnetite": {
+            "crystallite_size": 100.01186,
+            "percentage_weight": 0.346
+        },
+        "Portlandite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 16.194
+        },
+        "Hydrocalumite": {
+            "crystallite_size": 61.82345,
+            "percentage_weight": 8.002
+        },
+        "Syngenite": {
+            "crystallite_size": 68.40535,
+            "percentage_weight": 8.643
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.228
+        },
+        "BrownmilleriteAlFe": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.723
+        },
+        "Gibbsite": {
+            "crystallite_size": 79.69627,
+            "percentage_weight": 0.887
+        },
+        "Quartz": {
+            "crystallite_size": 231.06482,
+            "percentage_weight": 1.338
+        },
+        "initial_structure_list": [
+            "Larnite",
+            "Corundum as standard",
+            "Sylvite",
+            "Aragonit",
+            "Magnetite",
+            "Portlandite",
+            "Hydrocalumite",
+            "Syngenite",
+            "C3S-mono_nishi",
+            "Quartz",
+            "Zircon",
+            "C2SH-alpha",
+            "Calcium chloride hydroxide",
+            "BrownmilleriteAlFe",
+            "Gibbsite"
+        ],
+        "final_structure_list": [
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "Aragonit.str",
+            "Magnetite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Syngenite.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "C2SH-alpha.str",
+            "BrownmilleriteAlFe.str",
+            "Gibbsite.str"
+        ],
+        "structures_list": [
+            "Larnite.str",
+            "Corundum as standard.str",
+            "Sylvite.str",
+            "Aragonit.str",
+            "Magnetite.str",
+            "Portlandite.str",
+            "Hydrocalumite.str",
+            "Syngenite.str",
+            "C3S-mono_nishi.str",
+            "Quartz.str",
+            "C2SH-alpha.str",
+            "BrownmilleriteAlFe.str",
+            "Gibbsite.str"
+        ]
+    },
+    "valid_structures": [
+        "Larnite",
+        "Corundum as standard",
+        "Sylvite",
+        "Aragonit",
+        "Magnetite",
+        "Portlandite",
+        "Hydrocalumite",
+        "Syngenite",
+        "C3S-mono_nishi",
+        "Quartz"
+    ],
+    "invalid_structures": [
+        "Zircon",
+        "C2SH-alpha",
+        "Calcium chloride hydroxide",
+        "BrownmilleriteAlFe",
+        "Gibbsite"
+    ],
+    "structures_list": [
+        "Larnite.str",
+        "Corundum as standard.str",
+        "Sylvite.str",
+        "Aragonit.str",
+        "Magnetite.str",
+        "Portlandite.str",
+        "Hydrocalumite.str",
+        "Syngenite.str",
+        "C3S-mono_nishi.str",
+        "Quartz.str",
+        "C2SH-alpha.str",
+        "BrownmilleriteAlFe.str",
+        "Gibbsite.str"
+    ],
+    "excluded_structure_list": [
+        "Calcium chloride hydroxide",
+        "Zircon"
+    ],
+    "iteration": 1
+}

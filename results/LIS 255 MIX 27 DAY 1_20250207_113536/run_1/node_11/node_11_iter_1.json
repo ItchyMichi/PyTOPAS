@@ -1,0 +1,222 @@
+{
+    "results": {
+        "Bassanit": {
+            "RWP": -0.010438568473397766,
+            "percentage_weight": 1.404,
+            "crystallite_size": 50.0
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.508,
+            "crystallite_size": 107.01396
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 33.938,
+            "crystallite_size": 240.76485
+        },
+        "Arcanite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.731,
+            "crystallite_size": 50.0
+        },
+        "Chlorite-p-mod": {
+            "RWP": 0.0,
+            "percentage_weight": 0.262,
+            "crystallite_size": 899.57966
+        },
+        "Gehlenite": {
+            "RWP": -0.002554935443216491,
+            "percentage_weight": 0.65,
+            "crystallite_size": 50.0
+        },
+        "Hydrocalumite": {
+            "RWP": -0.01841909365282807,
+            "percentage_weight": 1.322,
+            "crystallite_size": 50.0
+        },
+        "Katoite": {
+            "RWP": -0.00893930907736636,
+            "percentage_weight": 1.578,
+            "crystallite_size": 50.0
+        },
+        "Talc": {
+            "RWP": 0.0,
+            "percentage_weight": 0.012,
+            "crystallite_size": 1862.54966
+        },
+        "Anorthite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.327,
+            "crystallite_size": 50.0
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 13.764,
+            "crystallite_size": 121.66561
+        },
+        "Musc2m1_with p mod p1": {
+            "RWP": 0.0,
+            "percentage_weight": 0.687,
+            "crystallite_size": 472.08299
+        },
+        "rwp_all": {
+            "RWP": 13.7606608,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Merwinite": {
+            "RWP": -0.015239725987577587,
+            "percentage_weight": 1.504,
+            "crystallite_size": 50.0
+        },
+        "Vaterite": {
+            "RWP": -0.0047809840643698795,
+            "percentage_weight": 1.424,
+            "crystallite_size": 50.0
+        },
+        "MicroInt1": {
+            "RWP": 0.0,
+            "percentage_weight": 1.923,
+            "crystallite_size": 278.97687
+        },
+        "Gypsum": {
+            "RWP": -0.03612987829770499,
+            "percentage_weight": 2.441,
+            "crystallite_size": 56.7156
+        },
+        "Larnite": {
+            "RWP": 0.0,
+            "percentage_weight": 7.219,
+            "crystallite_size": 50.0
+        },
+        "Syngenite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.469,
+            "crystallite_size": 50.0
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 16.828,
+            "crystallite_size": 50.0
+        },
+        "Tobermorite11A": {
+            "RWP": 0.0,
+            "percentage_weight": 7.681,
+            "crystallite_size": 50.0
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 2.652,
+            "crystallite_size": 50.0
+        },
+        "initial_structure_list": [
+            "Sylvite",
+            "Corundum as standard",
+            "Arcanite",
+            "Chlorite-p-mod",
+            "Talc",
+            "Anorthite",
+            "Quartz",
+            "Musc2m1_with p mod p1",
+            "MicroInt1",
+            "Larnite",
+            "Syngenite",
+            "Calcite",
+            "Tobermorite11A",
+            "C3S-mono_nishi",
+            "Bassanit",
+            "Gehlenite",
+            "Hydrocalumite",
+            "Katoite",
+            "Merwinite",
+            "Vaterite",
+            "Gypsum"
+        ],
+        "final_structure_list": [
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Arcanite.str",
+            "Chlorite-p-mod.str",
+            "Talc.str",
+            "Anorthite.str",
+            "Quartz.str",
+            "Musc2m1_with p mod p1.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Syngenite.str",
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "C3S-mono_nishi.str",
+            "Gypsum.str"
+        ],
+        "structures_list": [
+            "Sylvite.str",
+            "Corundum as standard.str",
+            "Arcanite.str",
+            "Chlorite-p-mod.str",
+            "Talc.str",
+            "Anorthite.str",
+            "Quartz.str",
+            "Musc2m1_with p mod p1.str",
+            "MicroInt1.str",
+            "Larnite.str",
+            "Syngenite.str",
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "C3S-mono_nishi.str",
+            "Gypsum.str"
+        ]
+    },
+    "valid_structures": [
+        "Sylvite",
+        "Corundum as standard",
+        "Arcanite",
+        "Chlorite-p-mod",
+        "Talc",
+        "Anorthite",
+        "Quartz",
+        "Musc2m1_with p mod p1",
+        "MicroInt1",
+        "Larnite",
+        "Syngenite",
+        "Calcite",
+        "Tobermorite11A",
+        "C3S-mono_nishi"
+    ],
+    "invalid_structures": [
+        "Bassanit",
+        "Gehlenite",
+        "Hydrocalumite",
+        "Katoite",
+        "Merwinite",
+        "Vaterite",
+        "Gypsum"
+    ],
+    "structures_list": [
+        "Sylvite.str",
+        "Corundum as standard.str",
+        "Arcanite.str",
+        "Chlorite-p-mod.str",
+        "Talc.str",
+        "Anorthite.str",
+        "Quartz.str",
+        "Musc2m1_with p mod p1.str",
+        "MicroInt1.str",
+        "Larnite.str",
+        "Syngenite.str",
+        "Calcite.str",
+        "Tobermorite11A.str",
+        "C3S-mono_nishi.str",
+        "Gypsum.str"
+    ],
+    "excluded_structure_list": [
+        "Merwinite",
+        "Hydrocalumite",
+        "Katoite",
+        "Bassanit",
+        "Vaterite",
+        "Gehlenite"
+    ],
+    "iteration": 1
+}

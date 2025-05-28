@@ -1,0 +1,173 @@
+{
+    "results": {
+        "Hydrocalumite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.785
+        },
+        "C3A-cubic": {
+            "crystallite_size": 100.41467,
+            "percentage_weight": 0.286
+        },
+        "Calcite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 14.589
+        },
+        "Tobermorite11A": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.484
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 3.498
+        },
+        "Larnite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.321
+        },
+        "C3S-mono_nishi": {
+            "crystallite_size": 93.28998,
+            "percentage_weight": 1.436
+        },
+        "Sylvite": {
+            "crystallite_size": 177.2619,
+            "percentage_weight": 4.645
+        },
+        "Vaterite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.978
+        },
+        "Arcanite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.414
+        },
+        "Merwinite": {
+            "crystallite_size": 101.64905,
+            "percentage_weight": 0.966
+        },
+        "Portlandite": {
+            "crystallite_size": 50.17969,
+            "percentage_weight": 2.257
+        },
+        "Quartz": {
+            "crystallite_size": 169.4744,
+            "percentage_weight": 9.602
+        },
+        "Y2o3": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 0.97
+        },
+        "C6S3H-gamma-Dellaite": {
+            "crystallite_size": 40.0,
+            "percentage_weight": 6.418
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 1.164
+        },
+        "Syngenite": {
+            "crystallite_size": 55.09664,
+            "percentage_weight": 4.875
+        },
+        "Corundum as standard": {
+            "crystallite_size": 273.34812,
+            "percentage_weight": 29.313
+        },
+        "initial_structure_list": [
+            "C3A-cubic",
+            "Calcite",
+            "Tobermorite11A",
+            "Larnite",
+            "Sylvite",
+            "Merwinite",
+            "Quartz",
+            "C6S3H-gamma-Dellaite",
+            "Syngenite",
+            "Corundum as standard",
+            "Hydrocalumite",
+            "Anorthite",
+            "C3S-mono_nishi",
+            "Vaterite",
+            "Arcanite",
+            "Portlandite",
+            "Y2o3",
+            "Bassanit"
+        ],
+        "final_structure_list": [
+            "C3A-cubic.str",
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Merwinite.str",
+            "Quartz.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Syngenite.str",
+            "Corundum as standard.str",
+            "Anorthite.str",
+            "Vaterite.str",
+            "Arcanite.str",
+            "Portlandite.str"
+        ],
+        "structures_list": [
+            "C3A-cubic.str",
+            "Calcite.str",
+            "Tobermorite11A.str",
+            "Larnite.str",
+            "Sylvite.str",
+            "Merwinite.str",
+            "Quartz.str",
+            "C6S3H-gamma-Dellaite.str",
+            "Syngenite.str",
+            "Corundum as standard.str",
+            "Anorthite.str",
+            "Vaterite.str",
+            "Arcanite.str",
+            "Portlandite.str"
+        ]
+    },
+    "valid_structures": [
+        "C3A-cubic",
+        "Calcite",
+        "Tobermorite11A",
+        "Larnite",
+        "Sylvite",
+        "Merwinite",
+        "Quartz",
+        "C6S3H-gamma-Dellaite",
+        "Syngenite",
+        "Corundum as standard"
+    ],
+    "invalid_structures": [
+        "Hydrocalumite",
+        "Anorthite",
+        "C3S-mono_nishi",
+        "Vaterite",
+        "Arcanite",
+        "Portlandite",
+        "Y2o3",
+        "Bassanit"
+    ],
+    "structures_list": [
+        "C3A-cubic.str",
+        "Calcite.str",
+        "Tobermorite11A.str",
+        "Larnite.str",
+        "Sylvite.str",
+        "Merwinite.str",
+        "Quartz.str",
+        "C6S3H-gamma-Dellaite.str",
+        "Syngenite.str",
+        "Corundum as standard.str",
+        "Anorthite.str",
+        "Vaterite.str",
+        "Arcanite.str",
+        "Portlandite.str"
+    ],
+    "excluded_structure_list": [
+        "Hydrocalumite",
+        "Bassanit",
+        "Y2o3",
+        "C3S-mono_nishi"
+    ],
+    "iteration": 1
+}

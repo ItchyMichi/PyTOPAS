@@ -1,0 +1,148 @@
+{
+    "results": {
+        "MicroInt1": {
+            "RWP": 0.0002554178536555766,
+            "percentage_weight": 0.286,
+            "crystallite_size": 1955.26297
+        },
+        "BrownmilleriteAlFe": {
+            "RWP": -0.005192378165361164,
+            "percentage_weight": 0.773,
+            "crystallite_size": 50.00362
+        },
+        "Portlandite": {
+            "RWP": 0.0,
+            "percentage_weight": 4.507,
+            "crystallite_size": 53.36413
+        },
+        "Corundum as standard": {
+            "RWP": 0.0,
+            "percentage_weight": 31.447,
+            "crystallite_size": 341.50694
+        },
+        "Quartz": {
+            "RWP": 0.0,
+            "percentage_weight": 6.769,
+            "crystallite_size": 221.03652
+        },
+        "Larnite": {
+            "RWP": -0.04561080891861811,
+            "percentage_weight": 3.706,
+            "crystallite_size": 50.04296
+        },
+        "Calcite": {
+            "RWP": 0.0,
+            "percentage_weight": 45.563,
+            "crystallite_size": 59.95015
+        },
+        "Gehlenite": {
+            "RWP": 0.0,
+            "percentage_weight": 0.895,
+            "crystallite_size": 56.45867
+        },
+        "Syngenite": {
+            "RWP": -0.020217454364944053,
+            "percentage_weight": 2.151,
+            "crystallite_size": 50.02899
+        },
+        "Sylvite": {
+            "RWP": 0.0,
+            "percentage_weight": 2.275,
+            "crystallite_size": 189.74086
+        },
+        "rwp_all": {
+            "RWP": 10.8508468,
+            "percentage_weight": null,
+            "crystallite_size": null
+        },
+        "Ettringite-from-CIF-good": {
+            "RWP": 0.0,
+            "percentage_weight": 1.835,
+            "crystallite_size": 67.61372
+        },
+        "C3S-mono_nishi": {
+            "RWP": 0.0,
+            "percentage_weight": 3.02,
+            "crystallite_size": 83.34499
+        },
+        "Hydrocalumite": {
+            "RWP": 0.0,
+            "percentage_weight": 3.688,
+            "crystallite_size": 50.02899
+        },
+        "initial_structure_list": [
+            "Portlandite",
+            "Corundum as standard",
+            "Quartz",
+            "Calcite",
+            "Gehlenite",
+            "Sylvite",
+            "Ettringite-from-CIF-good",
+            "C3S-mono_nishi",
+            "Hydrocalumite",
+            "MicroInt1",
+            "BrownmilleriteAlFe",
+            "Larnite",
+            "Syngenite"
+        ],
+        "final_structure_list": [
+            "Portlandite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Gehlenite.str",
+            "Sylvite.str",
+            "Ettringite-from-CIF-good.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ],
+        "structures_list": [
+            "Portlandite.str",
+            "Corundum as standard.str",
+            "Quartz.str",
+            "Calcite.str",
+            "Gehlenite.str",
+            "Sylvite.str",
+            "Ettringite-from-CIF-good.str",
+            "C3S-mono_nishi.str",
+            "Hydrocalumite.str",
+            "Larnite.str"
+        ]
+    },
+    "valid_structures": [
+        "Portlandite",
+        "Corundum as standard",
+        "Quartz",
+        "Calcite",
+        "Gehlenite",
+        "Sylvite",
+        "Ettringite-from-CIF-good",
+        "C3S-mono_nishi",
+        "Hydrocalumite"
+    ],
+    "invalid_structures": [
+        "MicroInt1",
+        "BrownmilleriteAlFe",
+        "Larnite",
+        "Syngenite"
+    ],
+    "structures_list": [
+        "Portlandite.str",
+        "Corundum as standard.str",
+        "Quartz.str",
+        "Calcite.str",
+        "Gehlenite.str",
+        "Sylvite.str",
+        "Ettringite-from-CIF-good.str",
+        "C3S-mono_nishi.str",
+        "Hydrocalumite.str",
+        "Larnite.str"
+    ],
+    "excluded_structure_list": [
+        "Syngenite",
+        "BrownmilleriteAlFe",
+        "MicroInt1"
+    ],
+    "iteration": 1
+}

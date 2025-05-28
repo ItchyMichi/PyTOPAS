@@ -1,0 +1,153 @@
+{
+    "results": {
+        "Anhydrite": {
+            "crystallite_size": 178.65644,
+            "percentage_weight": 3.718
+        },
+        "Anorthite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 26.571
+        },
+        "Gehlenite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 8.035
+        },
+        "Talc": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.574
+        },
+        "Thenardite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.094
+        },
+        "Lime": {
+            "crystallite_size": 471.63274,
+            "percentage_weight": 1.597
+        },
+        "C3A-cubic": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.558
+        },
+        "Bassanit": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 6.179
+        },
+        "Portlandite": {
+            "crystallite_size": 131.03214,
+            "percentage_weight": 0.855
+        },
+        "Katoite": {
+            "crystallite_size": 170.98063,
+            "percentage_weight": 1.654
+        },
+        "Mullite21": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 10.808
+        },
+        "Gypsum": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 7.241
+        },
+        "CaClOH": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 2.884
+        },
+        "Magnetite": {
+            "crystallite_size": 84.72334,
+            "percentage_weight": 6.273
+        },
+        "Dolomite": {
+            "crystallite_size": 50.0,
+            "percentage_weight": 5.958
+        },
+        "initial_structure_list": [
+            "Anhydrite",
+            "Anorthite",
+            "Gehlenite",
+            "Talc",
+            "Thenardite",
+            "Lime",
+            "C3A-cubic",
+            "Bassanit",
+            "Portlandite",
+            "Katoite",
+            "Mullite21",
+            "Gypsum",
+            "Magnetite",
+            "Dolomite",
+            "CaClOH"
+        ],
+        "final_structure_list": [
+            "Anhydrite.str",
+            "Anorthite.str",
+            "Gehlenite.str",
+            "Talc.str",
+            "Thenardite.str",
+            "Lime.str",
+            "C3A-cubic.str",
+            "Bassanit.str",
+            "Portlandite.str",
+            "Katoite.str",
+            "Mullite21.str",
+            "Gypsum.str",
+            "Magnetite.str",
+            "Dolomite.str",
+            "CaClOH.str"
+        ],
+        "structures_list": [
+            "Anhydrite.str",
+            "Anorthite.str",
+            "Gehlenite.str",
+            "Talc.str",
+            "Thenardite.str",
+            "Lime.str",
+            "C3A-cubic.str",
+            "Bassanit.str",
+            "Portlandite.str",
+            "Katoite.str",
+            "Mullite21.str",
+            "Gypsum.str",
+            "Magnetite.str",
+            "Dolomite.str",
+            "CaClOH.str"
+        ]
+    },
+    "valid_structures": [
+        "Anhydrite",
+        "Anorthite",
+        "Gehlenite",
+        "Talc",
+        "Thenardite",
+        "Lime",
+        "C3A-cubic",
+        "Bassanit",
+        "Portlandite",
+        "Katoite",
+        "Mullite21",
+        "Gypsum",
+        "Magnetite",
+        "Dolomite"
+    ],
+    "invalid_structures": [
+        "CaClOH"
+    ],
+    "structures_list": [
+        "Anhydrite.str",
+        "Anorthite.str",
+        "Gehlenite.str",
+        "Talc.str",
+        "Thenardite.str",
+        "Lime.str",
+        "C3A-cubic.str",
+        "Bassanit.str",
+        "Portlandite.str",
+        "Katoite.str",
+        "Mullite21.str",
+        "Gypsum.str",
+        "Magnetite.str",
+        "Dolomite.str",
+        "CaClOH.str"
+    ],
+    "excluded_structure_list": [],
+    "iteration": 4
+}
