@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QListWidget, QLineEdit,
-    QTableWidget, QTableWidgetItem, QLabel, QPushButton
+    QTableWidget, QTableWidgetItem, QLabel, QPushButton, QMessageBox
 )
 
 from PyQt5.QtCore import Qt
@@ -37,30 +37,51 @@ def parse_structure_variables(file_path):
 
 
 def update_variable_in_file(file_path, variable, new_value):
-    """Update a variable's value within a structure file."""
-    pattern = re.compile(r'(!?\b' + re.escape(variable) + r'\b)\s+([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)')
+    """Update a variable's value within a structure file.
+
+    Returns a tuple ``(success, message)`` where ``success`` is ``True`` if
+    the value was updated, otherwise ``False``.  ``message`` contains an
+    error description when ``success`` is ``False``.
+    """
+
     try:
         with open(file_path, 'r', errors='ignore') as f:
             lines = f.readlines()
     except FileNotFoundError:
-        return False
+        return False, f"File not found: {file_path}"
 
-    replaced = False
-    new_lines = []
-    for line in lines:
-        if not replaced:
-            new_line, count = pattern.subn(lambda m: f"{m.group(1)} {new_value}", line, count=1)
-            if count:
-                replaced = True
-            new_lines.append(new_line)
-        else:
-            new_lines.append(line)
+    # Find all lines containing the variable as a whole word
+    occ_indices = [i for i, line in enumerate(lines)
+                   if re.search(r'\b' + re.escape(variable) + r'\b', line)]
 
-    if replaced:
+    if not occ_indices:
+        return False, f"Variable '{variable}' not found"
+    if len(occ_indices) > 1:
+        return False, f"Multiple occurrences of '{variable}' found"
+
+    idx = occ_indices[0]
+    original_line = lines[idx]
+
+    # Regex to match the variable and its numeric value
+    pattern = re.compile(
+        r'(?P<var>!?\b' + re.escape(variable) + r'\b)\s*(?:=)?\s*'
+        r'(?P<value>[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)')
+
+    match = pattern.search(original_line)
+    if not match:
+        return False, f"Could not parse value for '{variable}'"
+
+    start, end = match.span('value')
+    new_line = original_line[:start] + str(new_value) + original_line[end:]
+    lines[idx] = new_line
+
+    try:
         with open(file_path, 'w') as f:
-            f.writelines(new_lines)
+            f.writelines(lines)
+    except OSError as exc:
+        return False, str(exc)
 
-    return replaced
+    return True, None
 
 
 
@@ -220,7 +241,10 @@ class StructureDatabaseViewer(QDialog):
         for structure_name, vars_ in self.pending_changes.items():
             file_path = os.path.join(self.database_directory, structure_name)
             for var, val in vars_.items():
-                update_variable_in_file(file_path, var, val)
+                success, msg = update_variable_in_file(file_path, var, val)
+                if not success:
+                    QMessageBox.warning(self, "Save Error", msg)
+                    return
                 self.structures.setdefault(structure_name, {})[var] = val
 
         self.pending_changes.clear()
