@@ -1,0 +1,21 @@
+
+	str 
+		LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_c2f, 1000 min =32;)
+		e0_from_Strain( 0,!st_c2f, 0.1,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C2F (Brownmillerite)"
+		MVW( 0, 0, 0)
+		space_group 62
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_c2f 5.424 min =5.3170; max =5.5300;
+		b b_c2f 14.77 min =14.4770; max =15.0640;
+		c c_c2f 5.597 min =5.4900; max =5.7000;
+		site s1 num_posns 0 x !x1_c2f 0.4817 y !y1_c2f 0.108 z !z1_c2f 0.0231 occ CA+2  1 beq  0.62
+		site s2 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ FE+3  1 beq  0.4
+		site s3 num_posns 0 x !x3_c2f 0.4459 y =1/4; :  0.25 z !z3_c2f 0.5659 occ FE+3  1 beq  0.4
+		site s4 num_posns 0 x !x4_c2f 0.2623 y !y4_c2f -0.0154 z !z4_c2f 0.2377 occ O-2  1 beq  0.57
+		site s5 num_posns 0 x !x5_c2f 0.0224 y !y5_c2f 0.1406 z !z5_c2f 0.0715 occ O-2  1 beq  0.79
+		site s6 num_posns 0 x !x6_c2f 0.0981 y =1/4; :  0.25 z !z6_c2f 0.6243 occ O-2  1 beq  0.56

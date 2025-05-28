@@ -1,0 +1,26 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "a",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "param1": "3"
+            }
+        },
+        {
+            "id": "node_2",
+            "label": "b",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "param1": "34"
+            }
+        }
+    ],
+    "connections": [
+        {
+            "from": "node_1",
+            "to": "node_2"
+        }
+    ]
+}

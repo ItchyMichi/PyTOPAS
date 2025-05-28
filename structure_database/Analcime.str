@@ -1,0 +1,27 @@
+STR(230) ' I4_1/a-32/d
+	phase_name "Analcime"
+	' Formula "Na Al Si2 O6*H2 O"
+	' Group "Silicate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 411478
+	a a_analcime 13.7300 min 13.6000 max 13.8500
+	b =a_analcime;
+	c =a_analcime;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =1/8;  y !y1_analcime 0.6623  z    =-y1_analcime+1/4;  occ SI+4 0.67  beq 0.550
+	          occ AL+3 0.33  beq 0.550
+	site s2   x               =1/8;  y                 =0;  z               =1/4;  occ NA+1 0.67  beq 2.860
+	site s3   x !x3_analcime 0.1041  y !y3_analcime 0.1338  z !z3_analcime 0.7220  occ O-2  1.00  beq 2.110
+	site s4   x               =1/8;  y               =1/8;  z               =1/8;  occ O-2  1.00  beq 6.500
+
+	CS(cs_analcime, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_analcime, 4)
+	PO(, 1,, 1 0 0)
+	scale sc_analcime 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

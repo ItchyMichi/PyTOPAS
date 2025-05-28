@@ -1,0 +1,18 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 0.89, 185.3549398, 0.89, 291.1548585,,,cs_corundumori, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0.0002314029663,@, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  4.765212997
+		phase_MAC 31.59020452
+		phase_name "Corundum"
+		MVW( 611.767656, 255.1140227, 24.00235828)
+		corrected_weight_percent  20
+		spiked_phase_measured_weight_percent  20
+		space_group 167
+		scale sc_corundumori 0.0003293314556
+		Phase_LAC_1_on_cm( 125.792287)
+		Phase_Density_g_on_cm3( 3.982002931)
+		Trigonal(a_corundumori 4.760913223 min =4.7400; max =4.7800;,c_corundumori 12.99640294 min =12.9000; max =13.1000;)
+		site s1 num_posns 12 x =0; :  0 y =0; :  0 z !z1_corundumori 0.3522 occ AL+3  1 beq  0.32
+		site s2 num_posns 18 x !x2_corundumori 0.6937 y =0; :  0 z =1/4; :  0.25 occ O-2  1 beq  0.33
+		Preferred_Orientation(@, 1.051618606,, 1 0 4)

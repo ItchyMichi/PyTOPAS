@@ -1,0 +1,25 @@
+STR(70:2) ' F2/d2/d2/d
+	phase_name "Thenardite"
+	' Formula "Na2 S O4"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 371465
+	a a_thenardite 9.8300 min 9.7310 max 9.9270
+	b b_thenardite 12.3010 min 12.1790 max 12.4250
+	c c_thenardite 5.8680 min 5.8090 max 5.9270
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_thenardite 0.8084  y                 =1/8;  z                 =1/8;  occ NA+1 1.00  beq 1.550
+	site s2   x                 =1/8;  y                 =1/8;  z                 =1/8;  occ S  1.00  beq 0.850
+	site s3   x !x3_thenardite 0.2138  y !y3_thenardite 0.0572  z !z3_thenardite 0.9793  occ O-2  1.00  beq 1.440
+
+	CS(cs_thenardite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_thenardite, 2)
+	PO(, 1,, 3 1 1)
+	scale sc_thenardite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

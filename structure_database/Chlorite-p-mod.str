@@ -1,0 +1,29 @@
+
+	str 
+	CS(cs_chlorite, 1000 min =50.0; max =2000.0;)
+		r_bragg  0
+		phase_name "Chlorite IIb"
+		MVW( 0, 0, 0)
+		space_group 12
+		scale sc_chlorite 0.001
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_chlorite 5.35 min =5.1900; max =5.5100;
+		b b_chlorite 9.267 min =8.9890; max =9.5450;
+		c c_chlorite 14.27 min =13.8420; max =14.6980;
+		be be_chlorite 96.3
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ MG+2 =(1-pchl); :  1 beq  1 occ FE+2 pchl 0.4 max =1.00; beq  1
+		site s2 num_posns 0 x =0; :  0 y !y2_chlorite 0.6678 z =0; :  0 occ MG+2 =(1-fe); :  1 beq  1 occ FE+2 fe 0.35 max =1.00; beq  1
+		site s3 num_posns 0 x !x3_chlorite 0.315 y =0; :  0 z !z3_chlorite 0.9257 occ O-2  1 beq  1
+		site s4 num_posns 0 x !x4_chlorite 0.189 y !y4_chlorite 0.1667 z !z4_chlorite 0.0774 occ O-2  1 beq  1
+		site s5 num_posns 0 x !x5_chlorite 0.2248 y !y5_chlorite 0.1669 z !z5_chlorite 0.1937 occ SI+4  0.66 beq  1 occ AL+3  0.34 beq  1
+		site s6 num_posns 0 x !x6_chlorite 0.803 y =0; :  0 z !z6_chlorite 0.7643 occ O-2  1 beq  1
+		site s7 num_posns 0 x !x7_chlorite 0.511 y !y7_chlorite 0.228 z !z7_chlorite 0.2363 occ O-2  1 beq  1
+		site s8 num_posns 0 x !x8_chlorite 0.828 y =0; :  0 z !z8_chlorite 0.5711 occ O-2  1 beq  1
+		site s9 num_posns 0 x !x9_chlorite 0.131 y !y9_chlorite 0.3463 z !z9_chlorite 0.4285 occ O-2  1 beq  1
+		site s10 num_posns 0 x =0; :  0 y !y10_chlorite 0.8336 z =1/2; :  0.5 occ MG+2 =(1-s); :  1 beq  1 occ FE+2 s 0.32 max =1.00; beq  1
+		site s11 num_posns 0 x =0; :  0 y =1/2; :  0.5 z =1/2; :  0.5 occ AL+3  0.96 beq  1
+		site s12 num_posns 0 x !x12_chlorite 0.2887 y =0; :  0 z !z12_chlorite 0.8552 occ H  1 beq  2
+		site s13 num_posns 0 x !x13_chlorite 0.8377 y =0; :  0 z !z13_chlorite 0.6339 occ H  1 beq  2
+		site s14 num_posns 0 x !x14_chlorite 0.1586 y !y14_chlorite 0.3359 z !z14_chlorite 0.3698 occ H  1 beq  2
+		Preferred_Orientation(, 1,, 0 0 1)

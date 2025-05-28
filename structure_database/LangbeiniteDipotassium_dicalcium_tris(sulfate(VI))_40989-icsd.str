@@ -1,0 +1,33 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 42.39783631, 0.89, 59.27254533,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  6.895916565
+		phase_MAC 80.76188453
+		phase_name "Langbeinite - Dipotassium dicalcium tris(sulfate(VI))_40989-icsd"
+		MVW( 1786.1616, 1110.544275, 5.163214366)
+		scale @ 2.269288374e-006
+		space_group "P 21 21 21"
+		Phase_LAC_1_on_cm( 215.6953135)
+		Phase_Density_g_on_cm3( 2.67075632)
+		a @ 10.36898287 min =10.1000; max =10.5000;
+		b @ 10.47497225 min =10.1000; max =10.7000;
+		c @ 10.22461207 min =10.1000; max =10.4000;
+		site K1 num_posns 4 x  0.8308 y  0.8132 z  0.8111 occ K+1  1 beq  1
+		site K2 num_posns 4 x  0.0343 y  0.057 z  0.0614 occ K+1  1 beq  1
+		site Ca1 num_posns 4 x  0.3065 y  0.3395 z  0.3245 occ Ca+2  1 beq  1
+		site Ca2 num_posns 4 x  0.5987 y  0.594 z  0.5752 occ Ca+2  1 beq  1
+		site S1 num_posns 4 x  0.2112 y  0.3719 z  0.0191 occ S  1 beq  1
+		site S2 num_posns 4 x  0.3872 y  0.0045 z  0.2507 occ S  1 beq  1
+		site S3 num_posns 4 x  0.001 y  0.2179 z  0.3697 occ S  1 beq  1
+		site O1 num_posns 4 x  0.3075 y  0.2695 z  0.0349 occ O-2  1 beq  1
+		site O2 num_posns 4 x  0.0866 y  0.3186 z  0.9758 occ O-2  1 beq  1
+		site O3 num_posns 4 x  0.2583 y  0.4629 z  0.9203 occ O-2  1 beq  1
+		site O4 num_posns 4 x  0.1933 y  0.4345 z  0.1476 occ O-2  1 beq  1
+		site O5 num_posns 4 x  0.3047 y  0.932 z  0.3418 occ O-2  1 beq  1
+		site O6 num_posns 4 x  0.3941 y  0.1387 z  0.2908 occ O-2  1 beq  1
+		site O7 num_posns 4 x  0.5187 y  0.9521 z  0.2603 occ O-2  1 beq  1
+		site O8 num_posns 4 x  0.3367 y  0.9903 z  0.1172 occ O-2  1 beq  1
+		site O9 num_posns 4 x  0.0622 y  0.1013 z  0.32 occ O-2  1 beq  1
+		site O10 num_posns 4 x  0.9066 y  0.1877 z  0.4734 occ O-2  1 beq  1
+		site O11 num_posns 4 x  0.9294 y  0.2776 z  0.2597 occ O-2  1 beq  1
+		site O12 num_posns 4 x  0.0996 y  0.3051 z  0.4214 occ O-2  1 beq  1

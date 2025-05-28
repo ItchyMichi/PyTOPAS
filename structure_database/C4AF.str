@@ -1,0 +1,21 @@
+
+	str 
+		LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_c4af, 1000 min =32;)
+		e0_from_Strain( 0,!st_c4af, 0.1,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C4AF"
+		MVW( 0, 0, 0)
+		space_group 46
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_c4af 14.6 min =14.4000; max =14.8000;
+		b b_c4af 5.584 min =5.4700; max =5.6900;
+		c c_c4af 5.374 min =5.2700; max =5.4800;
+		site s1 num_posns 0 x !x1_c4af 0.1087 y !y1_c4af 0.0273 z !z1_c4af 0.508 occ CA+2  1 beq  1
+		site s2 num_posns 0 x =0; :  0 y =0; :  0 z !z2_c4af 0 occ FE+3  0.76 beq  1 occ AL+3  0.24 beq  1
+		site s3 num_posns 0 x =1/4; :  0.25 y !y3_c4af 0.5717 z !z3_c4af 0.5467 occ FE+3  0.24 beq  1 occ AL+3  0.76 beq  1
+		site s4 num_posns 0 x !x4_c4af 0.9861 y !y4_c4af 0.2523 z !z4_c4af 0.7509 occ O-2  1 beq  1
+		site s5 num_posns 0 x !x5_c4af 0.1493 y !y5_c4af 0.068 z !z5_c4af 0.9754 occ O-2  1 beq  1
+		site s6 num_posns 0 x =1/4; :  0.25 y !y6_c4af 0.6393 z !z6_c4af 0.8807 occ O-2  1 beq  1

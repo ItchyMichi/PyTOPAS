@@ -1,0 +1,23 @@
+STR(225) ' F4/m-32/m
+	phase_name "Periclase"
+	' Formula "Mg O"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 450948
+	a a_periclase 4.2170 min 4.1800 max 4.2550
+	b =a_periclase;
+	c =a_periclase;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x                  =0;  y                  =0;  z                  =0;  occ MG+2 1.00  beq 0.310
+	site s2   x                =1/2;  y                =1/2;  z                =1/2;  occ O-2  1.00  beq 0.360
+
+	CS(cs_periclase, 1000 min 32)
+
+	scale sc_periclase 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

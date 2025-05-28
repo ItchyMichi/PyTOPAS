@@ -1,0 +1,52 @@
+STR(173) ' P 63
+	phase_name "Thaumasite (Taylor)"
+	' Formula "(Ca3Si(OH)6(H2O)12)(SO4)(CO3)"
+	' Group "Hydr"
+	' SubGroup ""
+	' UserGroup "cement"
+	' SubstSeries ""
+	' ICDD_number 75 1688
+
+	a a_thaum 11.04 
+	b =a_thaum;
+	c c_thaum 10.39 
+	al 90.000
+	be 90.000
+	ga 120.000
+
+
+
+	site Ca1 num_posns 0 x  0.1946 y  -0.0117 z  0.2619 occ Ca+2  1 beq  1
+	site Si1 num_posns 0 x  0      y  0       z  0.0026 occ Si+4  1 beq  1
+	site C1 num_posns  0 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.456 occ C  1 beq  1
+	site S1 num_posns  0 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  -0.0027 occ S  1 beq  1
+	site O1 num_posns  0 x  0.392  y  0.228  z  0.261  occ O-2  1 beq  1
+	site O2 num_posns  0 x  0.26   y  0.401  z  0.259  occ O-2  1 beq  1
+	site O3 num_posns  0 x  0.0025 y  0.3411 z  0.082  occ O-2  1 beq  1
+	site O4 num_posns  0 x  0.0217 y  0.3467 z  0.4421 occ O-2  1 beq  1
+	site O5 num_posns  0 x  0.2014 y  0.6223 z  0.47   occ O-2  1 beq  1
+	site O6 num_posns  0 x  0.1914 y  0.6229 z  0.0431 occ O-2  1 beq  1
+	site O7 num_posns  0 x  0.1312 y  0.1249 z  0.115  occ O-2  1 beq  1
+	site O8 num_posns  0 x  0.13   y  0.1242 z  0.4052 occ O-2  1 beq  1
+	site O9 num_posns  0 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.855 occ O-2  1 beq  1
+	site H1 num_posns  0 x  0.3471 y  0.29  z  0.26  occ H  1 beq  1
+	site H2 num_posns  0 x  0.488  y  0.265 z  0.297 occ H  1 beq  1
+	site H3 num_posns  0 x  0.303  y  0.465 z  0.333 occ H  1 beq  1
+	site H4 num_posns  0 x  0.311  y  0.462 z  0.183 occ H  1 beq  1
+	site H5 num_posns  0 x  0.439  y  0.079 z  0.042 occ H  1 beq  1
+	site H6 num_posns  0 x  0.069  y  0.441 z  0.068 occ H  1 beq  1
+	site H7 num_posns  0 x  0.0851 y  0.444 z  0.452 occ H  1 beq  1
+	site H8 num_posns  0 x  0.41   y  0.053 z  0.478 occ H  1 beq  1
+	site H9 num_posns  0 x  0.215  y  0.178 z  0.111 occ H  1 beq  1
+	site H10 num_posns 0 x  0.213  y  0.18  z  0.413 occ H  1 beq  1
+
+
+	CS(cs_thaum, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_thaum, 4)
+	PO(, 1,, 1 0 0)
+	scale sc_thaum 0.00001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+
+		

@@ -1,0 +1,75 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "a",
+            "task_type": "Crystallite Size",
+            "parameters": {}
+        },
+        {
+            "id": "node_2",
+            "label": "b",
+            "task_type": "Crystallite Size",
+            "parameters": {}
+        },
+        {
+            "id": "node_3",
+            "label": "c",
+            "task_type": "Crystallite Size",
+            "parameters": {},
+            "incoming_params": {
+                "node_2": [
+                    "Node Specific Output"
+                ]
+            }
+        },
+        {
+            "id": "node_4",
+            "label": "d",
+            "task_type": "Crystallite Size",
+            "parameters": {}
+        },
+        {
+            "id": "node_5",
+            "label": "g",
+            "task_type": "Compare",
+            "parameters": {}
+        }
+    ],
+    "connections": [
+        {
+            "from": "node_2",
+            "to": "node_3"
+        },
+        {
+            "from": "node_3",
+            "to": "node_2",
+            "condition": null,
+            "condition_param": null
+        },
+        {
+            "from": "node_1",
+            "to": "node_2"
+        },
+        {
+            "from": "node_3",
+            "to": "node_4",
+            "condition": "Number of runs",
+            "condition_param": "5"
+        },
+        {
+            "from": "node_3",
+            "to": "node_5",
+            "condition": null,
+            "priority": "",
+            "info_passed": "",
+            "condition_param": null
+        }
+    ],
+    "loops": [
+        [
+            "node_2",
+            "node_3"
+        ]
+    ]
+}

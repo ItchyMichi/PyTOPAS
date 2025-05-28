@@ -1,0 +1,27 @@
+STR(220) ' I-43d
+	phase_name "C12A7 Mayenite"
+	' Formula "Ca12 Al14 O33"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 90413
+	a a_mayenite 11.9800 min 11.8800 max 12.0800
+	b =a_mayenite;
+	c =a_mayenite;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_mayenite 0.6086  y                 =0;  z               =1/4;  occ CA+2 1.00  beq 1.220
+	site s2   x !x2_mayenite 0.7681  y         =x2_mayenite;  z         =x2_mayenite;  occ AL+3 1.00  beq 0.800
+	site s3   x               =7/8;  y                 =0;  z               =1/4;  occ AL+3 1.00  beq 0.570
+	site s4   x !x4_mayenite 0.1509  y !y4_mayenite -0.0368  z !z4_mayenite 0.0583  occ O-2  1.00  beq 0.820
+	site s5   x !x5_mayenite 0.6854  y         =x5_mayenite;  z         =x5_mayenite;  occ O-2  1.00  beq 0.840
+	site s6   x !x6_mayenite 0.3990  y                 =0;  z               =1/4;  occ O-2  0.083  beq 0.850
+
+	CS(cs_mayenite, 1000 min =50.0; max =2000.0;)
+	PO(, 1,, 1 0 0)
+	scale sc_mayenite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

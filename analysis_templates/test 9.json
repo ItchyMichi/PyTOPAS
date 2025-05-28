@@ -1,0 +1,281 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "S",
+            "task_type": "Start",
+            "parameters": {
+                "structurelist1": {
+                    "template_name": "All Structures",
+                    "structures": [
+                        "Albint.str",
+                        "Analcime.str",
+                        "Anhydrite.str",
+                        "Ankeri05-with-p-mod.str",
+                        "Anorthite.str",
+                        "Aphthita.str",
+                        "Aragonit.str",
+                        "Arcanite.str",
+                        "Bassanit.str",
+                        "BrownmilleriteAlFe.str",
+                        "C2SH-alpha.str",
+                        "C3A-cubic.str",
+                        "C3S-mono_nishi.str",
+                        "CaClOH.str",
+                        "Calcite.str",
+                        "Calcium chloride hydroxide.str",
+                        "Chlorite-p-mod.str",
+                        "Corundum as standard.str",
+                        "Crishigh.str",
+                        "Dolomite.str",
+                        "Ettringite-from-CIF-good.str",
+                        "Gehlenite.str",
+                        "Gibbsite.str",
+                        "Gypsum.str",
+                        "Hematite.str",
+                        "Hydrocalumite.str",
+                        "Katoite.str",
+                        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+                        "Larnite.str",
+                        "Lime.str",
+                        "Magnetite.str",
+                        "Mayenite.str",
+                        "Merwinite.str",
+                        "MicroInt1.str",
+                        "Mullite21.str",
+                        "Musc2m1_with p mod p1.str",
+                        "Phillips.str",
+                        "Portlandite.str",
+                        "Quartz.str",
+                        "Rutile.str",
+                        "Sylvite.str",
+                        "Syngenite.str",
+                        "Talc.str",
+                        "Thaumasite.str",
+                        "Thenardite.str",
+                        "Tobermorite11A.str",
+                        "Vaterite.str",
+                        "Zircon.str",
+                        "Zro2mkl.str"
+                    ]
+                }
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {}
+        },
+        {
+            "id": "node_2",
+            "label": "2",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "min_crystallite": "20",
+                "crystallite_step": "30",
+                "polynomial": "5",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Failing Z-Score"
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {
+                "node_1": [
+                    "structures_list"
+                ]
+            },
+            "expected_deps": 1
+        },
+        {
+            "id": "node_3",
+            "label": "3",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "min_crystallite": "20",
+                "crystallite_step": "30",
+                "polynomial": "5",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Failing Z-Score"
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {
+                "node_2": [
+                    "structures_list"
+                ]
+            },
+            "expected_deps": 1
+        },
+        {
+            "id": "node_4",
+            "label": "4",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "min_crystallite": "20",
+                "crystallite_step": "30",
+                "polynomial": "15",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Failing Z-Score"
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {
+                "node_2": [
+                    "excluded_structure_list"
+                ]
+            },
+            "expected_deps": 1
+        },
+        {
+            "id": "node_11",
+            "label": "11",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "min_crystallite": "20",
+                "crystallite_step": "30",
+                "polynomial": "5",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Failing Z-Score"
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {
+                "node_3": [
+                    "structures_list"
+                ],
+                "node_14": [
+                    "structures_list"
+                ]
+            },
+            "preferred_dependency": "node_14",
+            "expected_deps": 2
+        },
+        {
+            "id": "node_12",
+            "label": "12",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "",
+                "max_weight": "",
+                "min_crystallite": "",
+                "crystallite_step": "",
+                "polynomial": "",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Worst"
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {},
+            "expected_deps": 1
+        },
+        {
+            "id": "node_13",
+            "label": "13",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "min_crystallite": "20",
+                "crystallite_step": "30",
+                "polynomial": "10",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Worst Negative"
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {
+                "node_14": [
+                    "structures_list"
+                ],
+                "node_4": [
+                    "structures_list"
+                ]
+            },
+            "preferred_dependency": "node_14",
+            "expected_deps": 1
+        },
+        {
+            "id": "node_14",
+            "label": "14",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "min_crystallite": "20",
+                "crystallite_step": "30",
+                "polynomial": "10",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Worst Negative"
+            },
+            "allow_partial_dependencies": false,
+            "incoming_params": {
+                "node_13": [
+                    "structures_list"
+                ]
+            }
+        }
+    ],
+    "connections": [
+        {
+            "from": "node_1",
+            "to": "node_2"
+        },
+        {
+            "from": "node_2",
+            "to": "node_3",
+            "condition": null,
+            "condition_param": null
+        },
+        {
+            "from": "node_2",
+            "to": "node_4",
+            "condition": null,
+            "condition_param": null
+        },
+        {
+            "from": "node_3",
+            "to": "node_11",
+            "condition": null,
+            "priority": "",
+            "info_passed": "",
+            "condition_param": null
+        },
+        {
+            "from": "node_11",
+            "to": "node_12",
+            "condition": null,
+            "condition_param": null
+        },
+        {
+            "from": "node_13",
+            "to": "node_14",
+            "condition": null,
+            "condition_param": null
+        },
+        {
+            "from": "node_14",
+            "to": "node_13",
+            "condition": "List length (greater than equal to)",
+            "condition_param": "4"
+        },
+        {
+            "from": "node_4",
+            "to": "node_13",
+            "condition": null,
+            "condition_param": null
+        },
+        {
+            "from": "node_14",
+            "to": "node_11",
+            "condition": "List length (greater than equal to)",
+            "priority": "",
+            "info_passed": "",
+            "condition_param": "3"
+        }
+    ],
+    "loops": [
+        [
+            "node_13",
+            "node_14"
+        ]
+    ]
+}

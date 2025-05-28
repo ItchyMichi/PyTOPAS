@@ -1,0 +1,41 @@
+STR(61) ' P2_1/b2_1/c2_1/a
+	phase_name "C3A Na orthorhombic"
+	' Formula "Ca8.5 Na Al6 O18"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 700859
+	a a_c3anaort 10.8740 min 10.8210 max 10.9290
+	b b_c3anaort 10.8590 min 10.8050 max 10.9130
+	c c_c3anaort 15.1050 min 15.0290 max 15.1810
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_c3anaort 0.0027  y !y1_c3anaort 0.0020  z !z1_c3anaort 0.5182  occ CA+2 0.25  beq 1.030
+	site s2   x !x2_c3anaort -0.0039  y !y2_c3anaort 0.0177  z !z2_c3anaort 0.2393  occ CA+2 1.00  beq 0.700
+	site s3   x !x3_c3anaort 0.0093  y !y3_c3anaort 0.2674  z !z3_c3anaort 0.1331  occ CA+2 1.00  beq 0.690
+	site s4   x !x4_c3anaort 0.2565  y !y4_c3anaort 0.2707  z !z4_c3anaort 0.2528  occ CA+2 1.00  beq 1.130
+	site s5   x !x5_c3anaort 0.2627  y !y5_c3anaort 0.2462  z !z5_c3anaort 0.4983  occ CA+2 1.00  beq 1.050
+	site s6   x                 =0;  y                 =0;  z                 =0;  occ NA+1 1.00  beq 2.910
+	site s7   x !x7_c3anaort -0.0048  y !y7_c3anaort -0.2141  z !z7_c3anaort 0.1160  occ AL+3 1.00  beq 0.410
+	site s8   x !x8_c3anaort 0.2375  y !y8_c3anaort -0.0033  z !z8_c3anaort 0.1129  occ AL+3 1.00  beq 0.620
+	site s9   x !x9_c3anaort 0.2421  y !y9_c3anaort 0.0054  z !z9_c3anaort -0.1086  occ AL+3 1.00  beq 1.600
+	site s10  x !x10_c3anaort -0.1442  y !y10_c3anaort -0.1339  z !z10_c3anaort 0.1091  occ O-2  1.00  beq 1.640
+	site s11  x !x11_c3anaort 0.1107  y !y11_c3anaort -0.1012  z !z11_c3anaort 0.1263  occ O-2  1.00  beq 1.760
+	site s12  x !x12_c3anaort 0.2870  y !y12_c3anaort -0.0221  z !z12_c3anaort 0.0023  occ O-2  1.00  beq 0.940
+	site s13  x !x13_c3anaort -0.0073  y !y13_c3anaort -0.2856  z !z13_c3anaort 0.2178  occ O-2  1.00  beq 1.740
+	site s14  x !x14_c3anaort 0.0196  y !y14_c3anaort -0.2933  z !z14_c3anaort 0.0172  occ O-2  1.00  beq 1.320
+	site s15  x !x15_c3anaort 0.3553  y !y15_c3anaort -0.0722  z !z15_c3anaort 0.1736  occ O-2  1.00  beq 1.110
+	site s16  x !x16_c3anaort 0.1886  y !y16_c3anaort 0.1479  z !z16_c3anaort 0.1324  occ O-2  1.00  beq 1.270
+	site s17  x !x17_c3anaort 0.1623  y !y17_c3anaort -0.1277  z !z17_c3anaort -0.1419  occ O-2  1.00  beq 1.040
+	site s18  x !x18_c3anaort 0.3717  y !y18_c3anaort 0.0661  z !z18_c3anaort -0.1597  occ O-2  1.00  beq 0.920
+
+	CS(cs_c3anaort, 1000 min 45)
+	Strain(!st_c3anaort, 0.0001 min 0 max 0.010)
+'	PO_Spherical_Harmonics(sh_c3anaort, 4)
+	PO(, 1,, 1 1 -2)
+	scale sc_c3anaort 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

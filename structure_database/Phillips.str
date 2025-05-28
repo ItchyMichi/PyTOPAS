@@ -1,0 +1,37 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_phillips, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_phillips, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Phillipsite"
+		MVW( 0, 0, 0)
+		'corrected_weight_percent  0
+		space_group 11
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_phillips 9.866 min =9.8160; max =9.9140;
+		b b_phillips 14.3 min =14.2290; max =14.3710;
+		c c_phillips 8.668 min =8.6250; max =8.7110;
+		be be_phillips 124.2 min =123.2000; max =125.2000;
+		site s1 num_posns 0 x !x1_phillips 0.7362 y !y1_phillips 0.0248 z !z1_phillips 0.2805 occ SI+4  0.67 beq  1.08 occ AL+3  0.33 beq  1.08
+		site s2 num_posns 0 x !x2_phillips 0.4206 y !y2_phillips 0.1409 z !z2_phillips 0.0019 occ SI+4  0.67 beq  1.06 occ AL+3  0.33 beq  1.06
+		site s3 num_posns 0 x !x3_phillips 0.0604 y !y3_phillips 0.0078 z !z3_phillips 0.2844 occ SI+4  0.67 beq  1.11 occ AL+3  0.33 beq  1.11
+		site s4 num_posns 0 x !x4_phillips 0.1204 y !y4_phillips 0.1396 z !z4_phillips 0.0421 occ SI+4  0.67 beq  1.14 occ AL+3  0.33 beq  1.14
+		site s5 num_posns 0 x !x5_phillips 0.1335 y !y5_phillips 0.0976 z !z5_phillips 0.2289 occ O-2  1 beq  2.04
+		site s6 num_posns 0 x !x6_phillips 0.6445 y !y6_phillips 0.5766 z !z6_phillips 0.1878 occ O-2  1 beq  1.94
+		site s7 num_posns 0 x !x7_phillips 0.61 y !y7_phillips 0.113 z !z7_phillips 0.1728 occ O-2  1 beq  1.89
+		site s8 num_posns 0 x !x8_phillips 0.0254 y !y8_phillips 0.9154 z !z8_phillips 0.1494 occ O-2  1 beq  1.85
+		site s9 num_posns 0 x !x9_phillips 0.8957 y !y9_phillips 0.044 z !z9_phillips 0.2713 occ O-2  1 beq  2.06
+		site s10 num_posns 0 x !x10_phillips 0.3022 y !y10_phillips 0.3738 z !z10_phillips 0.0783 occ O-2  1 beq  2.32
+		site s11 num_posns 0 x !x11_phillips 0.7872 y !y11_phillips 0.4795 z !z11_phillips 0.4982 occ O-2  1 beq  1.9
+		site s12 num_posns 0 x !x12_phillips 0.4186 y =1/4; :  0.25 z !z12_phillips 0.9384 occ O-2  1 beq  1.94
+		site s13 num_posns 0 x !x13_phillips 0.0665 y =1/4; :  0.25 z !z13_phillips 0.0196 occ O-2  1 beq  2.12
+		site s14 num_posns 0 x !x14_phillips 0.848 y =1/4; :  0.25 z !z14_phillips 0.2076 occ K+1  1 beq  4.11
+		site s15 num_posns 0 x !x15_phillips 0.608 y !y15_phillips 0.6262 z !z15_phillips 0.4401 occ CA+2  0.41 beq  2.67
+		site s16 num_posns 0 x !x16_phillips 0.2449 y =1/4; :  0.25 z !z16_phillips 0.5267 occ O-2  1 beq  6.9
+		site s17 num_posns 0 x !x17_phillips 0.8448 y =1/4; :  0.25 z !z17_phillips 0.5618 occ O-2  1 beq  7.53
+		site s18 num_posns 0 x !x18_phillips 0.3208 y !y18_phillips 0.8525 z !z18_phillips 0.174 occ O-2  1 beq  8.63
+		site s19 num_posns 0 x !x19_phillips 0.5085 y =1/4; :  0.25 z !z19_phillips 0.4384 occ O-2  1 beq  21.25
+		site s20 num_posns 0 x =1/2; :  0.5 y =0; :  0 z =1/2; :  0.5 occ O-2  1 beq  14.61

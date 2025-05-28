@@ -1,0 +1,24 @@
+STR(225) ' F4/m-32/m
+	phase_name "Sylvite"
+	' Formula "K Cl"
+	' Group "Halogenide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 411476
+	a a_sylvite 6.2800 min 6.2200 max 6.3420
+	b =a_sylvite;
+	c =a_sylvite;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x                =0;  y                =0;  z                =0;  occ K+1  1.00  beq 0.600
+	site s2   x              =1/2;  y              =1/2;  z              =1/2;  occ CL-1 1.00  beq 0.700
+
+	CS(cs_sylvite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_sylvite, 6)
+	PO(, 1,, 1 0 0)
+	scale sc_sylvite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

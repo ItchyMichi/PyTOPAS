@@ -1,0 +1,15 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 56.61758444, 0.89, 79.15187737,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  3.329268542
+		phase_MAC 117.2143075
+		phase_name "Calcium Chloride Hydroxide"
+		MVW( 183.0608, 129.0536904, 1.939943025)
+		space_group P63mc
+		scale @ 0.0001734271567
+		Phase_LAC_1_on_cm( 276.0927153)
+		Phase_Density_g_on_cm3( 2.355452343)
+		Hexagonal(@ 3.904039358,@ 9.777130723)
+		site Ca1 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0.68 occ Ca+2  1 beq  1
+		site O1 num_posns 2 x  0 y  0 z  0.237 occ O-2  1 beq  1_LIMIT_MIN_-10
+		site Cl1 num_posns 2 x =1/3; :  0.3333333333 y =2/3; :  0.6666666667 z  0 occ Cl-1  1 beq  1

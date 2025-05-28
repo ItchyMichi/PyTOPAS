@@ -1,0 +1,25 @@
+STR(227:2) ' F4_1/d-32/m
+	phase_name "Cristobalite high"
+	' Formula "Si O2"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 760931
+	a a_crishigh 7.1670 min 7.0940 max 7.2380
+	b =a_crishigh;
+	c =a_crishigh;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =1/8;  y               =1/8;  z               =1/8;  occ SI+4 1.00  beq 3.330
+	site s2   x                 =0;  y !y2_crishigh 0.4556  z  =-y2_crishigh;  occ O  0.17  beq 3.490
+
+	CS(cs_crishigh, 1000 min =50.0; max =2000.0;)
+'	Strain(!st_crishigh, 0.0001 min 0 max 0.010)
+'	PO_Spherical_Harmonics(sh_crishigh, 6)
+	PO(, 1,, 1 1 -1)
+	scale sc_crishigh 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

@@ -1,0 +1,45 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 0.89, 28.32957987, 0.89, 44.5,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  6.179404937
+		phase_MAC 67.1127907
+		phase_name "Friedel`s Salt (Hydrocalumite)"
+		MVW( 2206.889304, 1833.062045, 8.728704133)
+		'corrected_weight_percent  5.072821803
+		space_group P12/c1
+		scale @ 5.401129611e-006
+		Phase_LAC_1_on_cm( 134.1708208)
+		Phase_Density_g_on_cm3( 1.999184052)
+		be @ 102.54792 
+		a @ 9.9957118 min =9.5400; max =10.7800;
+		b @ 11.56940002 min =10.5400; max =12.7800;
+		c @ 16.23871927 min =15.5400; max =17.7800;
+		site Ca1 num_posns 4 x  0.099 y  0.122 z  0.039 occ Ca  1 beq  1.10539569
+		site Ca2 num_posns 4 x  0.097 y  0.626 z  0.032 occ Ca  1 beq  1.10539569
+		site Ca3 num_posns 4 x  0.599 y  0.376 z  0.04 occ Ca  1 beq  1.02643886
+		site Ca4 num_posns 4 x  0.597 y  0.874 z  0.033 occ Ca  1 beq  1.10539569
+		site Al1 num_posns 4 x  0.25 y  0.374 z  0.002 occ Al  1 beq  0.868525187
+		site Al2 num_posns 4 x  0.25 y  0.875 z  -0.003 occ Al  1 beq  0.868525187
+		site O-H11 num_posns 4 x  0.101 y  -0.032 z  -0.064 occ O  1 beq  1.10539569
+		site O-H12 num_posns 4 x  0.1 y  0.461 z  -0.062 occ O  1 beq  1.50017987
+		site O-H13 num_posns 4 x  0.602 y  0.218 z  -0.06 occ O  1 beq  1.3422662
+		site O-H14 num_posns 4 x  0.599 y  0.714 z  -0.066 occ O  1 beq  1.18435253
+		site O-H21 num_posns 4 x  0.125 y  0.325 z  0.068 occ O  1 beq  1.10539569
+		site O-H22 num_posns 4 x  0.12 y  0.828 z  0.06 occ O  1 beq  1.3422662
+		site O-H23 num_posns 4 x  0.623 y  0.579 z  0.064 occ O  1 beq  1.10539569
+		site O-H24 num_posns 4 x  0.622 y  0.075 z  0.066 occ O  1 beq  1.42122303
+		site O-H31 num_posns 4 x  0.305 y  0.013 z  0.065 occ O  1 beq  1.3422662
+		site O-H32 num_posns 4 x  0.303 y  0.515 z  0.061 occ O  1 beq  1.3422662
+		site O-H33 num_posns 4 x  0.804 y  0.263 z  0.066 occ O  1 beq  1.3422662
+		site O-H34 num_posns 4 x  0.802 y  0.766 z  0.06 occ O  1 beq  1.26330936
+		site Wat11 num_posns 4 x  0.153 y  0.101 z  0.194 occ O  1 beq  2.60557556
+		site Wat12 num_posns 4 x  0.171 y  0.639 z  0.192 occ O  1 beq  2.76348923
+		site Wat13 num_posns 4 x  0.658 y  0.385 z  0.195 occ O  1 beq  3.00035974
+		site Wat14 num_posns 4 x  0.659 y  0.861 z  0.19 occ O  1 beq  3.00035974
+		site C1 num_posns 2 x  0.5 y  0.121 z  0.25 occ C  1 beq  2.52661873
+		site O51 num_posns 2 x  0.5 y  0.007 z  0.25 occ O  1 beq  3.31618708
+		site O61 num_posns 4 x  0.608 y  0.174 z  0.246 occ O  1 beq  4.0267986
+		site Cl2 num_posns 2 x  0.5 y  0.609 z  0.25 occ Cl  1 beq  3.31618708
+		site Wat3 num_posns 2 x  0 y  0.257 z  0.25 occ O  1 beq  4.0267986
+		site Wat2 num_posns 2 x  0 y  0.492 z  0.25 occ O  1 beq  2.21079139
+		site Cl4 num_posns 2 x  0 y  0.87 z  0.25 occ Cl  1 beq  3.78992809

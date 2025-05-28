@@ -1,0 +1,26 @@
+STR(206) ' I2_1/a-3
+	phase_name "Y2O3"
+	' Formula "Y2 O3"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 431036
+	a a_y2o3 10.6020 min 10.5810 max 10.6230
+	b =a_y2o3;
+	c =a_y2o3;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x           =1/4;  y           =1/4;  z           =1/4;  occ Y+3  1.00  beq 0.360
+	site s2   x !x2_y2o3 0.4677  y             =0;  z           =1/4;  occ Y+3  1.00  beq 0.300
+	site s3   x !x3_y2o3 0.3914  y !y3_y2o3 0.1521  z !z3_y2o3 0.3810  occ O  1.00  beq 0.630
+
+	CS(cs_y2o3, 1000 min =50.0; max =2000.0;)
+	Strain(!st_y2o3, 0.0001 min 0 max 0.010)
+'	PO_Spherical_Harmonics(sh_y2o3, 6)
+
+	scale sc_y2o3 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

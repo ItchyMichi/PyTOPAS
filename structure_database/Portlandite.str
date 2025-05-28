@@ -1,0 +1,25 @@
+STR(164) ' P-32/m1
+	phase_name "Portlandite"
+	' Formula "Ca (OH)2"
+	' Group "Hydroxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 40733
+	a a_portlandite 3.5840 min 3.5500 max 3.6200
+	b =a_portlandite;
+	c c_portlandite 4.8950 min 4.8500 max 4.9400
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                    =0;  y                    =0;  z                    =0;  occ CA+2 1.00  beq 1.000
+	site s2   x                  =1/3;  y                  =2/3;  z !z2_portlandite 0.2330  occ O-2  1.00  beq 1.000
+	site s3   x                  =1/3;  y                  =2/3;  z !z3_portlandite 0.3950  occ H  1.00  beq 0.000
+
+	CS(cs_portlandite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_portlandite, 2)
+	PO(, 1,, 0 0 1)
+	scale sc_portlandite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

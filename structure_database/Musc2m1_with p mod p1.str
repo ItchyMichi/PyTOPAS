@@ -1,0 +1,28 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 49.30989368, 0.89, 68.93566188,,,cs_musc2m1, 1000 min =50.0; max =2000.0;)
+		r_bragg  27.0429759
+		phase_MAC 105.858302
+		phase_name "Muscovite 2M1"
+		MVW( 1800.437122, 934.2807126, 4.955506556)
+		'corrected_weight_percent  4.497806562
+		space_group 15
+		scale sc_musc2m1 5.349115374e-006
+		Phase_LAC_1_on_cm( 338.7465595)
+		Phase_Density_g_on_cm3( 3.199999934)
+		a a_musc2m1 5.225236866 min =5.1300; max =5.2500;
+		b b_musc2m1 8.974104399 min =8.9000; max =9.1000;
+		c c_musc2m1 20.02189879 min =19.8000; max =21.0000;
+		be be_musc2m1 95.66328584 min =94.5000; max =96.0000;
+		site s1 num_posns 8 x !x1_musc2m1 0.251 y !y1_musc2m1 0.0838 z !z1_musc2m1 0.0004 occ AL+3 =(1-p); :  4.768371582e-007 min =0; max =1; beq  0.74 occ FE+3 p 0.9999995232_LIMIT_MAX_1 min =0; max =1; beq  0.74
+		site s2 num_posns 4 x =0; :  0 y !y2_musc2m1 0.0986 z =1/4; :  0.25 occ K+1  0.9 min =0.6; max =1; beq  1
+		site s3 num_posns 8 x !x3_musc2m1 0.0345 y !y3_musc2m1 0.4295 z !z3_musc2m1 0.3646 occ SI+4  0.75 beq  0.71
+		site s4 num_posns 8 x !x4_musc2m1 0.0345 y !y4_musc2m1 0.4295 z !z4_musc2m1 0.3646 occ AL+3  0.25 beq  0.71
+		site s5 num_posns 8 x !x5_musc2m1 0.4514 y !y5_musc2m1 0.2582 z !z5_musc2m1 0.1355 occ SI+4  0.75 beq  0.49
+		site s6 num_posns 8 x !x6_musc2m1 0.4514 y !y6_musc2m1 0.2582 z !z6_musc2m1 0.1355 occ AL+3  0.25 beq  0.49
+		site s7 num_posns 8 x !x7_musc2m1 0.0429 y !y7_musc2m1 0.0617 z !z7_musc2m1 0.4501 occ O-2  1 beq  1
+		site s8 num_posns 8 x !x8_musc2m1 0.3836 y !y8_musc2m1 0.2511 z !z8_musc2m1 0.0536 occ O-2  1 beq  1
+		site s9 num_posns 8 x !x9_musc2m1 0.038 y !y9_musc2m1 0.4447 z !z9_musc2m1 0.4463 occ O-2  1 beq  0.88
+		site s10 num_posns 8 x !x10_musc2m1 0.4128 y !y10_musc2m1 0.0925 z !z10_musc2m1 0.1682 occ O-2  1 beq  0.8
+		site s11 num_posns 8 x !x11_musc2m1 0.2516 y !y11_musc2m1 0.3726 z !z11_musc2m1 0.1688 occ O-2  1 beq  0.88
+		site s12 num_posns 8 x !x12_musc2m1 0.2469 y !y12_musc2m1 0.3083 z !z12_musc2m1 0.3426 occ O-2  1 beq  0.4

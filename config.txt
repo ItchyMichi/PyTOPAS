@@ -1,0 +1,11 @@
+[DEFAULT]
+weight_percentage_threshold = 0.7
+crystallite_size_min = 50.0
+crystallite_size_max = 2000.0
+strain_min = 0.00001
+strain_max = 1.2
+higher_weight_percentage_threshold = 5
+lower_weight_percentage_threshold = 2
+crystallite_range_1 = 5
+crystallite_range_2 = 7.5
+topas_dir=C:\TOPAS5

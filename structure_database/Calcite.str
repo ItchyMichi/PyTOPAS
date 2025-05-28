@@ -1,0 +1,25 @@
+STR(167) ' 
+	phase_name "Calcite"
+	' Formula "Ca C O3"
+	' Group "Carbonates"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 50586
+	a a_calcite 4.9900 min 4.9500 max 5.0200
+	b =a_calcite;
+	c c_calcite 17.0610 min 16.9000 max 17.1000
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                =0;  y                =0;  z                =0;  occ CA+2 1.00  beq 0.950
+	site s2   x                =0;  y                =0;  z              =1/4;  occ C  1.00  beq 0.900
+	site s3   x !x3_calcite 0.2570  y                =0;  z              =1/4;  occ O  1.00  beq 0.940
+
+	CS(cs_calcite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_calcite, 6)
+	PO(, 1,, 1 0 4)
+	scale sc_calcite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

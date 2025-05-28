@@ -1,0 +1,19 @@
+
+	str 
+		LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_akermani, 1000 min =40;)
+		e0_from_Strain( 0,!st_akermani, 0.1,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Akermanite"
+		MVW( 0, 0, 0)
+		space_group 113
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		Tetragonal(a_akermani 7.832 min =7.7550; max =7.9110;,c_akermani 5.003 min =4.9600; max =5.0500;)
+		site s1 num_posns 0 x !x1_akermani 0.8318 y =x1_akermani+1/2; :  0 z !z1_akermani 0.4937 occ CA+2  1 beq  1.62
+		site s2 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ MG+2  1 beq  1.02
+		site s3 num_posns 0 x !x3_akermani 0.6399 y =x3_akermani+1/2; :  0 z !z3_akermani 0.0643 occ SI+4  1 beq  0.88
+		site s4 num_posns 0 x =0; :  0 y =1/2; :  0.5 z !z4_akermani 0.8182 occ O-2  1 beq  2.38
+		site s5 num_posns 0 x !x5_akermani 0.3594 y =x5_akermani+1/2; :  0 z !z5_akermani 0.7452 occ O-2  1 beq  1.87
+		site s6 num_posns 0 x !x6_akermani 0.08 y !y6_akermani 0.1867 z !z6_akermani 0.785 occ O-2  1 beq  2.07

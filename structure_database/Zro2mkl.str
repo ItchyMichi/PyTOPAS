@@ -1,0 +1,24 @@
+STR(14) ' P12_1/c1
+	phase_name "Baddeleyite ZrO2 monoclinic"
+	' Formula "Zr O2"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 371484
+	a a_zro2mkl 5.1450 min 5.0420 max 5.2480
+	b b_zro2mkl 5.2070 min 5.1030 max 5.3110
+	c c_zro2mkl 5.3110 min 5.2050 max 5.4170
+	al 90.000
+	be be_zro2mkl 99.2000
+	ga 90.000
+
+	site s1   x !x1_zro2mkl 0.2758  y !y1_zro2mkl 0.0411  z !z1_zro2mkl 0.2082  occ ZR+4 1.00  beq 0.000
+	site s2   x !x2_zro2mkl 0.0703  y !y2_zro2mkl 0.3359  z !z2_zro2mkl 0.3406  occ O-2  1.00  beq 0.000
+	site s3   x !x3_zro2mkl 0.4423  y !y3_zro2mkl 0.7549  z !z3_zro2mkl 0.4789  occ O-2  1.00  beq 0.000
+
+	CS(cs_zro2mkl, 1000 min =50.0; max =2000.0;)
+	PO(, 1,, 1 1 -1)
+	scale sc_zro2mkl 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

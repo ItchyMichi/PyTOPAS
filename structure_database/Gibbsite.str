@@ -1,0 +1,36 @@
+STR(P12_1/n1) ' P12_1/n1
+	phase_name "Gibbsite"
+	' Formula "Al (OH)3"
+	' Group "Hydroxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 330018
+	a a_gibbsite 8.6850 min 8.6000 max 8.7500
+	b b_gibbsite 5.0770 min 5.0000 max 5.2000
+	c c_gibbsite 9.7360 min 9.6000 max 9.8000
+	al 90.000
+	be be_gibbsite 94.5000 min 94.0000 max 95.0000
+	ga 90.000
+
+	site s1   x !x1_gibbsite 0.1679  y !y1_gibbsite 0.5295  z !z1_gibbsite -0.0023  occ AL+3 1.00  beq 0.560
+	site s2   x !x2_gibbsite 0.3344  y !y2_gibbsite 0.0236  z !z2_gibbsite -0.0024  occ AL+3 1.00  beq 0.570
+	site s3   x !x3_gibbsite 0.1779  y !y3_gibbsite 0.2183  z !z3_gibbsite -0.1115  occ O-2  1.00  beq 0.780
+	site s4   x !x4_gibbsite 0.6692  y !y4_gibbsite 0.6558  z !z4_gibbsite -0.1023  occ O-2  1.00  beq 0.790
+	site s5   x !x5_gibbsite 0.4984  y !y5_gibbsite 0.1315  z !z5_gibbsite -0.1044  occ O-2  1.00  beq 0.780
+	site s6   x !x6_gibbsite -0.0205  y !y6_gibbsite 0.6293  z !z6_gibbsite -0.1068  occ O-2  1.00  beq 0.800
+	site s7   x !x7_gibbsite 0.2971  y !y7_gibbsite 0.7178  z !z7_gibbsite -0.1052  occ O-2  1.00  beq 0.810
+	site s8   x !x8_gibbsite 0.8194  y !y8_gibbsite 0.1491  z !z8_gibbsite -0.1015  occ O-2  1.00  beq 0.760
+	site s9   x !x9_gibbsite 0.1010  y !y9_gibbsite 0.1520  z !z9_gibbsite -0.1240  occ H  1.00  beq 1.000
+	site s10  x !x10_gibbsite 0.5950  y !y10_gibbsite 0.5730  z !z10_gibbsite -0.0980  occ H  1.00  beq 1.000
+	site s11  x !x11_gibbsite 0.5030  y !y11_gibbsite 0.1370  z !z11_gibbsite -0.1900  occ H  1.00  beq 1.000
+	site s12  x !x12_gibbsite -0.0290  y !y12_gibbsite 0.8010  z !z12_gibbsite -0.1070  occ H  1.00  beq 1.000
+	site s13  x !x13_gibbsite 0.2930  y !y13_gibbsite 0.7240  z !z13_gibbsite -0.1960  occ H  1.00  beq 1.000
+	site s14  x !x14_gibbsite 0.8150  y !y14_gibbsite 0.1600  z !z14_gibbsite -0.1900  occ H  1.00  beq 1.000
+
+	CS(cs_gibbsite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_gibbsite, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_gibbsite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

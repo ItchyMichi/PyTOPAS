@@ -1,0 +1,12 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "a",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "param1": "43"
+            }
+        }
+    ]
+}

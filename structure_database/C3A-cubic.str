@@ -1,0 +1,27 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_c3acub, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_c3acub, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C3A cubic"
+		MVW( 0, 0, 0)
+		space_group 205
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		Cubic(a_c3acub 15.262 min =14.9580; max =15.5680;)
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ CA+2  1 beq  0.47
+		site s2 num_posns 0 x =1/2; :  0.5 y =1/2; :  0.5 z =1/2; :  0.5 occ CA+2  1 beq  0.66
+		site s3 num_posns 0 x !x3_c3acub 0.7439 y =x3_c3acub; :  0 z =x3_c3acub; :  0 occ CA+2  1 beq  0.62
+		site s4 num_posns 0 x !x4_c3acub 0.625 y =x4_c3acub; :  0 z =x4_c3acub; :  0 occ CA+2  1 beq  0.92
+		site s5 num_posns 0 x !x5_c3acub 0.1386 y !y5_c3acub 0.3763 z !z5_c3acub 0.1272 occ CA+2  1 beq  1.03
+		site s6 num_posns 0 x !x6_c3acub 0.38 y !y6_c3acub 0.3838 z !z6_c3acub 0.1209 occ CA+2  1 beq  0.65
+		site s7 num_posns 0 x !x7_c3acub 0.2526 y !y7_c3acub 0.0133 z !z7_c3acub 0.0197 occ AL+3  1 beq  0.52
+		site s8 num_posns 0 x !x8_c3acub 0.2444 y !y8_c3acub 0.2335 z !z8_c3acub 0.0046 occ AL+3  1 beq  0.53
+		site s9 num_posns 0 x !x9_c3acub 0.2777 y !y9_c3acub 0.1241 z !z9_c3acub 0.0103 occ O-2  1 beq  1.17
+		site s10 num_posns 0 x !x10_c3acub 0.4835 y !y10_c3acub 0.1315 z !z10_c3acub 0.2536 occ O-2  1 beq  1.1
+		site s11 num_posns 0 x !x11_c3acub 0.2664 y !y11_c3acub 0.2841 z !z11_c3acub 0.1049 occ O-2  1 beq  1
+		site s12 num_posns 0 x !x12_c3acub 0.235 y !y12_c3acub 0.4047 z !z12_c3acub 0.2921 occ O-2  1 beq  1
+		site s13 num_posns 0 x !x13_c3acub 0.3491 y !y13_c3acub -0.0385 z !z13_c3acub -0.0174 occ O-2  1 beq  1
+		site s14 num_posns 0 x !x14_c3acub 0.1509 y !y14_c3acub -0.0104 z !z14_c3acub -0.0242 occ O-2  1 beq  0.95

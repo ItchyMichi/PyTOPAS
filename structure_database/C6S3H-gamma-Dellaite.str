@@ -1,0 +1,46 @@
+STR(2) ' P-1
+	phase_name "C6S3H gamma Dellaite"
+	' Formula "Ca6 (Si O4) (Si2 O7) (O H)2"
+	' Group "Silicates"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 290376
+	a a_c6s3h 6.8250 min 6.6900 max 6.9600
+	b b_c6s3h 6.9300 min 6.8000 max 7.0300
+	c c_c6s3h 12.9070 min 12.6490 max 13.1650
+	al al_c6s3h 90.7000 min 90.0000 max 92.0000
+	be be_c6s3h 97.6000 min 97.0000 max 98.5000
+	ga ga_c6s3h 98.2000 min 97.0000 max 99.0000
+
+	site s1   x !x1_c6s3h 0.0823  y !y1_c6s3h 0.1931  z !z1_c6s3h 0.1036  occ CA+2 1.00  beq 0.760
+	site s2   x !x2_c6s3h 0.1923  y !y2_c6s3h 0.2062  z !z2_c6s3h 0.4897  occ CA+2 1.00  beq 0.620
+	site s3   x !x3_c6s3h 0.8947  y !y3_c6s3h 0.4658  z !z3_c6s3h 0.2913  occ CA+2 1.00  beq 0.630
+	site s4   x !x4_c6s3h 0.5597  y !y4_c6s3h 0.0333  z !z4_c6s3h 0.3211  occ CA+2 1.00  beq 0.910
+	site s5   x !x5_c6s3h 0.3145  y !y5_c6s3h 0.1926  z !z5_c6s3h 0.8758  occ CA+2 1.00  beq 0.640
+	site s6   x !x6_c6s3h 0.5919  y !y6_c6s3h 0.4761  z !z6_c6s3h 0.7026  occ CA+2 1.00  beq 0.560
+	site s7   x !x7_c6s3h 0.6160  y !y7_c6s3h 0.2884  z !z7_c6s3h 0.0978  occ SI+4 1.00  beq 0.390
+	site s8   x !x8_c6s3h 0.8105  y !y8_c6s3h 0.2859  z !z8_c6s3h 0.8857  occ SI+4 1.00  beq 0.400
+	site s9   x !x9_c6s3h 0.7156  y !y9_c6s3h 0.2983  z !z9_c6s3h 0.5090  occ SI+4 1.00  beq 0.370
+	site s10  x !x10_c6s3h 0.6164  y !y10_c6s3h 0.4863  z !z10_c6s3h 0.1656  occ O-2  1.00  beq 0.630
+	site s11  x !x11_c6s3h 0.3940  y !y11_c6s3h 0.1867  z !z11_c6s3h 0.0539  occ O-2  1.00  beq 1.130
+	site s12  x !x12_c6s3h 0.6173  y !y12_c6s3h 0.1824  z !z12_c6s3h 0.8074  occ O-2  1.00  beq 1.060
+	site s13  x !x13_c6s3h 0.7477  y !y13_c6s3h 0.1522  z !z13_c6s3h 0.1747  occ O-2  1.00  beq 0.860
+	site s14  x !x14_c6s3h 0.9860  y !y14_c6s3h 0.1517  z !z14_c6s3h 0.9128  occ O-2  1.00  beq 0.900
+	site s15  x !x15_c6s3h 0.2288  y !y15_c6s3h 0.1663  z !z15_c6s3h 0.2997  occ O-2  1.00  beq 1.450
+	site s16  x !x16_c6s3h 0.8482  y !y16_c6s3h 0.1286  z !z16_c6s3h 0.4833  occ O-2  1.00  beq 1.070
+	site s17  x !x17_c6s3h 0.1901  y !y17_c6s3h 0.2082  z !z17_c6s3h 0.6863  occ O-2  1.00  beq 1.060
+	site s18  x !x18_c6s3h 0.5233  y !y18_c6s3h 0.2157  z !z18_c6s3h 0.5663  occ O-2  1.00  beq 0.750
+	site s19  x !x19_c6s3h 0.7450  y !y19_c6s3h 0.3403  z !z19_c6s3h 0.9998  occ O-2  1.00  beq 1.300
+	site s20  x !x20_c6s3h 0.6414  y !y20_c6s3h 0.3684  z !z20_c6s3h 0.3914  occ O-2  1.00  beq 0.830
+	site s21  x !x21_c6s3h 0.8340  y !y21_c6s3h 0.4837  z !z21_c6s3h 0.5817  occ O-2  1.00  beq 0.710
+	site s22  x !x22_c6s3h 0.1159  y !y22_c6s3h 0.5120  z !z22_c6s3h 0.1694  occ O-2  1.00  beq 0.710
+	site s23  x !x23_c6s3h 0.1996  y !y23_c6s3h 0.0501  z !z23_c6s3h 0.2863  occ H  1.00  beq 2.310
+	site s24  x !x24_c6s3h 0.0744  y !y24_c6s3h 0.1300  z !z24_c6s3h 0.6818  occ H  1.00  beq 2.720
+
+	CS(cs_c6s3h, 1000 min 40)
+'	PO_Spherical_Harmonics(sh_c6s3h, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_c6s3h 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

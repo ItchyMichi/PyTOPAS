@@ -1,0 +1,71 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_anorthit, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_anorthit, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Anorthite"
+		MVW( 0, 0, 0)
+		'corrected_weight_percent  0
+		space_group 2
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_anorthit 8.18 min =8.1650; max =8.1850;
+		b b_anorthit 12.88 min =12.8600; max =12.8900;
+		c c_anorthit 14.17 min =14.1600; max =14.1900;
+		al al_anorthit 93.2 min =93.0000; max =94.0000;
+		be be_anorthit 115.8 min =115.0000; max =116.2000;
+		ga ga_anorthit 91.2 min =90.5000; max =92.0000;
+		site s1 num_posns 0 x !x1_anorthit 0.2647 y !y1_anorthit 0.9844 z !z1_anorthit 0.0873 occ CA+2  1 beq  1
+		site s2 num_posns 0 x !x2_anorthit 0.2684 y !y2_anorthit 0.0312 z !z2_anorthit 0.5438 occ CA+2  1 beq  1
+		site s3 num_posns 0 x !x3_anorthit 0.7732 y !y3_anorthit 0.5334 z !z3_anorthit 0.5422 occ CA+2  1 beq  1
+		site s4 num_posns 0 x !x4_anorthit 0.7636 y !y4_anorthit 0.5067 z !z4_anorthit 0.074 occ CA+2  1 beq  1
+		site s5 num_posns 0 x !x5_anorthit 0.0099 y !y5_anorthit 0.1584 z !z5_anorthit 0.1043 occ SI+4  1 beq  0.2
+		site s6 num_posns 0 x !x6_anorthit 0.0069 y !y6_anorthit 0.1609 z !z6_anorthit 0.6125 occ AL+3  1 beq  0.2
+		site s7 num_posns 0 x !x7_anorthit 0.5061 y !y7_anorthit 0.6567 z !z7_anorthit 0.6033 occ SI+4  1 beq  0.2
+		site s8 num_posns 0 x !x8_anorthit 0.4987 y !y8_anorthit 0.6675 z !z8_anorthit 0.1125 occ AL+3  1 beq  0.2
+		site s9 num_posns 0 x !x9_anorthit 0.9928 y !y9_anorthit 0.8146 z !z9_anorthit 0.119 occ AL+3  1 beq  0.2
+		site s10 num_posns 0 x !x10_anorthit 0.0059 y !y10_anorthit 0.8154 z !z10_anorthit 0.6129 occ SI+4  1 beq  0.2
+		site s11 num_posns 0 x !x11_anorthit 0.5078 y !y11_anorthit 0.3154 z !z11_anorthit 0.6212 occ AL+3  1 beq  0.2
+		site s12 num_posns 0 x !x12_anorthit 0.5034 y !y12_anorthit 0.3207 z !z12_anorthit 0.1091 occ SI+4  1 beq  0.2
+		site s13 num_posns 0 x !x13_anorthit 0.6841 y !y13_anorthit 0.1134 z !z13_anorthit 0.1512 occ AL+3  1 beq  0.2
+		site s14 num_posns 0 x !x14_anorthit 0.6818 y !y14_anorthit 0.1029 z !z14_anorthit 0.6644 occ SI+4  1 beq  0.2
+		site s15 num_posns 0 x !x15_anorthit 0.1906 y !y15_anorthit 0.6123 z !z15_anorthit 0.6681 occ AL+3  1 beq  0.2
+		site s16 num_posns 0 x !x16_anorthit 0.1714 y !y16_anorthit 0.6062 z !z16_anorthit 0.1504 occ SI+4  1 beq  0.2
+		site s17 num_posns 0 x !x17_anorthit 0.6749 y !y17_anorthit 0.8828 z !z17_anorthit 0.1881 occ SI+4  1 beq  0.2
+		site s18 num_posns 0 x !x18_anorthit 0.6799 y !y18_anorthit 0.8717 z !z18_anorthit 0.6715 occ AL+3  1 beq  0.2
+		site s19 num_posns 0 x !x19_anorthit 0.1759 y !y19_anorthit 0.3802 z !z19_anorthit 0.6744 occ SI+4  1 beq  0.2
+		site s20 num_posns 0 x !x20_anorthit 0.1865 y !y20_anorthit 0.379 z !z20_anorthit 0.1815 occ AL+3  1 beq  0.2
+		site s21 num_posns 0 x !x21_anorthit 0.0276 y !y21_anorthit 0.1234 z !z21_anorthit 0.9957 occ O  1 beq  0.6
+		site s22 num_posns 0 x !x22_anorthit 0.9814 y !y22_anorthit 0.1237 z !z22_anorthit 0.4808 occ O  1 beq  0.6
+		site s23 num_posns 0 x !x23_anorthit 0.4873 y !y23_anorthit 0.6256 z !z23_anorthit 0.4865 occ O  1 beq  0.6
+		site s24 num_posns 0 x !x24_anorthit 0.5129 y !y24_anorthit 0.6256 z !z24_anorthit 0.997 occ O  1 beq  0.6
+		site s25 num_posns 0 x !x25_anorthit 0.5724 y !y25_anorthit 0.9909 z !z25_anorthit 0.1451 occ O  1 beq  0.6
+		site s26 num_posns 0 x !x26_anorthit 0.5732 y !y26_anorthit 0.9901 z !z26_anorthit 0.6398 occ O  1 beq  0.6
+		site s27 num_posns 0 x !x27_anorthit 0.0732 y !y27_anorthit 0.4876 z !z27_anorthit 0.633 occ O  1 beq  0.6
+		site s28 num_posns 0 x !x28_anorthit 0.0755 y !y28_anorthit 0.4925 z !z28_anorthit 0.1363 occ O  1 beq  0.6
+		site s29 num_posns 0 x !x29_anorthit 0.8114 y !y29_anorthit 0.1027 z !z29_anorthit 0.0792 occ O  1 beq  0.6
+		site s30 num_posns 0 x !x30_anorthit 0.8071 y !y30_anorthit 0.0996 z !z30_anorthit 0.6046 occ O  1 beq  0.6
+		site s31 num_posns 0 x !x31_anorthit 0.3363 y !y31_anorthit 0.5938 z !z31_anorthit 0.6045 occ O  1 beq  0.6
+		site s32 num_posns 0 x !x32_anorthit 0.2912 y !y32_anorthit 0.6036 z !z32_anorthit 0.0819 occ O  1 beq  0.6
+		site s33 num_posns 0 x !x33_anorthit 0.8148 y !y33_anorthit 0.8516 z !z33_anorthit 0.1454 occ O  1 beq  0.6
+		site s34 num_posns 0 x !x34_anorthit 0.809 y !y34_anorthit 0.851 z !z34_anorthit 0.6018 occ O  1 beq  0.6
+		site s35 num_posns 0 x !x35_anorthit 0.2983 y !y35_anorthit 0.3575 z !z35_anorthit 0.6113 occ O  1 beq  0.6
+		site s36 num_posns 0 x !x36_anorthit 0.3382 y !y36_anorthit 0.3606 z !z36_anorthit 0.1309 occ O  1 beq  0.6
+		site s37 num_posns 0 x !x37_anorthit 0.012 y !y37_anorthit 0.278 z !z37_anorthit 0.1351 occ O  1 beq  0.6
+		site s38 num_posns 0 x !x38_anorthit 0.0177 y !y38_anorthit 0.29 z !z38_anorthit 0.6486 occ O  1 beq  0.6
+		site s39 num_posns 0 x !x39_anorthit 0.5082 y !y39_anorthit 0.7778 z !z39_anorthit 0.6311 occ O  1 beq  0.6
+		site s40 num_posns 0 x !x40_anorthit 0.5102 y !y40_anorthit 0.7969 z !z40_anorthit 0.15 occ O  1 beq  0.6
+		site s41 num_posns 0 x !x41_anorthit 0.0004 y !y41_anorthit 0.6802 z !z41_anorthit 0.1063 occ O  1 beq  0.6
+		site s42 num_posns 0 x !x42_anorthit 0.0083 y !y42_anorthit 0.6898 z !z42_anorthit 0.6017 occ O  1 beq  0.6
+		site s43 num_posns 0 x !x43_anorthit 0.515 y !y43_anorthit 0.1794 z !z43_anorthit 0.609 occ O  1 beq  0.6
+		site s44 num_posns 0 x !x44_anorthit 0.5067 y !y44_anorthit 0.1947 z !z44_anorthit 0.0974 occ O  1 beq  0.6
+		site s45 num_posns 0 x !x45_anorthit 0.1795 y !y45_anorthit 0.1072 z !z45_anorthit 0.1919 occ O  1 beq  0.6
+		site s46 num_posns 0 x !x46_anorthit 0.2153 y !y46_anorthit 0.1057 z !z46_anorthit 0.6862 occ O  1 beq  0.6
+		site s47 num_posns 0 x !x47_anorthit 0.6992 y !y47_anorthit 0.6031 z !z47_anorthit 0.6779 occ O  1 beq  0.6
+		site s48 num_posns 0 x !x48_anorthit 0.6921 y !y48_anorthit 0.6014 z !z48_anorthit 0.2 occ O  1 beq  0.6
+		site s49 num_posns 0 x !x49_anorthit 0.2027 y !y49_anorthit 0.8723 z !z49_anorthit 0.2106 occ O  1 beq  0.6
+		site s50 num_posns 0 x !x50_anorthit 0.1754 y !y50_anorthit 0.8557 z !z50_anorthit 0.717 occ O  1 beq  0.6
+		site s51 num_posns 0 x !x51_anorthit 0.6861 y !y51_anorthit 0.3637 z !z51_anorthit 0.7335 occ O  1 beq  0.6
+		site s52 num_posns 0 x !x52_anorthit 0.6999 y !y52_anorthit 0.3691 z !z52_anorthit 0.1993 occ O  1 beq  0.6

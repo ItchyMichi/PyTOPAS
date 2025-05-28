@@ -1,0 +1,19 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 134.7154932, 0.89, 188.3334357,,,cs_anhydrit, 1000 min =50.0; max =2000.0;)
+		r_bragg  6.498615536
+		phase_MAC 77.2375415
+		phase_name "Anhydrite"
+		MVW( 544.5624, 305.5716198, 11.36978226)
+		space_group 63
+		scale sc_anhydrit 0.0002350441578
+		Phase_LAC_1_on_cm( 228.5664435)
+		Phase_Density_g_on_cm3( 2.959266169)
+		a a_anhydrit 6.992602279 min =6.9600; max =7.0600;
+		b b_anhydrit 6.243444797 min =6.1800; max =6.3000;
+		c c_anhydrit 6.999224324 min =6.9210; max =7.0600;
+		site s1 num_posns 4 x =0; :  0 y !y1_anhydrit 0.654 z =1/4; :  0.25 occ CA+2  1 beq  0.7
+		site s2 num_posns 4 x =0; :  0 y !y2_anhydrit 0.155 z =1/4; :  0.25 occ S  1 beq  0.7
+		site s3 num_posns 8 x !x3_anhydrit 0.329 y !y3_anhydrit 0.515 z =1/4; :  0.25 occ O-2  1 beq  0.9
+		site s4 num_posns 8 x =0; :  0 y !y4_anhydrit 0.702 z !z4_anhydrit 0.92 occ O-2  1 beq  1.1
+		Preferred_Orientation(@, 1,, 0 0 1)

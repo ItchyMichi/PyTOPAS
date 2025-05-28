@@ -1,0 +1,174 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "Start",
+            "task_type": "Start",
+            "parameters": {
+                "structurelist1": {
+                    "template_name": "test4",
+                    "structures": [
+                        "Akermani.str",
+                        "Albint.str",
+                        "Analcime.str",
+                        "Anhydrite.str",
+                        "Ankeri05-with-p-mod.str",
+                        "Anorthite.str",
+                        "Aphthita.str",
+                        "Aragonit.str",
+                        "Arcanite.str",
+                        "Bassanit.str",
+                        "BrownmilleriteAlFe.str",
+                        "C2F.str",
+                        "C3A-cubic.str",
+                        "C3A-Na-cubic.str",
+                        "C3A-Na-ortho.str",
+                        "C3S-mono_nishi.str",
+                        "C4AF.str",
+                        "C6S3H-gamma-Dellaite.str",
+                        "CA.str",
+                        "CA2-Grossite.str",
+                        "Calcite.str",
+                        "Calcium chloride hydroxide.str",
+                        "CaO.str",
+                        "CF.str",
+                        "Chlorite-p-mod.str",
+                        "Corundum as standard.str",
+                        "Crishigh.str",
+                        "Dolomite.str",
+                        "Ettringite-from-CIF-good.str",
+                        "Gehlenite.str",
+                        "Gibbsite.str",
+                        "Gypsum.str",
+                        "Hematite.str",
+                        "Hydrocalumite.str",
+                        "Katoite.str",
+                        "LangbeiniteDipotassium_dicalcium_tris(sulfate(VI))_40989-icsd.str",
+                        "Larnite.str",
+                        "Lime.str",
+                        "Magnetite.str",
+                        "Mayenite.str",
+                        "Merwinite.str",
+                        "MicroInt1.str",
+                        "Mullite21.str",
+                        "Musc2m1_with p mod p1.str",
+                        "Phillips.str",
+                        "Portlandite.str",
+                        "Quartz.str",
+                        "Rutile.str",
+                        "Sylvite.str",
+                        "Syngenite.str",
+                        "Talc.str",
+                        "Thaumasite.str",
+                        "Thenardite.str",
+                        "Tobermorite11A.str",
+                        "Vaterite.str",
+                        "Y2o3.str",
+                        "Yeelimite_9009938.str",
+                        "Zircon.str",
+                        "Zro2mkl.str",
+                        "Periclase.str"
+                    ]
+                }
+            },
+            "allow_partial_dependencies": false,
+            "expected_deps": 1,
+            "incoming_params": {}
+        },
+        {
+            "id": "node_2",
+            "label": "Cryst",
+            "task_type": "Crystallite Size",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "min_crystallite": "20",
+                "crystallite_step": "30",
+                "polynomial": "5",
+                "exclusion_variable": "Crystallite Size",
+                "exclusion_criteria": "Failing Z-Score",
+                "confidence": "0.3"
+            },
+            "allow_partial_dependencies": false,
+            "expected_deps": 1,
+            "incoming_params": {
+                "node_1": [
+                    "structures_list"
+                ],
+                "node_3": [
+                    "structures_list"
+                ]
+            }
+        },
+        {
+            "id": "node_3",
+            "label": "RWP Addition",
+            "task_type": "RWP Addition",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "rwp_threshold": "0.01",
+                "polynomial": "10",
+                "exclusion_variable": "RWP",
+                "exclusion_criteria": "Failing Z-Score",
+                "confidence": "0.80"
+            },
+            "allow_partial_dependencies": false,
+            "expected_deps": 1,
+            "incoming_params": {
+                "node_2": [
+                    "structures_list",
+                    "excluded_structure_list"
+                ]
+            }
+        },
+        {
+            "id": "node_4",
+            "label": "RWP Removal",
+            "task_type": "RWP Missing",
+            "parameters": {
+                "min_weight": "0.1",
+                "max_weight": "4",
+                "rwp_threshold": "0.01",
+                "polynomial": "10",
+                "exclusion_variable": "RWP",
+                "exclusion_criteria": "Failing Z-Score",
+                "confidence": "0.80"
+            },
+            "allow_partial_dependencies": false,
+            "expected_deps": 1,
+            "incoming_params": {
+                "node_3": [
+                    "structures_list",
+                    "excluded_structure_list"
+                ]
+            }
+        }
+    ],
+    "connections": [
+        {
+            "from": "node_1",
+            "to": "node_2"
+        },
+        {
+            "from": "node_2",
+            "to": "node_3",
+            "condition": null,
+            "condition_param": null
+        },
+        {
+            "from": "node_3",
+            "to": "node_2",
+            "condition": null,
+            "priority": "",
+            "info_passed": "",
+            "condition_param": null
+        },
+        {
+            "from": "node_3",
+            "to": "node_4",
+            "condition": "List length (less than equal to)",
+            "condition_param": "7"
+        }
+    ]
+}

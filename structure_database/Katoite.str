@@ -1,0 +1,17 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 40.90589856, 0.89, 57.18680333,,,cs_9001771, 1000 min =50.0; max =2000.0;)
+		r_bragg  4.393166587
+		phase_MAC 66.79271517
+		phase_name "Katoite"
+		MVW( 3026.281248, 1869.926957, 10.72955082)
+		'corrected_weight_percent  2.82599305
+		space_group 230
+		scale sc_9001771 2.830088131e-006
+		Phase_LAC_1_on_cm( 179.4994559)
+		Phase_Density_g_on_cm3( 2.687410677)
+		Cubic(a_9001771 12.31992926)
+		site ca_1 num_posns 24 x =1/8; :  0.125 y =0; :  0 z =1/4; :  0.25 occ ca !occ_ca_1_9001771 1 beq !beq_ca_1_9001771 0.473
+		site al_1 num_posns 16 x =0; :  0 y =0; :  0 z =1/2; :  0.5 occ al !occ_al_1_9001771 1 beq !beq_al_1_9001771 1.263
+		site h_1 num_posns 96 x !x_h_1_9001771 0.1517 y !y_h_1_9001771 0.0919 z !z_h_1_9001771 0.7939 occ h !occ_h_1_9001771 1 beq !beq_h_1_9001771 2.447
+		site o_1 num_posns 96 x !x_o_1_9001771 0.0278 y !y_o_1_9001771 0.0525 z !z_o_1_9001771 0.6392 occ o !occ_o_1_9001771 1 beq !beq_o_1_9001771 0.947

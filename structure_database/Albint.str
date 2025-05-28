@@ -1,0 +1,41 @@
+STR(C-1) ' C-1
+	space_group C-1
+	phase_name "Albite intermediate"
+	' Formula "Na Al Si3 O8"
+	' Group "Silicate"
+	' SubGroup "Feldspar"
+	' UserGroup ""
+	' SubstSeries "Plagioclase"
+	' ICDD_number 781995
+	a a_albint 8.1500 min 8.1250 max 8.1730
+	b b_albint 12.8410 min 12.8010 max 12.8790
+	c c_albint 7.1210 min 7.0990 max 7.1410
+	al al_albint 93.8000 min 93.3000 max 94.3000
+	be be_albint 116.5116 min 116.0000 max 117.0000
+	ga ga_albint 89.5000 min 89.0000 max 90.0000
+
+	site s1   x !x1_albint 0.2721  y !y1_albint 0.0017  z !z1_albint 0.1385  occ NA+1 1.00  beq 6.800
+	site s2   x !x2_albint 0.0088  y !y2_albint 0.1657  z !z2_albint 0.2124  occ SI+4 0.49  beq 0.760
+	          occ AL+3 0.51  beq 0.760
+	site s3   x !x3_albint 0.0043  y !y3_albint 0.8160  z !z3_albint 0.2317  occ SI+4 0.85  beq 0.780
+	          occ AL+3 0.15  beq 0.780
+	site s4   x !x4_albint 0.6909  y !y4_albint 0.1086  z !z4_albint 0.3180  occ SI+4 0.84  beq 0.780
+	          occ AL+3 0.16  beq 0.780
+	site s5   x !x5_albint 0.6840  y !y5_albint 0.8787  z !z5_albint 0.3563  occ SI+4 0.83  beq 0.750
+	          occ AL+3 0.17  beq 0.750
+	site s6   x !x6_albint 0.0052  y !y6_albint 0.1338  z !z6_albint 0.9780  occ O-2  1.00  beq 1.500
+	site s7   x !x7_albint 0.5920  y !y7_albint 0.9924  z !z7_albint 0.2791  occ O-2  1.00  beq 1.170
+	site s8   x !x8_albint 0.8178  y !y8_albint 0.1086  z !z8_albint 0.1949  occ O-2  1.00  beq 1.530
+	site s9   x !x9_albint 0.8188  y !y9_albint 0.8476  z !z9_albint 0.2496  occ O-2  1.00  beq 1.730
+	site s10  x !x10_albint 0.0153  y !y10_albint 0.2939  z !z10_albint 0.2757  occ O-2  1.00  beq 1.400
+	site s11  x !x11_albint 0.0218  y !y11_albint 0.6888  z !z11_albint 0.2211  occ O-2  1.00  beq 1.410
+	site s12  x !x12_albint 0.1991  y !y12_albint 0.1110  z !z12_albint 0.3876  occ O-2  1.00  beq 1.360
+	site s13  x !x13_albint 0.1868  y !y13_albint 0.8672  z !z13_albint 0.4305  occ O-2  1.00  beq 1.510
+
+	CS(cs_albint, 1000 min =50.0; max =2000.0;)
+'	Strain(!st_albint, 0.0001 min 0 max 0.003)
+'	PO_Spherical_Harmonics(sh_albint, 4)
+
+	scale sc_albint 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

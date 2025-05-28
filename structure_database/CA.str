@@ -1,0 +1,38 @@
+
+	str 
+		LVol_FWHM_CS_G_L( 1, 155.006569, 0.89, 216.7005368,,,cs_ca, 243.4837492_LIMIT_MIN_45 min =45;)
+		e0_from_Strain( 0.0002181661565,!st_ca, 0.1,,)
+		r_bragg  4.120585171
+		phase_MAC 64.54566551
+		phase_name "CA"
+		MVW( 1896.464112, 1090.68149, 1.926437798)
+		corrected_weight_percent  0.760689289
+		space_group 14
+		scale @ 3.176588992e-006
+		Phase_LAC_1_on_cm( 186.3644889)
+		Phase_Density_g_on_cm3( 2.887327716)
+		a a_ca 15.33055195_LIMIT_MAX_15.34 min =15.0400; max =15.3400;
+		b b_ca 8.118301675 min =8.0200; max =8.1700;
+		c c_ca 17.4789302 min =17.3050; max =17.6540;
+		be be_ca 149.9091844 min =149.5000; max =151.0000;
+		site s1 num_posns 4 x !x1_ca 0.8505 y !y1_ca 0.0343 z !z1_ca 0.7612 occ CA+2  1 beq  0.5
+		site s2 num_posns 4 x !x2_ca 0.8023 y !y2_ca 0.4702 z !z2_ca 0.7314 occ CA+2  1 beq  0.62
+		site s3 num_posns 4 x !x3_ca 0.5074 y !y3_ca 0.5286 z !z3_ca 0.2604 occ CA+2  1 beq  0.94
+		site s4 num_posns 4 x !x4_ca 0.8144 y !y4_ca 0.3268 z !z4_ca 0.5759 occ AL+3  1 beq  0.48
+		site s5 num_posns 4 x !x5_ca 0.8137 y !y5_ca 0.7244 z !z5_ca 0.5808 occ AL+3  1 beq  0.44
+		site s6 num_posns 4 x !x6_ca 0.4794 y !y6_ca 0.8289 z !z6_ca 0.4013 occ AL+3  1 beq  0.39
+		site s7 num_posns 4 x !x7_ca 0.468 y !y7_ca 0.2193 z !z7_ca 0.3874 occ AL+3  1 beq  0.52
+		site s8 num_posns 4 x !x8_ca 0.1565 y !y8_ca 0.7276 z !z8_ca 0.0648 occ AL+3  1 beq  0.43
+		site s9 num_posns 4 x !x9_ca 0.1521 y !y9_ca 0.3341 z !z9_ca 0.06 occ AL+3  1 beq  0.55
+		site s10 num_posns 4 x !x10_ca 0.946 y !y10_ca 0.24 z !z10_ca 0.923 occ O-2  1 beq  0.39
+		site s11 num_posns 4 x !x11_ca 0.095 y !y11_ca 0.532 z !z11_ca 0.984 occ O-2  1 beq  0.56
+		site s12 num_posns 4 x !x12_ca 0.095 y !y12_ca 0.863 z !z12_ca 0.946 occ O-2  1 beq  0.51
+		site s13 num_posns 4 x !x13_ca 0.958 y !y13_ca 0.246 z !z13_ca 0.754 occ O-2  1 beq  0.29
+		site s14 num_posns 4 x !x14_ca 0.591 y !y14_ca 0.26 z !z14_ca 0.564 occ O-2  1 beq  0.49
+		site s15 num_posns 4 x !x15_ca 0.711 y !y15_ca 0.853 z !z15_ca 0.57 occ O-2  1 beq  0.52
+		site s16 num_posns 4 x !x16_ca 0.756 y !y16_ca 0.524 z !z16_ca 0.567 occ O-2  1 beq  0.67
+		site s17 num_posns 4 x !x17_ca 0.612 y !y17_ca 0.227 z !z17_ca 0.417 occ O-2  1 beq  0.48
+		site s18 num_posns 4 x !x18_ca 0.376 y !y18_ca 0.024 z !z18_ca 0.321 occ O-2  1 beq  0.39
+		site s19 num_posns 4 x !x19_ca 0.291 y !y19_ca 0.355 z !z19_ca 0.244 occ O-2  1 beq  0.33
+		site s20 num_posns 4 x !x20_ca 0.386 y !y20_ca 0.727 z !z20_ca 0.252 occ O-2  1 beq  0.59
+		site s21 num_posns 4 x !x21_ca 0.275 y !y21_ca 0.245 z !z21_ca 0.078 occ O-2  1 beq  0.3

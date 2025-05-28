@@ -1,0 +1,28 @@
+STR(62) ' P2_1/n2_1/m2_1/a
+	phase_name "Arcanite K2SO4"
+	' Formula "K2 (S O4)"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 50613
+	a a_arcanite 7.4770 min 7.4100 max 7.5500
+	b b_arcanite 5.7620 min 5.7200 max 5.8200
+	c c_arcanite 10.0700 min 9.9700 max 10.1700
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_arcanite 0.7330  y               =1/4;  z !z1_arcanite 0.9197  occ S  1.00  beq 1.170
+	site s2   x !x2_arcanite 0.1738  y               =1/4;  z !z2_arcanite 0.9106  occ K+1  1.00  beq 1.810
+	site s3   x !x3_arcanite 0.4890  y               =1/4;  z !z3_arcanite 0.2041  occ K+1  1.00  beq 1.630
+	site s4   x !x4_arcanite 0.5379  y               =1/4;  z !z4_arcanite 0.9166  occ O-2  1.00  beq 2.260
+	site s5   x !x5_arcanite 0.7963  y               =1/4;  z !z5_arcanite 0.0582  occ O-2  1.00  beq 1.960
+	site s6   x !x6_arcanite 0.3009  y !y6_arcanite 0.0412  z !z6_arcanite 0.6478  occ O-2  1.00  beq 2.230
+
+	CS(cs_arcanite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_arcanite, 4)
+
+	scale sc_arcanite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

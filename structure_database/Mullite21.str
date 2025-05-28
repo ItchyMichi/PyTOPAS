@@ -1,0 +1,22 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_mullite21, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_mullite21, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Mullite 2:1"
+		MVW( 0, 0, 0)
+		space_group 55
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_mullite21 7.5784 min =7.5000; max =7.6600;
+		b b_mullite21 7.6816 min =7.6400; max =7.7500;
+		c c_mullite21 2.8863 min =2.8600; max =2.9200;
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ AL+3  1 beq  0.63
+		site s2 num_posns 0 x !x2_mullite21 0.149 y !y2_mullite21 0.3403 z =1/2; :  0.5 occ AL+3  0.56 beq  0.68 occ SI+4  0.25 beq  0.68
+		site s3 num_posns 0 x !x3_mullite21 0.2625 y !y3_mullite21 0.2053 z =1/2; :  0.5 occ AL+3  0.13 beq  0.63 occ SI+4  0.06 beq  0.63
+		site s4 num_posns 0 x !x4_mullite21 0.359 y !y4_mullite21 0.4218 z =1/2; :  0.5 occ O-2  1 beq  1.06
+		site s5 num_posns 0 x !x5_mullite21 0.4498 y !y5_mullite21 0.0505 z =1/2; :  0.5 occ O-2  0.19 beq  0.93
+		site s6 num_posns 0 x =0; :  0 y =1/2; :  0.5 z =1/2; :  0.5 occ O-2  0.39 beq  1.56
+		site s7 num_posns 0 x !x7_mullite21 0.1273 y !y7_mullite21 0.2186 z =0; :  0 occ O-2  1 beq  1.1

@@ -1,0 +1,22 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 0.89, 36.1066927, 0.89, 0,,,@, 1000 min =50.0; max =2000.0;)
+		r_bragg  2.632517404
+		phase_MAC 93.53999949
+		phase_name "Larnite"
+		MVW( 688.9564, 347.6718957, 18.01545257)
+		space_group P_1_21/n_1
+		scale @ 0.0001605288302
+		Phase_LAC_1_on_cm( 307.8002089)
+		Phase_Density_g_on_cm3( 3.29057313)
+		a @ 5.517912729 min =5.47; max =5.58;
+		b @ 6.771591391 min =6.72; max =6.82;
+		c @ 9.331770167 min =9.28; max =9.38;
+		be @ 94.36238674 min =93; max =95.5;
+		site Ca1 num_posns 4 x  0.22727 y  0.34261 z  0.43031 occ Ca+2  1 beq  0.85273382
+		site Ca2 num_posns 4 x  0.22074 y  -0.00235 z  0.70202 occ Ca+2  1 beq  0.710611517
+		site Si1 num_posns 4 x  0.2328 y  0.28127 z  0.08161 occ Si+4  1 beq  0.552697846
+		site O1 num_posns 4 x  0.2827 y  0.5121 z  0.06 occ O-2  1 beq  0.836942453
+		site O2 num_posns 4 x  0.4867 y  0.1683 z  0.1381 occ O-2  1 beq  0.868525187
+		site O3 num_posns 4 x  0.1561 y  0.1712 z  -0.0725 occ O-2  1 beq  0.884316554
+		site O4 num_posns 4 x  0.0212 y  0.2481 z  0.1919 occ O-2  1 beq  0.900107921

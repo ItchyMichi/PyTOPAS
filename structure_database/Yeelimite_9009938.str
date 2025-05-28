@@ -1,0 +1,29 @@
+str
+   space_group I_-4_3_m
+   phase_name "Yeelimite"
+   ' Formula: Al6 Ca4 O16 S
+   a a_9009938   9.2050
+   b =a_9009938;
+   c =a_9009938;
+   al 90.000
+   be 90.000
+   ga 90.000
+   ' Lattice: Body-centered cubic
+   site ca_1 x !x_ca_1_9009938 0.1700 y =!x_ca_1_9009938; z =!x_ca_1_9009938;      occ ca !occ_ca_1_9009938 0.5000 beq !beq_ca_1_9009938 1.000
+   site ca_2 x !x_ca_2_9009938 0.2410 y =!x_ca_2_9009938; z =!x_ca_2_9009938;      occ ca !occ_ca_2_9009938 0.5000 beq !beq_ca_2_9009938 1.000
+   site al_1 x =1/4;                  y =1/2;             z =0;                    occ al !occ_al_1_9009938 1.0000 beq !beq_al_1_9009938 1.000
+   site s_1  x =0;                    y =0;               z =0;                    occ s  !occ_s_1_9009938  1.0000 beq !beq_s_1_9009938  1.000
+   site o_1  x !x_o_1_9009938  0.1630 y =!x_o_1_9009938;  z !z_o_1_9009938  0.4440 occ o  !occ_o_1_9009938  1.0000 beq !beq_o_1_9009938  1.000
+   site o_2  x !x_o_2_9009938  0.9210 y =!x_o_2_9009938;  z =!x_o_2_9009938;       occ o  !occ_o_2_9009938  1.0000 beq !beq_o_2_9009938  1.000
+   ' Unit cell volume [A^3]:  779.96
+   ' Density (calculated) [g/cm^3]:  2.59800
+   CS(cs_9009938, 1000 min 30)
+   scale sc_9009938 0.001
+   MVW(0, 0, 0)
+   /*
+     Reference: Saalfeld H., Depmeier W., 'Silicon-free compounds with sodalite structureNote:
+     Very short S-O bondlength of 1.26 angstromsLocality: synthetic', Kristall
+     und Technik 7, 229-233 (1972).
+   */
+   ' Orig. COD entry no.: 9009938
+   ' Link to original entry: http://www.crystallography.net/cif/9/00/99/9009938.cif

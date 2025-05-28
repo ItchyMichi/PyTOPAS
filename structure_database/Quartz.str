@@ -1,0 +1,23 @@
+STR(154) ' 
+	phase_name "Quartz"
+	' Formula "Si O2"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 331161
+	a a_quartz 4.9120 min 4.9000 max 4.9350
+	b =a_quartz;
+	c c_quartz 5.4040 min 5.3800 max 5.4500
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x !x1_quartz 0.4700  y               =0;  z             =2/3;  occ SI+4 1.00  beq 0.560
+	site s2   x !x2_quartz 0.4150  y !y2_quartz 0.2680  z !z2_quartz 0.7860  occ O-2  1.00  beq 0.960
+
+	CS(cs_quartz, 1000 min =50.0; max =2000.0;)
+
+	scale sc_quartz 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

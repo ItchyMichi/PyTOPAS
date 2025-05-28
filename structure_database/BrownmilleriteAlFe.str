@@ -1,0 +1,21 @@
+
+	str 
+	CS(cs_9003343, 1000 min =50.0; max =2000.0;)
+		r_bragg  4.432536895
+		phase_name "Brownmillerite"
+		MVW( 1034.26035, 433.6465807, 4.017888491)
+		space_group 62
+		scale sc_9003343 1.57417795e-005
+		Phase_LAC_1_on_cm( 631.4467823)
+		Phase_Density_g_on_cm3( 3.960439132)
+		a a_9003343 5.37804047
+		b b_9003343 14.54537234
+		c c_9003343 5.543537853
+		site ca_1 num_posns 8 x !x_ca_1_9003343 0.48559 y !y_ca_1_9003343 0.10864 z !z_ca_1_9003343 0.02569 occ ca !occ_ca_1_9003343 1 beq !beq_ca_1_9003343 0.639
+		site fe_1 num_posns 4 x =0; :  0 y =0; :  0 z =0; :  0 occ fe !occ_fe_1_9003343 0.88 beq !beq_fe_1_9003343 0.378
+		site al_1 num_posns 4 x =0; :  0 y =0; :  0 z =0; :  0 occ al !occ_al_1_9003343 0.1199 beq !beq_al_1_9003343 0.378
+		site fe_2 num_posns 4 x !x_fe_2_9003343 0.949 y =1/4; :  0.25 z !z_fe_2_9003343 0.9308 occ fe !occ_fe_2_9003343 0.66 beq !beq_fe_2_9003343 0.386
+		site al_2 num_posns 4 x !x_al_2_9003343 0.949 y =1/4; :  0.25 z !z_al_2_9003343 0.9308 occ al !occ_al_2_9003343 0.34 beq !beq_al_2_9003343 0.386
+		site o_1 num_posns 8 x !x_o_1_9003343 0.2579 y !y_o_1_9003343 0.9852 z !z_o_1_9003343 0.2423 occ o !occ_o_1_9003343 1 beq !beq_o_1_9003343 0.631
+		site o_2 num_posns 8 x !x_o_2_9003343 0.0206 y !y_o_2_9003343 0.1427 z !z_o_2_9003343 0.0707 occ o !occ_o_2_9003343 1 beq !beq_o_2_9003343 0.797
+		site o_3 num_posns 4 x !x_o_3_9003343 0.6056 y =1/4; :  0.25 z !z_o_3_9003343 0.8683 occ o !occ_o_3_9003343 1 beq !beq_o_3_9003343 0.741

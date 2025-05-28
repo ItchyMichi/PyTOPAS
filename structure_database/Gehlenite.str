@@ -1,0 +1,19 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_gehlenite, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_gehlenite, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "C2AS Gehlenite"
+		MVW( 0, 0, 0)
+		space_group 113
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		Tetragonal(a_gehlenite 7.68 min =7.6000; max =7.7540;,c_gehlenite 5.06 min =5.0080; max =5.1100;)
+		site s1 num_posns 0 x !x1_gehlenite 0.8387 y =x1_gehlenite+1/2; :  0 z !z1_gehlenite 0.4884 occ CA+2  1 beq  1.2
+		site s2 num_posns 0 x =0; :  0 y =0; :  0 z =0; :  0 occ AL+3  1 beq  0.75
+		site s3 num_posns 0 x !x3_gehlenite 0.6431 y =x3_gehlenite+1/2; :  0 z !z3_gehlenite 0.0437 occ AL+3  0.5 beq  0.85 occ SI+4  0.5 beq  0.85
+		site s4 num_posns 0 x =0; :  0 y =1/2; :  0.5 z !z4_gehlenite 0.8233 occ O-2  1 beq  0.77
+		site s5 num_posns 0 x !x5_gehlenite 0.643 y =x5_gehlenite+1/2; :  0 z !z5_gehlenite 0.7165 occ O-2  1 beq  0.46
+		site s6 num_posns 0 x !x6_gehlenite 0.0877 y !y6_gehlenite 0.1673 z !z6_gehlenite 0.8072 occ O-2  1 beq  1.11

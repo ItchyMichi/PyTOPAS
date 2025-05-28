@@ -1,0 +1,26 @@
+STR(141:2) ' I4_1/a2/m2/d
+	phase_name "Zircon"
+	' Formula "ZrSiO4"
+	' Group "Silicate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 60266
+	a a_zircon 6.6040 min 6.2810 max 6.9430
+	b =a_zircon;
+	c c_zircon 5.9796 min 5.6940 max 6.2940
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =0;  y             =3/4;  z             =1/8;  occ ZR+4 1.00  beq 0.280
+	site s2   x               =0;  y             =1/4;  z             =3/8;  occ SI+4 1.00  beq 0.310
+	site s3   x               =0;  y !y3_zircon 0.5660  z !z3_zircon 0.8059  occ O-2  1.00  beq 0.500
+
+	CS(cs_zircon, 1000 min =50.0; max =2000.0;)
+'	Strain(!st_zircon, 0.0001 min 0 max 0.100)
+'	PO_Spherical_Harmonics(sh_zircon, 4)
+	PO(, 1,, 1 0 0)
+	scale sc_zircon 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

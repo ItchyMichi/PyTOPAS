@@ -1,0 +1,26 @@
+STR(227:2) ' F4_1/d-32/m
+	phase_name "Magnetite"
+	' Formula "Fe3 O4"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 190629
+	a a_magnetite 8.3950 min 8.3200 max 8.4700
+	b =a_magnetite;
+	c =a_magnetite;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x                =1/8;  y                =1/8;  z                =1/8;  occ FE+3 1.00  beq 0.160
+	site s2   x                =1/2;  y                =1/2;  z                =1/2;  occ FE+3 0.50  beq 0.860
+	          occ FE+2 0.50  beq 0.860
+	site s3   x !x3_magnetite 0.7453  y  =x3_magnetite;  z  =x3_magnetite;  occ O-2  1.00  beq 0.650
+
+	CS(cs_magnetite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_magnetite, 6)
+	PO(, 1,, 3 1 1)
+	scale sc_magnetite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

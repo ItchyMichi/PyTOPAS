@@ -1,0 +1,24 @@
+STR(167) ' 
+	phase_name "Hematite"
+	' Formula "Fe2 O3"
+	' Group "Oxides"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 330664
+	a a_hematite 5.0370 min 5.0100 max 5.0700
+	b =a_hematite;
+	c c_hematite 13.7710 min 13.7000 max 13.8300
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                 =0;  y                 =0;  z !z1_hematite 0.3553  occ FE+3 1.00  beq 0.500
+	site s2   x !x2_hematite 0.3059  y                 =0;  z               =1/4;  occ O-2  1.00  beq 0.700
+
+	CS(cs_hematite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_hematite, 4)
+	PO(, 1,, 1 0 4)
+	scale sc_hematite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

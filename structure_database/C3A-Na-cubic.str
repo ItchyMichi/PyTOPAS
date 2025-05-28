@@ -1,0 +1,57 @@
+STR(198) ' P2_13
+	phase_name "C3A Na cubic"
+	' Formula "Ca8.688 Na0.625 Al6 O18"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 831358
+	a a_c3anacu 15.2470 min 15.1720 max 15.3240
+	b =a_c3anacu;
+	c =a_c3anacu;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x !x1_c3anacu 1.0000  y  =x1_c3anacu;  z  =x1_c3anacu;  occ CA+2 1.00  beq 0.980
+	site s2   x !x2_c3anacu 0.5018  y  =x2_c3anacu;  z  =x2_c3anacu;  occ CA+2 1.00  beq 0.590
+	site s3   x !x3_c3anacu 0.2630  y  =x3_c3anacu;  z  =x3_c3anacu;  occ CA+2 0.91  beq 0.740
+	          occ NA+1 0.09  beq 0.740
+	site s4   x !x4_c3anacu 0.7438  y  =x4_c3anacu;  z  =x4_c3anacu;  occ CA+2 0.73  beq 0.690
+	          occ NA+1 0.27  beq 0.690
+	site s5   x !x5_c3anacu 0.3814  y  =x5_c3anacu;  z  =x5_c3anacu;  occ CA+2 0.97  beq 1.130
+	          occ NA+1 0.03  beq 1.130
+	site s6   x !x6_c3anacu 0.6237  y  =x6_c3anacu;  z  =x6_c3anacu;  occ CA+2 0.76  beq 0.890
+	          occ NA+1 0.24  beq 0.890
+	site s7   x !x7_c3anacu 0.3720  y !y7_c3anacu 0.1400  z !z7_c3anacu 0.1361  occ CA+2 0.50  beq 2.170
+	site s8   x !x8_c3anacu 0.3678  y !y8_c3anacu 0.1262  z !z8_c3anacu 0.1345  occ CA+2 0.50  beq 0.770
+	site s9   x !x9_c3anacu 0.6232  y !y9_c3anacu 0.1376  z !z9_c3anacu 0.1180  occ CA+2 0.50  beq 0.780
+	site s10  x !x10_c3anacu 0.6431  y !y10_c3anacu 0.1363  z !z10_c3anacu 0.1287  occ CA+2 0.50  beq 0.990
+	site s11  x !x11_c3anacu 0.3821  y !y11_c3anacu 0.3863  z !z11_c3anacu 0.1213  occ CA+2 1.00  beq 0.760
+	site s12  x !x12_c3anacu -0.3800  y !y12_c3anacu -0.3881  z !z12_c3anacu -0.1201  occ CA+2 1.00  beq 0.620
+	site s13  x !x13_c3anacu 0.1210  y  =x13_c3anacu;  z  =x13_c3anacu;  occ NA+1 0.31  beq 1.890
+	site s14  x !x14_c3anacu 0.8750  y  =x14_c3anacu;  z  =x14_c3anacu;  occ NA+1 0.31  beq 7.560
+	site s15  x !x15_c3anacu 0.2539  y !y15_c3anacu 0.0134  z !z15_c3anacu 0.0167  occ AL+3 1.00  beq 0.460
+	site s16  x !x16_c3anacu -0.2534  y !y16_c3anacu -0.0129  z !z16_c3anacu -0.0232  occ AL+3 1.00  beq 0.460
+	site s17  x !x17_c3anacu 0.2434  y !y17_c3anacu 0.2371  z !z17_c3anacu 0.0053  occ AL+3 1.00  beq 0.540
+	site s18  x !x18_c3anacu -0.2445  y !y18_c3anacu -0.2377  z !z18_c3anacu -0.0063  occ AL+3 1.00  beq 0.430
+	site s19  x !x19_c3anacu 0.2630  y !y19_c3anacu 0.1264  z !z19_c3anacu 0.0029  occ O-2  1.00  beq 1.860
+	site s20  x !x20_c3anacu -0.2658  y !y20_c3anacu -0.1258  z !z20_c3anacu -0.0230  occ O-2  1.00  beq 2.910
+	site s21  x !x21_c3anacu 0.4759  y !y21_c3anacu 0.1327  z !z21_c3anacu 0.2475  occ O-2  1.00  beq 0.890
+	site s22  x !x22_c3anacu -0.4952  y !y22_c3anacu -0.1310  z !z22_c3anacu -0.2368  occ O-2  1.00  beq 1.540
+	site s23  x !x23_c3anacu 0.2729  y !y23_c3anacu 0.2765  z !z23_c3anacu 0.1082  occ O-2  1.00  beq 1.380
+	site s24  x !x24_c3anacu -0.2629  y !y24_c3anacu -0.2906  z !z24_c3anacu -0.1058  occ O-2  1.00  beq 1.480
+	site s25  x !x25_c3anacu 0.2406  y !y25_c3anacu 0.4114  z !z25_c3anacu 0.3040  occ O-2  1.00  beq 1.260
+	site s26  x !x26_c3anacu -0.2281  y !y26_c3anacu -0.4062  z !z26_c3anacu -0.2878  occ O-2  1.00  beq 1.230
+	site s27  x !x27_c3anacu 0.3502  y !y27_c3anacu -0.0321  z !z27_c3anacu -0.0274  occ O-2  1.00  beq 1.090
+	site s28  x !x28_c3anacu -0.3505  y !y28_c3anacu 0.0233  z !z28_c3anacu 0.0234  occ O-2  1.00  beq 1.570
+	site s29  x !x29_c3anacu 0.1497  y !y29_c3anacu -0.0173  z !z29_c3anacu -0.0171  occ O-2  1.00  beq 1.020
+	site s30  x !x30_c3anacu -0.1515  y !y30_c3anacu 0.0150  z !z30_c3anacu 0.0163  occ O-2  1.00  beq 0.590
+
+	CS(cs_c3anacu, 1000 min 45)
+	Strain(!st_c3anacu, 0.0001 min 0 max 0.003)
+'	PO_Spherical_Harmonics(sh_c3anacu, 6)
+
+	scale sc_c3anacu 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

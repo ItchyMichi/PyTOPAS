@@ -1,0 +1,34 @@
+STR(11) ' P12_1/m1
+	phase_name "Syngenite"
+	' Formula "K2 Ca (S O4)2*H2 O"
+	' Group "Sulfate"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 280739
+	a a_syngenite 9.7700 min 9.6720 max 9.8680
+	b b_syngenite 7.1500 min 7.0790 max 7.2210
+	c c_syngenite 6.2500 min 6.1880 max 6.3120
+	al 90.000
+	be be_syngenite 104.0000 min 103.0000 max 105.0000
+	ga 90.000
+
+	site s1   x !x1_syngenite 0.3357  y !y1_syngenite 0.0068  z !z1_syngenite 0.1947  occ K+1  1.00  beq 1.350
+	site s2   x !x2_syngenite 0.9679  y                =1/4;  z !z2_syngenite 0.3327  occ CA+2 1.00  beq 0.470
+	site s3   x !x3_syngenite 0.9897  y                =1/4;  z !z3_syngenite 0.8396  occ S  1.00  beq 0.380
+	site s4   x !x4_syngenite 0.6373  y                =1/4;  z !z4_syngenite 0.2697  occ S  1.00  beq 0.660
+	site s5   x !x5_syngenite 0.1191  y                =1/4;  z !z5_syngenite 0.0167  occ O-2  1.00  beq 1.260
+	site s6   x !x6_syngenite 0.2244  y                =1/4;  z !z6_syngenite 0.5015  occ O-2  1.00  beq 1.050
+	site s7   x !x7_syngenite 0.5322  y                =1/4;  z !z7_syngenite 0.0586  occ O-2  1.00  beq 1.120
+	site s8   x !x8_syngenite 0.5650  y                =1/4;  z !z8_syngenite 0.4493  occ O-2  1.00  beq 1.490
+	site s9   x !x9_syngenite 0.7296  y !y9_syngenite 0.0842  z !z9_syngenite 0.2837  occ O-2  1.00  beq 1.470
+	site s10  x !x10_syngenite 0.8687  y                 =1/4;  z !z10_syngenite 0.9421  occ O-2  1.00  beq 1.200
+	site s11  x !x11_syngenite 0.9813  y !y11_syngenite 0.0840  z !z11_syngenite 0.6959  occ O-2  1.00  beq 0.890
+	site s12  x !x12_syngenite 0.2430  y !y12_syngenite 0.3540  z !z12_syngenite 0.5970  occ H  1.00  beq 0.000
+
+	CS(cs_syngenite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_syngenite, 4)
+	PO(, 1,, 0 1 0)
+	scale sc_syngenite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

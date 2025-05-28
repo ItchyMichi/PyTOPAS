@@ -1,0 +1,17 @@
+
+	str 
+		CS_L(cs_ankeri05, 7.498000017e+010_LIMIT_MIN_32 min =32;)
+		Strain_G(!st_ankeri05, 0.000269129)
+		r_bragg  9.100809184
+		phase_name "Ankerite Fe0.55"
+		MVW( 619.4404113, 323.6720154, 0.3942692741)
+		space_group 148
+		scale sc_ankeri05 7.851212029e-006_LIMIT_MIN_1e-015
+		Phase_LAC_1_on_cm( 310.3874254)
+		Phase_Density_g_on_cm3( 3.177925973)
+		Trigonal(a_ankeri05 4.829999708_LIMIT_MIN_4.81 min =4.8100; max =4.8300;,c_ankeri05 16.02065659_LIMIT_MIN_16 min =16.0000; max =16.1400;)
+		site s1 num_posns 3 x =0; :  0 y =0; :  0 z =0; :  0 occ CA+2  1 beq  0
+		site s2 num_posns 3 x =0; :  0 y =0; :  0 z =1/2; :  0.5 occ MG+2 =(1-pAnk5); :  0.300000456 beq  0 occ FE+2 pAnk5 0.699999544_LIMIT_MIN_0.2 min =0.20; max =0.70; beq  0
+		site s3 num_posns 6 x =0; :  0 y =0; :  0 z !z3_ankeri05 0.7564 occ C  1 beq  0
+		site s4 num_posns 18 x !x4_ankeri05 0.2498 y !y4_ankeri05 -0.03 z !z4_ankeri05 0.2447 occ O  1 beq  0
+		Preferred_Orientation(, 1,, 1 0 4)

@@ -1,0 +1,33 @@
+STR(C-1) ' C-1
+	phase_name "Talc"
+	' Formula "Mg3 ((OH)2 Si4 O10)"
+	' Group "Silicate"
+	' SubGroup "Mica"
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 190770
+	a a_talc 5.2930 min 5.2400 max 5.3460
+	b b_talc 9.1790 min 9.0870 max 9.2710
+	c c_talc 9.4690 min 9.3740 max 9.5640
+	al al_talc 90.6000 min 90.0000 max 91.0000
+	be be_talc 98.9000 min 98.0000 max 99.8000
+	ga ga_talc 90.0000 min 89.5000 max 90.5000
+
+	site s1   x !x1_talc 0.7427  y !y1_talc 0.0027  z !z1_talc 0.2910  occ SI+4 1.00  beq 1.430
+	site s2   x !x2_talc 0.7482  y !y2_talc 0.3366  z !z2_talc 0.2920  occ SI+4 1.00  beq 1.460
+	site s3   x             =0;  y             =0;  z             =0;  occ MG+2 1.00  beq 1.330
+	site s4   x !x4_talc 0.0001  y !y4_talc 0.3330  z !z4_talc 0.0001  occ MG+2 1.00  beq 1.380
+	site s5   x !x5_talc 0.7022  y !y5_talc 0.0015  z !z5_talc 0.1183  occ O-2  1.00  beq 1.500
+	site s6   x !x6_talc 0.7030  y !y6_talc 0.3363  z !z6_talc 0.1204  occ O-2  1.00  beq 1.800
+	site s7   x !x7_talc 0.7439  y !y7_talc 0.1693  z !z7_talc 0.3472  occ O-2  1.00  beq 2.070
+	site s8   x !x8_talc 0.5216  y !y8_talc 0.4283  z !z8_talc 0.3475  occ O-2  1.00  beq 2.130
+	site s9   x !x9_talc 0.0202  y !y9_talc 0.4122  z !z9_talc 0.3487  occ O-2  1.00  beq 2.010
+	site s10  x !x10_talc 0.1980  y !y10_talc 0.1677  z !z10_talc 0.1132  occ O-2  1.00  beq 1.500
+	site s11  x !x11_talc 0.2300  y !y11_talc 0.2000  z !z11_talc 0.2400  occ H  1.00  beq 3.000
+
+	CS(cs_talc, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_talc, 4)
+	PO(, 1,, 0 0 1) 
+	scale sc_talc 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

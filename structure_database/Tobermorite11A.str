@@ -1,0 +1,34 @@
+
+	str 
+	LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_tobermorite11a, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0,!st_tobermorite11a, 0.01 min =0.00001; max =1.2;,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "Tobermorite"
+		MVW( 0, 0, 0)
+		space_group 44
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_tobermorite11a 5.586 min =5.5300; max =5.6420;
+		b b_tobermorite11a 3.696 min =3.6590; max =3.7330;
+		c c_tobermorite11a 22.779 min =22.5510; max =23.0070;
+		site s1 num_posns 0 x =0; :  0 y =0; :  0 z !z1_tobermorite11a 1 occ CA+2  1 beq  1.34
+		site s2 num_posns 0 x =0; :  0 y =0; :  0 z !z2_tobermorite11a 0.4135 occ CA+2  1 beq  1.34
+		site s3 num_posns 0 x !x3_tobermorite11a 0.256 y =0; :  0 z !z3_tobermorite11a 0.698 occ CA+2  0.13 beq  4.74
+		site s4 num_posns 0 x !x4_tobermorite11a 0.678 y =0; :  0 z !z4_tobermorite11a 0.141 occ SI+4  0.25 beq  2.76
+		site s5 num_posns 0 x !x5_tobermorite11a 0.656 y =0; :  0 z !z5_tobermorite11a 0.282 occ SI+4  0.25 beq  2.76
+		site s6 num_posns 0 x =0; :  0 y !y6_tobermorite11a 0.086 z !z6_tobermorite11a 0.873 occ SI+4  0.5 beq  1.18
+		site s7 num_posns 0 x =0; :  0 y !y7_tobermorite11a 0.075 z !z7_tobermorite11a 0.557 occ SI+4  0.5 beq  1.18
+		site s8 num_posns 0 x !x8_tobermorite11a 0.265 y !y8_tobermorite11a 0.49 z !z8_tobermorite11a 0.019 occ O-2  0.5 beq  1.34
+		site s9 num_posns 0 x !x9_tobermorite11a 0.265 y !y9_tobermorite11a 0.48 z !z9_tobermorite11a 0.411 occ O-2  0.5 beq  1.34
+		site s10 num_posns 0 x !x10_tobermorite11a 0.68 y =0; :  0 z !z10_tobermorite11a 0.211 occ O-2  0.25 beq  6.32
+		site s11 num_posns 0 x !x11_tobermorite11a 0.93 y =0; :  0 z !z11_tobermorite11a 0.113 occ O-2  0.25 beq  6.32
+		site s12 num_posns 0 x =0; :  0 y =1/2; :  0.5 z !z12_tobermorite11a 0.577 occ O-2  0.5 beq  1.89
+		site s13 num_posns 0 x =0; :  0 y =1/2; :  0.5 z !z13_tobermorite11a 0.848 occ O-2  0.5 beq  1.89
+		site s14 num_posns 0 x =0; :  0 y !y14_tobermorite11a 0.17 z !z14_tobermorite11a 0.811 occ O-2  0.5 beq  4.18
+		site s15 num_posns 0 x =0; :  0 y !y15_tobermorite11a 0.16 z !z15_tobermorite11a 0.619 occ O-2  0.5 beq  4.18
+		site s16 num_posns 0 x !x16_tobermorite11a 0.924 y =0; :  0 z !z16_tobermorite11a 0.307 occ O-2  0.25 beq  6.32
+		site s17 num_posns 0 x !x17_tobermorite11a 0.65 y =0; :  0 z !z17_tobermorite11a 0.213 occ O-2  0.25 beq  6.32
+		site s18 num_posns 0 x =0; :  0 y =0; :  0 z !z18_tobermorite11a 0.112 occ O-2  0.5 beq  3.16
+		site s19 num_posns 0 x =0; :  0 y =0; :  0 z !z19_tobermorite11a 0.303 occ O-2  0.5 beq  3.16

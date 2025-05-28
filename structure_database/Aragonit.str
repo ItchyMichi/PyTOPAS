@@ -1,0 +1,28 @@
+STR(Pmcn) ' Pmcn
+	phase_name "Aragonite"
+	' Formula "Ca C O3"
+	' Group "Carbonate"
+	' SubGroup "Aragonite"
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 411475
+	a a_aragonit 4.9611 min 4.9000 max 5.0000
+	b b_aragonit 7.9672 min 7.9000 max 8.0800
+	c c_aragonit 5.7407 min 5.6500 max 5.8000
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =1/4;  y !y1_aragonit 0.41508 z !z1_aragonit 0.24046 occ Ca 1.00  beq 1.00
+	site s2   x               =1/4;  y !y2_aragonit 0.76211 z !z2_aragonit 0.08518 occ C  1.00  beq 1.00
+	site s3   x               =1/4;  y !y3_aragonit 0.92224 z !z3_aragonit 0.09557 occ O  1.00  beq 1.00
+	site s4   x !x4_aragonit 0.47347 y !y4_aragonit 0.68065 z !z4_aragonit 0.08726 occ O  1.00  beq 1.00
+
+	CS(cs_aragonit, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_aragonit, 6)
+	PO(, 1,, 0 1 0)
+	scale sc_aragonit 0.001
+	MVW(0, 0, 0)
+	r_bragg 0
+
+

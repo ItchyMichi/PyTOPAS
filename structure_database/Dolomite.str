@@ -1,0 +1,26 @@
+STR(148) ' 
+	phase_name "Dolomite"
+	' Formula "Ca Mg (C O3)2"
+	' Group "Carbonate"
+	' SubGroup "Calcite"
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 360426
+	a a_dolomiteori 4.8120 min 4.8000 max 4.8800
+	b =a_dolomiteori;
+	c c_dolomiteori 16.0200 min 15.9000 max 16.4200
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                    =0;  y                    =0;  z                    =0;  occ CA+2 1.00  beq 0.700
+	site s2   x                    =0;  y                    =0;  z                  =1/2;  occ MG+2 1.00  beq 0.500
+	site s3   x                    =0;  y                    =0;  z !z3_dolomiteori 0.2429  occ C  1.00  beq 0.700
+	site s4   x !x4_dolomiteori 0.2485  y !y4_dolomiteori -0.0343  z !z4_dolomiteori 0.2439  occ O  1.00  beq 0.800
+
+	CS(cs_dolomiteori, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_dolomiteori, 4)
+	PO(, 1,, 1 0 4)
+	scale sc_dolomiteori 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

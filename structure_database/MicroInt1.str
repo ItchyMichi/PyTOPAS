@@ -1,0 +1,39 @@
+STR(C-1) ' C-1
+	phase_name "Microcline intermediate1"
+	' Formula "K Al Si3 O8"
+	' Group "Silicate"
+	' SubGroup "Feldspars"
+	' UserGroup ""
+	' SubstSeries "Alkalifeldspars"
+	' ICDD_number 190932
+	a a_microint1 8.6430 min 8.5570 max 8.7290
+	b b_microint1 12.9290 min 12.8000 max 13.0580
+	c c_microint1 7.1900 min 7.1180 max 7.2620
+	al al_microint1 90.1000 min 89.5000 max 90.5000
+	be be_microint1 116.2000 min 115.5000 max 117.0000
+	ga ga_microint1 89.6000 min 89.2000 max 90.1000
+
+	site s1   x !x1_microint1 0.2867  y !y1_microint1 0.9985  z !z1_microint1 0.1406  occ K+1  1.00  beq 2.330
+	site s2   x !x2_microint1 0.0095  y !y2_microint1 0.1844  z !z2_microint1 0.2225  occ SI+4 0.75  beq 0.920
+	          occ AL+3 0.25  beq 0.920
+	site s3   x !x3_microint1 0.0091  y !y3_microint1 0.8168  z !z3_microint1 0.2249  occ SI+4 0.75  beq 0.900
+	          occ AL+3 0.25  beq 0.900
+	site s4   x !x4_microint1 0.7105  y !y4_microint1 0.1184  z !z4_microint1 0.3413  occ SI+4 0.75  beq 0.970
+	          occ AL+3 0.25  beq 0.970
+	site s5   x !x5_microint1 0.7095  y !y5_microint1 0.8826  z !z5_microint1 0.3433  occ SI+4 0.75  beq 1.090
+	          occ AL+3 0.25  beq 1.090
+	site s6   x !x6_microint1 0.0005  y !y6_microint1 0.1440  z !z6_microint1 0.9977  occ O-2  1.00  beq 2.120
+	site s7   x !x7_microint1 0.6382  y !y7_microint1 0.0011  z !z7_microint1 0.2809  occ O-2  1.00  beq 2.010
+	site s8   x !x8_microint1 0.8251  y !y8_microint1 0.1472  z !z8_microint1 0.2228  occ O-2  1.00  beq 2.400
+	site s9   x !x9_microint1 0.8278  y !y9_microint1 0.8534  z !z9_microint1 0.2274  occ O-2  1.00  beq 2.500
+	site s10  x !x10_microint1 0.0367  y !y10_microint1 0.3116  z !z10_microint1 0.2580  occ O-2  1.00  beq 1.960
+	site s11  x !x11_microint1 0.0378  y !y11_microint1 0.6903  z !z11_microint1 0.2602  occ O-2  1.00  beq 1.780
+	site s12  x !x12_microint1 0.1815  y !y12_microint1 0.1240  z !z12_microint1 0.4075  occ O-2  1.00  beq 1.930
+	site s13  x !x13_microint1 0.1790  y !y13_microint1 0.8749  z !z13_microint1 0.4085  occ O-2  1.00  beq 1.970
+
+	CS(cs_microint1, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_microint1, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_microint1 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

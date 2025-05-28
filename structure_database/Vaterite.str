@@ -1,0 +1,26 @@
+STR(194) ' P6_3/m2/m2/c
+	phase_name "Vaterite"
+	' Formula "Ca C O3"
+	' Group "Carbonates"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 240030
+	a a_vaterite 4.1300 min 4.0890 max 4.1710
+	b =a_vaterite;
+	c c_vaterite 8.4900 min 8.4050 max 8.5750
+	al 90.000
+	be 90.000
+	ga 120.000
+
+	site s1   x                 =0;  y                 =0;  z                 =0;  occ CA+2 1.00  beq 6.800
+	site s2   x !x2_vaterite 0.2900  y  =2*x2_vaterite;  z               =1/4;  occ C  0.33  beq 6.800
+	site s3   x !x3_vaterite 0.1200  y  =2*x3_vaterite;  z               =1/4;  occ O  0.33  beq 6.800
+	site s4   x !x4_vaterite 0.3800  y  =2*x4_vaterite;  z !z4_vaterite 0.3800  occ O  0.33  beq 6.800
+
+	CS(cs_vaterite, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_vaterite, 4)
+	PO(, 1,, 0 0 1)
+	scale sc_vaterite 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

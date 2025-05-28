@@ -1,0 +1,24 @@
+STR(225) ' F4/m-32/m
+	phase_name "Lime"
+	' Formula "Ca O"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 371497
+	a a_cao 4.8050 min 4.7570 max 4.8530
+	b =a_cao;
+	c =a_cao;
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x            =0;  y            =0;  z            =0;  occ CA+2 1.00  beq 0.500
+	site s2   x          =1/2;  y          =1/2;  z          =1/2;  occ O-2  1.00  beq 2.300
+
+	CS(cs_cao, 1000 min 32)
+'	PO_Spherical_Harmonics(sh_cao, 6)
+	PO(, 1,, 1 0 0)
+	scale sc_cao 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

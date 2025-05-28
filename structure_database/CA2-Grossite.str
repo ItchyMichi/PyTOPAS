@@ -1,0 +1,24 @@
+
+	str 
+		LVol_FWHM_CS_G_L( 1, 0, 0.89, 0,,,cs_ca2, 1000 min =45;)
+		e0_from_Strain( 0,!st_ca2, 0.1,,)
+		r_bragg  0
+		phase_MAC 0
+		phase_name "CA2 Grossite"
+		MVW( 0, 0, 0)
+		corrected_weight_percent  0
+		space_group 15
+		scale @ 0
+		Phase_LAC_1_on_cm( 0)
+		Phase_Density_g_on_cm3( 0)
+		a a_ca2 12.87 min =12.7400; max =13.0000;
+		b b_ca2 8.88 min =8.7910; max =8.9690;
+		c c_ca2 5.44 min =5.3860; max =5.4940;
+		be be_ca2 106.8 min =106.0000; max =107.5000;
+		site s1 num_posns 0 x =0; :  0 y !y1_ca2 0.1908 z =1/4; :  0.25 occ CA+2  1 beq  1.58
+		site s2 num_posns 0 x !x2_ca2 0.1647 y !y2_ca2 0.9137 z !z2_ca2 0.3029 occ AL+3  1 beq  1.48
+		site s3 num_posns 0 x !x3_ca2 0.1195 y !y3_ca2 0.5589 z !z3_ca2 0.2418 occ AL+3  1 beq  1.59
+		site s4 num_posns 0 x =0; :  0 y !y4_ca2 0.4675 z =1/4; :  0.25 occ O-2  1 beq  2.2
+		site s5 num_posns 0 x !x5_ca2 0.1149 y !y5_ca2 0.9493 z !z5_ca2 0.5641 occ O-2  1 beq  1.95
+		site s6 num_posns 0 x !x6_ca2 0.1195 y !y6_ca2 0.7476 z !z6_ca2 0.1482 occ O-2  1 beq  1.83
+		site s7 num_posns 0 x !x7_ca2 0.1935 y !y7_ca2 0.5581 z !z7_ca2 0.5805 occ O-2  1 beq  1.86

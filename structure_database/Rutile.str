@@ -1,0 +1,24 @@
+STR(136) ' P4_2/m2_1/n2/m
+	phase_name "Rutile"
+	' Formula "Ti O2"
+	' Group "Oxide"
+	' SubGroup ""
+	' UserGroup ""
+	' SubstSeries ""
+	' ICDD_number 211276
+	a a_rutile 4.5940 min 4.5600 max 4.6400
+	b =a_rutile;
+	c c_rutile 2.9600 min 2.9500 max 2.9700
+	al 90.000
+	be 90.000
+	ga 90.000
+
+	site s1   x               =0;  y               =0;  z               =0;  occ TI+4 1.00  beq 0.420
+	site s2   x !x2_rutile 0.6949  y  =x2_rutile;  z               =0;  occ O-2  1.00  beq 0.600
+
+	CS(cs_rutile, 1000 min =50.0; max =2000.0;)
+'	PO_Spherical_Harmonics(sh_rutile, 4)
+	PO(, 1,, 1 1 0)
+	scale sc_rutile 0.001
+	MVW(0, 0, 0)
+	r_bragg 0

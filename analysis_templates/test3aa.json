@@ -1,0 +1,13 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "label": "a",
+            "task_type": "Start",
+            "parameters": {
+                "structurelist1": "assad"
+            },
+            "incoming_params": {}
+        }
+    ]
+}
