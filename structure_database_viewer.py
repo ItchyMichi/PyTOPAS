@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QListWidget, QLineEdit,
-    QTableWidget, QTableWidgetItem, QLabel
+    QTableWidget, QTableWidgetItem, QLabel, QPushButton
 )
 
 from PyQt5.QtCore import Qt
@@ -77,6 +77,7 @@ class StructureDatabaseViewer(QDialog):
         self.filtered_structures = []
 
         self.updating_table = False
+        self.pending_changes = {}
 
         self.init_ui()
         self.load_structures()
@@ -117,6 +118,14 @@ class StructureDatabaseViewer(QDialog):
         lists_layout.addWidget(self.variable_table)
 
         layout.addLayout(lists_layout)
+
+        button_layout = QHBoxLayout()
+        button_layout.addStretch()
+        self.save_button = QPushButton("Save Changes")
+        self.save_button.setEnabled(False)
+        self.save_button.clicked.connect(self.save_changes)
+        button_layout.addWidget(self.save_button)
+        layout.addLayout(button_layout)
         self.setLayout(layout)
 
     def load_structures(self):
@@ -162,11 +171,19 @@ class StructureDatabaseViewer(QDialog):
         self.updating_table = True
         self.variable_table.setRowCount(len(filtered_items))
         for row, (var, val) in enumerate(sorted(filtered_items)):
-            self.variable_table.setItem(row, 0, QTableWidgetItem(var))
+            var_item = QTableWidgetItem(var)
             if val is None:
                 val = ''
             item = QTableWidgetItem(str(val))
             item.setFlags(item.flags() | Qt.ItemIsEditable)
+
+            if self.pending_changes.get(name, {}).get(var) is not None:
+                bold_font = item.font()
+                bold_font.setBold(True)
+                item.setFont(bold_font)
+                var_item.setFont(bold_font)
+
+            self.variable_table.setItem(row, 0, var_item)
             self.variable_table.setItem(row, 1, item)
         self.variable_table.resizeColumnsToContents()
         self.updating_table = False
@@ -186,22 +203,27 @@ class StructureDatabaseViewer(QDialog):
         if not current_item:
             return
         structure_name = current_item.text()
-        file_path = os.path.join(self.database_directory, structure_name)
 
-        if update_variable_in_file(file_path, var_name, new_value):
-            self.structures[structure_name][var_name] = new_value
+        # Store edited value in memory
+        self.structures.setdefault(structure_name, {})[var_name] = new_value
+        self.pending_changes.setdefault(structure_name, {})[var_name] = new_value
 
-        # Refresh the table with the updated values for this structure
-        variables = self.structures.get(structure_name, {})
-        self.updating_table = True
-        self.variable_table.setRowCount(len(variables))
-        for row, (var, val) in enumerate(sorted(variables.items())):
-            self.variable_table.setItem(row, 0, QTableWidgetItem(var))
-            if val is None:
-                val = ''
-            item = QTableWidgetItem(str(val))
-            item.setFlags(item.flags() | Qt.ItemIsEditable)
-            self.variable_table.setItem(row, 1, item)
-        self.variable_table.resizeColumnsToContents()
-        self.updating_table = False
+        # Mark edited cell bold
+        bold_font = item.font()
+        bold_font.setBold(True)
+        item.setFont(bold_font)
+        variable_item.setFont(bold_font)
+
+        self.save_button.setEnabled(True)
+
+    def save_changes(self):
+        for structure_name, vars_ in self.pending_changes.items():
+            file_path = os.path.join(self.database_directory, structure_name)
+            for var, val in vars_.items():
+                update_variable_in_file(file_path, var, val)
+                self.structures.setdefault(structure_name, {})[var] = val
+
+        self.pending_changes.clear()
+        self.save_button.setEnabled(False)
+        self.display_variables(self.structure_list.currentItem(), None)
 
