@@ -6,6 +6,8 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QColor
 
+from file_handling import update_structure_files
+
 import os
 import re
 
@@ -115,9 +117,12 @@ def update_variable_in_file(file_path, variable, new_value):
 class StructureDatabaseViewer(QDialog):
     """Popup dialog to browse structures and inspect variables."""
 
-    def __init__(self, database_directory, parent=None):
+    def __init__(self, database_directory, parent=None, config_path=None):
         super().__init__(parent)
         self.database_directory = database_directory
+        if config_path is None:
+            config_path = os.path.join(os.getcwd(), "config.txt")
+        self.config_path = config_path
         self.setWindowTitle("Structure Database Viewer")
         self.setGeometry(200, 200, 800, 600)
 
@@ -173,6 +178,10 @@ class StructureDatabaseViewer(QDialog):
         self.save_button.setEnabled(False)
         self.save_button.clicked.connect(self.save_changes)
         button_layout.addWidget(self.save_button)
+
+        self.update_button = QPushButton("Update Structures to Config Settings")
+        self.update_button.clicked.connect(self.update_from_config)
+        button_layout.addWidget(self.update_button)
         layout.addLayout(button_layout)
         self.setLayout(layout)
 
@@ -290,4 +299,19 @@ class StructureDatabaseViewer(QDialog):
         self.pending_changes.clear()
         self.save_button.setEnabled(False)
         self.display_variables(self.structure_list.currentItem(), None)
+
+    def update_from_config(self):
+        try:
+            update_structure_files(self.database_directory, self.config_path)
+        except Exception as exc:
+            QMessageBox.critical(self, "Update Failed", str(exc))
+            return
+
+        QMessageBox.information(
+            self,
+            "Update Complete",
+            "Structures updated to configuration settings."
+        )
+        self.load_structures()
+        self.populate_structure_list()
 

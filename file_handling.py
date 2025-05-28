@@ -110,7 +110,7 @@ def update_all_structures_template(structures_dir):
         "structures": all_structures
     }
     template_path = os.path.join('structure templates', 'all_structures.json')
-    save_template(template, template_path)
+    save_template(template, template_path, all_structures)
 
 def get_content(file_path):
     with open(file_path, 'r') as file:

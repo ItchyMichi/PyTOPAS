@@ -172,7 +172,10 @@ class MainGUI(QMainWindow):
 
     def open_structure_database_viewer(self):
         database_dir = os.path.join(os.getcwd(), 'structure_database')
-        self.structure_database_viewer = StructureDatabaseViewer(database_dir, self)
+        config_path = os.path.join(os.getcwd(), 'config.txt')
+        self.structure_database_viewer = StructureDatabaseViewer(
+            database_dir, self, config_path
+        )
         self.structure_database_viewer.show()
 
     def select_output_directory(self):
