@@ -191,12 +191,17 @@ class StructureDatabaseViewer(QDialog):
         if update_variable_in_file(file_path, var_name, new_value):
             self.structures[structure_name][var_name] = new_value
 
-
+        # Refresh the table with the updated values for this structure
+        variables = self.structures.get(structure_name, {})
+        self.updating_table = True
         self.variable_table.setRowCount(len(variables))
         for row, (var, val) in enumerate(sorted(variables.items())):
             self.variable_table.setItem(row, 0, QTableWidgetItem(var))
             if val is None:
                 val = ''
-            self.variable_table.setItem(row, 1, QTableWidgetItem(str(val)))
+            item = QTableWidgetItem(str(val))
+            item.setFlags(item.flags() | Qt.ItemIsEditable)
+            self.variable_table.setItem(row, 1, item)
         self.variable_table.resizeColumnsToContents()
+        self.updating_table = False
 
