@@ -12,6 +12,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt
 from template_editor import TemplateEditor
 from structure_template_editor import StructureTemplateEditor
+from structure_database_viewer import StructureDatabaseViewer
 from tasks import CrystalliteSizeTask, StartTask, RWPAdditionTask, RWPRemovalTask, RWPTask, RWPMissingTask
 
 from condition_tasks import ListLengthGreaterTask, ListLengthLessTask, RWPGradientTask, ContainsTask, NumberOfRunsGreaterTask, NumberOfRunsLessTask, FinishedTask
@@ -93,6 +94,12 @@ class MainGUI(QMainWindow):
         open_structure_template_editor_action.triggered.connect(self.open_structure_template_editor)
         structure_template_menu.addAction(open_structure_template_editor_action)
 
+        # Menu for viewing structure database
+        view_menu = menubar.addMenu('Structure Database Viewer')
+        open_structure_viewer_action = QAction('Open Viewer', self)
+        open_structure_viewer_action.triggered.connect(self.open_structure_database_viewer)
+        view_menu.addAction(open_structure_viewer_action)
+
         # Central Widget
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -162,6 +169,11 @@ class MainGUI(QMainWindow):
     def open_structure_template_editor(self):
         self.structure_template_editor = StructureTemplateEditor(self)
         self.structure_template_editor.show()
+
+    def open_structure_database_viewer(self):
+        database_dir = os.path.join(os.getcwd(), 'structure_database')
+        self.structure_database_viewer = StructureDatabaseViewer(database_dir, self)
+        self.structure_database_viewer.show()
 
     def select_output_directory(self):
         options = QFileDialog.Options()
