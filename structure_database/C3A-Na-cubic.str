@@ -48,7 +48,7 @@ STR(198) ' P2_13
 	site s29  x !x29_c3anacu 0.1497  y !y29_c3anacu -0.0173  z !z29_c3anacu -0.0171  occ O-2  1.00  beq 1.020
 	site s30  x !x30_c3anacu -0.1515  y !y30_c3anacu 0.0150  z !z30_c3anacu 0.0163  occ O-2  1.00  beq 0.590
 
-	CS(cs_c3anacu, 1000 min 45)
+	CS(cs_c3anacu, 1000 min =50.0; max =2000.0;)
 	Strain(!st_c3anacu, 0.0001 min 0 max 0.003)
 '	PO_Spherical_Harmonics(sh_c3anacu, 6)
 

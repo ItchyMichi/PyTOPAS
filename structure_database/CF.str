@@ -21,7 +21,7 @@ STR(62) ' P2_1/n2_1/m2_1/a
 	site s6   x !x6_cf 0.0210  y         =1/4;  z !z6_cf 0.2840  occ O-2  1.00  beq 1.000
 	site s7   x !x7_cf 0.9190  y         =1/4;  z !z7_cf 0.9240  occ O-2  1.00  beq 1.000
 
-	CS(cs_cf, 1000 min 32)
+	CS(cs_cf, 1000 min =50.0; max =2000.0;)
 	Strain(!st_cf, 0.0001 min 0 max 0.010)
 	PO(, 1,, 3 -2 0)
 	scale sc_cf 0.001

@@ -1,7 +1,7 @@
 
 	str 
-		LVol_FWHM_CS_G_L( 1, 155.006569, 0.89, 216.7005368,,,cs_ca, 243.4837492_LIMIT_MIN_45 min =45;)
-		e0_from_Strain( 0.0002181661565,!st_ca, 0.1,,)
+	LVol_FWHM_CS_G_L( 1, 155.006569, 0.89, 216.7005368,,,cs_ca, 1000 min =50.0; max =2000.0;)
+	e0_from_Strain( 0.0002181661565,!st_ca, 0.01 min =0.00001; max =1.2;,,)
 		r_bragg  4.120585171
 		phase_MAC 64.54566551
 		phase_name "CA"

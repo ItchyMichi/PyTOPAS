@@ -32,7 +32,7 @@ STR(61) ' P2_1/b2_1/c2_1/a
 	site s17  x !x17_c3anaort 0.1623  y !y17_c3anaort -0.1277  z !z17_c3anaort -0.1419  occ O-2  1.00  beq 1.040
 	site s18  x !x18_c3anaort 0.3717  y !y18_c3anaort 0.0661  z !z18_c3anaort -0.1597  occ O-2  1.00  beq 0.920
 
-	CS(cs_c3anaort, 1000 min 45)
+	CS(cs_c3anaort, 1000 min =50.0; max =2000.0;)
 	Strain(!st_c3anaort, 0.0001 min 0 max 0.010)
 '	PO_Spherical_Harmonics(sh_c3anaort, 4)
 	PO(, 1,, 1 1 -2)

@@ -38,7 +38,7 @@ STR(2) ' P-1
 	site s23  x !x23_c6s3h 0.1996  y !y23_c6s3h 0.0501  z !z23_c6s3h 0.2863  occ H  1.00  beq 2.310
 	site s24  x !x24_c6s3h 0.0744  y !y24_c6s3h 0.1300  z !z24_c6s3h 0.6818  occ H  1.00  beq 2.720
 
-	CS(cs_c6s3h, 1000 min 40)
+	CS(cs_c6s3h, 1000 min =50.0; max =2000.0;)
 '	PO_Spherical_Harmonics(sh_c6s3h, 4)
 	PO(, 1,, 0 0 1)
 	scale sc_c6s3h 0.001
