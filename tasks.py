@@ -8,6 +8,11 @@ from concurrent.futures import ThreadPoolExecutor
 
 from numpy.random import logistic
 
+
+def remove_suffix(text, suffix):
+    """Return *text* without the specified *suffix* if it ends with it."""
+    return text[:-len(suffix)] if suffix and text.endswith(suffix) else text
+
 from file_handling import parse_config, get_structure_content_in_content, parse_crystallite_size, parse_percentage_weight
 from exclusion_tasks import CrystalliteSizeExclusionTask, RWPExclusionTask
 
@@ -1047,7 +1052,7 @@ class RWPMissingTask(BaseTask):
 
         for structure in structures_list:
             logging.info(f"Adding Structure to excluded list: {structure}")
-            structure_name = structure.removesuffix('.str')
+            structure_name = remove_suffix(structure, '.str')
             logging.info(f"Structure name: {structure_name}")
             excluded_structure_list.append(structure_name)
 
@@ -1061,7 +1066,7 @@ class RWPMissingTask(BaseTask):
 
         for structure in structures_list:
             logging.info(f"Removing Structure to excluded list: {structure}")
-            structure_name = structure.removesuffix('.str')
+            structure_name = remove_suffix(structure, '.str')
             logging.info(f"Structure name: {structure_name}")
             excluded_structure_list.remove(structure_name)
 
