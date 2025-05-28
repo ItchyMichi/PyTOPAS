@@ -3,7 +3,6 @@ import logging
 import re
 import shutil
 import subprocess
-import json
 from ast import parse
 from concurrent.futures import ThreadPoolExecutor
 
