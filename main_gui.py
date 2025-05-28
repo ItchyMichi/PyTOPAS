@@ -4,6 +4,7 @@ import os
 import json
 import logging
 import shutil
+import sqlite3
 from collections import defaultdict
 from datetime import datetime
 from PyQt5.QtWidgets import (
@@ -29,8 +30,7 @@ class MainGUI(QMainWindow):
         self.selected_template = ''
         self.flowchart = None
         self.results_directory = ''  # Directory to store results
-        self.index_file_path = ''  # Path to the index JSON file
-        self.index_data = {}  # Dictionary to keep track of data locations
+        self.db_conn = None  # SQLite connection for results
 
         # NEW: Staging dictionary for partial dependencies
         self.node_data_staging = {}  # (run_id, node_id) -> {'data':{}, 'received_deps':set(), 'expected_deps': int}
@@ -280,9 +280,24 @@ class MainGUI(QMainWindow):
         self.results_directory = os.path.join(os.getcwd(), 'results', results_dir_name)
         os.makedirs(self.results_directory, exist_ok=True)
 
-        # Initialize index file
-        self.index_file_path = os.path.join(self.results_directory, 'index.json')
-        self.index_data = {}  # Reset index data
+        # Initialize SQLite database
+        db_path = os.path.join(self.results_directory, 'results.db')
+        self.db_conn = sqlite3.connect(db_path)
+        cursor = self.db_conn.cursor()
+        cursor.execute(
+            """
+            CREATE TABLE IF NOT EXISTS results (
+                run_id TEXT,
+                node_id TEXT,
+                iteration INTEGER,
+                result_data TEXT,
+                PRIMARY KEY (run_id, node_id, iteration)
+            );
+            """
+        )
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_results_node ON results(node_id);")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_results_run_node ON results(run_id, node_id);")
+        self.db_conn.commit()
 
     def get_starting_node(self):
         nodes = self.flowchart.get('nodes', [])
@@ -568,23 +583,15 @@ class MainGUI(QMainWindow):
             self.logger.error(f"No task class found for task type: {task_type}")
             return
 
-        # Read node_info to get the current iteration
-        node_dir = os.path.join(self.results_directory, run_id, node_id)
-        node_info_path = os.path.join(node_dir, 'node_info.json')
-        if os.path.exists(node_info_path):
-            with open(node_info_path, 'r') as f:
-                node_info = json.load(f)
-        else:
-            node_info = {'iteration': 0}
-
-        # Increment iteration
-        node_info['iteration'] += 1
-        iteration = node_info['iteration']
-
-        # Save updated node_info
-        os.makedirs(node_dir, exist_ok=True)
-        with open(node_info_path, 'w') as f:
-            json.dump(node_info, f, indent=4)
+        # Determine the next iteration using the database
+        cursor = self.db_conn.cursor()
+        cursor.execute(
+            "SELECT MAX(iteration) FROM results WHERE run_id=? AND node_id=?",
+            (run_id, node_id),
+        )
+        row = cursor.fetchone()
+        last_iter = row[0] if row and row[0] is not None else 0
+        iteration = last_iter + 1
 
         if required_data is None:
             # If required_data not passed, run existing logic to get it if needed
@@ -630,65 +637,44 @@ class MainGUI(QMainWindow):
         self.save_node_output(run_id, node_id, iteration, task.output_data)
 
     def save_node_output(self, run_id, node_id, iteration, output_data):
-        # Create directory for the run
-        run_dir = os.path.join(self.results_directory, run_id)
-        os.makedirs(run_dir, exist_ok=True)
-
-        # Create directory for the node
-        node_dir = os.path.join(run_dir, node_id)
-        os.makedirs(node_dir, exist_ok=True)
-
-        # File path for the iteration
-        file_name = f"{node_id}_iter_{iteration}.json"
-        file_path = os.path.join(node_dir, file_name)
-
-        # Save output data to JSON file
-        with open(file_path, 'w') as f:
-            json.dump(output_data, f, indent=4)
-
-        # Update index data
-        self.index_data.setdefault(run_id, {}).setdefault(node_id, {})[str(iteration)] = file_path
-
-        # Save index data to index file
-        with open(self.index_file_path, 'w') as f:
-            json.dump(self.index_data, f, indent=4)
+        cursor = self.db_conn.cursor()
+        output_json = json.dumps(output_data)
+        cursor.execute(
+            "INSERT INTO results (run_id, node_id, iteration, result_data) VALUES (?, ?, ?, ?);",
+            (run_id, node_id, iteration, output_json),
+        )
+        self.db_conn.commit()
 
     def load_node_output(self, run_id, node_id, iteration=None):
-        # Load index data if not already loaded
-        if not self.index_data:
-            if os.path.exists(self.index_file_path):
-                with open(self.index_file_path, 'r') as f:
-                    self.index_data = json.load(f)
-            else:
-                self.logger.error(f"Index file not found at {self.index_file_path}")
-                return None
-
-        # Get the iterations available for this node
-        iterations = self.index_data.get(run_id, {}).get(node_id, {})
-        if not iterations:
-            self.logger.error(f"No data found for node {node_id} in run {run_id}")
-            return None
-
+        cursor = self.db_conn.cursor()
         if iteration is None:
-            # Get the latest iteration
-            max_iteration = max(int(k) for k in iterations.keys())
-            iteration = max_iteration
-            file_path = iterations.get(str(iteration))
-            self.logger.info(f"Loading data from iteration {iteration} for node {node_id}")
+            cursor.execute(
+                "SELECT result_data, iteration FROM results WHERE run_id=? AND node_id=? ORDER BY iteration DESC LIMIT 1",
+                (run_id, node_id),
+            )
         else:
-            file_path = iterations.get(str(iteration))
-            if not file_path:
-                self.logger.error(f"No data found for node {node_id} at iteration {iteration} in run {run_id}")
-                return None
+            cursor.execute(
+                "SELECT result_data FROM results WHERE run_id=? AND node_id=? AND iteration=?",
+                (run_id, node_id, iteration),
+            )
 
-        # Load output data from JSON file
-        if os.path.exists(file_path):
-            with open(file_path, 'r') as f:
-                output_data = json.load(f)
-            return output_data
-        else:
-            self.logger.error(f"Data file not found at {file_path}")
+        row = cursor.fetchone()
+        if not row:
+            if iteration is None:
+                self.logger.error(f"No data found for node {node_id} in run {run_id}")
+            else:
+                self.logger.error(
+                    f"No data found for node {node_id} at iteration {iteration} in run {run_id}"
+                )
             return None
+
+        result_json = row[0]
+        try:
+            output_data = json.loads(result_json)
+        except json.JSONDecodeError as e:
+            self.logger.error(f"Failed to parse result JSON for node {node_id}: {e}")
+            return None
+        return output_data
 
     def check_condition(self, condition, condition_param, run_id, from_node_id, to_node_id, parameters):
         logging.info(f"Checking condition: {condition} with parameter: {condition_param}")
