@@ -62,14 +62,20 @@ def update_variable_in_file(file_path, variable, new_value):
     idx = occ_indices[0]
     original_line = lines[idx]
 
-    # Regex to match the variable and its numeric value
+    # Regex to match a simple numeric assignment (var = value)
     pattern = re.compile(
         r'(?P<var>!?\b' + re.escape(variable) + r'\b)\s*(?:=)?\s*'
         r'(?P<value>[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)')
 
     match = pattern.search(original_line)
+
+    # If not a simple assignment, try a function style call e.g. VAR(1,2,3)
     if not match:
-        return False, f"Could not parse value for '{variable}'"
+        func_pattern = re.compile(
+            r'(?P<var>\b' + re.escape(variable) + r'\b)\s*\((?P<value>[^)]*)\)')
+        match = func_pattern.search(original_line)
+        if not match:
+            return False, f"Could not parse value for '{variable}'"
 
     start, end = match.span('value')
     new_line = original_line[:start] + str(new_value) + original_line[end:]
