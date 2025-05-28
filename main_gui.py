@@ -590,7 +590,8 @@ class MainGUI(QMainWindow):
             node_id=node_id,
             parameters=parameters,
             data=required_data,
-            output_directory=self.output_directory
+            output_directory=self.output_directory,
+            db_conn=self.db_conn
         )
         task.run()
 
